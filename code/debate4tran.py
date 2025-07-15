@@ -45,13 +45,13 @@ class DebatePlayer(Agent):
             openai_api_key (str): As the parameter name suggests
             sleep_time (float): sleep because of rate limits
         """
-        super(DebatePlayer, self).__init__(model_name, name, temperature, sleep_time)
-        self.openai_api_key = openai_api_key
+        super(DebatePlayer, self).__init__(model_name, name, temperature, sleep_time, local_llm_url=local_llm_url)
+        self.openai_api_key = openai_api_key # 기존 OpenAI API 사용을 위한 필드 (선택적으로 유지)
 
 
 class Debate:
     def __init__(self,
-            model_name: str='gpt-3.5-turbo', 
+            model_name: str='Qwen/Qwen3-14B', 
             temperature: float=0, 
             num_players: int=3, 
             save_file_dir: str=None,
@@ -80,6 +80,9 @@ class Debate:
         self.openai_api_key = openai_api_key
         self.max_round = max_round
         self.sleep_time = sleep_time
+
+        self.local_llm_url = local_llm_url
+
 
         # init save file
         now = datetime.now()
@@ -123,7 +126,7 @@ class Debate:
 
     def create_base(self):
         print(f"\n===== Translation Task =====\n{self.save_file['base_prompt']}\n")
-        agent = DebatePlayer(model_name=self.model_name, name='Baseline', temperature=self.temperature, openai_api_key=self.openai_api_key, sleep_time=self.sleep_time)
+        agent = DebatePlayer(model_name=self.model_name, name='Baseline', temperature=self.temperature, openai_api_key=self.openai_api_key, local_llm_url=self.local_llm_url, sleep_time=self.sleep_time)
         agent.add_event(self.save_file['base_prompt'])
         base_translation = agent.ask()
         agent.add_memory(base_translation)
@@ -134,7 +137,7 @@ class Debate:
     def creat_agents(self):
         # creates players
         self.players = [
-            DebatePlayer(model_name=self.model_name, name=name, temperature=self.temperature, openai_api_key=self.openai_api_key, sleep_time=self.sleep_time) for name in NAME_LIST
+            DebatePlayer(model_name=self.model_name, name=name, temperature=self.temperature, openai_api_key=self.openai_api_key, local_llm_url=self.local_llm_url, sleep_time=self.sleep_time) for name in NAME_LIST
         ]
         self.affirmative = self.players[0]
         self.negative = self.players[1]
@@ -235,7 +238,7 @@ class Debate:
 
         # ultimate deadly technique.
         else:
-            judge_player = DebatePlayer(model_name=self.model_name, name='Judge', temperature=self.temperature, openai_api_key=self.openai_api_key, sleep_time=self.sleep_time)
+            judge_player = DebatePlayer(model_name=self.model_name, name='Judge', temperature=self.temperature, openai_api_key=self.openai_api_key, local_llm_url=self.local_llm_url, sleep_time=self.sleep_time)
             aff_ans = self.affirmative.memory_lst[2]['content']
             neg_ans = self.negative.memory_lst[2]['content']
 
@@ -268,8 +271,8 @@ def parse_args():
     parser.add_argument("-i", "--input-file", type=str, required=True, help="Input file path")
     parser.add_argument("-o", "--output-dir", type=str, required=True, help="Output file dir")
     parser.add_argument("-lp", "--lang-pair", type=str, required=True, help="Language pair")
-    parser.add_argument("-k", "--api-key", type=str, required=True, help="OpenAI api key")
-    parser.add_argument("-m", "--model-name", type=str, default="gpt-3.5-turbo", help="Model name")
+    parser.add_argument("-k", "--api-key", type=str, default=None, help="OpenAI api key (optional, if using local LLM)") # 필수 아님
+    parser.add_argument("-lu", "--local-llm-url", type=str, default=None, help="Local LLM server URL (e.g., http://0.0.0.0:8000)") # 추가
     parser.add_argument("-t", "--temperature", type=float, default=0, help="Sampling temperature")
 
     return parser.parse_args()
@@ -278,6 +281,7 @@ def parse_args():
 if __name__ == "__main__":
     args = parse_args()
     openai_api_key = args.api_key
+    local_llm_url = args.local_llm_url # 새로운 인자
 
     current_script_path = os.path.abspath(__file__)
     MAD_path = current_script_path.rsplit("/", 2)[0]
@@ -310,7 +314,13 @@ if __name__ == "__main__":
         with open(prompts_path, 'w') as file:
             json.dump(config, file, ensure_ascii=False, indent=4)
 
-        debate = Debate(save_file_dir=save_file_dir, num_players=3, openai_api_key=openai_api_key, prompts_path=prompts_path, temperature=0, sleep_time=0)
+        debate = Debate(save_file_dir=save_file_dir, num_players=3, 
+                        openai_api_key=openai_api_key, # 기존 OpenAI API 키
+                        local_llm_url=local_llm_url, # VLLM 서버 URL
+                        prompts_path=prompts_path, 
+                        temperature=args.temperature, # parse_args에서 받은 temperature 사용
+                        model_name=args.model_name, # parse_args에서 받은 model_name 사용
+                        sleep_time=0)
         debate.run()
         debate.save_file_to_json(id)
 

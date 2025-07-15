@@ -1,0 +1,9 @@
+
+Starting single agent evaluation for 1 questions...
+
+Processing Questions:   0%|          | 0/1 [00:00<?, ?it/s]Warning: Single agent response did not contain a valid JSON object. Raw response (cleaned): '0.4138'
+Processing Questions:   0%|          | 0/1 [00:41<?, ?it/s]
+Traceback (most recent call last):
+  File "/root/Multi-Agents-Debate/run_single.py", line 187, in <module>
+    model_raw_answer = parsed_response_dict.get("debate_answer", "") 
+AttributeError: 'float' object has no attribute 'get'

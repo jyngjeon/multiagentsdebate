@@ -20,9 +20,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 import os
 import json
 import random
-# random.seed(0)
+# random.seed(0) 
 from code.utils.agent import Agent
-
+import argparse
 
 openai_api_key = "Your-OpenAI-Api-Key"
 
@@ -33,7 +33,7 @@ NAME_LIST=[
 ]
 
 class DebatePlayer(Agent):
-    def __init__(self, model_name: str, name: str, temperature:float, openai_api_key: str, sleep_time: float) -> None:
+    def __init__(self, model_name: str, name: str, temperature:float, openai_api_key: str, local_llm_url: str, sleep_time: float) -> None:
         """Create a player in the debate
 
         Args:
@@ -43,16 +43,17 @@ class DebatePlayer(Agent):
             openai_api_key (str): As the parameter name suggests
             sleep_time (float): sleep because of rate limits
         """
-        super(DebatePlayer, self).__init__(model_name, name, temperature, sleep_time)
+        super(DebatePlayer, self).__init__(model_name, name, temperature, sleep_time, local_llm_url=local_llm_url)
         self.openai_api_key = openai_api_key
 
 
 class Debate:
     def __init__(self,
-            model_name: str='gpt-3.5-turbo', 
+            model_name: str='Qwen/Qwen3-14B', 
             temperature: float=0, 
             num_players: int=3, 
             openai_api_key: str=None,
+            local_llm_url: str=None,  # added
             config: dict=None,
             max_round: int=3,
             sleep_time: float=0
@@ -72,6 +73,7 @@ class Debate:
         self.temperature = temperature
         self.num_players = num_players
         self.openai_api_key = openai_api_key
+        self.local_llm_url = local_llm_url
         self.config = config
         self.max_round = max_round
         self.sleep_time = sleep_time
@@ -94,7 +96,7 @@ class Debate:
     def creat_agents(self):
         # creates players
         self.players = [
-            DebatePlayer(model_name=self.model_name, name=name, temperature=self.temperature, openai_api_key=self.openai_api_key, sleep_time=self.sleep_time) for name in NAME_LIST
+            DebatePlayer(model_name=self.model_name, name=name, temperature=self.temperature, openai_api_key=self.openai_api_key,  local_llm_url=self.local_llm_url, sleep_time=self.sleep_time) for name in NAME_LIST
         ]
         self.affirmative = self.players[0]
         self.negative = self.players[1]
@@ -120,7 +122,33 @@ class Debate:
         self.moderator.add_event(self.config['moderator_prompt'].replace('##aff_ans##', self.aff_ans).replace('##neg_ans##', self.neg_ans).replace('##round##', 'first'))
         self.mod_ans = self.moderator.ask()
         self.moderator.add_memory(self.mod_ans)
-        self.mod_ans = eval(self.mod_ans)
+
+        # self.mod_ans = eval(self.mod_ans)
+        self.moderator.add_event(self.config['moderator_prompt'].replace('##aff_ans##', self.aff_ans).replace('##neg_ans##', self.neg_ans).replace('##round##', 'first'))
+        
+        raw_mod_ans = self.moderator.ask() # LLM의 원본 응답을 받습니다.
+        self.moderator.add_memory(raw_mod_ans) # 원본 응답을 메모리에 저장합니다.
+
+        # LLM 응답에서 JSON 부분만 추출하고 파싱합니다.
+        try:
+            # LLM이 JSON 응답을 ````json ... ```` 또는 `{ ... }` 형태로 줄 수 있습니다.
+            # 가장 바깥쪽의 { 부터 } 까지를 찾아서 파싱합니다.
+            json_start = raw_mod_ans.find('{')
+            json_end = raw_mod_ans.rfind('}')
+            
+            if json_start != -1 and json_end != -1 and json_end > json_start:
+                json_string = raw_mod_ans[json_start : json_end + 1]
+                self.mod_ans = json.loads(json_string) # json.loads를 사용하여 더 안전하게 파싱합니다.
+            else:
+                # JSON을 찾을 수 없는 경우 예외 처리 또는 기본값 설정
+                print(f"Warning: Moderator response did not contain a valid JSON object: {raw_mod_ans}")
+                self.mod_ans = {"Whether there is a preference": "No", "Supported Side": "", "Reason": "Moderator could not parse response.", "debate_answer": ""}
+        except json.JSONDecodeError as e:
+            print(f"Error decoding JSON from moderator: {e}\nRaw response: {raw_mod_ans}")
+            self.mod_ans = {"Whether there is a preference": "No", "Supported Side": "", "Reason": "JSON decoding error from moderator.", "debate_answer": ""}
+        except Exception as e:
+            print(f"Unexpected error processing moderator response: {e}\nRaw response: {raw_mod_ans}")
+            self.mod_ans = {"Whether there is a preference": "No", "Supported Side": "", "Reason": "Unexpected error processing moderator response.", "debate_answer": ""}
 
     def round_dct(self, num: int):
         dct = {
@@ -197,7 +225,7 @@ class Debate:
 
         # ultimate deadly technique.
         else:
-            judge_player = DebatePlayer(model_name=self.model_name, name='Judge', temperature=self.temperature, openai_api_key=self.openai_api_key, sleep_time=self.sleep_time)
+            judge_player = DebatePlayer(model_name=self.model_name, name='Judge', temperature=self.temperature, openai_api_key=self.openai_api_key, local_llm_url=self.local_llm_url, sleep_time=self.sleep_time)
             aff_ans = self.affirmative.memory_lst[2]['content']
             neg_ans = self.negative.memory_lst[2]['content']
 
@@ -224,6 +252,22 @@ class Debate:
 
 
 if __name__ == "__main__":
+     # --- Add argparse for VLLM URL and model name ---
+    parser = argparse.ArgumentParser(description="Run an interactive multi-agent debate with LLMs.")
+    parser.add_argument("-lu", "--local-llm-url", type=str, 
+                        default="http://0.0.0.0:8000", # Default VLLM URL
+                        help="URL of the local LLM server (e.g., http://0.0.0.0:8000)")
+    parser.add_argument("-m", "--model-name", type=str, 
+                        default="Qwen/Qwen3-14B", # Default VLLM model name
+                        help="Model name to use for the debate (e.g., Qwen/Qwen3-14B).")
+    parser.add_argument("-t", "--temperature", type=float, 
+                        default=0, # Default temperature
+                        help="Sampling temperature for LLM responses.")
+    parser.add_argument("-k", "--api-key", type=str, 
+                        default=None, # Optional OpenAI API key
+                        help="OpenAI API key (only if not using local LLM or for fallback).")
+
+    args = parser.parse_args()
 
     current_script_path = os.path.abspath(__file__)
     MAD_path = current_script_path.rsplit("/", 1)[0]
@@ -236,6 +280,12 @@ if __name__ == "__main__":
         config = json.load(open(f"{MAD_path}/code/utils/config4all.json", "r"))
         config['debate_topic'] = debate_topic
 
-        debate = Debate(num_players=3, openai_api_key=openai_api_key, config=config, temperature=0, sleep_time=0)
+        debate = Debate(num_players=3, 
+                        openai_api_key=args.api_key, # Pass the optional API key
+                        local_llm_url=args.local_llm_url, # Pass the VLLM URL
+                        model_name=args.model_name, # Pass the VLLM model name
+                        config=config, 
+                        temperature=args.temperature, # Use temperature from args
+                        sleep_time=0)
         debate.run()
 

@@ -1,0 +1,7 @@
+[
+    {
+        "id": 1,
+        "question":"85% of the taxis in this city are green, the others are blue. A witness sees a blue taxi. She is usually correct with a probability of 80%. What is the probability that the taxi seen by the witness is blue?",
+        "answer": ["41%", "0.41"]
+    }
+]
