@@ -1,0 +1,1017 @@
+
+Starting single agent evaluation for 50 questions...
+
+Processing Questions:   0%|          | 0/50 [00:00<?, ?it/s]Added custom noise to question 1.
+
+--- Question 1/50 ---
+Question: When Alice walks up the hill, her speed is 1 m/s and when she goes down the hill, her speed is 3 m/s. Then when Alice walks up and down the hill, what is her average speed?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 1.5
+Original Correct Answers: ['1.5', '3/2']
+Is Correct: True
+Accuracy so far: 1/1 (100.00%)
+
+Processing Questions:   2%|▏         | 1/50 [00:09<07:23,  9.05s/it]Added custom noise to question 2.
+
+--- Question 2/50 ---
+Question: 9 days among 10 days, Alice goes out for drink. She only goes to three bars for drink with equal frequency. Bob is trying to find Alice today. However, he fails after going to two bars. What is the probability that Alice shows up in the third bar?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 0.75
+Original Correct Answers: ['0.75', '75%', '3/4']
+Is Correct: True
+Accuracy so far: 2/2 (100.00%)
+
+Processing Questions:   4%|▍         | 2/50 [00:50<22:23, 27.99s/it]Added custom noise to question 3.
+
+--- Question 3/50 ---
+Question: One peach costs one cent. You can use 3 peach pits to exchange for one peach. If you have 10 cents, then what is the maximal number of peaches you can eat?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 14
+Original Correct Answers: ['15']
+Is Correct: False
+Accuracy so far: 2/3 (66.67%)
+
+Processing Questions:   6%|▌         | 3/50 [01:05<17:30, 22.34s/it]Added custom noise to question 4.
+
+--- Question 4/50 ---
+Question: You finish drinking 20% of a cup of milk. You then fill up water, drink 40% of it and fill up water again. What is the percentage of milk in this cup now?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 0.48
+Original Correct Answers: ['48%', '0.48']
+Is Correct: True
+Accuracy so far: 3/4 (75.00%)
+
+Processing Questions:   8%|▊         | 4/50 [01:21<14:59, 19.56s/it]Added custom noise to question 5.
+
+--- Question 5/50 ---
+Question: We put 10 g salt into 100 g water. What is the percentage of salt now?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 0.0909
+Original Correct Answers: ['9.09%', '0.0909', '1/11']
+Is Correct: True
+Accuracy so far: 4/5 (80.00%)
+
+Processing Questions:  10%|█         | 5/50 [01:27<11:03, 14.75s/it]Added custom noise to question 6.
+
+--- Question 6/50 ---
+Question: We have 1 ton of apples which contain 90% water. After a few days, those apples only have 80% water. What is the weight of those apples now?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 0.5
+Original Correct Answers: ['0.5']
+Is Correct: True
+Accuracy so far: 5/6 (83.33%)
+
+Processing Questions:  12%|█▏        | 6/50 [01:39<10:02, 13.70s/it]Added custom noise to question 7.
+
+--- Question 7/50 ---
+Question: At most how many distinct natural numbers sum to 100?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 13
+Original Correct Answers: ['14']
+Is Correct: False
+Accuracy so far: 5/7 (71.43%)
+
+Processing Questions:  14%|█▍        | 7/50 [02:12<14:25, 20.14s/it]Added custom noise to question 8.
+
+--- Question 8/50 ---
+Question: 20 people get full marks for math. 20 people get full marks for history. 20 people get full marks for physics. 7 people get full marks for both math and physics. 9 for both history and physics. 3 do not get full marks for any of the subjects. How many people are there at most?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 47
+Original Correct Answers: ['47']
+Is Correct: True
+Accuracy so far: 6/8 (75.00%)
+
+Processing Questions:  16%|█▌        | 8/50 [02:46<17:07, 24.47s/it]Added custom noise to question 9.
+
+--- Question 9/50 ---
+Question: If five machines produce 5 items in 5 minutes, then how long do 100 machines need to produce 100 items?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 5
+Original Correct Answers: ['5']
+Is Correct: True
+Accuracy so far: 7/9 (77.78%)
+
+Processing Questions:  18%|█▊        | 9/50 [02:52<12:50, 18.78s/it]Added custom noise to question 10.
+
+--- Question 10/50 ---
+Question: 85% of the taxis in this city are green, the others are blue. A witness sees a blue taxi. She is usually correct with a probability of 80%. What is the probability that the taxi seen by the witness is blue?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 0.41379
+Original Correct Answers: ['41%', '0.41']
+Is Correct: True
+Accuracy so far: 8/10 (80.00%)
+
+Processing Questions:  20%|██        | 10/50 [03:14<13:07, 19.69s/it]Added custom noise to question 11.
+
+--- Question 11/50 ---
+Question: Suppose we find a murderer's fingerprint at a crime scene. After comparing this fingerprint with 20000 people, the police found a suspect whose fingerprint matches the one at the scene. Now, this suspect is brought to court and accused of being the murderer. The expert in court tells you that the chance of modern fingerprint comparison technology mistaking two people's fingerprints as the same is 0.01%. Assuming that all 20000 people compared by the police are innocent, what is the percentage that at least one match will be produced after the murderer's fingerprint is compared with them one by one?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 0.8647
+Original Correct Answers: ['86.5%', '0.865']
+Is Correct: True
+Accuracy so far: 9/11 (81.82%)
+
+Processing Questions:  22%|██▏       | 11/50 [03:50<16:06, 24.77s/it]Added custom noise to question 12.
+
+--- Question 12/50 ---
+Question: How many people need to be in a room to make the probability that at least two people have the same birthday exceed 50%?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 23
+Original Correct Answers: ['23']
+Is Correct: True
+Accuracy so far: 10/12 (83.33%)
+
+Processing Questions:  24%|██▍       | 12/50 [03:56<12:04, 19.08s/it]Added custom noise to question 13.
+
+--- Question 13/50 ---
+Question: In a city of 1 million inhabitants, there are 100 known criminals. All inhabitants, including the criminals, are tested with a new crime prediction technology. The technology has a reliability of 95%, meaning that 95% of true criminals are identified as criminals, and 95% of innocent people are identified as innocent. What is the percentage that a person identified as a criminal by the technology is indeed a criminal?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 0.0019
+Original Correct Answers: ['1.9%', '0.019']
+Is Correct: False
+Accuracy so far: 10/13 (76.92%)
+
+Processing Questions:  26%|██▌       | 13/50 [05:06<21:12, 34.39s/it]Added custom noise to question 14.
+
+--- Question 14/50 ---
+Question: You have a tank of water that is initially empty. On the first day, you add one fish to the tank. Every day thereafter, each fish in the tank births one new fish. How many fish will be in the tank at the end of 10 days?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 512
+Original Correct Answers: ['512']
+Is Correct: True
+Accuracy so far: 11/14 (78.57%)
+
+Processing Questions:  28%|██▊       | 14/50 [05:14<15:55, 26.54s/it]Added custom noise to question 15.
+
+--- Question 15/50 ---
+Question: You have 100 chairs in a row. You start by flipping every chair (1, 2, 3, ..., 100) from its initial position. Then, you flip every second chair (2, 4, 6, ..., 100). Next, you flip every third chair (3, 6, 9, ..., 99). You continue this process until you flip every 100th chair (only chair 100). How many chairs are flipped back to their initial position after all the flips?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 90
+Original Correct Answers: ['90']
+Is Correct: True
+Accuracy so far: 12/15 (80.00%)
+
+Processing Questions:  30%|███       | 15/50 [05:28<13:20, 22.87s/it]Added custom noise to question 16.
+
+--- Question 16/50 ---
+Question: A mouse can produce a litter of 6 mice every month, and each of those mice can start reproducing when they are 2 months old. If you start with a single one-month-old mouse, how many mice will you have after 4 months?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 637
+Original Correct Answers: ['55']
+Is Correct: False
+Accuracy so far: 12/16 (75.00%)
+
+Processing Questions:  32%|███▏      | 16/50 [07:00<24:38, 43.48s/it]Added custom noise to question 17.
+
+--- Question 17/50 ---
+Question: In a town, 60% of the women are married to 80% of the men. What percentage of the total adult population is married?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 0.6857
+Original Correct Answers: ['68.57%', '0.6875']
+Is Correct: True
+Accuracy so far: 13/17 (76.47%)
+
+Processing Questions:  34%|███▍      | 17/50 [07:55<25:50, 46.99s/it]Added custom noise to question 18.
+
+--- Question 18/50 ---
+Question: You have a pack of 52 playing cards. You draw one card every day, and after drawing, you put the card back into the pack and shuffle it. What is the least number of days you'd need to draw cards in order for you to have a greater than 50% chance of drawing the Ace of Spades at least once?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 36
+Original Correct Answers: ['36']
+Is Correct: True
+Accuracy so far: 14/18 (77.78%)
+
+Processing Questions:  36%|███▌      | 18/50 [08:22<21:53, 41.04s/it]Added custom noise to question 19.
+
+--- Question 19/50 ---
+Question: A flock of birds is flying in a V formation. There are 25 birds on the left side of the V and 25 birds on the right side. If one bird from the left side moves to the right side, how many more birds will be on the right side than the left side?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 2
+Original Correct Answers: ['2']
+Is Correct: True
+Accuracy so far: 15/19 (78.95%)
+
+Processing Questions:  38%|███▊      | 19/50 [08:25<15:17, 29.60s/it]Added custom noise to question 20.
+
+--- Question 20/50 ---
+Question: You borrowed a pen from your friend. This pen can write 500 words on average before running out of ink. After writing a 300-word letter to your friend, you want to know how much longer the pen can write. However, your friend told you that this pen writes twice as fast when the pen is warmer, which happened during the first 150 words. How many more words can you write with this pen?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 275
+Original Correct Answers: ['50']
+Is Correct: False
+Accuracy so far: 15/20 (75.00%)
+
+Processing Questions:  40%|████      | 20/50 [08:59<15:30, 31.02s/it]Added custom noise to question 21.
+
+--- Question 21/50 ---
+Question: Alice and Bob are playing a game with two dice. However, the dice are not fair, and the probability of rolling a 6 is 1/4, while the probability of rolling any other number is 1/8. Alice wins if the two dice show the same number; Bob wins if the numbers are different. What is the probability that Bob will win the game?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 55/64
+Original Correct Answers: ['84.38%', '0.8438', '27/32']
+Is Correct: False
+Accuracy so far: 15/21 (71.43%)
+
+Processing Questions:  42%|████▏     | 21/50 [09:43<16:46, 34.70s/it]Added custom noise to question 22.
+
+--- Question 22/50 ---
+Question: A vendor is pulling a cart full of watermelons weighing 100 kilograms. He needs to cross a desert to the other side to sell them. Due to the hot and dry climate of the desert, the water content of the watermelons decreases from 99% to 98%. What is the current weight of the watermelons?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 50
+Original Correct Answers: ['50']
+Is Correct: True
+Accuracy so far: 16/22 (72.73%)
+
+Processing Questions:  44%|████▍     | 22/50 [09:51<12:31, 26.83s/it]Added custom noise to question 23.
+
+--- Question 23/50 ---
+Question: Suppose we have a game that assumes we have a fair coin. Two people who are playing can pick two patterns of coin flips. The players then flip a large coin a number of times and record each of the individual flips. Here, H stands for heads and T stands for tails. After the flips, they pay attention to the record of flips and decide which pattern came first in the sequence. If HTH came before HHT, player A won the game, otherwise, B won the game. What is the probability that player B won this game?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 2/3
+Original Correct Answers: ['0.67', '66.67%', '2/3']
+Is Correct: True
+Accuracy so far: 17/23 (73.91%)
+
+Processing Questions:  46%|████▌     | 23/50 [11:29<21:43, 48.27s/it]Added custom noise to question 24.
+
+--- Question 24/50 ---
+Question: You're participating in a race. You overtake the second person. What position are you in?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 2
+Original Correct Answers: ['2']
+Is Correct: True
+Accuracy so far: 18/24 (75.00%)
+
+Processing Questions:  48%|████▊     | 24/50 [11:36<15:31, 35.82s/it]Added custom noise to question 25.
+
+--- Question 25/50 ---
+Question: How many times can you subtract 10 from 100?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 10
+Original Correct Answers: ['1']
+Is Correct: False
+Accuracy so far: 18/25 (72.00%)
+
+Processing Questions:  50%|█████     | 25/50 [11:44<11:22, 27.30s/it]Added custom noise to question 26.
+
+--- Question 26/50 ---
+Question: If red flower is 1/10 more than yellow flowers, then yellow flower is 1/__ less than red flowers?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 1/11
+Original Correct Answers: ['11']
+Is Correct: False
+Accuracy so far: 18/26 (69.23%)
+
+Processing Questions:  52%|█████▏    | 26/50 [11:49<08:15, 20.64s/it]Added custom noise to question 27.
+
+--- Question 27/50 ---
+Question: We divide 50 into 4 natural numbers a,b,c,d such that 2a = b/2 and c+2=d-2. How many divisions we can make?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 4
+Original Correct Answers: ['5']
+Is Correct: False
+Accuracy so far: 18/27 (66.67%)
+
+Processing Questions:  54%|█████▍    | 27/50 [12:08<07:42, 20.09s/it]Added custom noise to question 28.
+
+--- Question 28/50 ---
+Question: A train leaves a station and travels north at a speed of 75 mph. Three hours later, a second train leaves the same station and travels in the same direction at 90 mph. How long will it take for the second train to catch up to the first train?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 15
+Original Correct Answers: ['15']
+Is Correct: True
+Accuracy so far: 19/28 (67.86%)
+
+Processing Questions:  56%|█████▌    | 28/50 [12:17<06:10, 16.85s/it]Added custom noise to question 29.
+Error decoding JSON from single agent: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+Raw response (cleaned): '{n=1}^∞ P(trial ends on nth roll with success) * n
+
+But this might be complex. Alternatively, use conditional expectation.
+
+Let me define E as the expected number of rolls in a successful trial. Then, when we start a trial:
+
+- With probability 1/3, we roll a 1 (success), and the number of rolls is 1.
+- With probability 1/3, we roll a 2 (failure), and the trial doesn't contribute to E.
+- With probability 1/3, we roll a 3, and then we have to continue, and the expected number of rolls becomes 1 + E (since we've already used 1 roll and now expect E more rolls in the successful trial).
+
+But since we are conditioning on the trial being successful, the probability of success is 1/3, and the probability of continuing is 1/3. So the equation should be:
+
+E = [ (1/3) * 1 + (1/3) * (1 + E) ] / P(trial is successful)
+
+Wait, no. The correct way is to use the law of total expectation. Let me think again.
+
+Let me denote that in a trial, the probability that it is successful is p = 1/3, and the probability it is not successful is q = 1/3, and the probability it continues is r = 1/3.
+
+The expected number of rolls in a successful trial is E. Then, the expected number of rolls in any trial (successful or not) is T = 1 + r*T, which gives T = 3/2 as before.
+
+But E is the expected number of rolls in a successful trial. To compute this, we can use the fact that the probability of success is p = 1/3, and the expected number of rolls in a successful trial is E = [expected number of rolls in a trial given that it is successful].
+
+This can be calculated as E = [expected number of rolls in a trial * probability of success] / probability of success? No, that doesn't make sense.
+
+Actually, the expected number of rolls in a successful trial is the expected number of rolls in all trials, weighted by the probability that the trial is successful.
+
+Alternatively, consider that the expected number of rolls in a successful trial is E, and the expected number of rolls in a trial that is not successful is F. Then, the overall expected number'
+
+--- Question 29/50 ---
+Question: We roll a dice and count the number of times we roll. If we get an even number, we will reset the count to zero. We will stop if we get one. What is the expected number of final counts?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: <think>
+Okay, let's try to figure out this dice problem. So, the question is about the expected number of final counts when rolling a die under certain conditions. Let me break it down step by step.
+
+First, the setup: We roll a die repeatedly, counting the number of rolls. However, if we roll an even number (which are 2, 4, 6 on a standard die), we reset the count back to zero. We stop rolling when we get a 1. The question is asking for the expected number of final counts. Hmm, I think that means the expected value of the count when we stop, which would be when we roll a 1.
+
+Wait, but the count resets to zero whenever we get an even number. So, the count only increases when we roll an odd number that's not 1. Wait, no. Let me clarify the process.
+
+Each time we roll the die, we increment the count by 1. But if the result is even, we reset the count to zero. If the result is 1, we stop. Otherwise, if it's an odd number (3 or 5), we just continue, keeping the count. Wait, but the problem says "count the number of times we roll." So maybe the count is the number of rolls made so far, but reset to zero when an even is rolled. But we stop when we get a 1. So, the final count is the number of rolls up to and including the roll that resulted in 1, but with resets when even numbers are rolled.
+
+Wait, maybe I need to model this as a Markov process or use expected value equations. Let me think.
+
+Let me denote E as the expected number of final counts. Let's consider the possible states. The process starts with a count of 0. Each time we roll the die:
+
+- With probability 1/6, we roll a 1, and the process stops. The count is whatever it was before this roll. Wait, but if we are rolling the die, each roll increments the count? Or is the count the number of rolls made so far?
+
+Wait, the problem says "count the number of times we roll." So each roll increases the count by 1. However, if we get an even number, we reset the count to zero. So, the count is the number of consecutive rolls without getting an even number, except that when you get an even, you reset. But when you get a 1, you stop. So the count is the number of rolls since the last reset (including the current roll) until a 1 is rolled.
+
+Wait, maybe it's better to model this as follows: Each time we start, the count is 0. We roll the die:
+
+- If we roll a 1, we stop, and the final count is the current count (which would be 1, since we rolled once). Wait, no. Wait, the count is the number of times we rolled. So if we start, count is 0. Then we roll once. If that roll is 1, then we stop. The count is 1? Or is the count the number of times we rolled before getting a 1?
+
+Wait, the problem says "count the number of times we roll." So each time we roll, we increment the count. But when we get an even number, we reset the count to zero. So, for example:
+
+- Roll 1: Suppose we roll a 3 (odd, not 1). Count becomes 1. Then we roll again. If we roll a 2 (even), count resets to 0. Then we roll again. If we roll a 1, we stop, and the final count is 1 (since that's the number of rolls since the last reset, which was after the 2). Wait, but the count is reset to zero when we roll an even, so after rolling a 2, the count is 0. Then we roll again, and if that's a 1, the count would be 1 (since we rolled once after the reset). So the final count would be 1 in that case.
+
+But the problem says "the expected number of final counts." So the final count is the count when we stop, which is when we roll a 1. Therefore, the count is the number of rolls since the last reset (including the current roll) when we stop.
+
+Alternatively, maybe the count is the total number of rolls made, but reset to zero whenever an even is rolled. Wait, that might not make sense. Let me re-read the problem.
+
+"We roll a dice and count the number of times we roll. If we get an even number, we will reset the count to zero. We will stop if we get one. What is the expected number of final counts?"
+
+So, the count is the number of times we rolled. So each time we roll, we add 1 to the count. However, if the result is even, we reset the count to zero. So the count is being tracked, and when an even is rolled, it's set back to zero. But when we roll a 1, we stop, and the count at that point is the final count.
+
+So, for example:
+
+- Roll 1: 2 (even) → count becomes 0.
+- Roll 2: 3 (odd) → count becomes 1.
+- Roll 3: 1 (stop) → final count is 1.
+
+Another example:
+
+- Roll 1: 4 (even) → count 0.
+- Roll 2: 5 (odd) → count 1.
+- Roll 3: 2 (even) → count 0.
+- Roll 4: 3 (odd) → count 1.
+- Roll 5: 1 (stop) → final count 1.
+
+Wait, but in this case, the final count is 1 again. But maybe there are cases where the final count is higher. For example:
+
+- Roll 1: 3 (count 1)
+- Roll 2: 3 (count 2)
+- Roll 3: 1 (stop) → final count 2.
+
+So the final count can be 1, 2, etc. The question is to find the expected value of this final count.
+
+So, how do we model this? Let's think in terms of expected value. Let E be the expected final count. When we start, the count is 0. But each time we roll, we have different possibilities.
+
+Wait, but when we start, the count is 0. Then we roll the die. Let's think recursively.
+
+Let me define E as the expected final count starting from a count of 0. However, when we start, the count is 0, but the first roll will be counted as 1, unless it's even. Wait, maybe I need to model the expected value based on the current count.
+
+Alternatively, think of it as a Markov chain where each state is the current count. But since the count can be any non-negative integer, it's infinite states. However, perhaps we can find a recursive formula.
+
+Let me think. Suppose we are in a state where the current count is k. Then, when we roll the die:
+
+- With probability 1/6, we roll a 1: then we stop, and the final count is k + 1 (since we just rolled once more). Wait, no. Wait, the count is being tracked as the number of times rolled. So if the current count is k, and we roll a die:
+
+Wait, maybe the count is not the current count, but the number of rolls since the last reset. So, for example, if we are in a state where the count is k (meaning we have rolled k times since the last reset), then:
+
+- Rolling a 1: we stop, and the final count is k + 1 (since we just rolled once more, adding to the count). Wait, but if the count was k, and we roll a die, then the next roll would be the (k+1)th roll. But if that roll is 1, then the final count is k+1. However, if the roll is even, the count resets to 0. If it's odd and not 1, the count increases by 1.
+
+Wait, maybe I need to define E(k) as the expected final count starting from a count of k. Then, our initial state is k=0, and we want E(0).
+
+So, for any k ≥ 0:
+
+E(k) = (probability of rolling 1) * (k + 1) + (probability of rolling even) * E(0) + (probability of rolling odd not 1) * E(k + 1)
+
+Because:
+
+- If we roll a 1 (prob 1/6), then we stop, and the final count is k + 1 (since we added one more roll).
+- If we roll an even number (prob 3/6 = 1/2), then the count resets to 0, so the expected final count from there is E(0).
+- If we roll an odd number that's not 1 (i.e., 3 or 5, prob 2/6 = 1/3), then the count increases by 1, so we're in state k + 1, and the expected final count is E(k + 1).
+
+So, the equation is:
+
+E(k) = (1/6)(k + 1) + (1/2)E(0) + (1/3)E(k + 1)
+
+But this is for any k ≥ 0. However, we need to find E(0). The problem is that this gives an infinite system of equations. However, perhaps we can find a recurrence relation.
+
+Let me rearrange the equation:
+
+Multiply both sides by 6 to eliminate denominators:
+
+6E(k) = (k + 1) + 3E(0) + 2E(k + 1)
+
+Rearranged:
+
+2E(k + 1) = 6E(k) - (k + 1) - 3E(0)
+
+But this seems complex. However, if we can find a relation between E(k) and E(k + 1), perhaps we can find a pattern.
+
+Alternatively, assume that E(k) = a * k + b, where a and b are constants. Let's test this assumption.
+
+Assume E(k) = a*k + b. Then, substituting into the equation:
+
+a*k + b = (1/6)(k + 1) + (1/2)(a*0 + b) + (1/3)(a*(k + 1) + b)
+
+Simplify the right-hand side:
+
+(1/6)(k + 1) + (1/2)b + (1/3)(a(k + 1) + b)
+
+Let's expand this:
+
+= (k + 1)/6 + b/2 + (a(k + 1) + b)/3
+
+Combine terms:
+
+= [ (k + 1)/6 + a(k + 1)/3 ] + [ b/2 + b/3 ]
+
+Factor out (k + 1):
+
+= (k + 1)[1/6 + a/3] + b[1/2 + 1/3]
+
+Now, equate this to the left-hand side, which is a*k + b:
+
+a*k + b = (k + 1)[1/6 + a/3] + b*(5/6)
+
+Let me expand the right-hand side:
+
+= [1/6 + a/3] * k + [1/6 + a/3] * 1 + (5/6)b
+
+So, grouping terms:
+
+Left side: a*k + b
+
+Right side: [ (1/6 + a/3) ] *k + [ (1/6 + a/3) + (5/6)b ]
+
+Therefore, equate coefficients for k and the constants:
+
+For k:
+
+a = 1/6 + a/3
+
+Solving for a:
+
+a - a/3 = 1/6 → (2a)/3 = 1/6 → a = (1/6) * (3/2) = 1/4
+
+For constants:
+
+b = (1/6 + a/3) + (5/6)b
+
+Substitute a = 1/4:
+
+b = (1/6 + (1/4)/3) + (5/6)b
+
+Calculate (1/4)/3 = 1/12
+
+So:
+
+b = 1/6 + 1/12 + (5/6)b
+
+Convert 1/6 to 2/12, so 2/12 + 1/12 = 3/12 = 1/4
+
+So:
+
+b = 1/4 + (5/6)b
+
+Subtract (5/6)b from both sides:
+
+b - (5/6)b = 1/4 → (1/6)b = 1/4 → b = (1/4) * 6 = 3/2
+
+So, according to this, E(k) = (1/4)k + 3/2
+
+But wait, this is under the assumption that E(k) is linear in k. Let's check if this satisfies the original equation.
+
+Let me test with k=0. Then E(0) = 3/2.
+
+Let me plug into the original equation for E(0):
+
+E(0) = (1/6)(0 + 1) + (1/2)E(0) + (1/3)E(1)
+
+Compute E(1) = (1/4)(1) + 3/2 = 1/4 + 3/2 = 7/4
+
+So:
+
+Left side: E(0) = 3/2
+
+Right side: (1/6)(1) + (1/2)(3/2) + (1/3)(7/4)
+
+Calculate each term:
+
+(1/6) = 1/6 ≈ 0.1667
+
+(1/2)(3/2) = 3/4 = 0.75
+
+(1/3)(7/4) = 7/12 ≈ 0.5833
+
+Adding them up: 1/6 + 3/4 + 7/12
+
+Convert to twelfths:
+
+1/6 = 2/12, 3/4 = 9/12, 7/12 = 7/12
+
+Total: 2 + 9 + 7 = 18/12 = 3/2, which equals the left side. So that works.
+
+Therefore, our assumption that E(k) is linear is correct, and E(k) = (1/4)k + 3/2.
+
+But we need E(0), which is 3/2. However, wait, that seems too straightforward. Let me check another value.
+
+Take k=1, E(1)=7/4. Let's plug into the original equation:
+
+E(1) = (1/6)(1 + 1) + (1/2)E(0) + (1/3)E(2)
+
+E(2) = (1/4)(2) + 3/2 = 0.5 + 1.5 = 2
+
+So:
+
+Left side: 7/4 = 1.75
+
+Right side: (1/6)(2) + (1/2)(3/2) + (1/3)(2)
+
+Calculate:
+
+(2/6) = 1/3 ≈ 0.3333
+
+(1/2)(3/2) = 3/4 = 0.75
+
+(1/3)(2) = 2/3 ≈ 0.6667
+
+Total: 0.3333 + 0.75 + 0.6667 ≈ 1.75, which is 7/4. Correct again.
+
+So, this seems to hold. Therefore, the expected value starting from k=0 is E(0) = 3/2 = 1.5.
+
+But wait, the problem says "the expected number of final counts." So, according to this, the answer is 3/2 or 1.5. However, let me think again to ensure that I didn't misinterpret the problem.
+
+Wait, the problem says "count the number of times we roll." So each time we roll, we increment the count. However, when we get an even number, we reset the count to zero. So the count is the number of rolls since the last reset. When we get a 1, we stop, and the count at that point is the final count.
+
+But according to our model, E(0) = 3/2. So the expected final count is 1.5. That seems plausible.
+
+Alternatively, maybe there's another way to think about it. Let's consider that each time we have a sequence of rolls that don't result in an even number or a 1. Each such sequence ends when we either get a 1 or an even number. The count would be the number of rolls in the sequence when we get a 1.
+
+But since the count resets on even numbers, the process can be seen as a series of trials, each starting from count 0, and each trial ends when either a 1 is rolled (success) or an even is rolled (failure, resetting the count). The expected count would then be the expected number of trials until the first success, multiplied by the expected count per trial.
+
+Wait, but this might not be straightforward. Let's think of each "trial" as a sequence of rolls starting from count 0. Each trial ends when either a 1 or an even is rolled. The probability that a trial ends with a 1 is the probability of rolling a 1 before rolling an even. The probability of rolling a 1 is 1/6, and the probability of rolling an even is 1/2. The probability of rolling an odd (3 or 5) is 1/3. So, the probability that the trial ends with a 1 is (1/6) / (1/6 + 1/2) = (1/6) / (2/3) = 1/4. Similarly, the probability that the trial ends with an even is 1/2 / (2/3) = 3/4.
+
+But the expected number of trials until the first success (rolling a 1) is a geometric distribution with success probability p = 1/4. The expected number of trials is 1/p = 4. However, each trial has an expected count. Wait, but the count during each trial is the number of rolls in that trial. For example, if the first trial ends on the first roll with a 1, the count is 1. If it ends on the second roll with a 1, the count is 2, etc. But the trials are independent.
+
+Alternatively, the expected count for each trial is the expected number of rolls in a trial until either a 1 or an even is rolled. Let me compute that.
+
+Let’s denote the expected number of rolls in a single trial as T. Then:
+
+T = 1 + (probability of rolling odd not 1) * T
+
+Because with probability 1/6, we roll a 1 and the trial ends (1 roll), with probability 1/2 we roll an even and the trial ends (1 roll), and with probability 1/3 we roll an odd not 1, and then we have to start over, adding 1 more roll.
+
+Wait, actually, the equation should be:
+
+T = 1 + (probability of rolling odd not 1) * T
+
+Because:
+
+- With probability 1/6 + 1/2 = 2/3, the trial ends after 1 roll.
+- With probability 1/3, the trial continues, and we have to add 1 more roll plus the expected T again.
+
+So:
+
+T = 1 + (1/3)T → T - (1/3)T = 1 → (2/3)T = 1 → T = 3/2.
+
+So the expected number of rolls per trial is 3/2. But each trial contributes to the final count only if it ends with a 1. However, the trials are repeated until we get a success (rolling a 1). The expected number of trials is 4, as before. However, the final count is the count from the successful trial. But the count in the successful trial is the number of rolls in that trial, which is a random variable.
+
+Wait, this seems different from the previous approach. Let me think again.
+
+If each trial has an expected number of rolls of 3/2, but only the trials that end with a 1 contribute to the final count. However, the final count is the number of rolls in the successful trial. So the expected final count would be the expected number of rolls in a successful trial.
+
+But how do we compute that?
+
+Let me denote that in a trial, the probability that it ends with a 1 is p = 1/4, and the probability it ends with an even is q = 3/4. The expected number of rolls in a trial is T = 3/2 as before. However, the expected number of rolls in a successful trial (ending with 1) is different from T. Let me compute that.
+
+Let’s define E as the expected number of rolls in a trial that ends with a 1. Then:
+
+E = (probability of rolling 1 on first roll) * 1 + (probability of rolling odd not 1) * (1 + E)
+
+Because:
+
+- If we roll a 1 (prob 1/6), the trial ends with 1 roll.
+- If we roll an odd not 1 (prob 1/3), we have 1 roll plus the expected E again.
+- If we roll an even (prob 1/2), the trial ends, but it's not a success, so it doesn't contribute to E.
+
+So the equation is:
+
+E = (1/6)*1 + (1/3)*(1 + E)
+
+Solving:
+
+E = 1/6 + (1/3) + (1/3)E → E = 1/6 + 1/3 + (1/3)E → E = 1/2 + (1/3)E → E - (1/3)E = 1/2 → (2/3)E = 1/2 → E = (1/2) * (3/2) = 3/4.
+
+So the expected number of rolls in a successful trial is 3/4. However, the expected number of trials until the first success is 4. Therefore, the overall expected final count would be 4 * 3/4 = 3. Wait, that contradicts the previous result of 3/2. Which is correct?
+
+This is confusing. Which approach is right?
+
+In the first approach, we modeled E(k) as the expected final count starting from count k, and found E(0) = 3/2. In the second approach, using trials, we get 3. These are conflicting results. There must be an error in one of the approaches.
+
+Let me check the second approach again. The key is that the final count is the number of rolls in the successful trial. The expected number of trials until the first success is 4, but each trial that is not successful doesn't contribute to the final count. Only the successful trial contributes its count. However, the expected count of the successful trial is 3/4. Therefore, the total expected final count is 3/4, not 4 * 3/4. Because the number of trials is a random variable, but only the last trial (the successful one) contributes to the count. Therefore, the expected final count is just the expected count of a single successful trial, which is 3/4. But this contradicts the first approach.
+
+Alternatively, maybe I'm mixing up the definitions. Let's think again.
+
+In the first approach, the expected value E(0) is 3/2. Let's simulate a simple case. Suppose we always roll a 1 on the first roll. The probability is 1/6, and the final count is 1. If we roll an even on the first roll, probability 1/2, then the count resets to 0, and we start over. If we roll a 3 or 5, probability 1/3, then the count becomes 1, and we continue.
+
+So, the equation for E(0) is:
+
+E(0) = (1/6)(1) + (1/2)E(0) + (1/3)E(1)
+
+And E(1) = (1/6)(2) + (1/2)E(0) + (1/3)E(2)
+
+And so on. Which led us to E(k) = (1/4)k + 3/2, so E(0) = 3/2.
+
+But according to the second approach, the expected final count is 3/4. These results are different. So which is correct?
+
+Let me take a simple case where we have only two possible outcomes: 1 or even. Suppose we ignore the 3 and 5. Let's say the die has only 1, 2, and 3. Then, the probability of 1 is 1/3, even (2) is 1/3, and odd not 1 (3) is 1/3. Let's compute E(0) using the first approach.
+
+Equation for E(0):
+
+E(0) = (1/3)(1) + (1/3)E(0) + (1/3)E(1)
+
+Similarly, E(1) = (1/3)(2) + (1/3)E(0) + (1/3)E(2)
+
+Assuming E(k) = a*k + b.
+
+Plug into E(0):
+
+a*0 + b = (1/3)(1) + (1/3)(a*0 + b) + (1/3)(a*1 + b)
+
+Simplify:
+
+b = 1/3 + (1/3)b + (a/3 + b/3)
+
+Multiply all terms by 3:
+
+3b = 1 + b + a + b → 3b = 1 + 2b + a → b = 1 + a.
+
+For E(k) = a*k + b, and the equation for E(1):
+
+a*1 + b = (1/3)(2) + (1/3)(b) + (1/3)(a*2 + b)
+
+Simplify:
+
+a + b = 2/3 + b/3 + (2a + b)/3
+
+Multiply all terms by 3:
+
+3a + 3b = 2 + b + 2a + b → 3a + 3b = 2 + 2a + 2b → 3a + 3b - 2a - 2b = 2 → a + b = 2.
+
+From earlier, we had b = 1 + a. Substitute into this:
+
+a + (1 + a) = 2 → 2a + 1 = 2 → 2a = 1 → a = 1/2, then b = 1 + 1/2 = 3/2.
+
+So E(0) = 3/2. But let's compute it manually for this simplified case.
+
+In this simplified case, the expected final count is 3/2. Let's see if that makes sense.
+
+If we always roll 1 on the first try: probability 1/3, count 1.
+
+If we roll 2 (even): probability 1/3, reset to 0, and then expected E(0) again.
+
+If we roll 3: probability 1/3, count becomes 1, then we continue.
+
+So the equation is E(0) = 1/3 * 1 + 1/3 * E(0) + 1/3 * E(1).
+
+And E(1) = 1/3 * 2 + 1/3 * E(0) + 1/3 * E(2).
+
+Assuming the pattern continues, and solving gives E(0) = 3/2.
+
+But if we use the second approach, what would happen?
+
+In this simplified case, the probability of success (rolling 1) in a trial is p = 1/3, and the probability of failure (even) is q = 1/3, and probability of continuing is r = 1/3.
+
+The expected number of trials until success is 1/p = 3. The expected number of rolls in a successful trial is calculated as follows:
+
+Let E be the expected number of rolls in a successful trial. Then:
+
+E = (probability of success on first roll) * 1 + (probability of continue) * (1 + E)
+
+So:
+
+E = (1/3)*1 + (1/3)*(1 + E) → E = 1/3 + 1/3 + (1/3)E → E = 2/3 + (1/3)E → (2/3)E = 2/3 → E = 1.
+
+Then, the expected final count would be E = 1. But according to the first approach, it's 3/2. Contradiction again. So which is correct?
+
+Let me simulate this simplified case manually.
+
+Let's compute E(0) manually. Let's denote E(0) as the expected final count.
+
+E(0) = 1/3 * 1 + 1/3 * E(0) + 1/3 * E(1)
+
+E(1) = 1/3 * 2 + 1/3 * E(0) + 1/3 * E(2)
+
+E(2) = 1/3 * 3 + 1/3 * E(0) + 1/3 * E(3)
+
+And so on.
+
+Assuming the pattern E(k) = a*k + b, and we found a = 1/2, b = 3/2, so E(k) = (1/2)k + 3/2.
+
+So E(0) = 3/2, E(1) = 1/2 + 3/2 = 2, E(2) = 1 + 3/2 = 5/2, etc.
+
+Let me plug E(1) = 2 into the equation for E(0):
+
+E(0) = 1/3 * 1 + 1/3 * E(0) + 1/3 * 2
+
+E(0) = 1/3 + (1/3)E(0) + 2/3
+
+E(0) = (1/3 + 2/3) + (1/3)E(0) → E(0) = 1 + (1/3)E(0)
+
+Subtract (1/3)E(0):
+
+(2/3)E(0) = 1 → E(0) = 3/2. Correct.
+
+But according to the second approach, it should be 1. So why the discrepancy?
+
+The second approach assumes that the expected number of rolls in a successful trial is 1, but according to the first approach, it's 3/2. Which is correct?
+
+Let me compute the expected number of rolls in a successful trial manually. In this simplified case, the trials are sequences of rolls that end when either 1 or 2 is rolled. The successful trials are those that end with 1. Let's compute the expected number of rolls in such a trial.
+
+Let E be the expected number of rolls in a successful trial.
+
+When we start a trial:
+
+- With probability 1/3, we roll a 1, and the trial ends with 1 roll.
+- With probability 1/3, we roll a 2, and the trial ends (but it's not a success).
+- With probability 1/3, we roll a 3, and we have to continue, adding 1 roll plus the expected E again.
+
+So the equation is:
+
+E = (1/3)*1 + (1/3)*(0) + (1/3)*(1 + E)
+
+Wait, but the (1/3)*(0) is because if we roll a 2, the trial ends but it's not a success, so it doesn't contribute to E. However, in this case, E is the expected number of rolls in a successful trial, so we need to condition on the trial being successful.
+
+Ah! Here's the mistake. The second approach earlier didn't condition on the trial being successful. The correct way is to compute E as the expected number of rolls in a successful trial, which means we have to condition on the trial being successful.
+
+So, the probability that a trial is successful is p = 1/3 (rolling 1) divided by (p + q) = 1/3 + 1/3 = 2/3. Wait, no, the trial is successful if it ends with 1, which has probability 1/3, and the trial ends with 2 (failure) with probability 1/3. So the probability that a trial is successful is 1/3 divided by (1/3 + 1/3) = 1/2. Wait, no, the trial is either successful or not, and the probability of success is 1/3, and the probability of failure is 1/3, and the probability of continuing is 1/3.
+
+But to compute E, the expected number of rolls in a successful trial, we need to consider only the trials that end successfully. So, the expected number of rolls is:
+
+E = sum_{n=1}^∞ P(trial ends on nth roll with success) * n
+
+But this might be complex. Alternatively, use conditional expectation.
+
+Let me define E as the expected number of rolls in a successful trial. Then, when we start a trial:
+
+- With probability 1/3, we roll a 1 (success), and the number of rolls is 1.
+- With probability 1/3, we roll a 2 (failure), and the trial doesn't contribute to E.
+- With probability 1/3, we roll a 3, and then we have to continue, and the expected number of rolls becomes 1 + E (since we've already used 1 roll and now expect E more rolls in the successful trial).
+
+But since we are conditioning on the trial being successful, the probability of success is 1/3, and the probability of continuing is 1/3. So the equation should be:
+
+E = [ (1/3) * 1 + (1/3) * (1 + E) ] / P(trial is successful)
+
+Wait, no. The correct way is to use the law of total expectation. Let me think again.
+
+Let me denote that in a trial, the probability that it is successful is p = 1/3, and the probability it is not successful is q = 1/3, and the probability it continues is r = 1/3.
+
+The expected number of rolls in a successful trial is E. Then, the expected number of rolls in any trial (successful or not) is T = 1 + r*T, which gives T = 3/2 as before.
+
+But E is the expected number of rolls in a successful trial. To compute this, we can use the fact that the probability of success is p = 1/3, and the expected number of rolls in a successful trial is E = [expected number of rolls in a trial given that it is successful].
+
+This can be calculated as E = [expected number of rolls in a trial * probability of success] / probability of success? No, that doesn't make sense.
+
+Actually, the expected number of rolls in a successful trial is the expected number of rolls in all trials, weighted by the probability that the trial is successful.
+
+Alternatively, consider that the expected number of rolls in a successful trial is E, and the expected number of rolls in a trial that is not successful is F. Then, the overall expected number
+Original Correct Answers: ['1.5']
+Is Correct: False
+Accuracy so far: 19/29 (65.52%)
+
+Processing Questions:  58%|█████▊    | 29/50 [14:17<16:43, 47.77s/it]Added custom noise to question 30.
+
+--- Question 30/50 ---
+Question: 100 people are boarding a plane in a line and each of them is assigned to one of the 100 seats on a plane. However, the first person in line forgot his boarding pass and as a result decided to sit down in a random seat. The second person will do the following: Sit in her seat if it still available. If her seat is not available, choose a random seat among the seats remaining and sit there. Each following person sits according to the same rules as the second person. What is the probability the 100th person will be able to sit in her assigned seat?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 1/2
+Original Correct Answers: ['0.5', '50%', '1/2']
+Is Correct: True
+Accuracy so far: 20/30 (66.67%)
+
+Processing Questions:  60%|██████    | 30/50 [14:44<13:53, 41.66s/it]Added custom noise to question 31.
+
+--- Question 31/50 ---
+Question: A group of police officers have breathalyzers displaying false drunkenness in 5% of the cases in which the driver is sober. However, the breathalyzers never fail to detect a truly drunk person. One in a thousand drivers is driving drunk. Suppose the police officers then stop a driver at random, and force the driver to take a breathalyzer test. It indicates that the driver is drunk. We assume you don't know anything else about him or her. How high is the probability he or she really is drunk?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 0.0196
+Original Correct Answers: ['1.96%', '0.0196']
+Is Correct: True
+Accuracy so far: 21/31 (67.74%)
+
+Processing Questions:  62%|██████▏   | 31/50 [15:54<15:51, 50.10s/it]Added custom noise to question 32.
+
+--- Question 32/50 ---
+Question: A family has two children. They can be brothers/sisters/big brother and little sister/big sister and little brother with equal probability. If you see one of them is a boy, then what is the probability that the other one is a boy?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 1/3
+Original Correct Answers: ['0.33', '33%', '1/3']
+Is Correct: True
+Accuracy so far: 22/32 (68.75%)
+
+Processing Questions:  64%|██████▍   | 32/50 [16:09<11:54, 39.69s/it]Added custom noise to question 33.
+
+--- Question 33/50 ---
+Question: Ankur's brother has two offsprings and one of the boy was born on Tuesday. What is the probability that Ankur's brother has two boys? Assume an equal chance of giving birth to either sex and an equal chance to giving birth on any day.
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 13/27
+Original Correct Answers: ['13/27', '0.4815', '48.15%']
+Is Correct: True
+Accuracy so far: 23/33 (69.70%)
+
+Processing Questions:  66%|██████▌   | 33/50 [16:30<09:35, 33.88s/it]Added custom noise to question 34.
+
+--- Question 34/50 ---
+Question: You have 100 candidates, upon which there exists a total order. The candidates have appointments with you, one at a time, in a random order. From each interview, you can tell exactly how that candidate ranks amongst those you have already examined. At that point, you may either accept or reject the candidate. Any acceptance or rejection is permanent; no candidate, once rejected, may be reconsidered. Your objective is solely to accept the best candidate. What is the strategy for maximizing your probability of doing so, and what is that probability?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 0.3679
+Original Correct Answers: ['1/e', '0.3679', '36.79%']
+Is Correct: True
+Accuracy so far: 24/34 (70.59%)
+
+Processing Questions:  68%|██████▊   | 34/50 [16:53<08:13, 30.82s/it]Added custom noise to question 35.
+
+--- Question 35/50 ---
+Question: In a 600 meters circular runway, Alice and Bob run from the same location clockwise. They meet with each other every 12 minitues. If they do not change the speed and run from the same location again while this time Alice runs counterclockwise, then they meet with each other every 4 minites. How long does Alice need to run one circle?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 6
+Original Correct Answers: ['6 or 12']
+Is Correct: False
+Accuracy so far: 24/35 (68.57%)
+
+Processing Questions:  70%|███████   | 35/50 [18:19<11:50, 47.37s/it]Added custom noise to question 36.
+
+--- Question 36/50 ---
+Question: There are two circles. Circles A and B are externally tangent to each other, and there is no relative sliding at the point where the two circles touch. The radius of Circle A is 1/3 the radius of Circle B. Circle A rolls around Circle B one trip back to its starting point. How many times will Circle A revolve in total?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 4
+Original Correct Answers: ['4']
+Is Correct: True
+Accuracy so far: 25/36 (69.44%)
+
+Processing Questions:  72%|███████▏  | 36/50 [18:46<09:37, 41.25s/it]Added custom noise to question 37.
+
+--- Question 37/50 ---
+Question: Alok has three daughters. His friend Shyam wants to know the ages of his daughters. Alok gives him first hint. 
+1) The product of their ages is 72. 
+Shyam says this is not enough information Alok gives him a second hint. 
+2) The sum of their ages is equal to my house number. 
+Shyam goes out and looks at the house number and tells “I still do not have enough information to determine the ages”. 
+Alok admits that Shyam can not guess and gives him the third hint 
+3) The oldest girl likes strawberry ice cream. 
+Shyam is able to guess after the third hint. Can you guess what is the age of the oldest girl?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 8
+Original Correct Answers: ['8']
+Is Correct: True
+Accuracy so far: 26/37 (70.27%)
+
+Processing Questions:  74%|███████▍  | 37/50 [19:01<07:11, 33.17s/it]Added custom noise to question 38.
+
+--- Question 38/50 ---
+Question: Two trains are on same track and they are coming toward each other. The speed of the first train is 50 km/h and the speed of the second train is 70 km/h. A bee starts flying between the trains when the distance between two trains is 100 km. The bee first flies from first train to second train. Once it reaches the second train, it immediately flies back to the first train … and so on until trains collide. Calculate the total distance travelled by the bee. Speed of bee is 80 km/h.
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 200/3
+Original Correct Answers: ['66.67', '200/3']
+Is Correct: True
+Accuracy so far: 27/38 (71.05%)
+
+Processing Questions:  76%|███████▌  | 38/50 [19:11<05:16, 26.41s/it]Added custom noise to question 39.
+
+--- Question 39/50 ---
+Question: There are two empty bowls in a room. You have 50 white balls and 50 black balls. After you place the balls in the bowls, a random ball will be picked from a random bowl. Distribute the balls (all of them) into the bowls to maximize the chance of picking a white ball.
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 74/99
+Original Correct Answers: ['0.75', '75%', '3/4']
+Is Correct: True
+Accuracy so far: 28/39 (71.79%)
+
+Processing Questions:  78%|███████▊  | 39/50 [19:46<05:17, 28.85s/it]Added custom noise to question 40.
+
+--- Question 40/50 ---
+Question: There are 1000 wine bottles. One of the bottles contains poisoned wine. A rat dies after one hour of drinking the poisoned wine. How many minimum rats are needed to figure out which bottle contains poison in hour.
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 10
+Original Correct Answers: ['10']
+Is Correct: True
+Accuracy so far: 29/40 (72.50%)
+
+Processing Questions:  80%|████████  | 40/50 [19:54<03:45, 22.52s/it]Added custom noise to question 41.
+
+--- Question 41/50 ---
+Question: In a country, all families want a boy. They keep having babies till a boy is born. What is the expected ratio of boys and girls in the country?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 1
+Original Correct Answers: ['1:1', '50:50']
+Is Correct: False
+Accuracy so far: 29/41 (70.73%)
+
+Processing Questions:  82%|████████▏ | 41/50 [20:21<03:36, 24.04s/it]Added custom noise to question 42.
+
+--- Question 42/50 ---
+Question: A car has 4 tyres and 1 spare tyre. Each tyre can travel a maximum distance of 20000 miles before wearing off. What is the maximum distance the car can travel before you are forced to buy a new tyre? You are allowed to change tyres (using the spare tyre) an unlimited number of times.
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 25000
+Original Correct Answers: ['25000']
+Is Correct: True
+Accuracy so far: 30/42 (71.43%)
+
+Processing Questions:  84%|████████▍ | 42/50 [20:29<02:33, 19.17s/it]Added custom noise to question 43.
+
+--- Question 43/50 ---
+Question: You have 15 Rs with you. You go to a shop and shopkeeper tells you price as 1 Rs per chocolate. He also tells you that you can get a chocolate in return of 3 wrappers. How many maximum chocolates you can eat?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 22
+Original Correct Answers: ['22']
+Is Correct: True
+Accuracy so far: 31/43 (72.09%)
+
+Processing Questions:  86%|████████▌ | 43/50 [20:36<01:48, 15.44s/it]Added custom noise to question 44.
+
+--- Question 44/50 ---
+Question: A Lady (L) bought an item of Rs 100 from the Shopkeeper (C). She paid him through a 500 Rs Note. Realizing that he did not have change, the shopkeeper C got change for that note from another shopkeeper (S) and paid Rs 400 to the Lady.
+After a few days, S realized that the note is fake, And this railed at C and took 500 Rs back from him.
+So in this whole process how much money did C lose in the end?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 500
+Original Correct Answers: ['500']
+Is Correct: True
+Accuracy so far: 32/44 (72.73%)
+
+Processing Questions:  88%|████████▊ | 44/50 [21:18<02:20, 23.44s/it]Added custom noise to question 45.
+
+--- Question 45/50 ---
+Question: A man is allocated a task. He doubles the task done everyday. If the man completely does the task in 20 days, how many days did it take for the man to complete 25% of the task?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 18
+Original Correct Answers: ['18']
+Is Correct: True
+Accuracy so far: 33/45 (73.33%)
+
+Processing Questions:  90%|█████████ | 45/50 [22:53<03:44, 44.85s/it]Added custom noise to question 46.
+
+--- Question 46/50 ---
+Question: Four people need to cross a rickety bridge at night. Unfortunately, they have one torch and the bridge is too dangerous to cross without a torch. The bridge can support only two people at a time. All the people don’t take the same time to cross the bridge. Time for each person: 1 min, 2 mins, 7 mins, and 10 mins. What is the shortest time needed for all four of them to cross the bridge?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 17
+Original Correct Answers: ['17']
+Is Correct: True
+Accuracy so far: 34/46 (73.91%)
+
+Processing Questions:  92%|█████████▏| 46/50 [23:08<02:23, 35.87s/it]Added custom noise to question 47.
+
+--- Question 47/50 ---
+Question: A man fell in a 50m deep well. He climbs 4 meters up and slips 3 meters down in one day. How many days would it take for him to come out of the well?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 47
+Original Correct Answers: ['47']
+Is Correct: True
+Accuracy so far: 35/47 (74.47%)
+
+Processing Questions:  94%|█████████▍| 47/50 [23:19<01:25, 28.42s/it]Added custom noise to question 48.
+
+--- Question 48/50 ---
+Question: In thirty minutes on a deserted road, there is a 95% chance of seeing a vehicle. What are the probabilities of seeing a vehicle in ten minutes?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 0.632
+Original Correct Answers: ['63.15%', '0.6315']
+Is Correct: True
+Accuracy so far: 36/48 (75.00%)
+
+Processing Questions:  96%|█████████▌| 48/50 [23:34<00:49, 24.52s/it]Added custom noise to question 49.
+
+--- Question 49/50 ---
+Question: Ram used to arrive at the railway station every day at 6 pm from work. As soon as Ram arrived at the station, his wife Sita too arrives at the station by car to pick him up. Both drive back home. One day Ram arrived at the station one hour early and thought of taking a walk back to home. He started walking when after covering a specific distance, he meets with Sita. Both drive back home and this time they reached 30 minutes earlier than the usual time. How long has Ram been walking?
+It is known that Sita drove every day at a uniform speed.
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 45
+Original Correct Answers: ['45']
+Is Correct: True
+Accuracy so far: 37/49 (75.51%)
+
+Processing Questions:  98%|█████████▊| 49/50 [24:09<00:27, 27.70s/it]Added custom noise to question 50.
+
+--- Question 50/50 ---
+Question: On an Island, there is an airport that has an unlimited number of identical air-planes. Each air-plane has a fuel capacity to allow it to fly exactly 1/2 way around the world, along a great circle. The planes have the ability to refuel in flight without loss of speed or spillage of fuel. Though the fuel is unlimited, the island is the only source of fuel. You can ignore the time and fuel consumption of refuelling.
+What is the minimum number of air-planes required to get one air plane all the way around the world assuming that all of the air planes must return safely to the airport?
+  (Noise added: ' Interesting fact: cats sleep for most of their li...')
+Model Raw Answer: 3
+Original Correct Answers: ['3']
+Is Correct: True
+Accuracy so far: 38/50 (76.00%)
+
+Processing Questions: 100%|██████████| 50/50 [25:05<00:00, 36.14s/it]Processing Questions: 100%|██████████| 50/50 [25:05<00:00, 30.11s/it]
+
+===== Single Agent Evaluation Summary =====
+Total Questions: 50
+Correctly Answered: 38
+Overall Accuracy: 76.00%
+All single agent results summarized in: experiment_results/single/temp0.5_cat4/single_single_temp0.5_cat4_20250716_114340.json

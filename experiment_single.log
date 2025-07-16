@@ -14,3 +14,48 @@ Experiment 3: Single Agent, Temp 0.5, No Noise (Run 1) launched. Waiting for com
 Experiment 3: Single Agent, Temp 0.5, No Noise (Run 1) completed. Results in experiment_results/single/temp0.5_1
 Experiment 4: Single Agent, Temp 0.5, No Noise (Run 2) launched. Waiting for completion... (Check experiment_results/single/temp0.5_2/single.log)
 Experiment 4: Single Agent, Temp 0.5, No Noise (Run 2) completed. Results in experiment_results/single/temp0.5_2
+Experiment 5: Single Agent, Temp 0.5, No Noise (Run 3) launched. Waiting for completion... (Check experiment_results/single/temp0.5_3/single.log)
+Experiment 5: Single Agent, Temp 0.5, No Noise (Run 3) completed. Results in experiment_results/single/temp0.5_3
+Experiment 6: Single Agent, Temp 0.5, No Noise (Run 4) launched. Waiting for completion... (Check experiment_results/single/temp0.5_4/single.log)
+Experiment 6: Single Agent, Temp 0.5, No Noise (Run 4) completed. Results in experiment_results/single/temp0.5_4
+Experiment 7: Single Agent, Temp 0.5, No Noise (Run 5) launched. Waiting for completion... (Check experiment_results/single/temp0.5_5/single.log)
+Experiment 7: Single Agent, Temp 0.5, No Noise (Run 5) completed. Results in experiment_results/single/temp0.5_5
+
+--- Running Experiments 8-12: Single Agent, Temp 0.5, With Noise (5 runs) ---
+Experiment 8: Single Agent, Temp 0.5, With Noise (Run 1) launched. Waiting for completion... (Check experiment_results/single/temp0.5_cat1/single.log)
+Experiment 8: Single Agent, Temp 0.5, With Noise (Run 1) completed. Results in experiment_results/single/temp0.5_cat1
+Experiment 9: Single Agent, Temp 0.5, With Noise (Run 2) launched. Waiting for completion... (Check experiment_results/single/temp0.5_cat2/single.log)
+Experiment 9: Single Agent, Temp 0.5, With Noise (Run 2) completed. Results in experiment_results/single/temp0.5_cat2
+Experiment 10: Single Agent, Temp 0.5, With Noise (Run 3) launched. Waiting for completion... (Check experiment_results/single/temp0.5_cat3/single.log)
+Experiment 10: Single Agent, Temp 0.5, With Noise (Run 3) completed. Results in experiment_results/single/temp0.5_cat3
+Experiment 11: Single Agent, Temp 0.5, With Noise (Run 4) launched. Waiting for completion... (Check experiment_results/single/temp0.5_cat4/single.log)
+Experiment 11: Single Agent, Temp 0.5, With Noise (Run 4) completed. Results in experiment_results/single/temp0.5_cat4
+Experiment 12: Single Agent, Temp 0.5, With Noise (Run 5) launched. Waiting for completion... (Check experiment_results/single/temp0.5_cat5/single.log)
+Experiment 12: Single Agent, Temp 0.5, With Noise (Run 5) completed. Results in experiment_results/single/temp0.5_cat5
+
+--- Running Experiments 13-17: Single Agent, Temp 1, No Noise (5 runs) ---
+Experiment 13: Single Agent, Temp 1, No Noise (Run 1) launched. Waiting for completion... (Check experiment_results/single/temp1_1/single.log)
+Experiment 13: Single Agent, Temp 1, No Noise (Run 1) completed. Results in experiment_results/single/temp1_1
+Experiment 14: Single Agent, Temp 1, No Noise (Run 2) launched. Waiting for completion... (Check experiment_results/single/temp1_2/single.log)
+Experiment 14: Single Agent, Temp 1, No Noise (Run 2) completed. Results in experiment_results/single/temp1_2
+Experiment 15: Single Agent, Temp 1, No Noise (Run 3) launched. Waiting for completion... (Check experiment_results/single/temp1_3/single.log)
+Experiment 15: Single Agent, Temp 1, No Noise (Run 3) completed. Results in experiment_results/single/temp1_3
+Experiment 16: Single Agent, Temp 1, No Noise (Run 4) launched. Waiting for completion... (Check experiment_results/single/temp1_4/single.log)
+Experiment 16: Single Agent, Temp 1, No Noise (Run 4) completed. Results in experiment_results/single/temp1_4
+Experiment 17: Single Agent, Temp 1, No Noise (Run 5) launched. Waiting for completion... (Check experiment_results/single/temp1_5/single.log)
+Experiment 17: Single Agent, Temp 1, No Noise (Run 5) completed. Results in experiment_results/single/temp1_5
+
+--- Running Experiments 18-22: Single Agent, Temp 1, With Noise (5 runs) ---
+Experiment 19: Single Agent, Temp 1, With Noise (Run 1) launched. Waiting for completion... (Check experiment_results/single/temp1_cat1/single.log)
+Experiment 19: Single Agent, Temp 1, With Noise (Run 1) completed. Results in experiment_results/single/temp1_cat1
+Experiment 20: Single Agent, Temp 1, With Noise (Run 2) launched. Waiting for completion... (Check experiment_results/single/temp1_cat2/single.log)
+Experiment 20: Single Agent, Temp 1, With Noise (Run 2) completed. Results in experiment_results/single/temp1_cat2
+Experiment 21: Single Agent, Temp 1, With Noise (Run 3) launched. Waiting for completion... (Check experiment_results/single/temp1_cat3/single.log)
+Experiment 21: Single Agent, Temp 1, With Noise (Run 3) completed. Results in experiment_results/single/temp1_cat3
+Experiment 22: Single Agent, Temp 1, With Noise (Run 4) launched. Waiting for completion... (Check experiment_results/single/temp1_cat4/single.log)
+Experiment 22: Single Agent, Temp 1, With Noise (Run 4) completed. Results in experiment_results/single/temp1_cat4
+Experiment 23: Single Agent, Temp 1, With Noise (Run 5) launched. Waiting for completion... (Check experiment_results/single/temp1_cat5/single.log)
+Experiment 23: Single Agent, Temp 1, With Noise (Run 5) completed. Results in experiment_results/single/temp1_cat5
+
+--- All Single Agent experiments completed. ---
+Check logs and results in their respective subdirectories within experiment_results.

@@ -1,0 +1,1012 @@
+
+Starting single agent evaluation for 50 questions...
+
+Processing Questions:   0%|          | 0/50 [00:00<?, ?it/s]
+--- Question 1/50 ---
+Question: When Alice walks up the hill, her speed is 1 m/s and when she goes down the hill, her speed is 3 m/s. Then when Alice walks up and down the hill, what is her average speed?
+Model Raw Answer: 1.5
+Original Correct Answers: ['1.5', '3/2']
+Is Correct: True
+Accuracy so far: 1/1 (100.00%)
+
+Processing Questions:   2%|▏         | 1/50 [00:17<13:57, 17.09s/it]
+--- Question 2/50 ---
+Question: 9 days among 10 days, Alice goes out for drink. She only goes to three bars for drink with equal frequency. Bob is trying to find Alice today. However, he fails after going to two bars. What is the probability that Alice shows up in the third bar?
+Model Raw Answer: 0.75
+Original Correct Answers: ['0.75', '75%', '3/4']
+Is Correct: True
+Accuracy so far: 2/2 (100.00%)
+
+Processing Questions:   4%|▍         | 2/50 [00:53<22:39, 28.32s/it]
+--- Question 3/50 ---
+Question: One peach costs one cent. You can use 3 peach pits to exchange for one peach. If you have 10 cents, then what is the maximal number of peaches you can eat?
+Model Raw Answer: 14
+Original Correct Answers: ['15']
+Is Correct: False
+Accuracy so far: 2/3 (66.67%)
+
+Processing Questions:   6%|▌         | 3/50 [01:22<22:37, 28.87s/it]
+--- Question 4/50 ---
+Question: You finish drinking 20% of a cup of milk. You then fill up water, drink 40% of it and fill up water again. What is the percentage of milk in this cup now?
+Model Raw Answer: 0.48
+Original Correct Answers: ['48%', '0.48']
+Is Correct: True
+Accuracy so far: 3/4 (75.00%)
+
+Processing Questions:   8%|▊         | 4/50 [01:33<16:32, 21.57s/it]
+--- Question 5/50 ---
+Question: We put 10 g salt into 100 g water. What is the percentage of salt now?
+Model Raw Answer: 0.0909
+Original Correct Answers: ['9.09%', '0.0909', '1/11']
+Is Correct: True
+Accuracy so far: 4/5 (80.00%)
+
+Processing Questions:  10%|█         | 5/50 [01:44<13:29, 17.99s/it]
+--- Question 6/50 ---
+Question: We have 1 ton of apples which contain 90% water. After a few days, those apples only have 80% water. What is the weight of those apples now?
+Model Raw Answer: 0.5
+Original Correct Answers: ['0.5']
+Is Correct: True
+Accuracy so far: 5/6 (83.33%)
+
+Processing Questions:  12%|█▏        | 6/50 [01:53<10:55, 14.89s/it]
+--- Question 7/50 ---
+Question: At most how many distinct natural numbers sum to 100?
+Model Raw Answer: 13
+Original Correct Answers: ['14']
+Is Correct: False
+Accuracy so far: 5/7 (71.43%)
+
+Processing Questions:  14%|█▍        | 7/50 [02:34<16:38, 23.22s/it]
+--- Question 8/50 ---
+Question: 20 people get full marks for math. 20 people get full marks for history. 20 people get full marks for physics. 7 people get full marks for both math and physics. 9 for both history and physics. 3 do not get full marks for any of the subjects. How many people are there at most?
+Model Raw Answer: 47
+Original Correct Answers: ['47']
+Is Correct: True
+Accuracy so far: 6/8 (75.00%)
+
+Processing Questions:  16%|█▌        | 8/50 [03:12<19:34, 27.97s/it]
+--- Question 9/50 ---
+Question: If five machines produce 5 items in 5 minutes, then how long do 100 machines need to produce 100 items?
+Model Raw Answer: 5
+Original Correct Answers: ['5']
+Is Correct: True
+Accuracy so far: 7/9 (77.78%)
+
+Processing Questions:  18%|█▊        | 9/50 [03:19<14:36, 21.37s/it]
+--- Question 10/50 ---
+Question: 85% of the taxis in this city are green, the others are blue. A witness sees a blue taxi. She is usually correct with a probability of 80%. What is the probability that the taxi seen by the witness is blue?
+Model Raw Answer: 12/29
+Original Correct Answers: ['41%', '0.41']
+Is Correct: True
+Accuracy so far: 8/10 (80.00%)
+
+Processing Questions:  20%|██        | 10/50 [03:41<14:30, 21.75s/it]
+--- Question 11/50 ---
+Question: Suppose we find a murderer's fingerprint at a crime scene. After comparing this fingerprint with 20000 people, the police found a suspect whose fingerprint matches the one at the scene. Now, this suspect is brought to court and accused of being the murderer. The expert in court tells you that the chance of modern fingerprint comparison technology mistaking two people's fingerprints as the same is 0.01%. Assuming that all 20000 people compared by the police are innocent, what is the percentage that at least one match will be produced after the murderer's fingerprint is compared with them one by one?
+Model Raw Answer: 0.8647
+Original Correct Answers: ['86.5%', '0.865']
+Is Correct: True
+Accuracy so far: 9/11 (81.82%)
+
+Processing Questions:  22%|██▏       | 11/50 [04:15<16:36, 25.54s/it]
+--- Question 12/50 ---
+Question: How many people need to be in a room to make the probability that at least two people have the same birthday exceed 50%?
+Model Raw Answer: 23
+Original Correct Answers: ['23']
+Is Correct: True
+Accuracy so far: 10/12 (83.33%)
+
+Processing Questions:  24%|██▍       | 12/50 [04:25<13:13, 20.87s/it]
+--- Question 13/50 ---
+Question: In a city of 1 million inhabitants, there are 100 known criminals. All inhabitants, including the criminals, are tested with a new crime prediction technology. The technology has a reliability of 95%, meaning that 95% of true criminals are identified as criminals, and 95% of innocent people are identified as innocent. What is the percentage that a person identified as a criminal by the technology is indeed a criminal?
+Model Raw Answer: 0.0019
+Original Correct Answers: ['1.9%', '0.019']
+Is Correct: False
+Accuracy so far: 10/13 (76.92%)
+
+Processing Questions:  26%|██▌       | 13/50 [05:48<24:19, 39.43s/it]
+--- Question 14/50 ---
+Question: You have a tank of water that is initially empty. On the first day, you add one fish to the tank. Every day thereafter, each fish in the tank births one new fish. How many fish will be in the tank at the end of 10 days?
+Model Raw Answer: 512
+Original Correct Answers: ['512']
+Is Correct: True
+Accuracy so far: 11/14 (78.57%)
+
+Processing Questions:  28%|██▊       | 14/50 [05:55<17:51, 29.77s/it]
+--- Question 15/50 ---
+Question: You have 100 chairs in a row. You start by flipping every chair (1, 2, 3, ..., 100) from its initial position. Then, you flip every second chair (2, 4, 6, ..., 100). Next, you flip every third chair (3, 6, 9, ..., 99). You continue this process until you flip every 100th chair (only chair 100). How many chairs are flipped back to their initial position after all the flips?
+Model Raw Answer: 90
+Original Correct Answers: ['90']
+Is Correct: True
+Accuracy so far: 12/15 (80.00%)
+
+Processing Questions:  30%|███       | 15/50 [06:06<13:59, 23.99s/it]
+--- Question 16/50 ---
+Question: A mouse can produce a litter of 6 mice every month, and each of those mice can start reproducing when they are 2 months old. If you start with a single one-month-old mouse, how many mice will you have after 4 months?
+Model Raw Answer: 55
+Original Correct Answers: ['55']
+Is Correct: True
+Accuracy so far: 13/16 (81.25%)
+
+Processing Questions:  32%|███▏      | 16/50 [06:32<13:59, 24.69s/it]
+--- Question 17/50 ---
+Question: In a town, 60% of the women are married to 80% of the men. What percentage of the total adult population is married?
+Model Raw Answer: 0.6857
+Original Correct Answers: ['68.57%', '0.6875']
+Is Correct: True
+Accuracy so far: 14/17 (82.35%)
+
+Processing Questions:  34%|███▍      | 17/50 [08:12<26:01, 47.33s/it]
+--- Question 18/50 ---
+Question: You have a pack of 52 playing cards. You draw one card every day, and after drawing, you put the card back into the pack and shuffle it. What is the least number of days you'd need to draw cards in order for you to have a greater than 50% chance of drawing the Ace of Spades at least once?
+Model Raw Answer: 36
+Original Correct Answers: ['36']
+Is Correct: True
+Accuracy so far: 15/18 (83.33%)
+
+Processing Questions:  36%|███▌      | 18/50 [08:33<20:59, 39.37s/it]
+--- Question 19/50 ---
+Question: A flock of birds is flying in a V formation. There are 25 birds on the left side of the V and 25 birds on the right side. If one bird from the left side moves to the right side, how many more birds will be on the right side than the left side?
+Model Raw Answer: 2
+Original Correct Answers: ['2']
+Is Correct: True
+Accuracy so far: 16/19 (84.21%)
+
+Processing Questions:  38%|███▊      | 19/50 [08:37<14:50, 28.72s/it]
+--- Question 20/50 ---
+Question: You borrowed a pen from your friend. This pen can write 500 words on average before running out of ink. After writing a 300-word letter to your friend, you want to know how much longer the pen can write. However, your friend told you that this pen writes twice as fast when the pen is warmer, which happened during the first 150 words. How many more words can you write with this pen?
+Model Raw Answer: 275
+Original Correct Answers: ['50']
+Is Correct: False
+Accuracy so far: 16/20 (80.00%)
+
+Processing Questions:  40%|████      | 20/50 [09:35<18:45, 37.50s/it]
+--- Question 21/50 ---
+Question: Alice and Bob are playing a game with two dice. However, the dice are not fair, and the probability of rolling a 6 is 1/4, while the probability of rolling any other number is 1/8. Alice wins if the two dice show the same number; Bob wins if the numbers are different. What is the probability that Bob will win the game?
+Model Raw Answer: 55/64
+Original Correct Answers: ['84.38%', '0.8438', '27/32']
+Is Correct: False
+Accuracy so far: 16/21 (76.19%)
+
+Processing Questions:  42%|████▏     | 21/50 [11:25<28:41, 59.35s/it]
+--- Question 22/50 ---
+Question: A vendor is pulling a cart full of watermelons weighing 100 kilograms. He needs to cross a desert to the other side to sell them. Due to the hot and dry climate of the desert, the water content of the watermelons decreases from 99% to 98%. What is the current weight of the watermelons?
+Model Raw Answer: 50
+Original Correct Answers: ['50']
+Is Correct: True
+Accuracy so far: 17/22 (77.27%)
+
+Processing Questions:  44%|████▍     | 22/50 [11:32<20:22, 43.67s/it]
+--- Question 23/50 ---
+Question: Suppose we have a game that assumes we have a fair coin. Two people who are playing can pick two patterns of coin flips. The players then flip a large coin a number of times and record each of the individual flips. Here, H stands for heads and T stands for tails. After the flips, they pay attention to the record of flips and decide which pattern came first in the sequence. If HTH came before HHT, player A won the game, otherwise, B won the game. What is the probability that player B won this game?
+Model Raw Answer: 2/3
+Original Correct Answers: ['0.67', '66.67%', '2/3']
+Is Correct: True
+Accuracy so far: 18/23 (78.26%)
+
+Processing Questions:  46%|████▌     | 23/50 [12:47<23:48, 52.90s/it]
+--- Question 24/50 ---
+Question: You're participating in a race. You overtake the second person. What position are you in?
+Model Raw Answer: 2
+Original Correct Answers: ['2']
+Is Correct: True
+Accuracy so far: 19/24 (79.17%)
+
+Processing Questions:  48%|████▊     | 24/50 [12:52<16:47, 38.77s/it]
+--- Question 25/50 ---
+Question: How many times can you subtract 10 from 100?
+Model Raw Answer: 10
+Original Correct Answers: ['1']
+Is Correct: False
+Accuracy so far: 19/25 (76.00%)
+
+Processing Questions:  50%|█████     | 25/50 [13:00<12:15, 29.42s/it]
+--- Question 26/50 ---
+Question: If red flower is 1/10 more than yellow flowers, then yellow flower is 1/__ less than red flowers?
+Model Raw Answer: 11
+Original Correct Answers: ['11']
+Is Correct: True
+Accuracy so far: 20/26 (76.92%)
+
+Processing Questions:  52%|█████▏    | 26/50 [13:08<09:13, 23.07s/it]
+--- Question 27/50 ---
+Question: We divide 50 into 4 natural numbers a,b,c,d such that 2a = b/2 and c+2=d-2. How many divisions we can make?
+Model Raw Answer: 4
+Original Correct Answers: ['5']
+Is Correct: False
+Accuracy so far: 20/27 (74.07%)
+
+Processing Questions:  54%|█████▍    | 27/50 [13:36<09:22, 24.47s/it]
+--- Question 28/50 ---
+Question: A train leaves a station and travels north at a speed of 75 mph. Three hours later, a second train leaves the same station and travels in the same direction at 90 mph. How long will it take for the second train to catch up to the first train?
+Model Raw Answer: 15
+Original Correct Answers: ['15']
+Is Correct: True
+Accuracy so far: 21/28 (75.00%)
+
+Processing Questions:  56%|█████▌    | 28/50 [13:43<07:05, 19.35s/it]Error decoding JSON from single agent: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+Raw response (cleaned): '{k=1}^∞ k * P(trial ends at k rolls with success)
+
+Alternatively, using recursion:
+
+When starting a trial, the expected number of rolls E_s is:
+
+With probability p: we succeed in 1 roll → contributes p * 1.
+
+With probability q: we fail → the trial ends without contributing, and we have to start over. But since we are only considering successful trials, this doesn't contribute.
+
+With probability r: we have one roll, and then expect E_s more rolls. So contributes r * (1 + E_s).
+
+But since the q case doesn't contribute to the conditional expectation, because we are conditioning on the trial being successful, the equation is:
+
+E_s = p * 1 + r * (1 + E_s)
+
+Solving for E_s:
+
+E_s = p * 1 + r * (1 + E_s)
+
+=> E_s = p + r + r * E_s
+
+=> E_s - r * E_s = p + r
+
+=> E_s (1 - r) = p + r
+
+=> E_s = (p + r) / (1 - r)
+
+But p + r + q = 1, so 1 - r = p + q.
+
+But substituting p = 1/6, r = 1/3:
+
+E_s = (1/6 + 1/3) / (1 - 1/3) = (1/6 + 2/6) / (2/3) = (3/6) / (2/3) = (1/2) / (2/3) = (1/2) * (3/2) = 3/4 = 0.75.
+
+So E_s is 3/4. This is the expected number of rolls in a trial that ends with success. Then, the total expected count is E_total = E_s * E[Number of trials].
+
+Earlier, I thought that the number of trials is geometric with p=1/6, so E[Number of trials] = 1/p = 6. Therefore, E_total = 3/4 * 6 = 18/4 = 9/2 = 4.5. Wait, but this contradicts the previous result of 3/2 = 1.5. So there's a conflict here. Which one is correct?
+
+This suggests a problem with my reasoning. Where did I go wrong?
+
+Wait, the first approach using the recursive E[c] = (1/4)c + 3/2 gave E[0] = 3/2 = 1.5. The second approach here, considering the number of trials and the expected count per trial, gives 4.5. These are very different results, so clearly, I made a mistake in one of the approaches.
+
+Let me re-examine the second approach. The key assumption was that E_total = E_s * E[Number of trials]. But is this correct?
+
+Actually, no. Because the number of trials is the number of attempts until the first success, and each trial that fails doesn't contribute anything to the count, while the successful trial contributes its count. However, the total count is just the count of the successful trial. Because all the failed trials are resets, and the count is reset to 0 each time. Therefore, the total expected count is just the expected count of the successful trial, which is E_s. Because when you reset, you don't accumulate any count, and only the successful trial contributes its count.
+
+Wait, but this would imply that E_total = E_s = 3/4, which contradicts the first approach. So clearly, something is wrong here.
+
+This inconsistency suggests that there is an error in one of the derivations. Let's trace back.
+
+In the first approach, using the recurrence E[c] = (1/6)(c + 1) + (1/2) E[0] + (1/3) E[c + 1], and assuming linearity, we derived that E[0] = 3/2 = 1.5.
+
+In the second approach, defining E_s as the expected number of rolls in a successful trial, we found E_s = 3/4 = 0.75, and thought that the total expectation is E_s, which contradicts the first approach.
+
+Clearly, there is an error in one of the models. Let's check with a simple example. Suppose that on the first roll, we have a 1/6 chance to stop with count 1. Otherwise, 1/2 chance to reset and start over, and 1/3 chance to continue. What is the expected count?
+
+Let’s compute it manually. Let E be the expected count.
+
+E = (1/6)(1) + (1/2) E + (1/3) E'
+
+Where E' is the expected count when we have rolled once (count=1) and continue.
+
+Wait, this seems like it's similar to the first approach.
+
+Actually, in the first approach, we had E[0] = 1/6 * (0 + 1) + 1/2 * E[0] + 1/3 * E[1].
+
+Which is the same as E = (1/6)*1 + (1/2)E + (1/3)E[1].
+
+But earlier, we found E[0] = 3/2, and with E[1] = 7/4.
+
+But if we use this equation:
+
+E = 1/6 + (1/2)E + (1/3)E[1]
+
+But from the first approach, we have E[1] = 7/4. Let's substitute:
+
+E = 1/6 + (1/2)E + (1/3)(7/4)
+
+Multiply through by 12 to eliminate denominators:
+
+12E = 2 + 6E + 7
+
+12E = 6E + 9
+
+6E = 9 → E = 9/6 = 3/2, which matches the first approach. So that seems correct.
+
+But where did the second approach go wrong?
+
+In the second approach, I assumed that E_total = E_s * E[Number of trials], which might not be correct.
+
+Actually, in the second approach, I modeled E_s as the expected number of rolls in a successful trial. But the expected total count is just E_s, because each failed trial doesn't contribute to the count (since the count is reset). Therefore, if the expected number of trials is T, but only the last trial (the successful one) contributes E_s. But how does that relate to the total expectation?
+
+Actually, no. The total number of rolls until success is the sum of the rolls in each failed trial plus the rolls in the successful trial. But the problem asks for the final count, which is the count when you stop, which is the count of the successful trial. So the final count is the number of rolls in the successful trial. Therefore, the expected final count is E_s. But according to the first approach, this is 3/2 = 1.5, while the second approach gave 3/4 = 0.75. Which is conflicting.
+
+This suggests that the error is in the second approach's calculation of E_s. Let's re-examine that.
+
+Earlier, I derived E_s = (p + r) / (1 - r), which with p=1/6, r=1/3, gave 3/4. Let me check this derivation again.
+
+The equation was:
+
+E_s ='
+
+--- Question 29/50 ---
+Question: We roll a dice and count the number of times we roll. If we get an even number, we will reset the count to zero. We will stop if we get one. What is the expected number of final counts?
+Model Raw Answer: <think>
+Okay, let's try to figure out this dice problem. So, the question is about finding the expected number of final counts when rolling a die under certain conditions. Let me break it down step by step.
+
+First, the process: We roll a die repeatedly. Each time we roll, we count the number of rolls. But there are two conditions here. If we roll an even number, we reset the count to zero. However, if we roll a 1, we stop the process. The question is asking for the expected number of final counts. Hmm, I need to be careful here. Wait, when they say "final counts," do they mean the count when we stop? Or the total counts over all the trials? Wait, maybe I need to clarify.
+
+Wait, let me read again. "We roll a dice and count the number of times we roll. If we get an even number, we will reset the count to zero. We will stop if we get one. What is the expected number of final counts?" So, the count is being tracked. Each time we roll, we increment the count, but if we get an even number, reset the count to zero. But we stop when we get a 1. So the final count would be the count when we stop, which is when we get a 1. But when you get a 1, you stop, so the count would be whatever it was before rolling the 1, but since you stop at 1, does the count include that roll or not?
+
+Wait, let's think. Suppose the process is: we start with count 0. Then we roll the die. For each roll:
+
+- If we roll a 1, we stop, and the final count is the current count (which would be 1? Or maybe not. Wait, maybe the count is incremented first, then checked. Or is the count reset before or after the roll?
+
+Wait, the problem says: "We roll a dice and count the number of times we roll." So, each time we roll, we increment the count. So the count starts at 0. Then we roll once: count becomes 1. Then check if the result is even. If even, reset to 0. Otherwise, continue. If the result is 1, stop. Wait, but if we roll a 1, do we increment the count first and then check, or check first?
+
+This is crucial. For example, suppose we start with count 0. Roll the die: if it's a 1, do we count it as a roll (so count becomes 1) and then stop, or do we check if it's 1 before incrementing? The wording says "count the number of times we roll." So each time we roll, we increment the count. So even if we get a 1, that's a roll, so the count is incremented. Then we check if it's a 1 and stop. But then, if we get a 1, the count would be the number of rolls up to that point. So for example, if the first roll is 1, the count is 1, and that's the final count. If the first roll is 2 (even), then count is reset to 0. Then roll again. If the next roll is 1, then count is 1 (since that's the second roll), and we stop. Wait, but in that case, the count would be 2? Because we rolled twice, but the first time we rolled a 2 (even), count reset to 0. Then we rolled a 1, so that's the second roll, count becomes 1, and we stop. So the final count is 1? Or is it 2?
+
+This is ambiguous. Wait, the problem says "count the number of times we roll." So every roll is counted. So even if you reset the count to zero after getting an even number, the count is reset, but the total number of rolls is tracked. Wait, no. Wait, the wording says: "we count the number of times we roll. If we get an even number, we will reset the count to zero. We will stop if we get one."
+
+Wait, maybe the count refers to the current count. Let me think again. Suppose the count starts at 0. Each time you roll, you increment the count by 1. Then, after each roll, check if the result is even: if yes, reset the count to 0. If the result is 1, stop the process. So the count is being incremented each roll, and then possibly reset if even. But the final count is the count when we stop. So the process goes like this:
+
+Start with count = 0.
+
+Roll 1: count becomes 1. Then check the result. If it's even, reset count to 0. If it's 1, stop. Otherwise, continue.
+
+So for example, if the first roll is a 1, count is 1, and we stop. Final count is 1.
+
+If the first roll is 2, count becomes 1, then reset to 0. Then roll again. The count is now 0. Roll 2: count becomes 1. If it's even, reset. If 1, stop. Etc.
+
+But in this case, the final count when we stop is the count after the last roll. But since we stop when we roll a 1, which would be part of the count.
+
+So the problem is to find the expected value of the count when the process stops.
+
+So the question is equivalent to: what is the expected value of the number of rolls until we roll a 1, but with the count reset to 0 every time we roll an even number. But how does that affect the expectation?
+
+This seems like a Markov process, where we can model the expected value.
+
+Let me denote E as the expected final count. Let's think recursively.
+
+At any point, we have some current count, say c. However, due to the reset when an even is rolled, maybe the expected value can be modeled with states based on the current count. Wait, but the count can be any non-negative integer. However, given that each time we get an even, the count is reset to 0, which complicates things. Alternatively, maybe we can model this as follows:
+
+The process starts with count 0. We can think of the states as the current count. However, each time we roll a die, we can have different transitions.
+
+But given the complexity, maybe we can model the expected number of steps (rolls) until we get a 1, considering that when we get even numbers, we reset the count. Wait, but the count is reset, but the process continues.
+
+Alternatively, maybe the final count is the number of rolls until the first occurrence of 1, with the caveat that whenever an even number is rolled, the count resets. However, I need to think more carefully.
+
+Let me try to formalize. Let E be the expected final count. When we start, we have not rolled yet. Wait, but the count starts at zero. Wait, no. The count starts at zero. The first roll is the first count. So the process is:
+
+Initialize count = 0.
+
+Loop:
+
+- Roll the die.
+
+- Increment count by 1.
+
+- If the die is 1, stop and return count.
+
+- If the die is even (2,4,6), reset count to 0.
+
+- Else (3,5), do nothing, continue.
+
+Wait, but the problem says "If we get an even number, we will reset the count to zero." So after incrementing the count, if the die is even, reset count to 0. So, for example, if you roll an even number, you increment the count, then reset it. Wait, that might not make sense. Let me check the original wording:
+
+"We roll a dice and count the number of times we roll. If we get an even number, we will reset the count to zero. We will stop if we get one."
+
+The wording is a bit ambiguous. Does the count get reset before or after incrementing? For example, suppose we roll an even number. Does the count get reset to zero before or after counting that roll?
+
+This is critical. Let's think. Suppose the count is being incremented every time we roll. So if you roll, you count it as a roll, so count increases. Then, if the result is even, you reset the count. So, for example, if you roll a 2, count becomes 1 (since you rolled once), then reset to 0. So the next time you roll, the count starts at 0 again.
+
+Alternatively, if the reset happens before incrementing. But the problem says "count the number of times we roll." So each roll is counted. So the process is: every time you roll, you increment the count, then check if the result is even. If even, reset the count to zero. Otherwise, proceed. If the result is 1, you stop.
+
+So, for example:
+
+Start with count = 0.
+
+Roll 1: count becomes 1. Check the result.
+
+- If 1: stop, final count is 1.
+
+- If even: reset count to 0. Then continue.
+
+- If odd (3 or 5): count remains 1, continue.
+
+Next roll: count starts at 0 (if previous was even) or previous count (if not). Wait, no: after incrementing the count, if it's even, reset to 0. Then the next roll starts with count being 0 (if reset) or the previous count (if not reset). Wait, perhaps not. Let me think again.
+
+Actually, after each roll, regardless of whether it's even or not, the count is updated. But after rolling and incrementing the count, if the result is even, then the count is reset to zero. So for example:
+
+Initial count = 0.
+
+First roll: count increases to 1. Then check the result. If it's even (2,4,6), then set count to 0. So the next state has count 0. If it's 1, stop. If it's 3 or 5, count remains 1.
+
+So the next roll starts with count being 0 or 1, depending on the previous step.
+
+This seems like a Markov chain where the state is the current count. However, the count can be 0, 1, 2, etc., but due to the reset, when you get an even, it goes back to 0. However, since the count can increase indefinitely unless you hit an even, but since there's a chance of hitting a 1 and stopping, we need to find the expected value of the count when stopping.
+
+But solving this for all possible states seems complex. Maybe there's a smarter way. Let's think about the expected number of times we have a non-zero count before hitting a 1.
+
+Alternatively, since each time we get an even, the count resets to 0. So the count can be thought of as a sequence of trials where each trial starts with count 0, and each time we roll until we get either a 1 or an even number. If we get a 1, we stop. If we get an even, we reset. Otherwise (3 or 5), we increment the count and continue.
+
+Wait, that's an interesting angle. Let me try to model it as a series of attempts.
+
+Each time you start with count 0. Then you roll the die:
+
+- With probability 1/6, you get a 1: the count is 1 (since you rolled once), and you stop.
+
+- With probability 1/2 (since even numbers are 2,4,6), you get an even number: count is reset to 0, and you start over.
+
+- With probability 1/3 (numbers 3 or 5), you get an odd number (but not 1), so the count increases by 1 (so now it's 1), and you continue.
+
+Wait, but after getting a 3 or 5, the count is now 1, and you continue. So the next roll is part of the same trial. Let's see:
+
+Suppose we are in a trial where the current count is c. But after getting a 3 or 5, the count becomes c+1, and the process continues. However, if we get an even, the count resets to 0. If we get a 1, we stop.
+
+But this seems recursive. Let me define E[c] as the expected final count starting from count c. Then, the total expectation E is E[0], since we start at count 0.
+
+So:
+
+E[0] = ?
+
+When in state c (current count), the next roll can lead to:
+
+- With probability 1/6, roll a 1: then the final count is c+1 (since we rolled once more), and we stop.
+
+Wait, but hold on: when you are in state c, and you roll the die. The next action is to increment the count by 1, leading to c+1, then check if it's 1, even, or odd. Wait, no. Wait, perhaps my state definition is not aligned with the process.
+
+Actually, the state should be the current count. When you are in state c, you roll the die. The die result determines the next state:
+
+- If you roll a 1: stop, the final count is c + 1? Or c? Wait, no. Wait, the count is incremented first, then the result is checked.
+
+Let me clarify. Suppose the current count is c. You roll the die. Then, you increment the count by 1, making it c + 1. Then check the result:
+
+- If the result is 1: stop, final count is c + 1.
+
+- If the result is even (2,4,6): reset the count to 0, so next state is 0.
+
+- If the result is 3 or 5: the count remains c + 1, so next state is c + 1.
+
+Wait, this seems correct. Because the count is incremented first, then based on the result, we either stop, reset, or continue.
+
+So the expected value E[c] can be expressed recursively as:
+
+E[c] = (1/6)(c + 1) + (1/2) * E[0] + (1/3) * E[c + 1]
+
+But wait, the (1/6) term is the probability of rolling a 1, which leads to final count c + 1. The (1/2) is the probability of rolling even, which leads to resetting to 0, so E[0]. The (1/3) is rolling 3 or 5, leading to count c + 1, so E[c + 1].
+
+However, this seems to set up a recursive equation for E[c].
+
+But we need to find E[0], which is the expected final count starting from 0.
+
+But solving this recurrence might be challenging because it's infinite (c can be 0,1,2,...). However, maybe we can find a pattern or solve the recurrence.
+
+Let me write the general equation for E[c]:
+
+E[c] = (1/6)(c + 1) + (1/2) E[0] + (1/3) E[c + 1]
+
+But for all c ≥ 0.
+
+However, this seems complex. Let me consider if there is a steady-state or if E[c] can be expressed as a function of c.
+
+Let me assume that E[c] = a * c + b, where a and b are constants. Let's see if this form works.
+
+Assume E[c] = a * c + b.
+
+Substitute into the equation:
+
+a * c + b = (1/6)(c + 1) + (1/2)(a * 0 + b) + (1/3)(a * (c + 1) + b)
+
+Simplify the right-hand side:
+
+= (1/6)(c + 1) + (1/2)(b) + (1/3)(a(c + 1) + b)
+
+Expand:
+
+= (c + 1)/6 + b/2 + (a(c + 1) + b)/3
+
+= (c + 1)/6 + b/2 + (a c + a + b)/3
+
+Now combine terms:
+
+Let me compute each term:
+
+Term 1: (c + 1)/6 = c/6 + 1/6
+
+Term 2: b/2
+
+Term 3: a c /3 + a/3 + b/3
+
+So combining all terms:
+
+Total RHS = c/6 + 1/6 + b/2 + a c /3 + a/3 + b/3
+
+Group the terms by c and constants:
+
+For c terms: [c/6 + a c /3] = c (1/6 + a/3)
+
+Constants: 1/6 + b/2 + a/3 + b/3 = 1/6 + a/3 + (b/2 + b/3) = 1/6 + a/3 + (5b)/6
+
+So setting equal to LHS a c + b:
+
+a c + b = c (1/6 + a/3) + 1/6 + a/3 + 5b/6
+
+Now, equate coefficients for c and the constants:
+
+Coefficient of c:
+
+a = 1/6 + a/3
+
+Solving:
+
+a - a/3 = 1/6
+
+(2a)/3 = 1/6
+
+Multiply both sides by 3:
+
+2a = 1/2 → a = 1/4
+
+Now constants:
+
+b = 1/6 + a/3 + (5b)/6
+
+Plug in a = 1/4:
+
+b = 1/6 + (1/4)/3 + (5b)/6
+
+Simplify:
+
+(1/4)/3 = 1/12
+
+So:
+
+b = 1/6 + 1/12 + (5b)/6
+
+Convert to twelfths:
+
+1/6 = 2/12, 1/12 = 1/12 → total 3/12 = 1/4
+
+So:
+
+b = 1/4 + (5b)/6
+
+Rearrange:
+
+b - (5b)/6 = 1/4 → (1/6)b = 1/4 → b = (1/4) * 6 = 6/4 = 3/2
+
+Thus, we have a = 1/4 and b = 3/2.
+
+Therefore, E[c] = (1/4)c + 3/2.
+
+But this is under the assumption that E[c] is linear in c. Let's check if this satisfies the original equation for some c.
+
+Take c=0:
+
+E[0] = 3/2 = 1.5
+
+According to the equation:
+
+E[0] = (1/6)(0 + 1) + (1/2) E[0] + (1/3) E[1]
+
+Which is:
+
+E[0] = 1/6 + (1/2)E[0] + (1/3)E[1]
+
+Substituting E[0] = 3/2 and E[1] = (1/4)(1) + 3/2 = 1/4 + 3/2 = 1/4 + 6/4 = 7/4.
+
+So:
+
+RHS = 1/6 + (1/2)(3/2) + (1/3)(7/4) = 1/6 + 3/4 + 7/(12)
+
+Convert to twelfths:
+
+1/6 = 2/12, 3/4 = 9/12, 7/12 = 7/12
+
+Total: (2 + 9 +7)/12 = 18/12 = 3/2. Which equals E[0], so that checks out.
+
+Similarly, try c=1:
+
+E[1] = 1/4 * 1 + 3/2 = 1/4 + 6/4 = 7/4.
+
+Check the equation:
+
+E[1] = (1/6)(1+1) + (1/2)E[0] + (1/3)E[2]
+
+= (2/6) + (1/2)(3/2) + (1/3)(E[2])
+
+E[2] = (1/4)*2 + 3/2 = 0.5 + 1.5 = 2. So 1/3 * 2 = 2/3.
+
+So total RHS: 1/3 + 3/4 + 2/3.
+
+Convert to twelfths:
+
+1/3 = 4/12, 3/4 = 9/12, 2/3 = 8/12 → total (4 +9 +8)/12 = 21/12 = 7/4, which equals E[1]. So this seems to check out.
+
+Great! So our assumption of linearity works. Therefore, the general solution is E[c] = (1/4)c + 3/2.
+
+But the problem is asking for the expected number of final counts, which is E[0] = 3/2 = 1.5. But wait, 3/2 is 1.5. So is that the answer?
+
+Wait, let me think again. Wait, the initial count is 0, and we start with that. So E[0] = 3/2 = 1.5. Therefore, the expected final count is 3/2 or 1.5. But the problem might require a fractional answer. 3/2 is 1.5, so in fraction form, it's 3/2.
+
+But wait, let me think again. Because the formula gives E[c] = (1/4)c + 3/2. But when c=0, E[0] = 3/2.
+
+But why is that? Let me think about it. For example, if the process had no resetting (i.e., only stopped on 1), then the expectation would be 6, since it's a geometric distribution with p=1/6, expectation 1/p = 6. But in this case, due to the resetting, the expectation is much lower, 1.5. That seems plausible.
+
+But let's test with another approach. Let me consider the expectation E.
+
+At the start, the expected value E is E[0] = 3/2. Let's see if we can derive it another way.
+
+Let me think about the entire process as a sequence of trials. Each trial starts with count 0. In each trial, you roll the die until you either hit 1 or get an even number. If you hit 1, the count is the number of rolls in that trial. If you get an even, the count resets, and you start a new trial.
+
+But each trial can be considered as a geometric distribution where each roll has:
+
+- Probability of success (rolling a 1): 1/6
+
+- Probability of failure (rolling an even): 1/2
+
+- Probability of continuing (rolling 3 or 5): 1/3
+
+So, in each trial, you can model it as follows:
+
+The number of rolls until either success (rolling a 1) or failure (rolling even). If it's success, you stop. If failure, you start over.
+
+Let me denote the expected number of rolls in a single trial as T. However, since the count resets, the total expectation E is the expected count when you stop, which is the expected number of rolls in the trial where you succeeded.
+
+But this might be complicated. Alternatively, think of the expected value as the sum over all possible trial lengths multiplied by the probability that the trial ends on that length and with success.
+
+Alternatively, using the linearity of expectation.
+
+Let me define indicator variables. For each roll, define an indicator variable I_n which is 1 if the n-th roll is the one that causes the stopping (i.e., rolling a 1), and 0 otherwise. Then, the expected final count is the expected value of the number of rolls until the first 1, but with resets.
+
+But due to the resets, this complicates things. However, since resets only occur when an even is rolled, and when that happens, all previous counts are reset, and the process starts again. Therefore, each trial is independent, and we can think of it as the expectation being the expected value of the number of trials until the first success (rolling a 1), multiplied by the expected count per trial.
+
+Wait, this might be a way to approach it.
+
+Let me think. Let’s consider that each trial is a sequence of rolls that ends either with a 1 (success) or an even (reset). Let’s denote the probability of success in a single trial as p, and the probability of failure (reset) as q. The probability of continuing (rolling 3 or 5) is r.
+
+In each trial:
+
+- p = probability of rolling a 1: 1/6
+
+- q = probability of rolling an even: 1/2
+
+- r = probability of rolling 3 or 5: 1/3
+
+If the trial ends with success, then the number of rolls in that trial is some k. If it ends with failure, we restart.
+
+The expected number of trials until the first success is a geometric distribution with parameter p, so the expected number of trials is 1/p = 6.
+
+But each trial has a certain expected count. However, the count depends on the number of rolls in the trial before success. But when you reset, you lose the previous count. So the final count is the count of the trial where the success occurs.
+
+Let me denote that for each trial, the expected count (number of rolls in that trial) given that the trial was successful. Let's call this E_s.
+
+Then, the total expected count is E_total = E_s * E[Number of trials].
+
+But E[Number of trials] is 6 (as above). Now, what is E_s?
+
+In a single trial, we have a sequence of rolls until we get a 1 or an even. The number of rolls in the trial is a random variable. Given that the trial is successful (i.e., ended with 1), what is the expected number of rolls?
+
+Let me compute E_s.
+
+Let me think of it as follows: In a single trial, we have a geometric distribution where each roll has probability p of success, q of failure, r of continuing. We want the expected number of trials (rolls) until the first success, given that the trial ended with a success.
+
+This is similar to the expectation of the number of trials in a negative binomial distribution, conditioned on the success.
+
+Alternatively, define E_s as the expected number of rolls in a successful trial.
+
+Let me use recursion. Let E_s be the expected number of rolls in a successful trial.
+
+At the first roll:
+
+- With probability p = 1/6, we succeed in 1 roll.
+
+- With probability q = 1/2, we fail (reset), and the trial is over with 0 count (but we have to restart).
+
+- With probability r = 1/3, we continue, and the expected number of rolls becomes 1 + E_s'.
+
+Wait, no. If we continue, we have already rolled once, and then the trial continues. So the expected number of rolls is 1 + E_s.
+
+Wait, no. Wait, in the trial, if you roll a 3 or 5 (probability r), you have one roll so far, and you are in the same situation again (still in the same trial). So the expected number of rolls is 1 + E_s.
+
+So:
+
+E_s = p * 1 + q * 0 + r * (1 + E_s)
+
+Wait, but when we fail (q), we don't add anything to the count because the trial is reset. Wait, no. Because if the trial fails, the count is reset, and we start a new trial. However, in the current trial, if it failed, the count contributed to the current trial is zero, but since the trial is failed, we have to count it as zero and start over. However, in terms of E_s, which is the expected count in the trial that eventually succeeds. Therefore, if the trial fails, it doesn't contribute to the count. Hence, in the equation for E_s, when we have a failure, it doesn't contribute to the count, and we have to start a new trial. However, since we are calculating E_s as the expected count in a successful trial, which is conditional on the trial being successful.
+
+Wait, this is getting a bit tangled. Let me think again.
+
+Actually, E_s is the expected number of rolls in a trial that ends with a success. Therefore, we can model it as:
+
+E_s = sum_{k=1}^∞ k * P(trial ends at k rolls with success)
+
+Alternatively, using recursion:
+
+When starting a trial, the expected number of rolls E_s is:
+
+With probability p: we succeed in 1 roll → contributes p * 1.
+
+With probability q: we fail → the trial ends without contributing, and we have to start over. But since we are only considering successful trials, this doesn't contribute.
+
+With probability r: we have one roll, and then expect E_s more rolls. So contributes r * (1 + E_s).
+
+But since the q case doesn't contribute to the conditional expectation, because we are conditioning on the trial being successful, the equation is:
+
+E_s = p * 1 + r * (1 + E_s)
+
+Solving for E_s:
+
+E_s = p * 1 + r * (1 + E_s)
+
+=> E_s = p + r + r * E_s
+
+=> E_s - r * E_s = p + r
+
+=> E_s (1 - r) = p + r
+
+=> E_s = (p + r) / (1 - r)
+
+But p + r + q = 1, so 1 - r = p + q.
+
+But substituting p = 1/6, r = 1/3:
+
+E_s = (1/6 + 1/3) / (1 - 1/3) = (1/6 + 2/6) / (2/3) = (3/6) / (2/3) = (1/2) / (2/3) = (1/2) * (3/2) = 3/4 = 0.75.
+
+So E_s is 3/4. This is the expected number of rolls in a trial that ends with success. Then, the total expected count is E_total = E_s * E[Number of trials].
+
+Earlier, I thought that the number of trials is geometric with p=1/6, so E[Number of trials] = 1/p = 6. Therefore, E_total = 3/4 * 6 = 18/4 = 9/2 = 4.5. Wait, but this contradicts the previous result of 3/2 = 1.5. So there's a conflict here. Which one is correct?
+
+This suggests a problem with my reasoning. Where did I go wrong?
+
+Wait, the first approach using the recursive E[c] = (1/4)c + 3/2 gave E[0] = 3/2 = 1.5. The second approach here, considering the number of trials and the expected count per trial, gives 4.5. These are very different results, so clearly, I made a mistake in one of the approaches.
+
+Let me re-examine the second approach. The key assumption was that E_total = E_s * E[Number of trials]. But is this correct?
+
+Actually, no. Because the number of trials is the number of attempts until the first success, and each trial that fails doesn't contribute anything to the count, while the successful trial contributes its count. However, the total count is just the count of the successful trial. Because all the failed trials are resets, and the count is reset to 0 each time. Therefore, the total expected count is just the expected count of the successful trial, which is E_s. Because when you reset, you don't accumulate any count, and only the successful trial contributes its count.
+
+Wait, but this would imply that E_total = E_s = 3/4, which contradicts the first approach. So clearly, something is wrong here.
+
+This inconsistency suggests that there is an error in one of the derivations. Let's trace back.
+
+In the first approach, using the recurrence E[c] = (1/6)(c + 1) + (1/2) E[0] + (1/3) E[c + 1], and assuming linearity, we derived that E[0] = 3/2 = 1.5.
+
+In the second approach, defining E_s as the expected number of rolls in a successful trial, we found E_s = 3/4 = 0.75, and thought that the total expectation is E_s, which contradicts the first approach.
+
+Clearly, there is an error in one of the models. Let's check with a simple example. Suppose that on the first roll, we have a 1/6 chance to stop with count 1. Otherwise, 1/2 chance to reset and start over, and 1/3 chance to continue. What is the expected count?
+
+Let’s compute it manually. Let E be the expected count.
+
+E = (1/6)(1) + (1/2) E + (1/3) E'
+
+Where E' is the expected count when we have rolled once (count=1) and continue.
+
+Wait, this seems like it's similar to the first approach.
+
+Actually, in the first approach, we had E[0] = 1/6 * (0 + 1) + 1/2 * E[0] + 1/3 * E[1].
+
+Which is the same as E = (1/6)*1 + (1/2)E + (1/3)E[1].
+
+But earlier, we found E[0] = 3/2, and with E[1] = 7/4.
+
+But if we use this equation:
+
+E = 1/6 + (1/2)E + (1/3)E[1]
+
+But from the first approach, we have E[1] = 7/4. Let's substitute:
+
+E = 1/6 + (1/2)E + (1/3)(7/4)
+
+Multiply through by 12 to eliminate denominators:
+
+12E = 2 + 6E + 7
+
+12E = 6E + 9
+
+6E = 9 → E = 9/6 = 3/2, which matches the first approach. So that seems correct.
+
+But where did the second approach go wrong?
+
+In the second approach, I assumed that E_total = E_s * E[Number of trials], which might not be correct.
+
+Actually, in the second approach, I modeled E_s as the expected number of rolls in a successful trial. But the expected total count is just E_s, because each failed trial doesn't contribute to the count (since the count is reset). Therefore, if the expected number of trials is T, but only the last trial (the successful one) contributes E_s. But how does that relate to the total expectation?
+
+Actually, no. The total number of rolls until success is the sum of the rolls in each failed trial plus the rolls in the successful trial. But the problem asks for the final count, which is the count when you stop, which is the count of the successful trial. So the final count is the number of rolls in the successful trial. Therefore, the expected final count is E_s. But according to the first approach, this is 3/2 = 1.5, while the second approach gave 3/4 = 0.75. Which is conflicting.
+
+This suggests that the error is in the second approach's calculation of E_s. Let's re-examine that.
+
+Earlier, I derived E_s = (p + r) / (1 - r), which with p=1/6, r=1/3, gave 3/4. Let me check this derivation again.
+
+The equation was:
+
+E_s =
+Original Correct Answers: ['1.5']
+Is Correct: False
+Accuracy so far: 21/29 (72.41%)
+
+Processing Questions:  58%|█████▊    | 29/50 [15:44<17:24, 49.72s/it]
+--- Question 30/50 ---
+Question: 100 people are boarding a plane in a line and each of them is assigned to one of the 100 seats on a plane. However, the first person in line forgot his boarding pass and as a result decided to sit down in a random seat. The second person will do the following: Sit in her seat if it still available. If her seat is not available, choose a random seat among the seats remaining and sit there. Each following person sits according to the same rules as the second person. What is the probability the 100th person will be able to sit in her assigned seat?
+Model Raw Answer: 1/2
+Original Correct Answers: ['0.5', '50%', '1/2']
+Is Correct: True
+Accuracy so far: 22/30 (73.33%)
+
+Processing Questions:  60%|██████    | 30/50 [15:54<12:36, 37.81s/it]
+--- Question 31/50 ---
+Question: A group of police officers have breathalyzers displaying false drunkenness in 5% of the cases in which the driver is sober. However, the breathalyzers never fail to detect a truly drunk person. One in a thousand drivers is driving drunk. Suppose the police officers then stop a driver at random, and force the driver to take a breathalyzer test. It indicates that the driver is drunk. We assume you don't know anything else about him or her. How high is the probability he or she really is drunk?
+Model Raw Answer: 0.0196
+Original Correct Answers: ['1.96%', '0.0196']
+Is Correct: True
+Accuracy so far: 23/31 (74.19%)
+
+Processing Questions:  62%|██████▏   | 31/50 [17:01<14:42, 46.44s/it]
+--- Question 32/50 ---
+Question: A family has two children. They can be brothers/sisters/big brother and little sister/big sister and little brother with equal probability. If you see one of them is a boy, then what is the probability that the other one is a boy?
+Model Raw Answer: 1/3
+Original Correct Answers: ['0.33', '33%', '1/3']
+Is Correct: True
+Accuracy so far: 24/32 (75.00%)
+
+Processing Questions:  64%|██████▍   | 32/50 [17:47<13:57, 46.53s/it]
+--- Question 33/50 ---
+Question: Ankur's brother has two offsprings and one of the boy was born on Tuesday. What is the probability that Ankur's brother has two boys? Assume an equal chance of giving birth to either sex and an equal chance to giving birth on any day.
+Model Raw Answer: 13/27
+Original Correct Answers: ['13/27', '0.4815', '48.15%']
+Is Correct: True
+Accuracy so far: 25/33 (75.76%)
+
+Processing Questions:  66%|██████▌   | 33/50 [18:21<12:06, 42.71s/it]
+--- Question 34/50 ---
+Question: You have 100 candidates, upon which there exists a total order. The candidates have appointments with you, one at a time, in a random order. From each interview, you can tell exactly how that candidate ranks amongst those you have already examined. At that point, you may either accept or reject the candidate. Any acceptance or rejection is permanent; no candidate, once rejected, may be reconsidered. Your objective is solely to accept the best candidate. What is the strategy for maximizing your probability of doing so, and what is that probability?
+Model Raw Answer: 0.370
+Original Correct Answers: ['1/e', '0.3679', '36.79%']
+Is Correct: True
+Accuracy so far: 26/34 (76.47%)
+
+Processing Questions:  68%|██████▊   | 34/50 [19:41<14:24, 54.01s/it]
+--- Question 35/50 ---
+Question: In a 600 meters circular runway, Alice and Bob run from the same location clockwise. They meet with each other every 12 minitues. If they do not change the speed and run from the same location again while this time Alice runs counterclockwise, then they meet with each other every 4 minites. How long does Alice need to run one circle?
+Model Raw Answer: 6
+Original Correct Answers: ['6 or 12']
+Is Correct: False
+Accuracy so far: 26/35 (74.29%)
+
+Processing Questions:  70%|███████   | 35/50 [19:54<10:23, 41.55s/it]
+--- Question 36/50 ---
+Question: There are two circles. Circles A and B are externally tangent to each other, and there is no relative sliding at the point where the two circles touch. The radius of Circle A is 1/3 the radius of Circle B. Circle A rolls around Circle B one trip back to its starting point. How many times will Circle A revolve in total?
+Model Raw Answer: 4
+Original Correct Answers: ['4']
+Is Correct: True
+Accuracy so far: 27/36 (75.00%)
+
+Processing Questions:  72%|███████▏  | 36/50 [20:19<08:32, 36.63s/it]
+--- Question 37/50 ---
+Question: Alok has three daughters. His friend Shyam wants to know the ages of his daughters. Alok gives him first hint. 
+1) The product of their ages is 72. 
+Shyam says this is not enough information Alok gives him a second hint. 
+2) The sum of their ages is equal to my house number. 
+Shyam goes out and looks at the house number and tells “I still do not have enough information to determine the ages”. 
+Alok admits that Shyam can not guess and gives him the third hint 
+3) The oldest girl likes strawberry ice cream. 
+Shyam is able to guess after the third hint. Can you guess what is the age of the oldest girl?
+Model Raw Answer: 8
+Original Correct Answers: ['8']
+Is Correct: True
+Accuracy so far: 28/37 (75.68%)
+
+Processing Questions:  74%|███████▍  | 37/50 [20:29<06:13, 28.76s/it]
+--- Question 38/50 ---
+Question: Two trains are on same track and they are coming toward each other. The speed of the first train is 50 km/h and the speed of the second train is 70 km/h. A bee starts flying between the trains when the distance between two trains is 100 km. The bee first flies from first train to second train. Once it reaches the second train, it immediately flies back to the first train … and so on until trains collide. Calculate the total distance travelled by the bee. Speed of bee is 80 km/h.
+Model Raw Answer: 200/3
+Original Correct Answers: ['66.67', '200/3']
+Is Correct: True
+Accuracy so far: 29/38 (76.32%)
+
+Processing Questions:  76%|███████▌  | 38/50 [21:00<05:50, 29.21s/it]
+--- Question 39/50 ---
+Question: There are two empty bowls in a room. You have 50 white balls and 50 black balls. After you place the balls in the bowls, a random ball will be picked from a random bowl. Distribute the balls (all of them) into the bowls to maximize the chance of picking a white ball.
+Model Raw Answer: 0.7474747475
+Original Correct Answers: ['0.75', '75%', '3/4']
+Is Correct: True
+Accuracy so far: 30/39 (76.92%)
+
+Processing Questions:  78%|███████▊  | 39/50 [21:38<05:51, 31.93s/it]
+--- Question 40/50 ---
+Question: There are 1000 wine bottles. One of the bottles contains poisoned wine. A rat dies after one hour of drinking the poisoned wine. How many minimum rats are needed to figure out which bottle contains poison in hour.
+Model Raw Answer: 10
+Original Correct Answers: ['10']
+Is Correct: True
+Accuracy so far: 31/40 (77.50%)
+
+Processing Questions:  80%|████████  | 40/50 [21:44<04:02, 24.25s/it]
+--- Question 41/50 ---
+Question: In a country, all families want a boy. They keep having babies till a boy is born. What is the expected ratio of boys and girls in the country?
+Model Raw Answer: 1
+Original Correct Answers: ['1:1', '50:50']
+Is Correct: False
+Accuracy so far: 31/41 (75.61%)
+
+Processing Questions:  82%|████████▏ | 41/50 [22:30<04:36, 30.69s/it]
+--- Question 42/50 ---
+Question: A car has 4 tyres and 1 spare tyre. Each tyre can travel a maximum distance of 20000 miles before wearing off. What is the maximum distance the car can travel before you are forced to buy a new tyre? You are allowed to change tyres (using the spare tyre) an unlimited number of times.
+Model Raw Answer: 25000
+Original Correct Answers: ['25000']
+Is Correct: True
+Accuracy so far: 32/42 (76.19%)
+
+Processing Questions:  84%|████████▍ | 42/50 [22:40<03:16, 24.58s/it]
+--- Question 43/50 ---
+Question: You have 15 Rs with you. You go to a shop and shopkeeper tells you price as 1 Rs per chocolate. He also tells you that you can get a chocolate in return of 3 wrappers. How many maximum chocolates you can eat?
+Model Raw Answer: 22
+Original Correct Answers: ['22']
+Is Correct: True
+Accuracy so far: 33/43 (76.74%)
+
+Processing Questions:  86%|████████▌ | 43/50 [22:51<02:22, 20.32s/it]
+--- Question 44/50 ---
+Question: A Lady (L) bought an item of Rs 100 from the Shopkeeper (C). She paid him through a 500 Rs Note. Realizing that he did not have change, the shopkeeper C got change for that note from another shopkeeper (S) and paid Rs 400 to the Lady.
+After a few days, S realized that the note is fake, And this railed at C and took 500 Rs back from him.
+So in this whole process how much money did C lose in the end?
+Model Raw Answer: 500
+Original Correct Answers: ['500']
+Is Correct: True
+Accuracy so far: 34/44 (77.27%)
+
+Processing Questions:  88%|████████▊ | 44/50 [23:15<02:08, 21.40s/it]
+--- Question 45/50 ---
+Question: A man is allocated a task. He doubles the task done everyday. If the man completely does the task in 20 days, how many days did it take for the man to complete 25% of the task?
+Model Raw Answer: 18
+Original Correct Answers: ['18']
+Is Correct: True
+Accuracy so far: 35/45 (77.78%)
+
+Processing Questions:  90%|█████████ | 45/50 [24:11<02:39, 31.90s/it]
+--- Question 46/50 ---
+Question: Four people need to cross a rickety bridge at night. Unfortunately, they have one torch and the bridge is too dangerous to cross without a torch. The bridge can support only two people at a time. All the people don’t take the same time to cross the bridge. Time for each person: 1 min, 2 mins, 7 mins, and 10 mins. What is the shortest time needed for all four of them to cross the bridge?
+Model Raw Answer: 17
+Original Correct Answers: ['17']
+Is Correct: True
+Accuracy so far: 36/46 (78.26%)
+
+Processing Questions:  92%|█████████▏| 46/50 [24:44<02:09, 32.34s/it]
+--- Question 47/50 ---
+Question: A man fell in a 50m deep well. He climbs 4 meters up and slips 3 meters down in one day. How many days would it take for him to come out of the well?
+Model Raw Answer: 47
+Original Correct Answers: ['47']
+Is Correct: True
+Accuracy so far: 37/47 (78.72%)
+
+Processing Questions:  94%|█████████▍| 47/50 [24:59<01:20, 27.00s/it]
+--- Question 48/50 ---
+Question: In thirty minutes on a deserted road, there is a 95% chance of seeing a vehicle. What are the probabilities of seeing a vehicle in ten minutes?
+Model Raw Answer: 0.632
+Original Correct Answers: ['63.15%', '0.6315']
+Is Correct: True
+Accuracy so far: 38/48 (79.17%)
+
+Processing Questions:  96%|█████████▌| 48/50 [25:24<00:52, 26.45s/it]
+--- Question 49/50 ---
+Question: Ram used to arrive at the railway station every day at 6 pm from work. As soon as Ram arrived at the station, his wife Sita too arrives at the station by car to pick him up. Both drive back home. One day Ram arrived at the station one hour early and thought of taking a walk back to home. He started walking when after covering a specific distance, he meets with Sita. Both drive back home and this time they reached 30 minutes earlier than the usual time. How long has Ram been walking?
+It is known that Sita drove every day at a uniform speed.
+Model Raw Answer: 45
+Original Correct Answers: ['45']
+Is Correct: True
+Accuracy so far: 39/49 (79.59%)
+
+Processing Questions:  98%|█████████▊| 49/50 [26:45<00:42, 42.91s/it]
+--- Question 50/50 ---
+Question: On an Island, there is an airport that has an unlimited number of identical air-planes. Each air-plane has a fuel capacity to allow it to fly exactly 1/2 way around the world, along a great circle. The planes have the ability to refuel in flight without loss of speed or spillage of fuel. Though the fuel is unlimited, the island is the only source of fuel. You can ignore the time and fuel consumption of refuelling.
+What is the minimum number of air-planes required to get one air plane all the way around the world assuming that all of the air planes must return safely to the airport?
+Model Raw Answer: 3
+Original Correct Answers: ['3']
+Is Correct: True
+Accuracy so far: 40/50 (80.00%)
+
+Processing Questions: 100%|██████████| 50/50 [28:22<00:00, 59.09s/it]Processing Questions: 100%|██████████| 50/50 [28:22<00:00, 34.06s/it]
+
+===== Single Agent Evaluation Summary =====
+Total Questions: 50
+Correctly Answered: 40
+Overall Accuracy: 80.00%
+All single agent results summarized in: experiment_results/single/temp1_5/single_single_temp1_5_20250716_141522.json

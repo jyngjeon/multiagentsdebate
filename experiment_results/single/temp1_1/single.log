@@ -1,0 +1,1530 @@
+
+Starting single agent evaluation for 50 questions...
+
+Processing Questions:   0%|          | 0/50 [00:00<?, ?it/s]
+--- Question 1/50 ---
+Question: When Alice walks up the hill, her speed is 1 m/s and when she goes down the hill, her speed is 3 m/s. Then when Alice walks up and down the hill, what is her average speed?
+Model Raw Answer: 1.5
+Original Correct Answers: ['1.5', '3/2']
+Is Correct: True
+Accuracy so far: 1/1 (100.00%)
+
+Processing Questions:   2%|▏         | 1/50 [00:10<08:43, 10.68s/it]
+--- Question 2/50 ---
+Question: 9 days among 10 days, Alice goes out for drink. She only goes to three bars for drink with equal frequency. Bob is trying to find Alice today. However, he fails after going to two bars. What is the probability that Alice shows up in the third bar?
+Model Raw Answer: 0.75
+Original Correct Answers: ['0.75', '75%', '3/4']
+Is Correct: True
+Accuracy so far: 2/2 (100.00%)
+
+Processing Questions:   4%|▍         | 2/50 [00:42<18:23, 22.98s/it]
+--- Question 3/50 ---
+Question: One peach costs one cent. You can use 3 peach pits to exchange for one peach. If you have 10 cents, then what is the maximal number of peaches you can eat?
+Model Raw Answer: 14
+Original Correct Answers: ['15']
+Is Correct: False
+Accuracy so far: 2/3 (66.67%)
+
+Processing Questions:   6%|▌         | 3/50 [01:03<17:18, 22.10s/it]
+--- Question 4/50 ---
+Question: You finish drinking 20% of a cup of milk. You then fill up water, drink 40% of it and fill up water again. What is the percentage of milk in this cup now?
+Model Raw Answer: 0.48
+Original Correct Answers: ['48%', '0.48']
+Is Correct: True
+Accuracy so far: 3/4 (75.00%)
+
+Processing Questions:   8%|▊         | 4/50 [01:14<13:37, 17.78s/it]
+--- Question 5/50 ---
+Question: We put 10 g salt into 100 g water. What is the percentage of salt now?
+Model Raw Answer: 0.0909
+Original Correct Answers: ['9.09%', '0.0909', '1/11']
+Is Correct: True
+Accuracy so far: 4/5 (80.00%)
+
+Processing Questions:  10%|█         | 5/50 [01:19<10:00, 13.35s/it]
+--- Question 6/50 ---
+Question: We have 1 ton of apples which contain 90% water. After a few days, those apples only have 80% water. What is the weight of those apples now?
+Model Raw Answer: 0.5
+Original Correct Answers: ['0.5']
+Is Correct: True
+Accuracy so far: 5/6 (83.33%)
+
+Processing Questions:  12%|█▏        | 6/50 [01:32<09:29, 12.93s/it]
+--- Question 7/50 ---
+Question: At most how many distinct natural numbers sum to 100?
+Model Raw Answer: 13
+Original Correct Answers: ['14']
+Is Correct: False
+Accuracy so far: 5/7 (71.43%)
+
+Processing Questions:  14%|█▍        | 7/50 [01:49<10:19, 14.41s/it]
+--- Question 8/50 ---
+Question: 20 people get full marks for math. 20 people get full marks for history. 20 people get full marks for physics. 7 people get full marks for both math and physics. 9 for both history and physics. 3 do not get full marks for any of the subjects. How many people are there at most?
+Model Raw Answer: 47
+Original Correct Answers: ['47']
+Is Correct: True
+Accuracy so far: 6/8 (75.00%)
+
+Processing Questions:  16%|█▌        | 8/50 [02:14<12:31, 17.89s/it]
+--- Question 9/50 ---
+Question: If five machines produce 5 items in 5 minutes, then how long do 100 machines need to produce 100 items?
+Model Raw Answer: 5
+Original Correct Answers: ['5']
+Is Correct: True
+Accuracy so far: 7/9 (77.78%)
+
+Processing Questions:  18%|█▊        | 9/50 [02:24<10:32, 15.42s/it]
+--- Question 10/50 ---
+Question: 85% of the taxis in this city are green, the others are blue. A witness sees a blue taxi. She is usually correct with a probability of 80%. What is the probability that the taxi seen by the witness is blue?
+Model Raw Answer: 12/29
+Original Correct Answers: ['41%', '0.41']
+Is Correct: True
+Accuracy so far: 8/10 (80.00%)
+
+Processing Questions:  20%|██        | 10/50 [02:38<09:48, 14.72s/it]
+--- Question 11/50 ---
+Question: Suppose we find a murderer's fingerprint at a crime scene. After comparing this fingerprint with 20000 people, the police found a suspect whose fingerprint matches the one at the scene. Now, this suspect is brought to court and accused of being the murderer. The expert in court tells you that the chance of modern fingerprint comparison technology mistaking two people's fingerprints as the same is 0.01%. Assuming that all 20000 people compared by the police are innocent, what is the percentage that at least one match will be produced after the murderer's fingerprint is compared with them one by one?
+Model Raw Answer: 0.8647
+Original Correct Answers: ['86.5%', '0.865']
+Is Correct: True
+Accuracy so far: 9/11 (81.82%)
+
+Processing Questions:  22%|██▏       | 11/50 [03:01<11:13, 17.26s/it]
+--- Question 12/50 ---
+Question: How many people need to be in a room to make the probability that at least two people have the same birthday exceed 50%?
+Model Raw Answer: 23
+Original Correct Answers: ['23']
+Is Correct: True
+Accuracy so far: 10/12 (83.33%)
+
+Processing Questions:  24%|██▍       | 12/50 [03:14<10:14, 16.18s/it]
+--- Question 13/50 ---
+Question: In a city of 1 million inhabitants, there are 100 known criminals. All inhabitants, including the criminals, are tested with a new crime prediction technology. The technology has a reliability of 95%, meaning that 95% of true criminals are identified as criminals, and 95% of innocent people are identified as innocent. What is the percentage that a person identified as a criminal by the technology is indeed a criminal?
+Model Raw Answer: 0.001897
+Original Correct Answers: ['1.9%', '0.019']
+Is Correct: False
+Accuracy so far: 10/13 (76.92%)
+
+Processing Questions:  26%|██▌       | 13/50 [03:58<15:03, 24.41s/it]
+--- Question 14/50 ---
+Question: You have a tank of water that is initially empty. On the first day, you add one fish to the tank. Every day thereafter, each fish in the tank births one new fish. How many fish will be in the tank at the end of 10 days?
+Model Raw Answer: 512
+Original Correct Answers: ['512']
+Is Correct: True
+Accuracy so far: 11/14 (78.57%)
+
+Processing Questions:  28%|██▊       | 14/50 [04:05<11:34, 19.31s/it]
+--- Question 15/50 ---
+Question: You have 100 chairs in a row. You start by flipping every chair (1, 2, 3, ..., 100) from its initial position. Then, you flip every second chair (2, 4, 6, ..., 100). Next, you flip every third chair (3, 6, 9, ..., 99). You continue this process until you flip every 100th chair (only chair 100). How many chairs are flipped back to their initial position after all the flips?
+Model Raw Answer: 90
+Original Correct Answers: ['90']
+Is Correct: True
+Accuracy so far: 12/15 (80.00%)
+
+Processing Questions:  30%|███       | 15/50 [04:21<10:43, 18.38s/it]
+--- Question 16/50 ---
+Question: A mouse can produce a litter of 6 mice every month, and each of those mice can start reproducing when they are 2 months old. If you start with a single one-month-old mouse, how many mice will you have after 4 months?
+Model Raw Answer: 133
+Original Correct Answers: ['55']
+Is Correct: False
+Accuracy so far: 12/16 (75.00%)
+
+Processing Questions:  32%|███▏      | 16/50 [04:45<11:22, 20.08s/it]
+--- Question 17/50 ---
+Question: In a town, 60% of the women are married to 80% of the men. What percentage of the total adult population is married?
+Model Raw Answer: 0.6857
+Original Correct Answers: ['68.57%', '0.6875']
+Is Correct: True
+Accuracy so far: 13/17 (76.47%)
+
+Processing Questions:  34%|███▍      | 17/50 [06:02<20:26, 37.17s/it]
+--- Question 18/50 ---
+Question: You have a pack of 52 playing cards. You draw one card every day, and after drawing, you put the card back into the pack and shuffle it. What is the least number of days you'd need to draw cards in order for you to have a greater than 50% chance of drawing the Ace of Spades at least once?
+Model Raw Answer: 36
+Original Correct Answers: ['36']
+Is Correct: True
+Accuracy so far: 14/18 (77.78%)
+
+Processing Questions:  36%|███▌      | 18/50 [06:16<16:02, 30.08s/it]
+--- Question 19/50 ---
+Question: A flock of birds is flying in a V formation. There are 25 birds on the left side of the V and 25 birds on the right side. If one bird from the left side moves to the right side, how many more birds will be on the right side than the left side?
+Model Raw Answer: 2
+Original Correct Answers: ['2']
+Is Correct: True
+Accuracy so far: 15/19 (78.95%)
+
+Processing Questions:  38%|███▊      | 19/50 [06:18<11:16, 21.81s/it]
+--- Question 20/50 ---
+Question: You borrowed a pen from your friend. This pen can write 500 words on average before running out of ink. After writing a 300-word letter to your friend, you want to know how much longer the pen can write. However, your friend told you that this pen writes twice as fast when the pen is warmer, which happened during the first 150 words. How many more words can you write with this pen?
+Model Raw Answer: 275
+Original Correct Answers: ['50']
+Is Correct: False
+Accuracy so far: 15/20 (75.00%)
+
+Processing Questions:  40%|████      | 20/50 [07:14<15:55, 31.85s/it]
+--- Question 21/50 ---
+Question: Alice and Bob are playing a game with two dice. However, the dice are not fair, and the probability of rolling a 6 is 1/4, while the probability of rolling any other number is 1/8. Alice wins if the two dice show the same number; Bob wins if the numbers are different. What is the probability that Bob will win the game?
+Model Raw Answer: 0.825
+Original Correct Answers: ['84.38%', '0.8438', '27/32']
+Is Correct: False
+Accuracy so far: 15/21 (71.43%)
+
+Processing Questions:  42%|████▏     | 21/50 [08:50<24:49, 51.35s/it]
+--- Question 22/50 ---
+Question: A vendor is pulling a cart full of watermelons weighing 100 kilograms. He needs to cross a desert to the other side to sell them. Due to the hot and dry climate of the desert, the water content of the watermelons decreases from 99% to 98%. What is the current weight of the watermelons?
+Model Raw Answer: 50
+Original Correct Answers: ['50']
+Is Correct: True
+Accuracy so far: 16/22 (72.73%)
+
+Processing Questions:  44%|████▍     | 22/50 [08:59<17:58, 38.50s/it]Warning: Single agent response did not contain an opening '{' for JSON. Raw response (cleaned): '<think>
+Okay, let's see. So the problem is about two players, A and B, who are playing a game with a fair coin. They choose two different patterns: HTH for player A and HHT for player B. They flip the coin repeatedly, and whoever's pattern appears first wins. We need to find the probability that player B wins, meaning HHT appears before HTH in the sequence of flips.
+
+Hmm, I remember that this is a problem related to probability and Markov chains, or maybe using states to model the progress towards each pattern. Let me think. When dealing with such problems, it's often useful to consider the different states that represent the current progress towards each pattern. Each state represents the last few flips, since the patterns can overlap in certain ways.
+
+So the patterns here are HTH and HHT. Let's start by considering the possible states. Each state can be represented by the last few flips that are relevant for either pattern. For HTH, the pattern is three characters long, and similarly for HHT. But since they are of the same length, maybe we need to track the progress of both patterns simultaneously.
+
+Alternatively, perhaps we can model the problem using states based on the progress towards each pattern. For example, when trying to reach HTH, the states could be:
+
+- Start: No relevant flips yet.
+- H: The last flip was H.
+- HT: The last two flips were H then T.
+- HTH: The pattern HTH has been achieved (absorbing state for player A).
+
+Similarly for HHT:
+
+- Start: No relevant flips yet.
+- H: The last flip was H.
+- HH: The last two flips were H then H.
+- HHT: The pattern HHT has been achieved (absorbing state for player B).
+
+But since both patterns are being considered, the states need to track progress towards both. Wait, but the game ends when either pattern is completed. So perhaps we need to model the states that track the progress towards either pattern.
+
+Alternatively, maybe we can use the concept of competing patterns. I recall that there's a formula or method to calculate the probability that one pattern occurs before another, which involves considering the probabilities of transitions between different states.
+
+Another approach is to use recursion and set up equations based on the probabilities from each state.
+
+Let me try to define the states based on the progress towards each pattern. Let me consider the current suffix of the flip sequence. For example, after each flip, the state can be the maximum number of characters that match the beginning of either pattern. Since both patterns are three characters long, the possible states are based on how many characters have been matched so far for each pattern.
+
+But since the game ends when either HTH or HHT is found, the states can be:
+
+- Start: No progress on either pattern.
+- H: The last flip is H, which is the first character of both HTH and HHT.
+- HT: The last two flips are H then T. This is the first two characters of HTH but not HHT.
+- HH: The last two flips are H then H. This is the first two characters of HHT but not HTH.
+- TH: The last flip is T following an H, which might be part of HTH if the previous was H. Wait, maybe I need a more systematic way.
+
+Alternatively, think of states as the current progress towards HTH and HHT. Let me consider all possible combinations. However, this might get complex because the progress for each pattern can be tracked separately. But perhaps there's a smarter way.
+
+I remember that in similar problems, such as the "Penney's game," the probability of one pattern appearing before another can be calculated by considering the overlaps and using states. For example, in Penney's game, the second player can choose a pattern that has a higher probability of appearing first.
+
+In this case, HHT vs HTH. I think there's a known result for this. Let me recall. From Penney's game, the probabilities for these two patterns: HHT has a higher chance of appearing before HTH. But I need to calculate the exact probability.
+
+Let me try to model this using states. Let me define states based on the progress towards HTH and HHT. Let's think about the possible states as the current sequence that could lead to either pattern.
+
+Let me consider the possible states as follows:
+
+State S: No relevant flips yet (start).
+
+State H: Last flip was H.
+
+State HH: Last two flips were HH.
+
+State HT: Last two flips were HT.
+
+State TH: Last flip was T after an H? Wait, maybe not. Alternatively, think of states based on the maximum progress towards each pattern.
+
+Alternatively, think of the state as the current suffix of the flip sequence that can contribute to either pattern. For example, after a flip, depending on what was flipped, we can transition between states.
+
+Let me try setting up equations. Let me denote the probability that B wins (i.e., HHT occurs before HTH) starting from each state.
+
+Let me define the states as follows:
+
+- State S: Start state, no progress towards either pattern.
+- State H: The last flip was H.
+- State HH: The last two flips were HH.
+- State HT: The last two flips were HT.
+- State TH: The last flip was T (but this might be part of HTH if followed by H).
+
+Wait, maybe I need to track the progress for both patterns. However, since the game ends when either HTH or HHT is achieved, we can model the states as the progress towards each of these patterns.
+
+Alternatively, since both patterns are three characters, let's track the progress towards each. For example, when trying to get HTH, the progress can be 0, 1, or 2 characters matched. Similarly for HHT.
+
+But since the progress for each pattern can be tracked separately, but the game is about which occurs first, this might get complicated. Maybe we can think of the possible states as combinations of progress towards both patterns, but perhaps some states can be merged if they can't be in the same situation.
+
+Alternatively, perhaps consider that once you start building towards one pattern, certain flips might reset progress for the other.
+
+Alternatively, think of the problem as a Markov chain with states representing the current "context" of the last flips that are relevant for either pattern.
+
+Let me try again with states:
+
+Start (S): No progress.
+
+After the first flip, it's either H or T. Let's see:
+
+From S:
+
+- On H: go to state H.
+- On T: stay in S, since T doesn't help HTH or HHT.
+
+From state H:
+
+- Next flip H: go to state HH (since we have two Hs, which is the start of HHT).
+- Next flip T: go to state HT (the start of HTH: H followed by T).
+
+From state HH:
+
+- Next flip T: we get HHT, which is player B's pattern. So B wins.
+- Next flip H: we have HHH, which might be part of something else. But HHH's last two flips are HH, so we stay in state HH? Wait, no. Wait, if the last two flips are HH, then the next flip is H, making the last two flips as HH again (since the last two are the last two flips: if the previous state was HH, and we add an H, the new state is H (the last flip is H, but the previous was also H). Wait, maybe not. Let's think: the state should represent the progress towards each pattern. If the current state is HH (i.e., the last two flips are HH), then:
+
+- If we flip a T, then the last two flips are HT, but that might be relevant for HTH. Wait, no: the last two flips would be H (from the previous HH) followed by T. Wait, if we are in state HH (last two flips are HH), and we flip a T, then the last two flips are HT (the previous H and the new T). So the state would transition to HT. But HT is the first two characters of HTH, so that's progress towards HTH. Alternatively, the state after flipping T from HH is HT, which is a state where the last two flips are HT.
+
+But then, from state HT:
+
+- If we flip H, then we have HTH, which is player A's pattern, so A wins.
+- If we flip T, then the last two flips are TT, which doesn't contribute to either pattern. So we might go back to S or some other state?
+
+Wait, no. Wait, if the last two flips were HT and we flip a T, the new last two flips are T and T (the last two are TT). But in terms of progress towards the patterns, TT is not the start of either HTH or HHT. So from state HT, on flipping a T, we go to state T? Or maybe state S again?
+
+Wait, perhaps I need to define states based on the progress towards the patterns. Let's consider the possible states based on the relevant suffix that can contribute to either pattern. For HTH, the relevant suffixes are H, HT, and HTH. For HHT, the relevant suffixes are H, HH, and HHT. However, when a flip occurs, the state transitions based on the current suffix.
+
+But to model this, perhaps the states are:
+
+- S: start state (no progress)
+- H: last flip was H
+- HH: last two flips were HH
+- HT: last two flips were HT
+- TH: last flip was T (but this might be part of HTH if followed by H)
+Wait, no. TH isn't part of HHT. Hmm. Maybe I need to track the maximum progress towards each pattern.
+
+Alternatively, consider that after each flip, the state is determined by the maximum number of characters matched for each pattern. But since the game ends when either pattern is matched, maybe we can model the states as combinations of progress towards each.
+
+This seems complex. Let me look for a better approach.
+
+Another way: use the concept of expected waiting times or recursive probability equations.
+
+Let me define P(s) as the probability that player B wins starting from state s.
+
+Our goal is to find P(S), the probability starting from the initial state.
+
+Let me consider the states as follows:
+
+- S: start state (no progress)
+- H: last flip was H
+- HH: last two flips were HH
+- HT: last two flips were HT
+- TH: last flip was T (but how does this fit? Wait, maybe not. Let me think again.)
+
+Wait, when you're in state H, and you flip a T, you go to HT. If you flip another H, you go to HH. From HT, if you flip an H, then you get HTH (player A wins). If you flip a T, then the last two flips are TT, which doesn't contribute to either pattern, so we might be in a state where we have to consider the last flip as T, but that doesn't contribute to HTH or HHT. But how to model that?
+
+Wait, maybe I need to consider states that are the last 2 flips, since both patterns are of length 3. Because the outcome of the next flip depends on the last few flips. So let's consider states as the last two flips, or less if there are not enough.
+
+So possible states:
+
+- S (start): no flips or less than two flips.
+
+- H: last flip is H.
+
+- T: last flip is T.
+
+- HH: last two flips are HH.
+
+- HT: last two flips are HT.
+
+- TH: last two flips are TH.
+
+- TT: last two flips are TT.
+
+But wait, since HTH is three characters, and HHT is three characters, the progress towards these patterns depends on the last two flips. For example, if the last two flips are HT, then the next flip being H would complete HTH. If the last two flips are HH, then the next flip being T would complete HHT.
+
+So let's model the states as the last one or two flips, up to two, since three flips would trigger the end.
+
+So the possible non-terminal states are:
+
+S (no progress), H, T, HH, HT, TH, TT. Wait, but S might be equivalent to T? Or maybe S is the initial state where no flips have occurred, and after one flip, we're in H or T. But perhaps S is redundant once we have H and T. However, for consistency, maybe we can model S as the state before any flips.
+
+But to avoid confusion, let's define the states as:
+
+- S: initial state (no flips yet)
+
+- H: last flip is H
+
+- T: last flip is T
+
+- HH: last two flips are HH
+
+- HT: last two flips are HT
+
+- TH: last two flips are TH
+
+- TT: last two flips are TT
+
+But note that once we have a sequence of three flips that completes either HTH or HHT, the game ends.
+
+Now, starting from S, the first flip can be H or T, each with 0.5 probability.
+
+From state S:
+
+- Flip H (prob 0.5) → go to state H
+
+- Flip T (prob 0.5) → go to state T
+
+From state H:
+
+- Flip H (prob 0.5) → new state is HH (last two flips are HH)
+
+- Flip T (prob 0.5) → new state is HT (last two flips are HT)
+
+From state T:
+
+- Flip H (prob 0.5) → new state is TH (last two flips are TH)
+
+- Flip T (prob 0.5) → new state is TT (last two flips are TT)
+
+From state HH:
+
+- Flip H (prob 0.5) → new state is HH (last two flips are HH, since previous was HH and now H, so the last two are HH again?)
+
+Wait, no. If the last two flips were HH, and we flip another H, the new last two flips are HH again (the previous H and the new H). So from state HH, flipping H keeps us in HH. If we flip T, then the last two flips are HT, so go to state HT.
+
+But if we're in state HH and flip a T, then the last two flips are HT, which is state HT. And in that case, if the previous state was HH and we flip T, then the sequence is HHT, which is player B's pattern. Wait, so the last three flips would be HH followed by T, making HHT. So that's the end, and B wins.
+
+Ah, that's crucial. So when in state HH and we flip a T, we immediately get HHT, so B wins. Similarly, from state HT, if we flip an H, then the last three flips are HTH (HT from previous state plus H), so A wins.
+
+So that's the key: when transitioning from a state, some transitions lead directly to a win.
+
+So let's redefine the transitions properly, considering when the next flip completes a pattern.
+
+Let me adjust the states and transitions accordingly.
+
+Starting with state S.
+
+State S:
+
+- On H → H
+
+- On T → T
+
+State H:
+
+- On H → HH (since the last two are HH)
+
+- On T → HT (last two are HT)
+
+State T:
+
+- On H → TH (last two are TH)
+
+- On T → TT (last two are TT)
+
+State HH:
+
+- On H → HH (since the last two flips are still HH)
+
+- On T → HHT (which is B's pattern; B wins)
+
+State HT:
+
+- On H → HTH (which is A's pattern; A wins)
+
+- On T → T (the last flip is T, but since the previous state was HT (last two flips HT), flipping a T would make the last two flips TT, so go to state TT.
+
+Wait, but the last two flips would be T (from the previous state's last flip being T?) Wait, the state HT represents the last two flips being HT. If we then flip a T, the new last two flips are T and T. So the new state is TT. Therefore, from state HT, on T, go to TT.
+
+Similarly, state TH:
+
+- On H: previous state is TH (last two flips TH), flip H → the last two flips are HH, so state HH
+
+- On T: previous state is TH, flip T → last two flips are HT (T from previous and H? Wait, no. Wait, the last two flips were TH. If we flip a T now, the new last two flips are H followed by T? No, the previous last two were TH, which is the last two flips: T and H. If we flip another T, the new last two flips are H and T? Wait, no. Wait, the previous last two flips are TH (T and H). Then, flipping a T, the new sequence ends with H and T? No, the last two flips would be the last two flips of the entire sequence. If the last two were TH and we add a T, the new last two flips are H and T (the previous H and new T)? Wait no. Wait, the entire sequence is ...TH, then adding a T makes the last two flips as HT? Wait no. If the previous last two flips were TH (i.e., the penultimate flip was T, the last was H), then adding another T makes the last two flips H and T? No. Wait, no: the previous last two were T (position n-1) and H (position n). Adding a T at position n+1, the last two flips are now H (position n) and T (position n+1), so HT. So from TH, flipping a T leads to state HT.
+
+Similarly, flipping H from TH (last two flips TH) would result in the new last two flips being H (previous H) and H (new H)? Wait, no. Wait, previous last two flips were T and H. Adding an H, the new last two flips are H (from the previous last flip, H) and H (the new flip). So the state is HH.
+
+Therefore, state TH transitions:
+
+- On H → HH
+
+- On T → HT
+
+Similarly, state TT:
+
+- On H → TH (last two flips are TT, then H → last two are TH)
+
+- On T → TT (last two flips remain TT)
+
+Now, with these transitions, we can define the probabilities.
+
+Let me denote P(s) as the probability that B wins starting from state s.
+
+We need to find P(S).
+
+We can write the following equations based on the transitions:
+
+For state S:
+
+P(S) = 0.5 * P(H) + 0.5 * P(T)
+
+For state H:
+
+P(H) = 0.5 * P(HH) + 0.5 * P(HT)
+
+For state T:
+
+P(T) = 0.5 * P(TH) + 0.5 * P(TT)
+
+For state HH:
+
+From state HH, flipping H leads to HH again, and flipping T leads to B winning.
+
+Thus:
+
+P(HH) = 0.5 * P(HH) + 0.5 * 1
+
+Because with probability 0.5, we stay in HH, and with 0.5, we get B's pattern (so B wins with probability 1).
+
+For state HT:
+
+From state HT, flipping H leads to A winning (so B's probability is 0), and flipping T leads to state TT.
+
+Thus:
+
+P(HT) = 0.5 * 0 + 0.5 * P(TT) = 0.5 * P(TT)
+
+For state TH:
+
+From state TH, flipping H leads to state HH, and flipping T leads to state HT.
+
+Thus:
+
+P(TH) = 0.5 * P(HH) + 0.5 * P(HT)
+
+For state TT:
+
+From state TT, flipping H leads to state TH, and flipping T leads to state TT.
+
+Thus:
+
+P(TT) = 0.5 * P(TH) + 0.5 * P(TT)
+
+Now, we have a system of equations:
+
+1. P(S) = 0.5 * P(H) + 0.5 * P(T)
+2. P(H) = 0.5 * P(HH) + 0.5 * P(HT)
+3. P(T) = 0.5 * P(TH) + 0.5 * P(TT)
+4. P(HH) = 0.5 * P(HH) + 0.5 * 1
+5. P(HT) = 0.5 * P(TT)
+6. P(TH) = 0.5 * P(HH) + 0.5 * P(HT)
+7. P(TT) = 0.5 * P(TH) + 0.5 * P(TT)
+
+Now, let's solve these equations step by step.
+
+Starting with equation 4:
+
+Equation 4: P(HH) = 0.5 * P(HH) + 0.5 * 1
+
+Subtract 0.5 * P(HH) from both sides:
+
+0.5 * P(HH) = 0.5 * 1 → P(HH) = 1.
+
+Wait, that can't be right. If P(HH) = 1, that means that from state HH, the probability B wins is 1? But that seems incorrect. Because from state HH, there's a 50% chance to stay in HH and 50% to get HHT (B wins). However, equation 4 suggests that P(HH) = 1. Let me check:
+
+Equation 4:
+
+P(HH) = 0.5 * P(HH) + 0.5 * 1
+
+So rearranged:
+
+P(HH) - 0.5 P(HH) = 0.5 → 0.5 P(HH) = 0.5 → P(HH) = 1. So yes, according to the equation, that's correct. Because even though there's a possibility to loop back to HH, the expected value converges to 1. Because eventually, with probability 1, you'll eventually get a T, which leads to B's win. So P(HH) = 1.
+
+So from state HH, B will win with probability 1. That makes sense, since the process is guaranteed to eventually reach HHT from HH.
+
+Now, moving to equation 5: P(HT) = 0.5 * P(TT)
+
+Equation 6: P(TH) = 0.5 * P(HH) + 0.5 * P(HT) = 0.5 * 1 + 0.5 * P(HT) = 0.5 + 0.5 * P(HT)
+
+Equation 7: P(TT) = 0.5 * P(TH) + 0.5 * P(TT)
+
+Rearranging equation 7:
+
+P(TT) - 0.5 * P(TT) = 0.5 * P(TH) → 0.5 * P(TT) = 0.5 * P(TH) → P(TT) = P(TH)
+
+So equation 7 simplifies to P(TT) = P(TH)
+
+Now, from equation 6: P(TH) = 0.5 + 0.5 * P(HT)
+
+But from equation 5, P(HT) = 0.5 * P(TT). And since P(TT) = P(TH), we can substitute:
+
+P(HT) = 0.5 * P(TH)
+
+Then equation 6 becomes:
+
+P(TH) = 0.5 + 0.5 * (0.5 * P(TH)) = 0.5 + 0.25 * P(TH)
+
+Rearranging:
+
+P(TH) - 0.25 P(TH) = 0.5 → 0.75 P(TH) = 0.5 → P(TH) = 0.5 / 0.75 = 2/3 ≈ 0.6667
+
+Since P(TT) = P(TH), then P(TT) = 2/3
+
+From equation 5, P(HT) = 0.5 * P(TT) = 0.5 * (2/3) = 1/3 ≈ 0.3333
+
+Now, moving to equation 3: P(T) = 0.5 * P(TH) + 0.5 * P(TT)
+
+But since P(TH) = P(TT) = 2/3:
+
+P(T) = 0.5*(2/3) + 0.5*(2/3) = 2/3
+
+So P(T) = 2/3
+
+Next, equation 2: P(H) = 0.5 * P(HH) + 0.5 * P(HT) = 0.5 * 1 + 0.5 * (1/3) = 0.5 + 1/6 = 2/3 + 1/6 = 5/6 ≈ 0.8333
+
+Then, equation 1: P(S) = 0.5 * P(H) + 0.5 * P(T) = 0.5*(5/6) + 0.5*(2/3) = (5/12) + (1/3) = 5/12 + 4/12 = 9/12 = 3/4 = 0.75
+
+Therefore, the probability that player B wins is 3/4 or 0.75.
+
+Wait, but let me check this result. According to Penney's game, HHT has a higher probability than HTH, and this result says 75% chance for B (HHT). That seems correct. For example, in Penney's game, the probability of HHT coming before HTH is 2/3? Wait no, but according to this calculation, it's 3/4. Let me check with another approach.
+
+Alternatively, I can recall that for the patterns HHT vs HTH, the probability that HHT occurs before HTH is 2/3. Hmm, but according to my equations, it's 3/4. There's a contradiction here, which suggests I might have made an error in the equations.
+
+Let me recheck the equations.
+
+Equation for P(HH) = 1. That's correct because from state HH, eventually, you will get a T with probability 1, leading to HHT, so B wins.
+
+Equation 5: P(HT) = 0.5 * P(TT)
+
+Equation 6: P(TH) = 0.5 * P(HH) + 0.5 * P(HT) = 0.5*1 + 0.5*P(HT) = 0.5 + 0.5*P(HT)
+
+Equation 7: P(TT) = P(TH)
+
+Then, equation for P(TH) = 0.5 + 0.5 * P(HT). And since P(HT) = 0.5 * P(TT) = 0.5 * P(TH), substituting:
+
+P(TH) = 0.5 + 0.5*(0.5 * P(TH)) → P(TH) = 0.5 + 0.25*P(TH)
+
+Then, 0.75 P(TH) = 0.5 → P(TH) = 0.5 / 0.75 = 2/3. Correct.
+
+Then, P(TT) = 2/3.
+
+Then P(HT) = 0.5 * 2/3 = 1/3.
+
+Then P(T) = 0.5 * P(TH) + 0.5 * P(TT) = 0.5*(2/3) + 0.5*(2/3) = 2/3. Correct.
+
+Then P(H) = 0.5*P(HH) + 0.5*P(HT) = 0.5*1 + 0.5*(1/3) = 0.5 + 1/6 = 2/3 + 1/6 = 5/6. Correct.
+
+Then P(S) = 0.5*P(H) + 0.5*P(T) = 0.5*(5/6) + 0.5*(2/3) = 5/12 + 2/6 = 5/12 + 4/12 = 9/12 = 3/4. So 0.75.
+
+But according to my knowledge from Penney's game, the probability that HHT comes before HTH is 2/3. Wait, but I need to verify this.
+
+Wait, according to the Penney's game probabilities, for the pair HHT vs HTH, the probability of HHT occurring before HTH is 2/3. For example, the probability that HHT appears before HTH in a fair coin flip is 2/3. However, my calculation here says 3/4, which conflicts. So where is the mistake?
+
+Let me check the setup of the equations again. Perhaps I missed some state transitions.
+
+Let me consider a simple case. For example, starting from state S, let's simulate.
+
+Alternatively, maybe there's an error in the definition of the states. For example, when we're in state HT, and we flip a T, we go to state TT. But what about the possibility of overlapping patterns?
+
+Alternatively, let's use another method. Let me recall that for competing patterns, the probability can be found using the formula involving the odds of the patterns.
+
+But I'm not sure. Alternatively, use recursion with the equations again, but double-checking the transitions.
+
+Let me think about a specific example: starting from S, what is the probability?
+
+Suppose the first flip is H (prob 0.5), then we're in state H. From H, next flip is H or T. If it's H, go to HH. If T, go to HT.
+
+From HH, as we said, P(HH) = 1.
+
+From HT, there's a 0.5 chance to get A's win (H) or go to TT.
+
+From TT, you have to go through TH or stay in TT.
+
+Wait, but maybe there's an error in the equation for P(TH). Let me check the equation for P(TH). When in TH, flipping H leads to HH, and flipping T leads to HT. Thus:
+
+P(TH) = 0.5 * P(HH) + 0.5 * P(HT) = 0.5 * 1 + 0.5 * (0.5 * P(TT)) → wait no, earlier we had P(HT) = 0.5 * P(TT). So substituting:
+
+P(TH) = 0.5 * 1 + 0.5 * (0.5 * P(TT)) = 0.5 + 0.25 * P(TT). But earlier, we had from equation 7 that P(TT) = P(TH). So substituting:
+
+P(TH) = 0.5 + 0.25 * P(TH)
+
+Which gives:
+
+P(TH) - 0.25 P(TH) = 0.5 → 0.75 P(TH) = 0.5 → P(TH) = 2/3, which matches earlier result. So that seems correct.
+
+Wait, but earlier I thought P(TH) was 0.5 + 0.5 * P(HT), but P(HT) is 0.5 * P(TT), and since P(TT) = P(TH), that gives 0.5 + 0.5*(0.5*P(TH)) = 0.5 + 0.25 P(TH). So that's correct.
+
+Thus, the calculation seems correct. Then why does it differ from my recollection of Penney's game? Let me check a reference.
+
+Upon checking, in Penney's game, the probability that HHT occurs before HTH is indeed 2/3. So why does this calculation give 3/4? There must be a mistake in the state definitions or transitions.
+
+Let me try another approach. Let me simulate the probabilities using the equations again, but perhaps I made an error in the equations.
+
+Wait, another way: Let me consider that from state S, the probability that B wins is P(S) = 3/4. If that's true, then the probability that B wins is 3/4, and A wins with probability 1/4. But according to Penney's game, it should be 2/3 for B and 1/3 for A. So there's inconsistency.
+
+Let me check another source. According to the Penney's game, the probability of HHT occurring before HTH is 2/3. Here's a way to calculate it using states:
+
+The states are defined differently. Let me consider the following states:
+
+- Start (S)
+
+- H
+
+- HH
+
+- HT
+
+- TH
+
+- T
+
+Now, using absorbing states for HTH and HHT.
+
+Let me define the probabilities again, but maybe with different state transitions.
+
+Alternatively, I can refer to the Markov chain approach. Let me try to model this correctly.
+
+Another resource says that for two patterns A and B, the probability that B occurs before A can be found using the formula:
+
+P(B wins) = (P_A / (P_A + P_B))
+
+But I'm not sure. Alternatively, it involves comparing the expected number of trials.
+
+Alternatively, let's refer to the odds of the two patterns. The probability that HHT appears before HTH can be calculated by considering the possible overlaps.
+
+For example, HTH has a self-overlap: if the first two flips are HT, and then a T occurs, it doesn't help towards HTH, but if a H occurs, it completes the pattern. HHT has a self-overlap of HH.
+
+But perhaps the calculation using states is correct, and my previous belief about Penney's game was incorrect. Let me try to find the exact probability for HHT vs HTH.
+
+Another way to calculate this is using the following method from probability theory: the probability that HHT occurs before HTH is equal to the probability that the first occurrence of either pattern is HHT.
+
+Let me think about the problem in terms of the states and the transitions again.
+
+Let me try to calculate P(S) using the equations I had before, which gave 3/4. Let's do a simulation or use another method.
+
+Alternatively, suppose we consider the expected number of steps, but that might not help.
+
+Alternatively, think of the game as follows:
+
+After the first flip, which is H with 0.5, T with 0.5.
+
+If it's T, then we have to wait. If it's H, then we go to state H.
+
+Let me think recursively.
+
+Let me define P as the probability that B wins starting from S.
+
+From S, P = 0.5 * P_H + 0.5 * P_T
+
+Where P_H is the probability from state H, and P_T from state T.
+
+Now, from state H:
+
+P_H = 0.5 * P_HH + 0.5 * P_HT
+
+From state HH:
+
+P_HH = 0.5 * P_HH + 0.5 * 1 → P_HH = 1
+
+From state HT:
+
+P_HT = 0.5 * 0 + 0.5 * P_TT
+
+From state T:
+
+P_T = 0.5 * P_TH + 0.5 * P_TT
+
+From state TH:
+
+P_TH = 0.5 * P_HH + 0.5 * P_HT = 0.5 * 1 + 0.5 *'
+
+--- Question 23/50 ---
+Question: Suppose we have a game that assumes we have a fair coin. Two people who are playing can pick two patterns of coin flips. The players then flip a large coin a number of times and record each of the individual flips. Here, H stands for heads and T stands for tails. After the flips, they pay attention to the record of flips and decide which pattern came first in the sequence. If HTH came before HHT, player A won the game, otherwise, B won the game. What is the probability that player B won this game?
+Model Raw Answer: <think>
+Okay, let's see. So the problem is about two players, A and B, who are playing a game with a fair coin. They choose two different patterns: HTH for player A and HHT for player B. They flip the coin repeatedly, and whoever's pattern appears first wins. We need to find the probability that player B wins, meaning HHT appears before HTH in the sequence of flips.
+
+Hmm, I remember that this is a problem related to probability and Markov chains, or maybe using states to model the progress towards each pattern. Let me think. When dealing with such problems, it's often useful to consider the different states that represent the current progress towards each pattern. Each state represents the last few flips, since the patterns can overlap in certain ways.
+
+So the patterns here are HTH and HHT. Let's start by considering the possible states. Each state can be represented by the last few flips that are relevant for either pattern. For HTH, the pattern is three characters long, and similarly for HHT. But since they are of the same length, maybe we need to track the progress of both patterns simultaneously.
+
+Alternatively, perhaps we can model the problem using states based on the progress towards each pattern. For example, when trying to reach HTH, the states could be:
+
+- Start: No relevant flips yet.
+- H: The last flip was H.
+- HT: The last two flips were H then T.
+- HTH: The pattern HTH has been achieved (absorbing state for player A).
+
+Similarly for HHT:
+
+- Start: No relevant flips yet.
+- H: The last flip was H.
+- HH: The last two flips were H then H.
+- HHT: The pattern HHT has been achieved (absorbing state for player B).
+
+But since both patterns are being considered, the states need to track progress towards both. Wait, but the game ends when either pattern is completed. So perhaps we need to model the states that track the progress towards either pattern.
+
+Alternatively, maybe we can use the concept of competing patterns. I recall that there's a formula or method to calculate the probability that one pattern occurs before another, which involves considering the probabilities of transitions between different states.
+
+Another approach is to use recursion and set up equations based on the probabilities from each state.
+
+Let me try to define the states based on the progress towards each pattern. Let me consider the current suffix of the flip sequence. For example, after each flip, the state can be the maximum number of characters that match the beginning of either pattern. Since both patterns are three characters long, the possible states are based on how many characters have been matched so far for each pattern.
+
+But since the game ends when either HTH or HHT is found, the states can be:
+
+- Start: No progress on either pattern.
+- H: The last flip is H, which is the first character of both HTH and HHT.
+- HT: The last two flips are H then T. This is the first two characters of HTH but not HHT.
+- HH: The last two flips are H then H. This is the first two characters of HHT but not HTH.
+- TH: The last flip is T following an H, which might be part of HTH if the previous was H. Wait, maybe I need a more systematic way.
+
+Alternatively, think of states as the current progress towards HTH and HHT. Let me consider all possible combinations. However, this might get complex because the progress for each pattern can be tracked separately. But perhaps there's a smarter way.
+
+I remember that in similar problems, such as the "Penney's game," the probability of one pattern appearing before another can be calculated by considering the overlaps and using states. For example, in Penney's game, the second player can choose a pattern that has a higher probability of appearing first.
+
+In this case, HHT vs HTH. I think there's a known result for this. Let me recall. From Penney's game, the probabilities for these two patterns: HHT has a higher chance of appearing before HTH. But I need to calculate the exact probability.
+
+Let me try to model this using states. Let me define states based on the progress towards HTH and HHT. Let's think about the possible states as the current sequence that could lead to either pattern.
+
+Let me consider the possible states as follows:
+
+State S: No relevant flips yet (start).
+
+State H: Last flip was H.
+
+State HH: Last two flips were HH.
+
+State HT: Last two flips were HT.
+
+State TH: Last flip was T after an H? Wait, maybe not. Alternatively, think of states based on the maximum progress towards each pattern.
+
+Alternatively, think of the state as the current suffix of the flip sequence that can contribute to either pattern. For example, after a flip, depending on what was flipped, we can transition between states.
+
+Let me try setting up equations. Let me denote the probability that B wins (i.e., HHT occurs before HTH) starting from each state.
+
+Let me define the states as follows:
+
+- State S: Start state, no progress towards either pattern.
+- State H: The last flip was H.
+- State HH: The last two flips were HH.
+- State HT: The last two flips were HT.
+- State TH: The last flip was T (but this might be part of HTH if followed by H).
+
+Wait, maybe I need to track the progress for both patterns. However, since the game ends when either HTH or HHT is achieved, we can model the states as the progress towards each of these patterns.
+
+Alternatively, since both patterns are three characters, let's track the progress towards each. For example, when trying to get HTH, the progress can be 0, 1, or 2 characters matched. Similarly for HHT.
+
+But since the progress for each pattern can be tracked separately, but the game is about which occurs first, this might get complicated. Maybe we can think of the possible states as combinations of progress towards both patterns, but perhaps some states can be merged if they can't be in the same situation.
+
+Alternatively, perhaps consider that once you start building towards one pattern, certain flips might reset progress for the other.
+
+Alternatively, think of the problem as a Markov chain with states representing the current "context" of the last flips that are relevant for either pattern.
+
+Let me try again with states:
+
+Start (S): No progress.
+
+After the first flip, it's either H or T. Let's see:
+
+From S:
+
+- On H: go to state H.
+- On T: stay in S, since T doesn't help HTH or HHT.
+
+From state H:
+
+- Next flip H: go to state HH (since we have two Hs, which is the start of HHT).
+- Next flip T: go to state HT (the start of HTH: H followed by T).
+
+From state HH:
+
+- Next flip T: we get HHT, which is player B's pattern. So B wins.
+- Next flip H: we have HHH, which might be part of something else. But HHH's last two flips are HH, so we stay in state HH? Wait, no. Wait, if the last two flips are HH, then the next flip is H, making the last two flips as HH again (since the last two are the last two flips: if the previous state was HH, and we add an H, the new state is H (the last flip is H, but the previous was also H). Wait, maybe not. Let's think: the state should represent the progress towards each pattern. If the current state is HH (i.e., the last two flips are HH), then:
+
+- If we flip a T, then the last two flips are HT, but that might be relevant for HTH. Wait, no: the last two flips would be H (from the previous HH) followed by T. Wait, if we are in state HH (last two flips are HH), and we flip a T, then the last two flips are HT (the previous H and the new T). So the state would transition to HT. But HT is the first two characters of HTH, so that's progress towards HTH. Alternatively, the state after flipping T from HH is HT, which is a state where the last two flips are HT.
+
+But then, from state HT:
+
+- If we flip H, then we have HTH, which is player A's pattern, so A wins.
+- If we flip T, then the last two flips are TT, which doesn't contribute to either pattern. So we might go back to S or some other state?
+
+Wait, no. Wait, if the last two flips were HT and we flip a T, the new last two flips are T and T (the last two are TT). But in terms of progress towards the patterns, TT is not the start of either HTH or HHT. So from state HT, on flipping a T, we go to state T? Or maybe state S again?
+
+Wait, perhaps I need to define states based on the progress towards the patterns. Let's consider the possible states based on the relevant suffix that can contribute to either pattern. For HTH, the relevant suffixes are H, HT, and HTH. For HHT, the relevant suffixes are H, HH, and HHT. However, when a flip occurs, the state transitions based on the current suffix.
+
+But to model this, perhaps the states are:
+
+- S: start state (no progress)
+- H: last flip was H
+- HH: last two flips were HH
+- HT: last two flips were HT
+- TH: last flip was T (but this might be part of HTH if followed by H)
+Wait, no. TH isn't part of HHT. Hmm. Maybe I need to track the maximum progress towards each pattern.
+
+Alternatively, consider that after each flip, the state is determined by the maximum number of characters matched for each pattern. But since the game ends when either pattern is matched, maybe we can model the states as combinations of progress towards each.
+
+This seems complex. Let me look for a better approach.
+
+Another way: use the concept of expected waiting times or recursive probability equations.
+
+Let me define P(s) as the probability that player B wins starting from state s.
+
+Our goal is to find P(S), the probability starting from the initial state.
+
+Let me consider the states as follows:
+
+- S: start state (no progress)
+- H: last flip was H
+- HH: last two flips were HH
+- HT: last two flips were HT
+- TH: last flip was T (but how does this fit? Wait, maybe not. Let me think again.)
+
+Wait, when you're in state H, and you flip a T, you go to HT. If you flip another H, you go to HH. From HT, if you flip an H, then you get HTH (player A wins). If you flip a T, then the last two flips are TT, which doesn't contribute to either pattern, so we might be in a state where we have to consider the last flip as T, but that doesn't contribute to HTH or HHT. But how to model that?
+
+Wait, maybe I need to consider states that are the last 2 flips, since both patterns are of length 3. Because the outcome of the next flip depends on the last few flips. So let's consider states as the last two flips, or less if there are not enough.
+
+So possible states:
+
+- S (start): no flips or less than two flips.
+
+- H: last flip is H.
+
+- T: last flip is T.
+
+- HH: last two flips are HH.
+
+- HT: last two flips are HT.
+
+- TH: last two flips are TH.
+
+- TT: last two flips are TT.
+
+But wait, since HTH is three characters, and HHT is three characters, the progress towards these patterns depends on the last two flips. For example, if the last two flips are HT, then the next flip being H would complete HTH. If the last two flips are HH, then the next flip being T would complete HHT.
+
+So let's model the states as the last one or two flips, up to two, since three flips would trigger the end.
+
+So the possible non-terminal states are:
+
+S (no progress), H, T, HH, HT, TH, TT. Wait, but S might be equivalent to T? Or maybe S is the initial state where no flips have occurred, and after one flip, we're in H or T. But perhaps S is redundant once we have H and T. However, for consistency, maybe we can model S as the state before any flips.
+
+But to avoid confusion, let's define the states as:
+
+- S: initial state (no flips yet)
+
+- H: last flip is H
+
+- T: last flip is T
+
+- HH: last two flips are HH
+
+- HT: last two flips are HT
+
+- TH: last two flips are TH
+
+- TT: last two flips are TT
+
+But note that once we have a sequence of three flips that completes either HTH or HHT, the game ends.
+
+Now, starting from S, the first flip can be H or T, each with 0.5 probability.
+
+From state S:
+
+- Flip H (prob 0.5) → go to state H
+
+- Flip T (prob 0.5) → go to state T
+
+From state H:
+
+- Flip H (prob 0.5) → new state is HH (last two flips are HH)
+
+- Flip T (prob 0.5) → new state is HT (last two flips are HT)
+
+From state T:
+
+- Flip H (prob 0.5) → new state is TH (last two flips are TH)
+
+- Flip T (prob 0.5) → new state is TT (last two flips are TT)
+
+From state HH:
+
+- Flip H (prob 0.5) → new state is HH (last two flips are HH, since previous was HH and now H, so the last two are HH again?)
+
+Wait, no. If the last two flips were HH, and we flip another H, the new last two flips are HH again (the previous H and the new H). So from state HH, flipping H keeps us in HH. If we flip T, then the last two flips are HT, so go to state HT.
+
+But if we're in state HH and flip a T, then the last two flips are HT, which is state HT. And in that case, if the previous state was HH and we flip T, then the sequence is HHT, which is player B's pattern. Wait, so the last three flips would be HH followed by T, making HHT. So that's the end, and B wins.
+
+Ah, that's crucial. So when in state HH and we flip a T, we immediately get HHT, so B wins. Similarly, from state HT, if we flip an H, then the last three flips are HTH (HT from previous state plus H), so A wins.
+
+So that's the key: when transitioning from a state, some transitions lead directly to a win.
+
+So let's redefine the transitions properly, considering when the next flip completes a pattern.
+
+Let me adjust the states and transitions accordingly.
+
+Starting with state S.
+
+State S:
+
+- On H → H
+
+- On T → T
+
+State H:
+
+- On H → HH (since the last two are HH)
+
+- On T → HT (last two are HT)
+
+State T:
+
+- On H → TH (last two are TH)
+
+- On T → TT (last two are TT)
+
+State HH:
+
+- On H → HH (since the last two flips are still HH)
+
+- On T → HHT (which is B's pattern; B wins)
+
+State HT:
+
+- On H → HTH (which is A's pattern; A wins)
+
+- On T → T (the last flip is T, but since the previous state was HT (last two flips HT), flipping a T would make the last two flips TT, so go to state TT.
+
+Wait, but the last two flips would be T (from the previous state's last flip being T?) Wait, the state HT represents the last two flips being HT. If we then flip a T, the new last two flips are T and T. So the new state is TT. Therefore, from state HT, on T, go to TT.
+
+Similarly, state TH:
+
+- On H: previous state is TH (last two flips TH), flip H → the last two flips are HH, so state HH
+
+- On T: previous state is TH, flip T → last two flips are HT (T from previous and H? Wait, no. Wait, the last two flips were TH. If we flip a T now, the new last two flips are H followed by T? No, the previous last two were TH, which is the last two flips: T and H. If we flip another T, the new last two flips are H and T? Wait, no. Wait, the previous last two flips are TH (T and H). Then, flipping a T, the new sequence ends with H and T? No, the last two flips would be the last two flips of the entire sequence. If the last two were TH and we add a T, the new last two flips are H and T (the previous H and new T)? Wait no. Wait, the entire sequence is ...TH, then adding a T makes the last two flips as HT? Wait no. If the previous last two flips were TH (i.e., the penultimate flip was T, the last was H), then adding another T makes the last two flips H and T? No. Wait, no: the previous last two were T (position n-1) and H (position n). Adding a T at position n+1, the last two flips are now H (position n) and T (position n+1), so HT. So from TH, flipping a T leads to state HT.
+
+Similarly, flipping H from TH (last two flips TH) would result in the new last two flips being H (previous H) and H (new H)? Wait, no. Wait, previous last two flips were T and H. Adding an H, the new last two flips are H (from the previous last flip, H) and H (the new flip). So the state is HH.
+
+Therefore, state TH transitions:
+
+- On H → HH
+
+- On T → HT
+
+Similarly, state TT:
+
+- On H → TH (last two flips are TT, then H → last two are TH)
+
+- On T → TT (last two flips remain TT)
+
+Now, with these transitions, we can define the probabilities.
+
+Let me denote P(s) as the probability that B wins starting from state s.
+
+We need to find P(S).
+
+We can write the following equations based on the transitions:
+
+For state S:
+
+P(S) = 0.5 * P(H) + 0.5 * P(T)
+
+For state H:
+
+P(H) = 0.5 * P(HH) + 0.5 * P(HT)
+
+For state T:
+
+P(T) = 0.5 * P(TH) + 0.5 * P(TT)
+
+For state HH:
+
+From state HH, flipping H leads to HH again, and flipping T leads to B winning.
+
+Thus:
+
+P(HH) = 0.5 * P(HH) + 0.5 * 1
+
+Because with probability 0.5, we stay in HH, and with 0.5, we get B's pattern (so B wins with probability 1).
+
+For state HT:
+
+From state HT, flipping H leads to A winning (so B's probability is 0), and flipping T leads to state TT.
+
+Thus:
+
+P(HT) = 0.5 * 0 + 0.5 * P(TT) = 0.5 * P(TT)
+
+For state TH:
+
+From state TH, flipping H leads to state HH, and flipping T leads to state HT.
+
+Thus:
+
+P(TH) = 0.5 * P(HH) + 0.5 * P(HT)
+
+For state TT:
+
+From state TT, flipping H leads to state TH, and flipping T leads to state TT.
+
+Thus:
+
+P(TT) = 0.5 * P(TH) + 0.5 * P(TT)
+
+Now, we have a system of equations:
+
+1. P(S) = 0.5 * P(H) + 0.5 * P(T)
+2. P(H) = 0.5 * P(HH) + 0.5 * P(HT)
+3. P(T) = 0.5 * P(TH) + 0.5 * P(TT)
+4. P(HH) = 0.5 * P(HH) + 0.5 * 1
+5. P(HT) = 0.5 * P(TT)
+6. P(TH) = 0.5 * P(HH) + 0.5 * P(HT)
+7. P(TT) = 0.5 * P(TH) + 0.5 * P(TT)
+
+Now, let's solve these equations step by step.
+
+Starting with equation 4:
+
+Equation 4: P(HH) = 0.5 * P(HH) + 0.5 * 1
+
+Subtract 0.5 * P(HH) from both sides:
+
+0.5 * P(HH) = 0.5 * 1 → P(HH) = 1.
+
+Wait, that can't be right. If P(HH) = 1, that means that from state HH, the probability B wins is 1? But that seems incorrect. Because from state HH, there's a 50% chance to stay in HH and 50% to get HHT (B wins). However, equation 4 suggests that P(HH) = 1. Let me check:
+
+Equation 4:
+
+P(HH) = 0.5 * P(HH) + 0.5 * 1
+
+So rearranged:
+
+P(HH) - 0.5 P(HH) = 0.5 → 0.5 P(HH) = 0.5 → P(HH) = 1. So yes, according to the equation, that's correct. Because even though there's a possibility to loop back to HH, the expected value converges to 1. Because eventually, with probability 1, you'll eventually get a T, which leads to B's win. So P(HH) = 1.
+
+So from state HH, B will win with probability 1. That makes sense, since the process is guaranteed to eventually reach HHT from HH.
+
+Now, moving to equation 5: P(HT) = 0.5 * P(TT)
+
+Equation 6: P(TH) = 0.5 * P(HH) + 0.5 * P(HT) = 0.5 * 1 + 0.5 * P(HT) = 0.5 + 0.5 * P(HT)
+
+Equation 7: P(TT) = 0.5 * P(TH) + 0.5 * P(TT)
+
+Rearranging equation 7:
+
+P(TT) - 0.5 * P(TT) = 0.5 * P(TH) → 0.5 * P(TT) = 0.5 * P(TH) → P(TT) = P(TH)
+
+So equation 7 simplifies to P(TT) = P(TH)
+
+Now, from equation 6: P(TH) = 0.5 + 0.5 * P(HT)
+
+But from equation 5, P(HT) = 0.5 * P(TT). And since P(TT) = P(TH), we can substitute:
+
+P(HT) = 0.5 * P(TH)
+
+Then equation 6 becomes:
+
+P(TH) = 0.5 + 0.5 * (0.5 * P(TH)) = 0.5 + 0.25 * P(TH)
+
+Rearranging:
+
+P(TH) - 0.25 P(TH) = 0.5 → 0.75 P(TH) = 0.5 → P(TH) = 0.5 / 0.75 = 2/3 ≈ 0.6667
+
+Since P(TT) = P(TH), then P(TT) = 2/3
+
+From equation 5, P(HT) = 0.5 * P(TT) = 0.5 * (2/3) = 1/3 ≈ 0.3333
+
+Now, moving to equation 3: P(T) = 0.5 * P(TH) + 0.5 * P(TT)
+
+But since P(TH) = P(TT) = 2/3:
+
+P(T) = 0.5*(2/3) + 0.5*(2/3) = 2/3
+
+So P(T) = 2/3
+
+Next, equation 2: P(H) = 0.5 * P(HH) + 0.5 * P(HT) = 0.5 * 1 + 0.5 * (1/3) = 0.5 + 1/6 = 2/3 + 1/6 = 5/6 ≈ 0.8333
+
+Then, equation 1: P(S) = 0.5 * P(H) + 0.5 * P(T) = 0.5*(5/6) + 0.5*(2/3) = (5/12) + (1/3) = 5/12 + 4/12 = 9/12 = 3/4 = 0.75
+
+Therefore, the probability that player B wins is 3/4 or 0.75.
+
+Wait, but let me check this result. According to Penney's game, HHT has a higher probability than HTH, and this result says 75% chance for B (HHT). That seems correct. For example, in Penney's game, the probability of HHT coming before HTH is 2/3? Wait no, but according to this calculation, it's 3/4. Let me check with another approach.
+
+Alternatively, I can recall that for the patterns HHT vs HTH, the probability that HHT occurs before HTH is 2/3. Hmm, but according to my equations, it's 3/4. There's a contradiction here, which suggests I might have made an error in the equations.
+
+Let me recheck the equations.
+
+Equation for P(HH) = 1. That's correct because from state HH, eventually, you will get a T with probability 1, leading to HHT, so B wins.
+
+Equation 5: P(HT) = 0.5 * P(TT)
+
+Equation 6: P(TH) = 0.5 * P(HH) + 0.5 * P(HT) = 0.5*1 + 0.5*P(HT) = 0.5 + 0.5*P(HT)
+
+Equation 7: P(TT) = P(TH)
+
+Then, equation for P(TH) = 0.5 + 0.5 * P(HT). And since P(HT) = 0.5 * P(TT) = 0.5 * P(TH), substituting:
+
+P(TH) = 0.5 + 0.5*(0.5 * P(TH)) → P(TH) = 0.5 + 0.25*P(TH)
+
+Then, 0.75 P(TH) = 0.5 → P(TH) = 0.5 / 0.75 = 2/3. Correct.
+
+Then, P(TT) = 2/3.
+
+Then P(HT) = 0.5 * 2/3 = 1/3.
+
+Then P(T) = 0.5 * P(TH) + 0.5 * P(TT) = 0.5*(2/3) + 0.5*(2/3) = 2/3. Correct.
+
+Then P(H) = 0.5*P(HH) + 0.5*P(HT) = 0.5*1 + 0.5*(1/3) = 0.5 + 1/6 = 2/3 + 1/6 = 5/6. Correct.
+
+Then P(S) = 0.5*P(H) + 0.5*P(T) = 0.5*(5/6) + 0.5*(2/3) = 5/12 + 2/6 = 5/12 + 4/12 = 9/12 = 3/4. So 0.75.
+
+But according to my knowledge from Penney's game, the probability that HHT comes before HTH is 2/3. Wait, but I need to verify this.
+
+Wait, according to the Penney's game probabilities, for the pair HHT vs HTH, the probability of HHT occurring before HTH is 2/3. For example, the probability that HHT appears before HTH in a fair coin flip is 2/3. However, my calculation here says 3/4, which conflicts. So where is the mistake?
+
+Let me check the setup of the equations again. Perhaps I missed some state transitions.
+
+Let me consider a simple case. For example, starting from state S, let's simulate.
+
+Alternatively, maybe there's an error in the definition of the states. For example, when we're in state HT, and we flip a T, we go to state TT. But what about the possibility of overlapping patterns?
+
+Alternatively, let's use another method. Let me recall that for competing patterns, the probability can be found using the formula involving the odds of the patterns.
+
+But I'm not sure. Alternatively, use recursion with the equations again, but double-checking the transitions.
+
+Let me think about a specific example: starting from S, what is the probability?
+
+Suppose the first flip is H (prob 0.5), then we're in state H. From H, next flip is H or T. If it's H, go to HH. If T, go to HT.
+
+From HH, as we said, P(HH) = 1.
+
+From HT, there's a 0.5 chance to get A's win (H) or go to TT.
+
+From TT, you have to go through TH or stay in TT.
+
+Wait, but maybe there's an error in the equation for P(TH). Let me check the equation for P(TH). When in TH, flipping H leads to HH, and flipping T leads to HT. Thus:
+
+P(TH) = 0.5 * P(HH) + 0.5 * P(HT) = 0.5 * 1 + 0.5 * (0.5 * P(TT)) → wait no, earlier we had P(HT) = 0.5 * P(TT). So substituting:
+
+P(TH) = 0.5 * 1 + 0.5 * (0.5 * P(TT)) = 0.5 + 0.25 * P(TT). But earlier, we had from equation 7 that P(TT) = P(TH). So substituting:
+
+P(TH) = 0.5 + 0.25 * P(TH)
+
+Which gives:
+
+P(TH) - 0.25 P(TH) = 0.5 → 0.75 P(TH) = 0.5 → P(TH) = 2/3, which matches earlier result. So that seems correct.
+
+Wait, but earlier I thought P(TH) was 0.5 + 0.5 * P(HT), but P(HT) is 0.5 * P(TT), and since P(TT) = P(TH), that gives 0.5 + 0.5*(0.5*P(TH)) = 0.5 + 0.25 P(TH). So that's correct.
+
+Thus, the calculation seems correct. Then why does it differ from my recollection of Penney's game? Let me check a reference.
+
+Upon checking, in Penney's game, the probability that HHT occurs before HTH is indeed 2/3. So why does this calculation give 3/4? There must be a mistake in the state definitions or transitions.
+
+Let me try another approach. Let me simulate the probabilities using the equations again, but perhaps I made an error in the equations.
+
+Wait, another way: Let me consider that from state S, the probability that B wins is P(S) = 3/4. If that's true, then the probability that B wins is 3/4, and A wins with probability 1/4. But according to Penney's game, it should be 2/3 for B and 1/3 for A. So there's inconsistency.
+
+Let me check another source. According to the Penney's game, the probability of HHT occurring before HTH is 2/3. Here's a way to calculate it using states:
+
+The states are defined differently. Let me consider the following states:
+
+- Start (S)
+
+- H
+
+- HH
+
+- HT
+
+- TH
+
+- T
+
+Now, using absorbing states for HTH and HHT.
+
+Let me define the probabilities again, but maybe with different state transitions.
+
+Alternatively, I can refer to the Markov chain approach. Let me try to model this correctly.
+
+Another resource says that for two patterns A and B, the probability that B occurs before A can be found using the formula:
+
+P(B wins) = (P_A / (P_A + P_B))
+
+But I'm not sure. Alternatively, it involves comparing the expected number of trials.
+
+Alternatively, let's refer to the odds of the two patterns. The probability that HHT appears before HTH can be calculated by considering the possible overlaps.
+
+For example, HTH has a self-overlap: if the first two flips are HT, and then a T occurs, it doesn't help towards HTH, but if a H occurs, it completes the pattern. HHT has a self-overlap of HH.
+
+But perhaps the calculation using states is correct, and my previous belief about Penney's game was incorrect. Let me try to find the exact probability for HHT vs HTH.
+
+Another way to calculate this is using the following method from probability theory: the probability that HHT occurs before HTH is equal to the probability that the first occurrence of either pattern is HHT.
+
+Let me think about the problem in terms of the states and the transitions again.
+
+Let me try to calculate P(S) using the equations I had before, which gave 3/4. Let's do a simulation or use another method.
+
+Alternatively, suppose we consider the expected number of steps, but that might not help.
+
+Alternatively, think of the game as follows:
+
+After the first flip, which is H with 0.5, T with 0.5.
+
+If it's T, then we have to wait. If it's H, then we go to state H.
+
+Let me think recursively.
+
+Let me define P as the probability that B wins starting from S.
+
+From S, P = 0.5 * P_H + 0.5 * P_T
+
+Where P_H is the probability from state H, and P_T from state T.
+
+Now, from state H:
+
+P_H = 0.5 * P_HH + 0.5 * P_HT
+
+From state HH:
+
+P_HH = 0.5 * P_HH + 0.5 * 1 → P_HH = 1
+
+From state HT:
+
+P_HT = 0.5 * 0 + 0.5 * P_TT
+
+From state T:
+
+P_T = 0.5 * P_TH + 0.5 * P_TT
+
+From state TH:
+
+P_TH = 0.5 * P_HH + 0.5 * P_HT = 0.5 * 1 + 0.5 *
+Original Correct Answers: ['0.67', '66.67%', '2/3']
+Is Correct: False
+Accuracy so far: 16/23 (69.57%)
+
+Processing Questions:  46%|████▌     | 23/50 [10:58<28:14, 62.76s/it]
+--- Question 24/50 ---
+Question: You're participating in a race. You overtake the second person. What position are you in?
+Model Raw Answer: 2
+Original Correct Answers: ['2']
+Is Correct: True
+Accuracy so far: 17/24 (70.83%)
+
+Processing Questions:  48%|████▊     | 24/50 [11:07<20:05, 46.38s/it]
+--- Question 25/50 ---
+Question: How many times can you subtract 10 from 100?
+Model Raw Answer: 10
+Original Correct Answers: ['1']
+Is Correct: False
+Accuracy so far: 17/25 (68.00%)
+
+Processing Questions:  50%|█████     | 25/50 [11:14<14:28, 34.72s/it]
+--- Question 26/50 ---
+Question: If red flower is 1/10 more than yellow flowers, then yellow flower is 1/__ less than red flowers?
+Model Raw Answer: 1/11
+Original Correct Answers: ['11']
+Is Correct: False
+Accuracy so far: 17/26 (65.38%)
+
+Processing Questions:  52%|█████▏    | 26/50 [11:20<10:25, 26.07s/it]
+--- Question 27/50 ---
+Question: We divide 50 into 4 natural numbers a,b,c,d such that 2a = b/2 and c+2=d-2. How many divisions we can make?
+Model Raw Answer: 4
+Original Correct Answers: ['5']
+Is Correct: False
+Accuracy so far: 17/27 (62.96%)
+
+Processing Questions:  54%|█████▍    | 27/50 [11:49<10:20, 26.99s/it]
+--- Question 28/50 ---
+Question: A train leaves a station and travels north at a speed of 75 mph. Three hours later, a second train leaves the same station and travels in the same direction at 90 mph. How long will it take for the second train to catch up to the first train?
+Model Raw Answer: 15
+Original Correct Answers: ['15']
+Is Correct: True
+Accuracy so far: 18/28 (64.29%)
+
+Processing Questions:  56%|█████▌    | 28/50 [11:58<07:57, 21.72s/it]
+--- Question 29/50 ---
+Question: We roll a dice and count the number of times we roll. If we get an even number, we will reset the count to zero. We will stop if we get one. What is the expected number of final counts?
+Model Raw Answer: 3/2
+Original Correct Answers: ['1.5']
+Is Correct: True
+Accuracy so far: 19/29 (65.52%)
+
+Processing Questions:  58%|█████▊    | 29/50 [13:44<16:26, 46.97s/it]
+--- Question 30/50 ---
+Question: 100 people are boarding a plane in a line and each of them is assigned to one of the 100 seats on a plane. However, the first person in line forgot his boarding pass and as a result decided to sit down in a random seat. The second person will do the following: Sit in her seat if it still available. If her seat is not available, choose a random seat among the seats remaining and sit there. Each following person sits according to the same rules as the second person. What is the probability the 100th person will be able to sit in her assigned seat?
+Model Raw Answer: 0.5
+Original Correct Answers: ['0.5', '50%', '1/2']
+Is Correct: True
+Accuracy so far: 20/30 (66.67%)
+
+Processing Questions:  60%|██████    | 30/50 [13:58<12:21, 37.07s/it]
+--- Question 31/50 ---
+Question: A group of police officers have breathalyzers displaying false drunkenness in 5% of the cases in which the driver is sober. However, the breathalyzers never fail to detect a truly drunk person. One in a thousand drivers is driving drunk. Suppose the police officers then stop a driver at random, and force the driver to take a breathalyzer test. It indicates that the driver is drunk. We assume you don't know anything else about him or her. How high is the probability he or she really is drunk?
+Model Raw Answer: 0.0196
+Original Correct Answers: ['1.96%', '0.0196']
+Is Correct: True
+Accuracy so far: 21/31 (67.74%)
+
+Processing Questions:  62%|██████▏   | 31/50 [14:47<12:52, 40.68s/it]
+--- Question 32/50 ---
+Question: A family has two children. They can be brothers/sisters/big brother and little sister/big sister and little brother with equal probability. If you see one of them is a boy, then what is the probability that the other one is a boy?
+Model Raw Answer: 0.5
+Original Correct Answers: ['0.33', '33%', '1/3']
+Is Correct: False
+Accuracy so far: 21/32 (65.62%)
+
+Processing Questions:  64%|██████▍   | 32/50 [15:37<12:58, 43.28s/it]
+--- Question 33/50 ---
+Question: Ankur's brother has two offsprings and one of the boy was born on Tuesday. What is the probability that Ankur's brother has two boys? Assume an equal chance of giving birth to either sex and an equal chance to giving birth on any day.
+Model Raw Answer: 13/27
+Original Correct Answers: ['13/27', '0.4815', '48.15%']
+Is Correct: True
+Accuracy so far: 22/33 (66.67%)
+
+Processing Questions:  66%|██████▌   | 33/50 [16:09<11:21, 40.11s/it]
+--- Question 34/50 ---
+Question: You have 100 candidates, upon which there exists a total order. The candidates have appointments with you, one at a time, in a random order. From each interview, you can tell exactly how that candidate ranks amongst those you have already examined. At that point, you may either accept or reject the candidate. Any acceptance or rejection is permanent; no candidate, once rejected, may be reconsidered. Your objective is solely to accept the best candidate. What is the strategy for maximizing your probability of doing so, and what is that probability?
+Model Raw Answer: 0.3679
+Original Correct Answers: ['1/e', '0.3679', '36.79%']
+Is Correct: True
+Accuracy so far: 23/34 (67.65%)
+
+Processing Questions:  68%|██████▊   | 34/50 [17:04<11:49, 44.32s/it]
+--- Question 35/50 ---
+Question: In a 600 meters circular runway, Alice and Bob run from the same location clockwise. They meet with each other every 12 minitues. If they do not change the speed and run from the same location again while this time Alice runs counterclockwise, then they meet with each other every 4 minites. How long does Alice need to run one circle?
+Model Raw Answer: 6
+Original Correct Answers: ['6 or 12']
+Is Correct: False
+Accuracy so far: 23/35 (65.71%)
+
+Processing Questions:  70%|███████   | 35/50 [17:15<08:35, 34.37s/it]
+--- Question 36/50 ---
+Question: There are two circles. Circles A and B are externally tangent to each other, and there is no relative sliding at the point where the two circles touch. The radius of Circle A is 1/3 the radius of Circle B. Circle A rolls around Circle B one trip back to its starting point. How many times will Circle A revolve in total?
+Model Raw Answer: 4
+Original Correct Answers: ['4']
+Is Correct: True
+Accuracy so far: 24/36 (66.67%)
+
+Processing Questions:  72%|███████▏  | 36/50 [17:48<07:55, 33.97s/it]
+--- Question 37/50 ---
+Question: Alok has three daughters. His friend Shyam wants to know the ages of his daughters. Alok gives him first hint. 
+1) The product of their ages is 72. 
+Shyam says this is not enough information Alok gives him a second hint. 
+2) The sum of their ages is equal to my house number. 
+Shyam goes out and looks at the house number and tells “I still do not have enough information to determine the ages”. 
+Alok admits that Shyam can not guess and gives him the third hint 
+3) The oldest girl likes strawberry ice cream. 
+Shyam is able to guess after the third hint. Can you guess what is the age of the oldest girl?
+Model Raw Answer: 8
+Original Correct Answers: ['8']
+Is Correct: True
+Accuracy so far: 25/37 (67.57%)
+
+Processing Questions:  74%|███████▍  | 37/50 [18:02<06:04, 28.05s/it]
+--- Question 38/50 ---
+Question: Two trains are on same track and they are coming toward each other. The speed of the first train is 50 km/h and the speed of the second train is 70 km/h. A bee starts flying between the trains when the distance between two trains is 100 km. The bee first flies from first train to second train. Once it reaches the second train, it immediately flies back to the first train … and so on until trains collide. Calculate the total distance travelled by the bee. Speed of bee is 80 km/h.
+Model Raw Answer: 200/3
+Original Correct Answers: ['66.67', '200/3']
+Is Correct: True
+Accuracy so far: 26/38 (68.42%)
+
+Processing Questions:  76%|███████▌  | 38/50 [18:11<04:26, 22.19s/it]
+--- Question 39/50 ---
+Question: There are two empty bowls in a room. You have 50 white balls and 50 black balls. After you place the balls in the bowls, a random ball will be picked from a random bowl. Distribute the balls (all of them) into the bowls to maximize the chance of picking a white ball.
+Model Raw Answer: 74/99
+Original Correct Answers: ['0.75', '75%', '3/4']
+Is Correct: True
+Accuracy so far: 27/39 (69.23%)
+
+Processing Questions:  78%|███████▊  | 39/50 [18:38<04:20, 23.68s/it]
+--- Question 40/50 ---
+Question: There are 1000 wine bottles. One of the bottles contains poisoned wine. A rat dies after one hour of drinking the poisoned wine. How many minimum rats are needed to figure out which bottle contains poison in hour.
+Model Raw Answer: 10
+Original Correct Answers: ['10']
+Is Correct: True
+Accuracy so far: 28/40 (70.00%)
+
+Processing Questions:  80%|████████  | 40/50 [18:44<03:04, 18.48s/it]
+--- Question 41/50 ---
+Question: In a country, all families want a boy. They keep having babies till a boy is born. What is the expected ratio of boys and girls in the country?
+Model Raw Answer: 1
+Original Correct Answers: ['1:1', '50:50']
+Is Correct: False
+Accuracy so far: 28/41 (68.29%)
+
+Processing Questions:  82%|████████▏ | 41/50 [19:01<02:42, 18.10s/it]
+--- Question 42/50 ---
+Question: A car has 4 tyres and 1 spare tyre. Each tyre can travel a maximum distance of 20000 miles before wearing off. What is the maximum distance the car can travel before you are forced to buy a new tyre? You are allowed to change tyres (using the spare tyre) an unlimited number of times.
+Model Raw Answer: 25000
+Original Correct Answers: ['25000']
+Is Correct: True
+Accuracy so far: 29/42 (69.05%)
+
+Processing Questions:  84%|████████▍ | 42/50 [19:09<02:00, 15.00s/it]
+--- Question 43/50 ---
+Question: You have 15 Rs with you. You go to a shop and shopkeeper tells you price as 1 Rs per chocolate. He also tells you that you can get a chocolate in return of 3 wrappers. How many maximum chocolates you can eat?
+Model Raw Answer: 22
+Original Correct Answers: ['22']
+Is Correct: True
+Accuracy so far: 30/43 (69.77%)
+
+Processing Questions:  86%|████████▌ | 43/50 [19:19<01:34, 13.53s/it]
+--- Question 44/50 ---
+Question: A Lady (L) bought an item of Rs 100 from the Shopkeeper (C). She paid him through a 500 Rs Note. Realizing that he did not have change, the shopkeeper C got change for that note from another shopkeeper (S) and paid Rs 400 to the Lady.
+After a few days, S realized that the note is fake, And this railed at C and took 500 Rs back from him.
+So in this whole process how much money did C lose in the end?
+Model Raw Answer: 500
+Original Correct Answers: ['500']
+Is Correct: True
+Accuracy so far: 31/44 (70.45%)
+
+Processing Questions:  88%|████████▊ | 44/50 [19:54<01:59, 19.91s/it]
+--- Question 45/50 ---
+Question: A man is allocated a task. He doubles the task done everyday. If the man completely does the task in 20 days, how many days did it take for the man to complete 25% of the task?
+Model Raw Answer: 18
+Original Correct Answers: ['18']
+Is Correct: True
+Accuracy so far: 32/45 (71.11%)
+
+Processing Questions:  90%|█████████ | 45/50 [20:56<02:43, 32.70s/it]
+--- Question 46/50 ---
+Question: Four people need to cross a rickety bridge at night. Unfortunately, they have one torch and the bridge is too dangerous to cross without a torch. The bridge can support only two people at a time. All the people don’t take the same time to cross the bridge. Time for each person: 1 min, 2 mins, 7 mins, and 10 mins. What is the shortest time needed for all four of them to cross the bridge?
+Model Raw Answer: 17
+Original Correct Answers: ['17']
+Is Correct: True
+Accuracy so far: 33/46 (71.74%)
+
+Processing Questions:  92%|█████████▏| 46/50 [21:20<01:59, 29.81s/it]
+--- Question 47/50 ---
+Question: A man fell in a 50m deep well. He climbs 4 meters up and slips 3 meters down in one day. How many days would it take for him to come out of the well?
+Model Raw Answer: 47
+Original Correct Answers: ['47']
+Is Correct: True
+Accuracy so far: 34/47 (72.34%)
+
+Processing Questions:  94%|█████████▍| 47/50 [21:29<01:10, 23.64s/it]
+--- Question 48/50 ---
+Question: In thirty minutes on a deserted road, there is a 95% chance of seeing a vehicle. What are the probabilities of seeing a vehicle in ten minutes?
+Model Raw Answer: 0.632
+Original Correct Answers: ['63.15%', '0.6315']
+Is Correct: True
+Accuracy so far: 35/48 (72.92%)
+
+Processing Questions:  96%|█████████▌| 48/50 [23:07<01:31, 46.00s/it]
+--- Question 49/50 ---
+Question: Ram used to arrive at the railway station every day at 6 pm from work. As soon as Ram arrived at the station, his wife Sita too arrives at the station by car to pick him up. Both drive back home. One day Ram arrived at the station one hour early and thought of taking a walk back to home. He started walking when after covering a specific distance, he meets with Sita. Both drive back home and this time they reached 30 minutes earlier than the usual time. How long has Ram been walking?
+It is known that Sita drove every day at a uniform speed.
+Model Raw Answer: 45
+Original Correct Answers: ['45']
+Is Correct: True
+Accuracy so far: 36/49 (73.47%)
+
+Processing Questions:  98%|█████████▊| 49/50 [24:26<00:55, 55.95s/it]
+--- Question 50/50 ---
+Question: On an Island, there is an airport that has an unlimited number of identical air-planes. Each air-plane has a fuel capacity to allow it to fly exactly 1/2 way around the world, along a great circle. The planes have the ability to refuel in flight without loss of speed or spillage of fuel. Though the fuel is unlimited, the island is the only source of fuel. You can ignore the time and fuel consumption of refuelling.
+What is the minimum number of air-planes required to get one air plane all the way around the world assuming that all of the air planes must return safely to the airport?
+Model Raw Answer: 3
+Original Correct Answers: ['3']
+Is Correct: True
+Accuracy so far: 37/50 (74.00%)
+
+Processing Questions: 100%|██████████| 50/50 [25:23<00:00, 56.19s/it]Processing Questions: 100%|██████████| 50/50 [25:23<00:00, 30.47s/it]
+
+===== Single Agent Evaluation Summary =====
+Total Questions: 50
+Correctly Answered: 37
+Overall Accuracy: 74.00%
+All single agent results summarized in: experiment_results/single/temp1_1/single_single_temp1_1_20250716_123245.json
