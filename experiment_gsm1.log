@@ -1,0 +1,37 @@
+nohup: ignoring input
+Experiment results will be saved in: experiment_gsm_results
+
+--- Running Experiment 1: GSM8K, Multi-Agent, Temp 0, No Noise ---
+Experiment 1: GSM8K, Multi-Agent, Temp 0, No Noise launched. Waiting for completion... (Check experiment_gsm_results/multi/temp0.5_4/debate.log)
+Experiment 1: GSM8K, Multi-Agent, Temp 0, No Noise completed. Results in experiment_gsm_results/multi/temp0.5_4
+
+--- Running Experiment 2: GSM8K, Multi-Agent, Temp 0, With Noise ---
+Experiment 2: GSM8K, Multi-Agent, Temp 0, With Noise launched. Waiting for completion... (Check experiment_gsm_results/multi/temp0/debate.log)
+Experiment 2: GSM8K, Multi-Agent, Temp 0, With Noise completed. Results in experiment_gsm_results/multi/temp0
+
+--- Running Experiment 3: GSM8K, Multi-Agent, Temp 0.5, No Noise ---
+Running Experiment 3: GSM8K, Multi-Agent, Temp 0.5, No Noise launched. Waiting for completion... (Check experiment_gsm_results/multi/temp0.5_1/debate.log)
+Running Experiment 3: GSM8K, Multi-Agent, Temp 0.5, No Noise completed. Results in experiment_gsm_results/multi/temp0.5_1
+
+--- Running Experiment 4: GSM8K, Multi-Agent, Temp 0.5, No Noise ---
+Running Experiment 4: GSM8K, Multi-Agent, Temp 0.5, No Noise launched. Waiting for completion... (Check experiment_gsm_results/multi/temp0.5_2/debate.log)
+Running Experiment 4: GSM8K, Multi-Agent, Temp 0.5, No Noise completed. Results in experiment_gsm_results/multi/temp0.5_2
+
+--- Running Experiment 5: GSM8K, Multi-Agent, Temp 0.5, No Noise ---
+Running Experiment 5: GSM8K, Multi-Agent, Temp 0.5, No Noise launched. Waiting for completion... (Check experiment_gsm_results/multi/temp0.5_3/debate.log)
+Running Experiment 5: GSM8K, Multi-Agent, Temp 0.5, No Noise completed. Results in experiment_gsm_results/multi/temp0.5_3
+
+--- Running Experiment 6: GSM8K, Multi-Agent, Temp 0, With Noise ---
+Experiment 6: GSM8K, Multi-Agent, Temp 0.5, With Noise launched. Waiting for completion... (Check experiment_gsm_results/multi/temp0.5_cat1/debate.log)
+Experiment 6: GSM8K, Multi-Agent, Temp 0.5, With Noise completed. Results in experiment_gsm_results/multi/temp0.5_cat1
+
+--- Running Experiment 6: GSM8K, Multi-Agent, Temp 0, With Noise ---
+Experiment 7: GSM8K, Multi-Agent, Temp 0.5, With Noise launched. Waiting for completion... (Check experiment_gsm_results/multi/temp0.5_cat2/debate.log)
+Experiment 7: GSM8K, Multi-Agent, Temp 0.5, With Noise completed. Results in experiment_gsm_results/multi/temp0.5_cat2
+
+--- Running Experiment 6: GSM8K, Multi-Agent, Temp 0, With Noise ---
+Experiment 8: GSM8K, Multi-Agent, Temp 0.5, With Noise launched. Waiting for completion... (Check experiment_gsm_results/multi/temp0.5_cat3/debate.log)
+Experiment 8: GSM8K, Multi-Agent, Temp 0.5, With Noise completed. Results in experiment_gsm_results/multi/temp0.5_cat3
+
+--- All experiments completed. ---
+Check logs and results in their respective subdirectories within experiment_gsm_results.

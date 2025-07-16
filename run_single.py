@@ -5,13 +5,12 @@ import json
 import argparse
 from tqdm import tqdm
 from datetime import datetime
-import re # normalize_answer 함수에서 사용 (최상단에 위치)
+import re 
 
 # Agent 클래스는 code/utils/agent.py에 있습니다.
 from code.utils.agent import Agent
 
 # --- 답변 정규화 함수 (run_debate.py와 동일한 최신 버전) ---
-# 이 함수는 JSON에서 추출된 'debate_answer' 값(문자열)을 받아 순수 숫자로 정규화합니다.
 def normalize_answer(answer_str: str, round_decimals: int = 2) -> str:
     """
     모델 답변 또는 정답 리스트의 각 항목을 비교를 위해 정규화합니다.
@@ -23,20 +22,26 @@ def normalize_answer(answer_str: str, round_decimals: int = 2) -> str:
 
     normalized = answer_str.lower().strip()
 
-    # --- 1단계: <think> 태그 제거 ---
-    # 이 normalize_answer 함수는 _parse_moderator_response를 거쳐 JSON에서 추출된
-    # 'debate_answer' 필드 값을 받는 것이 일반적입니다.
-    # 해당 필드 안에는 <think> 태그가 없을 것이므로, 사실 이 로직은 불필요할 수 있지만
-    # 혹시 모를 경우를 대비하여 유지합니다.
+    # <think> 태그 제거
     normalized = re.sub(r'<think>.*?</think>', '', normalized, flags=re.DOTALL).strip()
     
-    # --- 2단계: 구두점 및 특정 기호 제거 ---
     # 괄호, 따옴표, 콜론, 세미콜론, 쉼표, 달러 기호 등 일반적인 구두점 및 기호 제거
-    # % 기호도 여기서 제거하여 숫자 추출에 방해되지 않도록 합니다.
     normalized = re.sub(r'[(),"\':;%,$]', '', normalized).replace(',', '') 
     
-    # --- 3단계: 단위 문자열 제거 ---
-    # 이 단계에서 단위를 제거하여 순수 숫자만 남깁니다.
+    # "the answer is" 같은 일반적인 서론 제거
+    phrases_to_remove_regex = [
+        r'\bthe answer is\b', r'\bfinal answer is\b', r'\bthe final answer is\b',
+        r'\bthe result is\b', r'\bit is\b', r'\b\s+is\s+\b',
+        r'\bconclusion\b', r'\bhere\'s the breakdown\b',
+        r'\bkey observations\b', r'\bsolving the recurrence\b',
+        r'\bverification via alternative approaches\b', r'\bdirect substitution\b',
+        r'\bgeometric distribution\b',
+        r'\bapproximately\b'
+    ]
+    for phrase_regex in phrases_to_remove_regex:
+        normalized = re.sub(phrase_regex, '', normalized).strip()
+
+    # 단위 문자열 제거
     units_to_remove = [
         r'\bm/s\b', r'\bmeters/second\b', r'\bper second\b',
         r'\bkg\b', r'\bkilogram\b', r'\bton(?:ne)?s?\b', # 톤도 숫자로만 변환되도록
@@ -44,14 +49,10 @@ def normalize_answer(answer_str: str, round_decimals: int = 2) -> str:
         r'\bdegrees?\s*celsiu(?:s)?\b', r'\bdegree\b',
         r'\bhz\b', r'\bohm\b', r'\bvolt\b', r'\bg\b', r'\bml\b', r'\bl\b',
     ]
-    # 단어 경계 \b를 사용하여 단위가 단어의 일부로 인식되지 않도록 합니다.
     for unit_regex in units_to_remove:
         normalized = re.sub(unit_regex, '', normalized).strip()
     
-    # --- 4단계: 문자열 끝에서 숫자/분수 형태를 포함하는 패턴 추출 ---
-    # 모델이 답변을 텍스트 마지막에 두는 경향을 활용
-    # 이 정규식은 숫자, 소수, 분수, 그리고 선택적인 음수 부호만 포함합니다.
-    # 이제 단위는 앞 단계에서 제거되었으므로, 여기서 단위를 포함하는 패턴은 없습니다.
+    # 문자열 끝에서 숫자/분수 형태 추출 시도
     final_number_match = re.search(
         r'([-+]?\d+\.?\d*(?:/\d+\.?\d*)?)\s*$', 
         normalized)
@@ -63,27 +64,22 @@ def normalize_answer(answer_str: str, round_decimals: int = 2) -> str:
         # 끝에서 숫자 패턴을 찾지 못하면, 전체 문자열에서 숫자 관련 문자만 남깁니다. (비상용)
         normalized = re.sub(r'[^0-9./-]', '', normalized).strip()
 
-    # 소수점 뒤에 불필요한 점이 남는 경우 제거 (예: "9.09." -> "9.09")
     if normalized.endswith('.'):
         normalized = normalized[:-1]
 
-    # --- 5단계: 최종적으로 숫자로 변환 가능한 형태로 표준화 및 반올림 ---
+    # 최종적으로 숫자로 변환 가능한 형태로 표준화 및 반올림
     try:
-        # 1. 분수 처리 (예: "3/2" -> "1.5")
         if '/' in normalized:
             parts = normalized.split('/')
-            # 분모가 0이 아니고, 양쪽 부분이 숫자로 구성되어 있는지 확인
             if len(parts) == 2 and parts[0].replace('.', '', 1).replace('-', '', 1).isdigit() and parts[1].replace('.', '', 1).replace('-', '', 1).isdigit():
                 if float(parts[1]) != 0:
                     val = float(parts[0]) / float(parts[1])
-                    return str(round(val, round_decimals)) # <-- 반올림 적용
+                    return str(round(val, round_decimals))
         
-        # 2. 일반적인 숫자 (정수, 소수)
         val = float(normalized)
-        return str(round(val, round_decimals)) # <-- 반올림 적용
+        return str(round(val, round_decimals))
 
     except ValueError:
-        # 숫자로 변환할 수 없는 경우 (수식, 복잡한 텍스트 등) 원본 문자열 반환
         return normalized
 
 # --- 메인 실행 로직 ---
@@ -105,14 +101,15 @@ if __name__ == "__main__":
     parser.add_argument("-k", "--api-key", type=str,
                         default=None,
                         help="OpenAI API key (only if not using local LLM).")
+    # --- system-prompt 기본값 수정 ---
     parser.add_argument("-s", "--system-prompt", type=str,
-                        default="You are a helpful and accurate assistant. Provide a direct answer to the question. The final answer MUST be a single numerical value (integer, decimal, or fraction like 'X/Y') WITHOUT any units, text, explanations, or parentheses. For percentages, output as a decimal (e.g., 9.09% should be 0.0909). For quantities with units (e.g., 500 kg, 5 minutes), convert to a pure numerical value in the most standard base unit for direct comparison (e.g., for 500 kg, output 500; for 5 minutes, output 5). If the question implies a specific unit, ensure the final answer is a pure number for that implied unit. Only output the final answer.",
+                        default="You are a helpful and accurate assistant. Provide a direct answer to the question. The final answer MUST be a single numerical value (integer, decimal, or fraction like 'X/Y') WITHOUT any units, text, explanations, or parentheses. For percentages, output as a decimal (e.g., 9.09% should be 0.0909). For fractions like '12/29', output as the fraction itself (e.g., '12/29') or its decimal equivalent (e.g., '0.41379'). Quantities with units (e.g., 500 kg, 5 minutes) must be converted to a pure numerical value (e.g., for 500 kg, output 500; for 5 minutes, output 5). If the question implies a specific unit, ensure the final answer is a pure number for that implied unit. Now output your answer in JSON format, with the format as follows: {\"debate_answer\": \"\"}. Please strictly output ONLY the JSON, do not output irrelevant content or any additional text outside the JSON object.",
                         help="The system prompt given to the single agent.")
     
-    # --- 변경된 노이즈 인자 이름 ---
+    # --- 노이즈 관련 인자 (이름 통일) ---
     parser.add_argument("-n", "--noise-text", type=str, default="",
                         help="Optional: Text to append as noise to the end of each question. If empty, no noise is added.")
-    # --- 변경된 실험 이름 인자 ---
+    # --- 실험 이름 인자 (이름 통일) ---
     parser.add_argument("--exp-name", type=str, default="default_experiment",
                         help="A name for the experiment to be included in the summary file name.")
 
@@ -145,7 +142,7 @@ if __name__ == "__main__":
 
         question_with_noise = original_question_text
         if args.noise_text:
-            question_with_noise = f"{original_question_text}\n\n[NOISE_START] {args.noise_text} [NOISE_END]"
+            question_with_noise = f"{original_question_text} {args.noise_text}" 
             print(f"Added custom noise to question {i+1}.")
         
         if single_agent.memory_lst and single_agent.memory_lst[0]['role'] == 'system':
@@ -158,8 +155,8 @@ if __name__ == "__main__":
         single_agent.add_event(question_with_noise)
         raw_model_response = single_agent.ask() # 모델의 원본 응답 받기 (JSON 형식 예상)
 
-        # --- JSON 파싱 로직 (run_debate.py의 _parse_moderator_response와 유사) ---
-        parsed_response_dict = {}
+        # --- JSON 파싱 로직 (run_debate.py의 _parse_moderator_response와 동일하게) ---
+        parsed_response_dict = {"debate_answer": ""} # 항상 딕셔너리로 초기화
         try:
             # 1. <think> 태그와 그 내용을 제거합니다.
             cleaned_response = re.sub(r'<think>.*?</think>', '', raw_model_response, flags=re.DOTALL).strip()
@@ -169,15 +166,26 @@ if __name__ == "__main__":
             if json_start_char_index != -1:
                 cleaned_response = cleaned_response[json_start_char_index:]
             else:
-                print(f"Warning: Single agent response did not contain a valid JSON object. Raw response (cleaned): '{cleaned_response}'")
-                parsed_response_dict = {"debate_answer": ""}  
-
+                # JSON 시작 괄호가 없으면, 순수한 숫자/텍스트 답변일 가능성이 높음
+                print(f"Warning: Single agent response did not contain an opening '{{' for JSON. Raw response (cleaned): '{cleaned_response}'")
+                # 이 경우 parsed_response_dict는 초기값 {"debate_answer": ""}를 유지.
+                # 모델이 순수 숫자만 반환했을 때의 처리를 위해, cleaned_response를 debate_answer로 할당.
+                parsed_response_dict = {"debate_answer": cleaned_response} # <-- JSON 파싱 실패 시 fallback
+            
             # 3. 추출된 JSON 문자열을 파이썬 딕셔너리로 로드합니다.
-            parsed_response_dict = json.loads(cleaned_response)
+            # 이 부분은 json_start_char_index != -1 일때만 실행되어야 합니다.
+            # 하지만 cleaned_response가 조정되었고, json.loads가 오류를 낼 경우를 대비하는 것이므로,
+            # 앞선 if/else 구문과 별개로 try-except로 감싸는 것이 더 안전합니다.
+            if json_start_char_index != -1: # JSON 시작 괄호를 찾은 경우에만 json.loads 시도
+                parsed_response_dict = json.loads(cleaned_response)
+                # JSON은 로드했지만, debate_answer 필드가 없거나 비어있을 경우에 대한 방어
+                if not parsed_response_dict.get("debate_answer", ""):
+                    print(f"Warning: JSON loaded but 'debate_answer' field is empty/missing. Raw response (cleaned): '{cleaned_response}'")
+                    parsed_response_dict["debate_answer"] = cleaned_response.strip() # JSON은 맞지만 debate_answer 필드가 없으면 raw를 넣기
             
         except json.JSONDecodeError as e:
             print(f"Error decoding JSON from single agent: {e}\nRaw response (cleaned): '{cleaned_response}'")
-            parsed_response_dict = {"debate_answer": ""}
+            parsed_response_dict = {"debate_answer": raw_model_response.strip()} # JSON 파싱 실패 시, 원본 응답을 debate_answer로 fallback
         except Exception as e:
             print(f"Unexpected error processing single agent response: {e}\nRaw response (cleaned): '{cleaned_response}'")
             parsed_response_dict = {"debate_answer": ""}
@@ -221,8 +229,7 @@ if __name__ == "__main__":
             "model_normalized_answer": model_normalized_answer,
             "normalized_correct_answers": normalized_correct_answers,
             "is_correct": is_correct,
-            # Single Agent는 "Reason", "Supported Side"가 없으므로 JSON에서 가져온 "Reason" 또는 기본값
-            "Reason": parsed_response_dict.get("Reason", "Single agent direct response."),
+            "Reason": parsed_response_dict.get("Reason", "Single agent direct response."), # JSON에서 Reason 필드도 가져옴
             "players": {"SingleAgent": single_agent.memory_lst.copy()},
             "raw_llm_output": raw_model_response # 모델의 원본 (파싱 전) 출력을 저장
         }
@@ -239,7 +246,7 @@ if __name__ == "__main__":
         print(f"Question: {original_question_text}")
         if args.noise_text:
             print(f"  (Noise added: '{args.noise_text[:50]}...')")
-        print(f"Model Raw Answer: {model_raw_answer}") # 파싱된 답변 출력
+        print(f"Model Raw Answer: {model_raw_answer}")
         print(f"Original Correct Answers: {original_correct_answers}")
         print(f"Is Correct: {is_correct}")
         print(f"Accuracy so far: {correct_answers_count}/{i+1} ({correct_answers_count / (i+1):.2%})\n")

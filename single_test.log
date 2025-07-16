@@ -1,9 +1,18 @@
 
 Starting single agent evaluation for 1 questions...
 
-Processing Questions:   0%|          | 0/1 [00:00<?, ?it/s]Warning: Single agent response did not contain a valid JSON object. Raw response (cleaned): '0.4138'
-Processing Questions:   0%|          | 0/1 [00:41<?, ?it/s]
-Traceback (most recent call last):
-  File "/root/Multi-Agents-Debate/run_single.py", line 187, in <module>
-    model_raw_answer = parsed_response_dict.get("debate_answer", "") 
-AttributeError: 'float' object has no attribute 'get'
+Processing Questions:   0%|          | 0/1 [00:00<?, ?it/s]
+--- Question 1/1 ---
+Question: 85% of the taxis in this city are green, the others are blue. A witness sees a blue taxi. She is usually correct with a probability of 80%. What is the probability that the taxi seen by the witness is blue?
+Model Raw Answer: 0.41379
+Original Correct Answers: ['41%', '0.41']
+Is Correct: True
+Accuracy so far: 1/1 (100.00%)
+
+Processing Questions: 100%|██████████| 1/1 [00:12<00:00, 12.73s/it]Processing Questions: 100%|██████████| 1/1 [00:12<00:00, 12.73s/it]
+
+===== Single Agent Evaluation Summary =====
+Total Questions: 1
+Correctly Answered: 1
+Overall Accuracy: 100.00%
+All single agent results summarized in: tempresult/single_agent_test/single_single_agent_test_20250716_063802.json

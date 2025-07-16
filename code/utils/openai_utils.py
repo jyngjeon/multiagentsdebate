@@ -8,7 +8,7 @@ model2max_context = {
     "gpt-3.5-turbo": 3900,
     "text-davinci-003": 4096,
     "text-davinci-002": 4096,
-    "Qwen/Qwen3-14B": 8192
+    "Qwen/Qwen3-14B": 8192 # 16384로 바꿔도 되는데 위에 gpt도 길게 안씀
 }
 
 # added
