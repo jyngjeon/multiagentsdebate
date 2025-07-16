@@ -698,3 +698,94 @@ Is Correct: True
 Accuracy so far: 29/38 (76.32%)
 
 Processing Questions:  76%|███████▌  | 38/50 [16:38<04:08, 20.72s/it]
+--- Question 39/50 ---
+Question: There are two empty bowls in a room. You have 50 white balls and 50 black balls. After you place the balls in the bowls, a random ball will be picked from a random bowl. Distribute the balls (all of them) into the bowls to maximize the chance of picking a white ball.
+Model Raw Answer: 74/99
+Original Correct Answers: ['0.75', '75%', '3/4']
+Is Correct: True
+Accuracy so far: 30/39 (76.92%)
+
+Processing Questions:  78%|███████▊  | 39/50 [17:08<04:19, 23.59s/it]
+--- Question 40/50 ---
+Question: There are 1000 wine bottles. One of the bottles contains poisoned wine. A rat dies after one hour of drinking the poisoned wine. How many minimum rats are needed to figure out which bottle contains poison in hour.
+Model Raw Answer: 10
+Original Correct Answers: ['10']
+Is Correct: True
+Accuracy so far: 31/40 (77.50%)
+
+Processing Questions:  80%|████████  | 40/50 [17:16<03:10, 19.05s/it]
+--- Question 41/50 ---
+Question: In a country, all families want a boy. They keep having babies till a boy is born. What is the expected ratio of boys and girls in the country?
+Model Raw Answer: 0.5
+Original Correct Answers: ['1:1', '50:50']
+Is Correct: False
+Accuracy so far: 31/41 (75.61%)
+
+Processing Questions:  82%|████████▏ | 41/50 [17:55<03:45, 25.01s/it]
+--- Question 42/50 ---
+Question: A car has 4 tyres and 1 spare tyre. Each tyre can travel a maximum distance of 20000 miles before wearing off. What is the maximum distance the car can travel before you are forced to buy a new tyre? You are allowed to change tyres (using the spare tyre) an unlimited number of times.
+Model Raw Answer: 25000
+Original Correct Answers: ['25000']
+Is Correct: True
+Accuracy so far: 32/42 (76.19%)
+
+Processing Questions:  84%|████████▍ | 42/50 [18:03<02:39, 19.92s/it]
+--- Question 43/50 ---
+Question: You have 15 Rs with you. You go to a shop and shopkeeper tells you price as 1 Rs per chocolate. He also tells you that you can get a chocolate in return of 3 wrappers. How many maximum chocolates you can eat?
+Model Raw Answer: 22
+Original Correct Answers: ['22']
+Is Correct: True
+Accuracy so far: 33/43 (76.74%)
+
+Processing Questions:  86%|████████▌ | 43/50 [18:11<01:53, 16.24s/it]
+--- Question 44/50 ---
+Question: A Lady (L) bought an item of Rs 100 from the Shopkeeper (C). She paid him through a 500 Rs Note. Realizing that he did not have change, the shopkeeper C got change for that note from another shopkeeper (S) and paid Rs 400 to the Lady.
+After a few days, S realized that the note is fake, And this railed at C and took 500 Rs back from him.
+So in this whole process how much money did C lose in the end?
+Model Raw Answer: 500
+Original Correct Answers: ['500']
+Is Correct: True
+Accuracy so far: 34/44 (77.27%)
+
+Processing Questions:  88%|████████▊ | 44/50 [18:40<02:00, 20.03s/it]
+--- Question 45/50 ---
+Question: A man is allocated a task. He doubles the task done everyday. If the man completely does the task in 20 days, how many days did it take for the man to complete 25% of the task?
+Model Raw Answer: 18
+Original Correct Answers: ['18']
+Is Correct: True
+Accuracy so far: 35/45 (77.78%)
+
+Processing Questions:  90%|█████████ | 45/50 [19:15<02:02, 24.52s/it]
+--- Question 46/50 ---
+Question: Four people need to cross a rickety bridge at night. Unfortunately, they have one torch and the bridge is too dangerous to cross without a torch. The bridge can support only two people at a time. All the people don’t take the same time to cross the bridge. Time for each person: 1 min, 2 mins, 7 mins, and 10 mins. What is the shortest time needed for all four of them to cross the bridge?
+Model Raw Answer: 17
+Original Correct Answers: ['17']
+Is Correct: True
+Accuracy so far: 36/46 (78.26%)
+
+Processing Questions:  92%|█████████▏| 46/50 [19:32<01:28, 22.17s/it]
+--- Question 47/50 ---
+Question: A man fell in a 50m deep well. He climbs 4 meters up and slips 3 meters down in one day. How many days would it take for him to come out of the well?
+Model Raw Answer: 47
+Original Correct Answers: ['47']
+Is Correct: True
+Accuracy so far: 37/47 (78.72%)
+
+Processing Questions:  94%|█████████▍| 47/50 [19:43<00:57, 19.02s/it]
+--- Question 48/50 ---
+Question: In thirty minutes on a deserted road, there is a 95% chance of seeing a vehicle. What are the probabilities of seeing a vehicle in ten minutes?
+Model Raw Answer: 0.6316
+Original Correct Answers: ['63.15%', '0.6315']
+Is Correct: True
+Accuracy so far: 38/48 (79.17%)
+
+Processing Questions:  96%|█████████▌| 48/50 [20:14<00:45, 22.52s/it]
+--- Question 49/50 ---
+Question: Ram used to arrive at the railway station every day at 6 pm from work. As soon as Ram arrived at the station, his wife Sita too arrives at the station by car to pick him up. Both drive back home. One day Ram arrived at the station one hour early and thought of taking a walk back to home. He started walking when after covering a specific distance, he meets with Sita. Both drive back home and this time they reached 30 minutes earlier than the usual time. How long has Ram been walking?
+It is known that Sita drove every day at a uniform speed.
+Model Raw Answer: 45
+Original Correct Answers: ['45']
+Is Correct: True
+Accuracy so far: 39/49 (79.59%)
+
+Processing Questions:  98%|█████████▊| 49/50 [21:13<00:33, 33.54s/it]
