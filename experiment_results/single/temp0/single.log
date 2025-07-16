@@ -1,0 +1,421 @@
+
+Starting single agent evaluation for 50 questions...
+
+Processing Questions:   0%|          | 0/50 [00:00<?, ?it/s]
+--- Question 1/50 ---
+Question: When Alice walks up the hill, her speed is 1 m/s and when she goes down the hill, her speed is 3 m/s. Then when Alice walks up and down the hill, what is her average speed?
+Model Raw Answer: 1.5
+Original Correct Answers: ['1.5', '3/2']
+Is Correct: True
+Accuracy so far: 1/1 (100.00%)
+
+Processing Questions:   2%|▏         | 1/50 [00:08<06:48,  8.34s/it]
+--- Question 2/50 ---
+Question: 9 days among 10 days, Alice goes out for drink. She only goes to three bars for drink with equal frequency. Bob is trying to find Alice today. However, he fails after going to two bars. What is the probability that Alice shows up in the third bar?
+Model Raw Answer: 0.75
+Original Correct Answers: ['0.75', '75%', '3/4']
+Is Correct: True
+Accuracy so far: 2/2 (100.00%)
+
+Processing Questions:   4%|▍         | 2/50 [00:43<19:22, 24.21s/it]
+--- Question 3/50 ---
+Question: One peach costs one cent. You can use 3 peach pits to exchange for one peach. If you have 10 cents, then what is the maximal number of peaches you can eat?
+Model Raw Answer: 14
+Original Correct Answers: ['15']
+Is Correct: False
+Accuracy so far: 2/3 (66.67%)
+
+Processing Questions:   6%|▌         | 3/50 [01:12<20:43, 26.46s/it]
+--- Question 4/50 ---
+Question: You finish drinking 20% of a cup of milk. You then fill up water, drink 40% of it and fill up water again. What is the percentage of milk in this cup now?
+Model Raw Answer: 0.48
+Original Correct Answers: ['48%', '0.48']
+Is Correct: True
+Accuracy so far: 3/4 (75.00%)
+
+Processing Questions:   8%|▊         | 4/50 [01:20<14:32, 18.97s/it]
+--- Question 5/50 ---
+Question: We put 10 g salt into 100 g water. What is the percentage of salt now?
+Model Raw Answer: 0.0909
+Original Correct Answers: ['9.09%', '0.0909', '1/11']
+Is Correct: True
+Accuracy so far: 4/5 (80.00%)
+
+Processing Questions:  10%|█         | 5/50 [01:27<11:10, 14.90s/it]
+--- Question 6/50 ---
+Question: We have 1 ton of apples which contain 90% water. After a few days, those apples only have 80% water. What is the weight of those apples now?
+Model Raw Answer: 0.5
+Original Correct Answers: ['0.5']
+Is Correct: True
+Accuracy so far: 5/6 (83.33%)
+
+Processing Questions:  12%|█▏        | 6/50 [01:40<10:15, 13.98s/it]
+--- Question 7/50 ---
+Question: At most how many distinct natural numbers sum to 100?
+Model Raw Answer: 13
+Original Correct Answers: ['14']
+Is Correct: False
+Accuracy so far: 5/7 (71.43%)
+
+Processing Questions:  14%|█▍        | 7/50 [02:02<12:05, 16.87s/it]
+--- Question 8/50 ---
+Question: 20 people get full marks for math. 20 people get full marks for history. 20 people get full marks for physics. 7 people get full marks for both math and physics. 9 for both history and physics. 3 do not get full marks for any of the subjects. How many people are there at most?
+Model Raw Answer: 47
+Original Correct Answers: ['47']
+Is Correct: True
+Accuracy so far: 6/8 (75.00%)
+
+Processing Questions:  16%|█▌        | 8/50 [02:26<13:20, 19.07s/it]
+--- Question 9/50 ---
+Question: If five machines produce 5 items in 5 minutes, then how long do 100 machines need to produce 100 items?
+Model Raw Answer: 5
+Original Correct Answers: ['5']
+Is Correct: True
+Accuracy so far: 7/9 (77.78%)
+
+Processing Questions:  18%|█▊        | 9/50 [02:33<10:20, 15.14s/it]
+--- Question 10/50 ---
+Question: 85% of the taxis in this city are green, the others are blue. A witness sees a blue taxi. She is usually correct with a probability of 80%. What is the probability that the taxi seen by the witness is blue?
+Model Raw Answer: 12/29
+Original Correct Answers: ['41%', '0.41']
+Is Correct: True
+Accuracy so far: 8/10 (80.00%)
+
+Processing Questions:  20%|██        | 10/50 [02:47<09:55, 14.88s/it]
+--- Question 11/50 ---
+Question: Suppose we find a murderer's fingerprint at a crime scene. After comparing this fingerprint with 20000 people, the police found a suspect whose fingerprint matches the one at the scene. Now, this suspect is brought to court and accused of being the murderer. The expert in court tells you that the chance of modern fingerprint comparison technology mistaking two people's fingerprints as the same is 0.01%. Assuming that all 20000 people compared by the police are innocent, what is the percentage that at least one match will be produced after the murderer's fingerprint is compared with them one by one?
+Model Raw Answer: 0.8647
+Original Correct Answers: ['86.5%', '0.865']
+Is Correct: True
+Accuracy so far: 9/11 (81.82%)
+
+Processing Questions:  22%|██▏       | 11/50 [03:33<15:55, 24.49s/it]
+--- Question 12/50 ---
+Question: How many people need to be in a room to make the probability that at least two people have the same birthday exceed 50%?
+Model Raw Answer: 23
+Original Correct Answers: ['23']
+Is Correct: True
+Accuracy so far: 10/12 (83.33%)
+
+Processing Questions:  24%|██▍       | 12/50 [03:51<14:08, 22.33s/it]
+--- Question 13/50 ---
+Question: In a city of 1 million inhabitants, there are 100 known criminals. All inhabitants, including the criminals, are tested with a new crime prediction technology. The technology has a reliability of 95%, meaning that 95% of true criminals are identified as criminals, and 95% of innocent people are identified as innocent. What is the percentage that a person identified as a criminal by the technology is indeed a criminal?
+Model Raw Answer: 0.001897
+Original Correct Answers: ['1.9%', '0.019']
+Is Correct: False
+Accuracy so far: 10/13 (76.92%)
+
+Processing Questions:  26%|██▌       | 13/50 [05:07<23:52, 38.71s/it]
+--- Question 14/50 ---
+Question: You have a tank of water that is initially empty. On the first day, you add one fish to the tank. Every day thereafter, each fish in the tank births one new fish. How many fish will be in the tank at the end of 10 days?
+Model Raw Answer: 512
+Original Correct Answers: ['512']
+Is Correct: True
+Accuracy so far: 11/14 (78.57%)
+
+Processing Questions:  28%|██▊       | 14/50 [05:15<17:37, 29.37s/it]
+--- Question 15/50 ---
+Question: You have 100 chairs in a row. You start by flipping every chair (1, 2, 3, ..., 100) from its initial position. Then, you flip every second chair (2, 4, 6, ..., 100). Next, you flip every third chair (3, 6, 9, ..., 99). You continue this process until you flip every 100th chair (only chair 100). How many chairs are flipped back to their initial position after all the flips?
+Model Raw Answer: 90
+Original Correct Answers: ['90']
+Is Correct: True
+Accuracy so far: 12/15 (80.00%)
+
+Processing Questions:  30%|███       | 15/50 [05:26<13:56, 23.91s/it]
+--- Question 16/50 ---
+Question: A mouse can produce a litter of 6 mice every month, and each of those mice can start reproducing when they are 2 months old. If you start with a single one-month-old mouse, how many mice will you have after 4 months?
+Model Raw Answer: 55
+Original Correct Answers: ['55']
+Is Correct: True
+Accuracy so far: 13/16 (81.25%)
+
+Processing Questions:  32%|███▏      | 16/50 [05:39<11:42, 20.67s/it]
+--- Question 17/50 ---
+Question: In a town, 60% of the women are married to 80% of the men. What percentage of the total adult population is married?
+Model Raw Answer: 0.3429
+Original Correct Answers: ['68.57%', '0.6875']
+Is Correct: False
+Accuracy so far: 13/17 (76.47%)
+
+Processing Questions:  34%|███▍      | 17/50 [07:04<21:54, 39.82s/it]
+--- Question 18/50 ---
+Question: You have a pack of 52 playing cards. You draw one card every day, and after drawing, you put the card back into the pack and shuffle it. What is the least number of days you'd need to draw cards in order for you to have a greater than 50% chance of drawing the Ace of Spades at least once?
+Model Raw Answer: 36
+Original Correct Answers: ['36']
+Is Correct: True
+Accuracy so far: 14/18 (77.78%)
+
+Processing Questions:  36%|███▌      | 18/50 [07:33<19:37, 36.81s/it]
+--- Question 19/50 ---
+Question: A flock of birds is flying in a V formation. There are 25 birds on the left side of the V and 25 birds on the right side. If one bird from the left side moves to the right side, how many more birds will be on the right side than the left side?
+Model Raw Answer: 2
+Original Correct Answers: ['2']
+Is Correct: True
+Accuracy so far: 15/19 (78.95%)
+
+Processing Questions:  38%|███▊      | 19/50 [07:37<13:49, 26.75s/it]
+--- Question 20/50 ---
+Question: You borrowed a pen from your friend. This pen can write 500 words on average before running out of ink. After writing a 300-word letter to your friend, you want to know how much longer the pen can write. However, your friend told you that this pen writes twice as fast when the pen is warmer, which happened during the first 150 words. How many more words can you write with this pen?
+Model Raw Answer: 275
+Original Correct Answers: ['50']
+Is Correct: False
+Accuracy so far: 15/20 (75.00%)
+
+Processing Questions:  40%|████      | 20/50 [08:08<14:03, 28.12s/it]
+--- Question 21/50 ---
+Question: Alice and Bob are playing a game with two dice. However, the dice are not fair, and the probability of rolling a 6 is 1/4, while the probability of rolling any other number is 1/8. Alice wins if the two dice show the same number; Bob wins if the numbers are different. What is the probability that Bob will win the game?
+Model Raw Answer: 55/64
+Original Correct Answers: ['84.38%', '0.8438', '27/32']
+Is Correct: False
+Accuracy so far: 15/21 (71.43%)
+
+Processing Questions:  42%|████▏     | 21/50 [08:18<10:57, 22.66s/it]
+--- Question 22/50 ---
+Question: A vendor is pulling a cart full of watermelons weighing 100 kilograms. He needs to cross a desert to the other side to sell them. Due to the hot and dry climate of the desert, the water content of the watermelons decreases from 99% to 98%. What is the current weight of the watermelons?
+Model Raw Answer: 50
+Original Correct Answers: ['50']
+Is Correct: True
+Accuracy so far: 16/22 (72.73%)
+
+Processing Questions:  44%|████▍     | 22/50 [08:25<08:22, 17.96s/it]
+--- Question 23/50 ---
+Question: Suppose we have a game that assumes we have a fair coin. Two people who are playing can pick two patterns of coin flips. The players then flip a large coin a number of times and record each of the individual flips. Here, H stands for heads and T stands for tails. After the flips, they pay attention to the record of flips and decide which pattern came first in the sequence. If HTH came before HHT, player A won the game, otherwise, B won the game. What is the probability that player B won this game?
+Model Raw Answer: 2/3
+Original Correct Answers: ['0.67', '66.67%', '2/3']
+Is Correct: True
+Accuracy so far: 17/23 (73.91%)
+
+Processing Questions:  46%|████▌     | 23/50 [09:07<11:18, 25.15s/it]
+--- Question 24/50 ---
+Question: You're participating in a race. You overtake the second person. What position are you in?
+Model Raw Answer: 2
+Original Correct Answers: ['2']
+Is Correct: True
+Accuracy so far: 18/24 (75.00%)
+
+Processing Questions:  48%|████▊     | 24/50 [09:14<08:32, 19.71s/it]
+--- Question 25/50 ---
+Question: How many times can you subtract 10 from 100?
+Model Raw Answer: 10
+Original Correct Answers: ['1']
+Is Correct: False
+Accuracy so far: 18/25 (72.00%)
+
+Processing Questions:  50%|█████     | 25/50 [09:19<06:26, 15.44s/it]
+--- Question 26/50 ---
+Question: If red flower is 1/10 more than yellow flowers, then yellow flower is 1/__ less than red flowers?
+Model Raw Answer: 1/11
+Original Correct Answers: ['11']
+Is Correct: False
+Accuracy so far: 18/26 (69.23%)
+
+Processing Questions:  52%|█████▏    | 26/50 [09:25<04:56, 12.36s/it]
+--- Question 27/50 ---
+Question: We divide 50 into 4 natural numbers a,b,c,d such that 2a = b/2 and c+2=d-2. How many divisions we can make?
+Model Raw Answer: 4
+Original Correct Answers: ['5']
+Is Correct: False
+Accuracy so far: 18/27 (66.67%)
+
+Processing Questions:  54%|█████▍    | 27/50 [09:43<05:26, 14.18s/it]
+--- Question 28/50 ---
+Question: A train leaves a station and travels north at a speed of 75 mph. Three hours later, a second train leaves the same station and travels in the same direction at 90 mph. How long will it take for the second train to catch up to the first train?
+Model Raw Answer: 15
+Original Correct Answers: ['15']
+Is Correct: True
+Accuracy so far: 19/28 (67.86%)
+
+Processing Questions:  56%|█████▌    | 28/50 [09:51<04:31, 12.34s/it]
+--- Question 29/50 ---
+Question: We roll a dice and count the number of times we roll. If we get an even number, we will reset the count to zero. We will stop if we get one. What is the expected number of final counts?
+Model Raw Answer: 1/2
+Original Correct Answers: ['1.5']
+Is Correct: False
+Accuracy so far: 19/29 (65.52%)
+
+Processing Questions:  58%|█████▊    | 29/50 [10:52<09:22, 26.78s/it]
+--- Question 30/50 ---
+Question: 100 people are boarding a plane in a line and each of them is assigned to one of the 100 seats on a plane. However, the first person in line forgot his boarding pass and as a result decided to sit down in a random seat. The second person will do the following: Sit in her seat if it still available. If her seat is not available, choose a random seat among the seats remaining and sit there. Each following person sits according to the same rules as the second person. What is the probability the 100th person will be able to sit in her assigned seat?
+Model Raw Answer: 1/2
+Original Correct Answers: ['0.5', '50%', '1/2']
+Is Correct: True
+Accuracy so far: 20/30 (66.67%)
+
+Processing Questions:  60%|██████    | 30/50 [11:17<08:50, 26.51s/it]
+--- Question 31/50 ---
+Question: A group of police officers have breathalyzers displaying false drunkenness in 5% of the cases in which the driver is sober. However, the breathalyzers never fail to detect a truly drunk person. One in a thousand drivers is driving drunk. Suppose the police officers then stop a driver at random, and force the driver to take a breathalyzer test. It indicates that the driver is drunk. We assume you don't know anything else about him or her. How high is the probability he or she really is drunk?
+Model Raw Answer: 0.0196
+Original Correct Answers: ['1.96%', '0.0196']
+Is Correct: True
+Accuracy so far: 21/31 (67.74%)
+
+Processing Questions:  62%|██████▏   | 31/50 [12:19<11:44, 37.05s/it]
+--- Question 32/50 ---
+Question: A family has two children. They can be brothers/sisters/big brother and little sister/big sister and little brother with equal probability. If you see one of them is a boy, then what is the probability that the other one is a boy?
+Model Raw Answer: 1/3
+Original Correct Answers: ['0.33', '33%', '1/3']
+Is Correct: True
+Accuracy so far: 22/32 (68.75%)
+
+Processing Questions:  64%|██████▍   | 32/50 [12:27<08:31, 28.42s/it]
+--- Question 33/50 ---
+Question: Ankur's brother has two offsprings and one of the boy was born on Tuesday. What is the probability that Ankur's brother has two boys? Assume an equal chance of giving birth to either sex and an equal chance to giving birth on any day.
+Model Raw Answer: 13/27
+Original Correct Answers: ['13/27', '0.4815', '48.15%']
+Is Correct: True
+Accuracy so far: 23/33 (69.70%)
+
+Processing Questions:  66%|██████▌   | 33/50 [12:58<08:13, 29.00s/it]
+--- Question 34/50 ---
+Question: You have 100 candidates, upon which there exists a total order. The candidates have appointments with you, one at a time, in a random order. From each interview, you can tell exactly how that candidate ranks amongst those you have already examined. At that point, you may either accept or reject the candidate. Any acceptance or rejection is permanent; no candidate, once rejected, may be reconsidered. Your objective is solely to accept the best candidate. What is the strategy for maximizing your probability of doing so, and what is that probability?
+Model Raw Answer: 0.368
+Original Correct Answers: ['1/e', '0.3679', '36.79%']
+Is Correct: True
+Accuracy so far: 24/34 (70.59%)
+
+Processing Questions:  68%|██████▊   | 34/50 [13:15<06:46, 25.39s/it]
+--- Question 35/50 ---
+Question: In a 600 meters circular runway, Alice and Bob run from the same location clockwise. They meet with each other every 12 minitues. If they do not change the speed and run from the same location again while this time Alice runs counterclockwise, then they meet with each other every 4 minites. How long does Alice need to run one circle?
+Model Raw Answer: 6
+Original Correct Answers: ['6 or 12']
+Is Correct: False
+Accuracy so far: 24/35 (68.57%)
+
+Processing Questions:  70%|███████   | 35/50 [14:13<08:48, 35.23s/it]
+--- Question 36/50 ---
+Question: There are two circles. Circles A and B are externally tangent to each other, and there is no relative sliding at the point where the two circles touch. The radius of Circle A is 1/3 the radius of Circle B. Circle A rolls around Circle B one trip back to its starting point. How many times will Circle A revolve in total?
+Model Raw Answer: 4
+Original Correct Answers: ['4']
+Is Correct: True
+Accuracy so far: 25/36 (69.44%)
+
+Processing Questions:  72%|███████▏  | 36/50 [14:45<08:00, 34.29s/it]
+--- Question 37/50 ---
+Question: Alok has three daughters. His friend Shyam wants to know the ages of his daughters. Alok gives him first hint. 
+1) The product of their ages is 72. 
+Shyam says this is not enough information Alok gives him a second hint. 
+2) The sum of their ages is equal to my house number. 
+Shyam goes out and looks at the house number and tells “I still do not have enough information to determine the ages”. 
+Alok admits that Shyam can not guess and gives him the third hint 
+3) The oldest girl likes strawberry ice cream. 
+Shyam is able to guess after the third hint. Can you guess what is the age of the oldest girl?
+Model Raw Answer: 8
+Original Correct Answers: ['8']
+Is Correct: True
+Accuracy so far: 26/37 (70.27%)
+
+Processing Questions:  74%|███████▍  | 37/50 [14:55<05:49, 26.88s/it]
+--- Question 38/50 ---
+Question: Two trains are on same track and they are coming toward each other. The speed of the first train is 50 km/h and the speed of the second train is 70 km/h. A bee starts flying between the trains when the distance between two trains is 100 km. The bee first flies from first train to second train. Once it reaches the second train, it immediately flies back to the first train … and so on until trains collide. Calculate the total distance travelled by the bee. Speed of bee is 80 km/h.
+Model Raw Answer: 200/3
+Original Correct Answers: ['66.67', '200/3']
+Is Correct: True
+Accuracy so far: 27/38 (71.05%)
+
+Processing Questions:  76%|███████▌  | 38/50 [15:18<05:10, 25.84s/it]
+--- Question 39/50 ---
+Question: There are two empty bowls in a room. You have 50 white balls and 50 black balls. After you place the balls in the bowls, a random ball will be picked from a random bowl. Distribute the balls (all of them) into the bowls to maximize the chance of picking a white ball.
+Model Raw Answer: 74/99
+Original Correct Answers: ['0.75', '75%', '3/4']
+Is Correct: True
+Accuracy so far: 28/39 (71.79%)
+
+Processing Questions:  78%|███████▊  | 39/50 [15:54<05:18, 28.99s/it]
+--- Question 40/50 ---
+Question: There are 1000 wine bottles. One of the bottles contains poisoned wine. A rat dies after one hour of drinking the poisoned wine. How many minimum rats are needed to figure out which bottle contains poison in hour.
+Model Raw Answer: 10
+Original Correct Answers: ['10']
+Is Correct: True
+Accuracy so far: 29/40 (72.50%)
+
+Processing Questions:  80%|████████  | 40/50 [16:04<03:50, 23.10s/it]
+--- Question 41/50 ---
+Question: In a country, all families want a boy. They keep having babies till a boy is born. What is the expected ratio of boys and girls in the country?
+Model Raw Answer: 0.5
+Original Correct Answers: ['1:1', '50:50']
+Is Correct: False
+Accuracy so far: 29/41 (70.73%)
+
+Processing Questions:  82%|████████▏ | 41/50 [16:47<04:23, 29.29s/it]
+--- Question 42/50 ---
+Question: A car has 4 tyres and 1 spare tyre. Each tyre can travel a maximum distance of 20000 miles before wearing off. What is the maximum distance the car can travel before you are forced to buy a new tyre? You are allowed to change tyres (using the spare tyre) an unlimited number of times.
+Model Raw Answer: 25000
+Original Correct Answers: ['25000']
+Is Correct: True
+Accuracy so far: 30/42 (71.43%)
+
+Processing Questions:  84%|████████▍ | 42/50 [16:57<03:07, 23.42s/it]
+--- Question 43/50 ---
+Question: You have 15 Rs with you. You go to a shop and shopkeeper tells you price as 1 Rs per chocolate. He also tells you that you can get a chocolate in return of 3 wrappers. How many maximum chocolates you can eat?
+Model Raw Answer: 22
+Original Correct Answers: ['22']
+Is Correct: True
+Accuracy so far: 31/43 (72.09%)
+
+Processing Questions:  86%|████████▌ | 43/50 [17:02<02:05, 17.97s/it]
+--- Question 44/50 ---
+Question: A Lady (L) bought an item of Rs 100 from the Shopkeeper (C). She paid him through a 500 Rs Note. Realizing that he did not have change, the shopkeeper C got change for that note from another shopkeeper (S) and paid Rs 400 to the Lady.
+After a few days, S realized that the note is fake, And this railed at C and took 500 Rs back from him.
+So in this whole process how much money did C lose in the end?
+Model Raw Answer: 500
+Original Correct Answers: ['500']
+Is Correct: True
+Accuracy so far: 32/44 (72.73%)
+
+Processing Questions:  88%|████████▊ | 44/50 [17:24<01:54, 19.12s/it]
+--- Question 45/50 ---
+Question: A man is allocated a task. He doubles the task done everyday. If the man completely does the task in 20 days, how many days did it take for the man to complete 25% of the task?
+Model Raw Answer: 18
+Original Correct Answers: ['18']
+Is Correct: True
+Accuracy so far: 33/45 (73.33%)
+
+Processing Questions:  90%|█████████ | 45/50 [17:30<01:15, 15.04s/it]
+--- Question 46/50 ---
+Question: Four people need to cross a rickety bridge at night. Unfortunately, they have one torch and the bridge is too dangerous to cross without a torch. The bridge can support only two people at a time. All the people don’t take the same time to cross the bridge. Time for each person: 1 min, 2 mins, 7 mins, and 10 mins. What is the shortest time needed for all four of them to cross the bridge?
+Model Raw Answer: 17
+Original Correct Answers: ['17']
+Is Correct: True
+Accuracy so far: 34/46 (73.91%)
+
+Processing Questions:  92%|█████████▏| 46/50 [17:43<00:58, 14.67s/it]
+--- Question 47/50 ---
+Question: A man fell in a 50m deep well. He climbs 4 meters up and slips 3 meters down in one day. How many days would it take for him to come out of the well?
+Model Raw Answer: 47
+Original Correct Answers: ['47']
+Is Correct: True
+Accuracy so far: 35/47 (74.47%)
+
+Processing Questions:  94%|█████████▍| 47/50 [17:52<00:38, 12.92s/it]
+--- Question 48/50 ---
+Question: In thirty minutes on a deserted road, there is a 95% chance of seeing a vehicle. What are the probabilities of seeing a vehicle in ten minutes?
+Model Raw Answer: 0.6316
+Original Correct Answers: ['63.15%', '0.6315']
+Is Correct: True
+Accuracy so far: 36/48 (75.00%)
+
+Processing Questions:  96%|█████████▌| 48/50 [19:22<01:12, 36.05s/it]
+--- Question 49/50 ---
+Question: Ram used to arrive at the railway station every day at 6 pm from work. As soon as Ram arrived at the station, his wife Sita too arrives at the station by car to pick him up. Both drive back home. One day Ram arrived at the station one hour early and thought of taking a walk back to home. He started walking when after covering a specific distance, he meets with Sita. Both drive back home and this time they reached 30 minutes earlier than the usual time. How long has Ram been walking?
+It is known that Sita drove every day at a uniform speed.
+Model Raw Answer: 45
+Original Correct Answers: ['45']
+Is Correct: True
+Accuracy so far: 37/49 (75.51%)
+
+Processing Questions:  98%|█████████▊| 49/50 [20:10<00:39, 39.52s/it]
+--- Question 50/50 ---
+Question: On an Island, there is an airport that has an unlimited number of identical air-planes. Each air-plane has a fuel capacity to allow it to fly exactly 1/2 way around the world, along a great circle. The planes have the ability to refuel in flight without loss of speed or spillage of fuel. Though the fuel is unlimited, the island is the only source of fuel. You can ignore the time and fuel consumption of refuelling.
+What is the minimum number of air-planes required to get one air plane all the way around the world assuming that all of the air planes must return safely to the airport?
+Model Raw Answer: 3
+Original Correct Answers: ['3']
+Is Correct: True
+Accuracy so far: 38/50 (76.00%)
+
+Processing Questions: 100%|██████████| 50/50 [22:04<00:00, 61.92s/it]Processing Questions: 100%|██████████| 50/50 [22:04<00:00, 26.49s/it]
+
+===== Single Agent Evaluation Summary =====
+Total Questions: 50
+Correctly Answered: 38
+Overall Accuracy: 76.00%
+All single agent results summarized in: experiment_results/single/temp0/single_single_temp0_20250716_074454.json
