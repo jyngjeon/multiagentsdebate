@@ -1,0 +1,13 @@
+nohup: ignoring input
+Experiment results will be saved in: experiment_gsm_results
+
+--- Running Experiment 1: Single Agent, Temp 0, No Noise ---
+Experiment 1: Single Agent, Temp 0, No Noise launched. Waiting for completion... (Check experiment_gsm_results/single/temp0/single.log)
+Experiment 1: Single Agent, Temp 0, No Noise completed. Results in experiment_gsm_results/single/temp0
+
+--- Running Experiment 2: Single Agent, Temp 0, With Noise ---
+Experiment 2: Single Agent, Temp 0, With Noise launched. Waiting for completion... (Check experiment_gsm_results/single/temp0_cat/single.log)
+Experiment 2: Single Agent, Temp 0, With Noise completed. Results in experiment_gsm_results/single/temp0_cat
+
+--- All Single Agent experiments completed. ---
+Check logs and results in their respective subdirectories within experiment_gsm_results.
