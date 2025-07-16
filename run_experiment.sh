@@ -19,10 +19,9 @@ CONFIG_PROMPT_PATH="code/utils/config4all_new.json"
 mkdir -p "$BASE_OUTPUT_DIR"
 echo "Experiment results will be saved in: $BASE_OUTPUT_DIR"
 
-# --- 실험 1: temperature 0.5, 더미 텍스트 없음 (baseline) ---
-echo -e "\n--- Running Experiment 1: Multi-Agent, Temp 0.5, No Noise ---"
-EXP_NAME="multi_temp0.5_2"
-CURRENT_OUTPUT_DIR="$BASE_OUTPUT_DIR/multi/temp0.5_2"
+echo -e "\n--- Running Experiment 1: Multi-Agent, Temp 1, No Noise ---"
+EXP_NAME="multi_temp1_1"
+CURRENT_OUTPUT_DIR="$BASE_OUTPUT_DIR/multi/temp1_1"
 mkdir -p "$CURRENT_OUTPUT_DIR"
 CURRENT_LOG_FILE="$CURRENT_OUTPUT_DIR/debate.log"
 
@@ -31,19 +30,99 @@ nohup python -u run_debate.py \
     -o "$CURRENT_OUTPUT_DIR" \
     -lu "$VLLM_SERVER_URL" \
     -m "$MODEL_NAME" \
-    -t 0.5 \
+    -t 1 \
     -c "$CONFIG_PROMPT_PATH" \
     --exp-name "$EXP_NAME" \
     > "$CURRENT_LOG_FILE" 2>&1
 
-echo "Multi-Agent, Temp 0.5, No Noise launched. Waiting for completion... (Check $CURRENT_LOG_FILE)"
+echo "Multi-Agent, Temp 1, No Noise launched. Waiting for completion... (Check $CURRENT_LOG_FILE)"
 wait
-echo "Multi-Agent, Temp 0.5, No Noise completed. Results in $CURRENT_OUTPUT_DIR"
+echo "Multi-Agent, Temp 1, No Noise completed. Results in $CURRENT_OUTPUT_DIR"
 
-# --- 실험 2: temperature 0.5, 더미 텍스트 있음 ---
-echo -e "\n--- Running Experiment 1: Multi-Agent, Temp 0.5, With Noise ---"
-EXP_NAME="multi_temp0.5_cat2"
-CURRENT_OUTPUT_DIR="$BASE_OUTPUT_DIR/multi/temp0.5_cat2"
+echo -e "\n--- Running Experiment 2: Multi-Agent, Temp 1, No Noise ---"
+EXP_NAME="multi_temp1_2"
+CURRENT_OUTPUT_DIR="$BASE_OUTPUT_DIR/multi/temp1_2"
+mkdir -p "$CURRENT_OUTPUT_DIR"
+CURRENT_LOG_FILE="$CURRENT_OUTPUT_DIR/debate.log"
+
+nohup python -u run_debate.py \
+    -i "$QUESTION_FILE" \
+    -o "$CURRENT_OUTPUT_DIR" \
+    -lu "$VLLM_SERVER_URL" \
+    -m "$MODEL_NAME" \
+    -t 1 \
+    -c "$CONFIG_PROMPT_PATH" \
+    --exp-name "$EXP_NAME" \
+    > "$CURRENT_LOG_FILE" 2>&1
+
+echo "Multi-Agent, Temp 1, No Noise launched. Waiting for completion... (Check $CURRENT_LOG_FILE)"
+wait
+echo "Multi-Agent, Temp 1, No Noise completed. Results in $CURRENT_OUTPUT_DIR"
+
+echo -e "\n--- Running Experiment 3: Multi-Agent, Temp 1, No Noise ---"
+EXP_NAME="multi_temp1_3"
+CURRENT_OUTPUT_DIR="$BASE_OUTPUT_DIR/multi/temp1_3"
+mkdir -p "$CURRENT_OUTPUT_DIR"
+CURRENT_LOG_FILE="$CURRENT_OUTPUT_DIR/debate.log"
+
+nohup python -u run_debate.py \
+    -i "$QUESTION_FILE" \
+    -o "$CURRENT_OUTPUT_DIR" \
+    -lu "$VLLM_SERVER_URL" \
+    -m "$MODEL_NAME" \
+    -t 1 \
+    -c "$CONFIG_PROMPT_PATH" \
+    --exp-name "$EXP_NAME" \
+    > "$CURRENT_LOG_FILE" 2>&1
+
+echo "Multi-Agent, Temp 1, No Noise launched. Waiting for completion... (Check $CURRENT_LOG_FILE)"
+wait
+echo "Multi-Agent, Temp 1, No Noise completed. Results in $CURRENT_OUTPUT_DIR"
+
+echo -e "\n--- Running Experiment 4: Multi-Agent, Temp 1, No Noise ---"
+EXP_NAME="multi_temp1_4"
+CURRENT_OUTPUT_DIR="$BASE_OUTPUT_DIR/multi/temp1_4"
+mkdir -p "$CURRENT_OUTPUT_DIR"
+CURRENT_LOG_FILE="$CURRENT_OUTPUT_DIR/debate.log"
+
+nohup python -u run_debate.py \
+    -i "$QUESTION_FILE" \
+    -o "$CURRENT_OUTPUT_DIR" \
+    -lu "$VLLM_SERVER_URL" \
+    -m "$MODEL_NAME" \
+    -t 1 \
+    -c "$CONFIG_PROMPT_PATH" \
+    --exp-name "$EXP_NAME" \
+    > "$CURRENT_LOG_FILE" 2>&1
+
+echo "Multi-Agent, Temp 1, No Noise launched. Waiting for completion... (Check $CURRENT_LOG_FILE)"
+wait
+echo "Multi-Agent, Temp 1, No Noise completed. Results in $CURRENT_OUTPUT_DIR"
+
+echo -e "\n--- Running Experiment 5: Multi-Agent, Temp 1, No Noise ---"
+EXP_NAME="multi_temp1_5"
+CURRENT_OUTPUT_DIR="$BASE_OUTPUT_DIR/multi/temp1_5"
+mkdir -p "$CURRENT_OUTPUT_DIR"
+CURRENT_LOG_FILE="$CURRENT_OUTPUT_DIR/debate.log"
+
+nohup python -u run_debate.py \
+    -i "$QUESTION_FILE" \
+    -o "$CURRENT_OUTPUT_DIR" \
+    -lu "$VLLM_SERVER_URL" \
+    -m "$MODEL_NAME" \
+    -t 1 \
+    -c "$CONFIG_PROMPT_PATH" \
+    --exp-name "$EXP_NAME" \
+    > "$CURRENT_LOG_FILE" 2>&1
+
+echo "Multi-Agent, Temp 1, No Noise launched. Waiting for completion... (Check $CURRENT_LOG_FILE)"
+wait
+echo "Multi-Agent, Temp 1, No Noise completed. Results in $CURRENT_OUTPUT_DIR"
+
+# --- 실험 2: temperature 1 , 더미 텍스트 있음 ---
+echo -e "\n--- Running Experiment 1: Multi-Agent, Temp 1, With Noise ---"
+EXP_NAME="multi_temp1_cat1"
+CURRENT_OUTPUT_DIR="$BASE_OUTPUT_DIR/multi/temp1_cat1"
 mkdir -p "$CURRENT_OUTPUT_DIR"
 CURRENT_LOG_FILE="$CURRENT_OUTPUT_DIR/debate.log"
 DUMMY_NOISE_TEXT="Interesting fact: cats sleep for most of their lives."
@@ -53,41 +132,19 @@ nohup python -u run_debate.py \
     -o "$CURRENT_OUTPUT_DIR" \
     -lu "$VLLM_SERVER_URL" \
     -m "$MODEL_NAME" \
-    -t 0.5 \
+    -t 1 \
     -c "$CONFIG_PROMPT_PATH" \
     --exp-name "$EXP_NAME" \
     -n "$DUMMY_NOISE_TEXT" \
     > "$CURRENT_LOG_FILE" 2>&1
 
-echo "Multi-Agent, Temp 0, With Noise launched. Waiting for completion... (Check $CURRENT_LOG_FILE)"
+echo "Experiment 1: Multi-Agent, Temp 1, With Noise launched. Waiting for completion... (Check $CURRENT_LOG_FILE)"
 wait
-echo "Multi-Agent, Temp 0, With Noise completed. Results in $CURRENT_OUTPUT_DIR"
+echo "Experiment 1: Multi-Agent, Temp 1, With Noise completed. Results in $CURRENT_OUTPUT_DIR"
 
-# --- 실험 3: temperature 0.5, 더미 텍스트 없음 ---
-echo -e "\n--- Running Experiment 3: Multi-Agent, Temp 0.5, No Noise ---"
-EXP_NAME="multi_temp0.5_3"
-CURRENT_OUTPUT_DIR="$BASE_OUTPUT_DIR/multi/temp0.5"
-mkdir -p "$CURRENT_OUTPUT_DIR"
-CURRENT_LOG_FILE="$CURRENT_OUTPUT_DIR/debate.log"
-
-nohup python -u run_debate.py \
-    -i "$QUESTION_FILE" \
-    -o "$CURRENT_OUTPUT_DIR" \
-    -lu "$VLLM_SERVER_URL" \
-    -m "$MODEL_NAME" \
-    -t 0.5 \
-    -c "$CONFIG_PROMPT_PATH" \
-    --exp-name "$EXP_NAME" \
-    > "$CURRENT_LOG_FILE" 2>&1
-
-echo "Multi-Agent, Temp 0.5 launched. Waiting for completion... (Check $CURRENT_LOG_FILE)"
-wait
-echo "Multi-Agent, Temp 0.5 completed. Results in $CURRENT_OUTPUT_DIR"
-
-# --- 실험 4: temperature 0.5, 더미 텍스트 있음 ---
-echo -e "\n--- Running Experiment 4: Multi-Agent, Temp 0.5, With Noise ---"
-EXP_NAME="multi_temp0.5_cat3"
-CURRENT_OUTPUT_DIR="$BASE_OUTPUT_DIR/multi/temp0.5_cat3"
+echo -e "\n--- Running Experiment 2: Multi-Agent, Temp 1, With Noise ---"
+EXP_NAME="multi_temp1_cat2"
+CURRENT_OUTPUT_DIR="$BASE_OUTPUT_DIR/multi/temp1_cat2"
 mkdir -p "$CURRENT_OUTPUT_DIR"
 CURRENT_LOG_FILE="$CURRENT_OUTPUT_DIR/debate.log"
 DUMMY_NOISE_TEXT="Interesting fact: cats sleep for most of their lives."
@@ -97,15 +154,83 @@ nohup python -u run_debate.py \
     -o "$CURRENT_OUTPUT_DIR" \
     -lu "$VLLM_SERVER_URL" \
     -m "$MODEL_NAME" \
-    -t 0.5 \
+    -t 1 \
     -c "$CONFIG_PROMPT_PATH" \
     --exp-name "$EXP_NAME" \
     -n "$DUMMY_NOISE_TEXT" \
     > "$CURRENT_LOG_FILE" 2>&1
 
-echo "Multi-Agent, Temp 0.5, With Noise launched. Waiting for completion... (Check $CURRENT_LOG_FILE)"
+echo "Experiment 2: Multi-Agent, Temp 1, With Noise launched. Waiting for completion... (Check $CURRENT_LOG_FILE)"
 wait
-echo "Multi-Agent, Temp 0.5, With Noise completed. Results in $CURRENT_OUTPUT_DIR"
+echo "Experiment 2: Multi-Agent, Temp 1, With Noise completed. Results in $CURRENT_OUTPUT_DIR"
 
-echo -e "\n--- All 4 experiments completed. ---"
+echo -e "\n--- Running Experiment 3: Multi-Agent, Temp 1, With Noise ---"
+EXP_NAME="multi_temp1_cat3"
+CURRENT_OUTPUT_DIR="$BASE_OUTPUT_DIR/multi/temp1_cat3"
+mkdir -p "$CURRENT_OUTPUT_DIR"
+CURRENT_LOG_FILE="$CURRENT_OUTPUT_DIR/debate.log"
+DUMMY_NOISE_TEXT="Interesting fact: cats sleep for most of their lives."
+
+nohup python -u run_debate.py \
+    -i "$QUESTION_FILE" \
+    -o "$CURRENT_OUTPUT_DIR" \
+    -lu "$VLLM_SERVER_URL" \
+    -m "$MODEL_NAME" \
+    -t 1 \
+    -c "$CONFIG_PROMPT_PATH" \
+    --exp-name "$EXP_NAME" \
+    -n "$DUMMY_NOISE_TEXT" \
+    > "$CURRENT_LOG_FILE" 2>&1
+
+echo "Experiment 3: Multi-Agent, Temp 1, With Noise launched. Waiting for completion... (Check $CURRENT_LOG_FILE)"
+wait
+echo "Experiment 3: Multi-Agent, Temp 1, With Noise completed. Results in $CURRENT_OUTPUT_DIR"
+
+echo -e "\n--- Running Experiment 4: Multi-Agent, Temp 1, With Noise ---"
+EXP_NAME="multi_temp1_cat4"
+CURRENT_OUTPUT_DIR="$BASE_OUTPUT_DIR/multi/temp1_cat4"
+mkdir -p "$CURRENT_OUTPUT_DIR"
+CURRENT_LOG_FILE="$CURRENT_OUTPUT_DIR/debate.log"
+DUMMY_NOISE_TEXT="Interesting fact: cats sleep for most of their lives."
+
+nohup python -u run_debate.py \
+    -i "$QUESTION_FILE" \
+    -o "$CURRENT_OUTPUT_DIR" \
+    -lu "$VLLM_SERVER_URL" \
+    -m "$MODEL_NAME" \
+    -t 1 \
+    -c "$CONFIG_PROMPT_PATH" \
+    --exp-name "$EXP_NAME" \
+    -n "$DUMMY_NOISE_TEXT" \
+    > "$CURRENT_LOG_FILE" 2>&1
+
+echo "Experiment 4: Multi-Agent, Temp 1, With Noise launched. Waiting for completion... (Check $CURRENT_LOG_FILE)"
+wait
+echo "Experiment 4: Multi-Agent, Temp 1, With Noise completed. Results in $CURRENT_OUTPUT_DIR"
+
+
+echo -e "\n--- Running Experiment 5: Multi-Agent, Temp 1, With Noise ---"
+EXP_NAME="multi_temp1_cat5"
+CURRENT_OUTPUT_DIR="$BASE_OUTPUT_DIR/multi/temp1_cat5"
+mkdir -p "$CURRENT_OUTPUT_DIR"
+CURRENT_LOG_FILE="$CURRENT_OUTPUT_DIR/debate.log"
+DUMMY_NOISE_TEXT="Interesting fact: cats sleep for most of their lives."
+
+nohup python -u run_debate.py \
+    -i "$QUESTION_FILE" \
+    -o "$CURRENT_OUTPUT_DIR" \
+    -lu "$VLLM_SERVER_URL" \
+    -m "$MODEL_NAME" \
+    -t 1 \
+    -c "$CONFIG_PROMPT_PATH" \
+    --exp-name "$EXP_NAME" \
+    -n "$DUMMY_NOISE_TEXT" \
+    > "$CURRENT_LOG_FILE" 2>&1
+
+echo "Experiment 5: Multi-Agent, Temp 1, With Noise launched. Waiting for completion... (Check $CURRENT_LOG_FILE)"
+wait
+echo "Experiment 5: Multi-Agent, Temp 1, With Noise completed. Results in $CURRENT_OUTPUT_DIR"
+
+# 모든 실험이 완료된 후 메시지 출력
+echo -e "\n--- All experiments completed. ---"
 echo "Check logs and results in their respective subdirectories within $BASE_OUTPUT_DIR."

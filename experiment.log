@@ -2,3 +2,20 @@ nohup: ignoring input
 Experiment results will be saved in: experiment_results
 
 --- Running Experiment 1: Multi-Agent, Temp 0.5, No Noise ---
+Multi-Agent, Temp 0.5, No Noise launched. Waiting for completion... (Check experiment_results/multi/temp0.5_2/debate.log)
+Multi-Agent, Temp 0.5, No Noise completed. Results in experiment_results/multi/temp0.5_2
+
+--- Running Experiment 1: Multi-Agent, Temp 0.5, With Noise ---
+Multi-Agent, Temp 0, With Noise launched. Waiting for completion... (Check experiment_results/multi/temp0.5_cat2/debate.log)
+Multi-Agent, Temp 0, With Noise completed. Results in experiment_results/multi/temp0.5_cat2
+
+--- Running Experiment 3: Multi-Agent, Temp 0.5, No Noise ---
+Multi-Agent, Temp 0.5 launched. Waiting for completion... (Check experiment_results/multi/temp0.5/debate.log)
+Multi-Agent, Temp 0.5 completed. Results in experiment_results/multi/temp0.5
+
+--- Running Experiment 4: Multi-Agent, Temp 0.5, With Noise ---
+Multi-Agent, Temp 0.5, With Noise launched. Waiting for completion... (Check experiment_results/multi/temp0.5_cat3/debate.log)
+Multi-Agent, Temp 0.5, With Noise completed. Results in experiment_results/multi/temp0.5_cat3
+
+--- All 4 experiments completed. ---
+Check logs and results in their respective subdirectories within experiment_results.
