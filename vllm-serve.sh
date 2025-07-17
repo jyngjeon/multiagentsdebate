@@ -1,3 +1,5 @@
+# bash vllm-serve.sh
+
 nohup vllm serve Qwen/Qwen3-14B \
     --tensor-parallel-size 4 \
     --host 0.0.0.0 \
