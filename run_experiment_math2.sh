@@ -109,47 +109,50 @@ run_single_agent_experiment() {
 
 # --- Multi-Agent Debate 실험 ---
 
-# 1. Multi-Agent, Temp 0, 노이즈 없음 (1회)
-CATEGORY_BASE_NAME="multi_temp0"
-run_multi_agent_experiment "$BASE_OUTPUT_DIR" 0 "" "$CATEGORY_BASE_NAME" "1"
+# 1. Multi-Agent, Temp 0, 노이즈 있음 (1회)
+NOISE_TEXT_SETTING="$COMMON_NOISE_TEXT"
+CATEGORY_BASE_NAME="multi_temp0_mislead"
+run_multi_agent_experiment "$BASE_OUTPUT_DIR" 0 "$NOISE_TEXT_SETTING" "$CATEGORY_BASE_NAME" "1"
 
-# 2. Multi-Agent, Temp 0.5, 노이즈 없음 (3회 반복)
+# 2. Multi-Agent, Temp 0.5, 노이즈 있음 (3회 반복)
 TEMPERATURE_SETTING=0.5
-CATEGORY_BASE_NAME="multi_temp0.5" 
-echo -e "\n--- Preparing Multi-Agent, Temp $TEMPERATURE_SETTING, No Noise (3 runs) ---"
+CATEGORY_BASE_NAME="multi_temp0.5_mislead" 
+echo -e "\n--- Preparing Multi-Agent, Temp $TEMPERATURE_SETTING, With Noise (3 runs) ---"
 for i in {1..3}; do
-    run_multi_agent_experiment "$BASE_OUTPUT_DIR" "$TEMPERATURE_SETTING" "" "$CATEGORY_BASE_NAME" "$i" 
+    run_multi_agent_experiment "$BASE_OUTPUT_DIR" "$TEMPERATURE_SETTING" "$NOISE_TEXT_SETTING" "$CATEGORY_BASE_NAME" "$i" 
 done
 
-# 3. Multi-Agent, Temp 1.0, 노이즈 없음 (3회 반복)
+# 3. Multi-Agent, Temp 1.0, 노이즈 있음 (3회 반복)
 TEMPERATURE_SETTING=1.0
-CATEGORY_BASE_NAME="multi_temp1.0" 
-echo -e "\n--- Preparing Multi-Agent, Temp $TEMPERATURE_SETTING, No Noise (3 runs) ---"
+CATEGORY_BASE_NAME="multi_temp1.0_mislead" 
+echo -e "\n--- Preparing Multi-Agent, Temp $TEMPERATURE_SETTING, With Noise (3 runs) ---"
 for i in {1..3}; do
-    run_multi_agent_experiment "$BASE_OUTPUT_DIR" "$TEMPERATURE_SETTING" "" "$CATEGORY_BASE_NAME" "$i" 
+    run_multi_agent_experiment "$BASE_OUTPUT_DIR" "$TEMPERATURE_SETTING" "$NOISE_TEXT_SETTING" "$CATEGORY_BASE_NAME" "$i" 
 done
 
 
 # --- Single Agent 실험 ---
 
-# 1. Single Agent, Temp 0, 노이즈 없음 (1회)
-CATEGORY_BASE_NAME="single_temp0"
-run_single_agent_experiment "$BASE_OUTPUT_DIR" 0 "" "$CATEGORY_BASE_NAME" 1
+# 1. Single Agent, Temp 0, 노이즈 있음 (1회)
+NOISE_TEXT_SETTING="$COMMON_NOISE_TEXT"
+CATEGORY_BASE_NAME="single_temp0_mislead"
+# ((EXPERIMENT_COUNT++)) # <-- 이 줄은 함수 안에서 처리되므로 중복이라 삭제함
+run_single_agent_experiment "$BASE_OUTPUT_DIR" 0 "$NOISE_TEXT_SETTING" "$CATEGORY_BASE_NAME" 1
 
-# 2. Single Agent, Temp 0.5, 노이즈 없음 (3회 반복)
+# 2. Single Agent, Temp 0.5, 노이즈 있음 (3회 반복)
 TEMPERATURE_SETTING=0.5
-CATEGORY_BASE_NAME="single_temp0.5" 
-echo -e "\n--- Preparing Single Agent, Temp $TEMPERATURE_SETTING, No Noise (3 runs) ---"
+CATEGORY_BASE_NAME="single_temp0.5_mislead" 
+echo -e "\n--- Preparing Single Agent, Temp $TEMPERATURE_SETTING, With Noise (3 runs) ---"
 for i in {1..3}; do
-    run_single_agent_experiment "$BASE_OUTPUT_DIR" "$TEMPERATURE_SETTING" "" "$CATEGORY_BASE_NAME" "$i" 
+    run_single_agent_experiment "$BASE_OUTPUT_DIR" "$TEMPERATURE_SETTING" "$NOISE_TEXT_SETTING" "$CATEGORY_BASE_NAME" "$i" 
 done
 
 # 3. Single Agent, Temp 1.0, 노이즈 있음 (3회 반복)
 TEMPERATURE_SETTING=1.0
-CATEGORY_BASE_NAME="single_temp1.0" 
-echo -e "\n--- Preparing Single Agent, Temp $TEMPERATURE_SETTING, No Noise (3 runs) ---"
+CATEGORY_BASE_NAME="single_temp1.0_mislead" 
+echo -e "\n--- Preparing Single Agent, Temp $TEMPERATURE_SETTING, With Noise (3 runs) ---"
 for i in {1..3}; do
-    run_single_agent_experiment "$BASE_OUTPUT_DIR" "$TEMPERATURE_SETTING" "" "$CATEGORY_BASE_NAME" "$i" 
+    run_single_agent_experiment "$BASE_OUTPUT_DIR" "$TEMPERATURE_SETTING" "$NOISE_TEXT_SETTING" "$CATEGORY_BASE_NAME" "$i" 
 done
 
 echo -e "\n--- All parallel experiments launched. Total experiments: $EXPERIMENT_COUNT ---"
