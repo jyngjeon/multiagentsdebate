@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# 실행: nohup bash run_experiment_math_lv5.sh > experiment_math_lv5.log 2>&1 &
+
 # --- 0. 환경 설정 변수 (이 부분들을 당신의 환경에 맞게 수정하세요) ---
 # VLLM 서버의 URL (예: http://0.0.0.0:8000 또는 http://localhost:8000)
 VLLM_SERVER_URL="http://localhost:8000" 
