@@ -1,0 +1,1030 @@
+
+Starting single agent evaluation for 200 questions...
+
+Processing Questions:   0%|          | 0/200 [00:00<?, ?it/s]
+--- Question 1/200 ---
+Result: CORRECT (Answered: '1' | Expected: ['1'])
+Accuracy so far: 1/1 (100.00%)
+
+Processing Questions:   0%|          | 1/200 [05:32<18:23:01, 332.57s/it]
+--- Question 2/200 ---
+Result: CORRECT (Answered: '\dfrac{5}{3}' | Expected: ['\\frac{5}{3}'])
+Accuracy so far: 2/2 (100.00%)
+
+Processing Questions:   1%|          | 2/200 [07:00<10:21:45, 188.41s/it]
+--- Question 3/200 ---
+Result: CORRECT (Answered: '116 - 75i' | Expected: ['116 - 75i'])
+Accuracy so far: 3/3 (100.00%)
+
+Processing Questions:   2%|▏         | 3/200 [13:40<15:37:06, 285.41s/it]
+--- Question 4/200 ---
+Result: CORRECT (Answered: '\dfrac{3}{56}' | Expected: ['\\frac{3}{56}'])
+Accuracy so far: 4/4 (100.00%)
+
+Processing Questions:   2%|▏         | 4/200 [19:10<16:28:51, 302.71s/it]
+--- Question 5/200 ---
+Result: INCORRECT (Answered: '0' | Expected: ['0,1'])
+Accuracy so far: 4/5 (80.00%)
+
+Processing Questions:   2%|▎         | 5/200 [22:46<14:43:02, 271.70s/it]
+--- Question 6/200 ---
+Result: CORRECT (Answered: '-2' | Expected: ['-2'])
+Accuracy so far: 5/6 (83.33%)
+
+Processing Questions:   3%|▎         | 6/200 [26:01<13:13:44, 245.49s/it]
+--- Question 7/200 ---
+Result: CORRECT (Answered: '12' | Expected: ['12'])
+Accuracy so far: 6/7 (85.71%)
+
+Processing Questions:   4%|▎         | 7/200 [32:31<15:41:47, 292.79s/it]
+--- Question 8/200 ---
+Result: CORRECT (Answered: '3' | Expected: ['3'])
+Accuracy so far: 7/8 (87.50%)
+
+Processing Questions:   4%|▍         | 8/200 [33:37<11:45:45, 220.55s/it]
+--- Question 9/200 ---
+Result: CORRECT (Answered: '10090' | Expected: ['10090'])
+Accuracy so far: 8/9 (88.89%)
+
+Processing Questions:   4%|▍         | 9/200 [35:42<10:06:32, 190.53s/it]
+--- Question 10/200 ---
+Result: CORRECT (Answered: '-221_3' | Expected: ['-221_3'])
+Accuracy so far: 9/10 (90.00%)
+
+Processing Questions:   5%|▌         | 10/200 [41:07<12:15:15, 232.19s/it]
+--- Question 11/200 ---
+Result: CORRECT (Answered: '2\sqrt{5}' | Expected: ['2\\sqrt{5}'])
+Accuracy so far: 10/11 (90.91%)
+
+Processing Questions:   6%|▌         | 11/200 [42:09<9:27:34, 180.18s/it] 
+--- Question 12/200 ---
+Result: CORRECT (Answered: '10' | Expected: ['10'])
+Accuracy so far: 11/12 (91.67%)
+
+Processing Questions:   6%|▌         | 12/200 [46:12<10:24:13, 199.22s/it]
+--- Question 13/200 ---
+Result: INCORRECT (Answered: '2 + \sqrt{3}' | Expected: ['2 + \\sqrt{3}, -2 + \\sqrt{3}'])
+Accuracy so far: 11/13 (84.62%)
+
+Processing Questions:   6%|▋         | 13/200 [52:01<12:41:54, 244.46s/it]
+--- Question 14/200 ---
+Result: CORRECT (Answered: '\dfrac{9}{10}' | Expected: ['\\frac{9}{10}'])
+Accuracy so far: 12/14 (85.71%)
+
+Processing Questions:   7%|▋         | 14/200 [54:14<10:54:02, 210.98s/it]
+--- Question 15/200 ---
+Result: CORRECT (Answered: '49' | Expected: ['49'])
+Accuracy so far: 13/15 (86.67%)
+
+Processing Questions:   8%|▊         | 15/200 [57:36<10:41:44, 208.13s/it]
+--- Question 16/200 ---
+Result: CORRECT (Answered: '-1' | Expected: ['-1'])
+Accuracy so far: 14/16 (87.50%)
+
+Processing Questions:   8%|▊         | 16/200 [59:54<9:33:43, 187.08s/it] 
+--- Question 17/200 ---
+Result: CORRECT (Answered: '8' | Expected: ['8'])
+Accuracy so far: 15/17 (88.24%)
+
+Processing Questions:   8%|▊         | 17/200 [1:02:25<8:57:28, 176.22s/it]
+--- Question 18/200 ---
+Result: CORRECT (Answered: '30\pi + 9\sqrt{3}' | Expected: ['30\\pi + 9\\sqrt{3}'])
+Accuracy so far: 16/18 (88.89%)
+
+Processing Questions:   9%|▉         | 18/200 [1:06:03<9:32:50, 188.85s/it]
+--- Question 19/200 ---
+Result: CORRECT (Answered: '20' | Expected: ['20'])
+Accuracy so far: 17/19 (89.47%)
+
+Processing Questions:  10%|▉         | 19/200 [1:07:01<7:31:11, 149.56s/it]
+--- Question 20/200 ---
+Result: CORRECT (Answered: '14' | Expected: ['14'])
+Accuracy so far: 18/20 (90.00%)
+
+Processing Questions:  10%|█         | 20/200 [1:10:35<8:26:59, 169.00s/it]
+--- Question 21/200 ---
+Result: CORRECT (Answered: '1024' | Expected: ['1024'])
+Accuracy so far: 19/21 (90.48%)
+
+Processing Questions:  10%|█         | 21/200 [1:15:52<10:36:17, 213.28s/it]
+--- Question 22/200 ---
+Result: CORRECT (Answered: '\dfrac{1}{10}' | Expected: ['\\frac{1}{10}'])
+Accuracy so far: 20/22 (90.91%)
+
+Processing Questions:  11%|█         | 22/200 [1:21:03<11:59:35, 242.56s/it]
+--- Question 23/200 ---
+Result: CORRECT (Answered: '(-6, 10)' | Expected: ['(-6, 10)'])
+Accuracy so far: 21/23 (91.30%)
+
+Processing Questions:  12%|█▏        | 23/200 [1:22:34<9:41:34, 197.14s/it] 
+--- Question 24/200 ---
+Result: CORRECT (Answered: '9' | Expected: ['9'])
+Accuracy so far: 22/24 (91.67%)
+
+Processing Questions:  12%|█▏        | 24/200 [1:23:58<7:58:57, 163.28s/it]
+--- Question 25/200 ---
+Result: CORRECT (Answered: '4018' | Expected: ['4018'])
+Accuracy so far: 23/25 (92.00%)
+
+Processing Questions:  12%|█▎        | 25/200 [1:30:09<10:57:19, 225.37s/it]
+--- Question 26/200 ---
+Result: CORRECT (Answered: '75' | Expected: ['75'])
+Accuracy so far: 24/26 (92.31%)
+
+Processing Questions:  13%|█▎        | 26/200 [1:31:19<8:39:00, 178.97s/it] 
+--- Question 27/200 ---
+Result: CORRECT (Answered: '12' | Expected: ['12'])
+Accuracy so far: 25/27 (92.59%)
+
+Processing Questions:  14%|█▎        | 27/200 [1:38:11<11:57:38, 248.90s/it]
+--- Question 28/200 ---
+Result: CORRECT (Answered: 'x^2' | Expected: ['x^2'])
+Accuracy so far: 26/28 (92.86%)
+
+Processing Questions:  14%|█▍        | 28/200 [1:43:00<12:27:36, 260.79s/it]
+--- Question 29/200 ---
+Result: CORRECT (Answered: '3 + \dfrac{\sqrt{69}}{3}' | Expected: ['3+ \\frac{\\sqrt{69}}{3}'])
+Accuracy so far: 27/29 (93.10%)
+
+Processing Questions:  14%|█▍        | 29/200 [1:48:56<13:44:32, 289.32s/it]
+--- Question 30/200 ---
+Result: CORRECT (Answered: 'b - 1' | Expected: ['b - 1'])
+Accuracy so far: 28/30 (93.33%)
+
+Processing Questions:  15%|█▌        | 30/200 [1:51:27<11:42:43, 248.02s/it]
+--- Question 31/200 ---
+Result: CORRECT (Answered: '\dfrac{52}{3}' | Expected: ['\\frac{52}{3}'])
+Accuracy so far: 29/31 (93.55%)
+
+Processing Questions:  16%|█▌        | 31/200 [1:55:52<11:52:57, 253.12s/it]
+--- Question 32/200 ---
+Result: CORRECT (Answered: '1' | Expected: ['1'])
+Accuracy so far: 30/32 (93.75%)
+
+Processing Questions:  16%|█▌        | 32/200 [1:58:10<10:11:58, 218.56s/it]
+--- Question 33/200 ---
+Result: CORRECT (Answered: '17700' | Expected: ['17700'])
+Accuracy so far: 31/33 (93.94%)
+
+Processing Questions:  16%|█▋        | 33/200 [2:02:16<10:31:13, 226.79s/it]
+--- Question 34/200 ---
+Result: CORRECT (Answered: '48' | Expected: ['48'])
+Accuracy so far: 32/34 (94.12%)
+
+Processing Questions:  17%|█▋        | 34/200 [2:06:40<10:58:18, 237.94s/it]
+--- Question 35/200 ---
+Result: CORRECT (Answered: '4' | Expected: ['4'])
+Accuracy so far: 33/35 (94.29%)
+
+Processing Questions:  18%|█▊        | 35/200 [2:09:31<9:58:42, 217.71s/it] 
+--- Question 36/200 ---
+Result: CORRECT (Answered: 'x^3 - 3x^2 + 9x - 9' | Expected: ['x^3 - 3x^2 + 9x - 9'])
+Accuracy so far: 34/36 (94.44%)
+
+Processing Questions:  18%|█▊        | 36/200 [2:14:49<11:17:40, 247.93s/it]
+--- Question 37/200 ---
+Result: CORRECT (Answered: '-\dfrac{2010012}{2010013}' | Expected: ['-\\frac{2010012}{2010013}'])
+Accuracy so far: 35/37 (94.59%)
+
+Processing Questions:  18%|█▊        | 37/200 [2:21:41<13:26:40, 296.94s/it]
+--- Question 38/200 ---
+Result: CORRECT (Answered: '8' | Expected: ['8'])
+Accuracy so far: 36/38 (94.74%)
+
+Processing Questions:  19%|█▉        | 38/200 [2:25:11<12:11:35, 270.96s/it]
+--- Question 39/200 ---
+Result: INCORRECT (Answered: '118' | Expected: ['118^{\\circ}'])
+Accuracy so far: 36/39 (92.31%)
+
+Processing Questions:  20%|█▉        | 39/200 [2:30:36<12:50:57, 287.31s/it]
+--- Question 40/200 ---
+Result: CORRECT (Answered: '(-5, \sqrt{26}]' | Expected: ['(-5,\\sqrt{26}]'])
+Accuracy so far: 37/40 (92.50%)
+
+Processing Questions:  20%|██        | 40/200 [2:39:31<16:04:03, 361.52s/it]
+--- Question 41/200 ---
+Result: CORRECT (Answered: '64' | Expected: ['64'])
+Accuracy so far: 38/41 (92.68%)
+
+Processing Questions:  20%|██        | 41/200 [2:41:19<12:36:42, 285.55s/it]
+--- Question 42/200 ---
+Result: CORRECT (Answered: '-63' | Expected: ['-63'])
+Accuracy so far: 39/42 (92.86%)
+
+Processing Questions:  21%|██        | 42/200 [2:43:58<10:51:34, 247.43s/it]
+--- Question 43/200 ---
+Result: CORRECT (Answered: '17' | Expected: ['17'])
+Accuracy so far: 40/43 (93.02%)
+
+Processing Questions:  22%|██▏       | 43/200 [2:45:37<8:51:08, 202.98s/it] 
+--- Question 44/200 ---
+Result: CORRECT (Answered: '1680' | Expected: ['1680'])
+Accuracy so far: 41/44 (93.18%)
+
+Processing Questions:  22%|██▏       | 44/200 [2:49:45<9:22:43, 216.44s/it]
+--- Question 45/200 ---
+Result: CORRECT (Answered: '\dfrac{5}{36}' | Expected: ['\\dfrac{5}{36}'])
+Accuracy so far: 42/45 (93.33%)
+
+Processing Questions:  22%|██▎       | 45/200 [2:53:36<9:30:08, 220.70s/it]
+--- Question 46/200 ---
+Result: CORRECT (Answered: '636' | Expected: ['636'])
+Accuracy so far: 43/46 (93.48%)
+
+Processing Questions:  23%|██▎       | 46/200 [3:10:21<19:31:01, 456.24s/it]
+--- Question 47/200 ---
+Result: CORRECT (Answered: '0' | Expected: ['0'])
+Accuracy so far: 44/47 (93.62%)
+
+Processing Questions:  24%|██▎       | 47/200 [3:15:11<17:16:19, 406.40s/it]
+--- Question 48/200 ---
+Result: CORRECT (Answered: '12' | Expected: ['12'])
+Accuracy so far: 45/48 (93.75%)
+
+Processing Questions:  24%|██▍       | 48/200 [3:18:07<14:14:01, 337.12s/it]
+--- Question 49/200 ---
+Result: CORRECT (Answered: '13' | Expected: ['13'])
+Accuracy so far: 46/49 (93.88%)
+
+Processing Questions:  24%|██▍       | 49/200 [3:22:20<13:05:07, 311.97s/it]
+--- Question 50/200 ---
+Result: CORRECT (Answered: '25' | Expected: ['25'])
+Accuracy so far: 47/50 (94.00%)
+
+Processing Questions:  25%|██▌       | 50/200 [3:24:31<10:43:39, 257.47s/it]
+--- Question 51/200 ---
+Result: CORRECT (Answered: '54' | Expected: ['54'])
+Accuracy so far: 48/51 (94.12%)
+
+Processing Questions:  26%|██▌       | 51/200 [3:25:32<8:13:11, 198.60s/it] 
+--- Question 52/200 ---
+Result: CORRECT (Answered: '668' | Expected: ['668'])
+Accuracy so far: 49/52 (94.23%)
+
+Processing Questions:  26%|██▌       | 52/200 [3:27:47<7:23:06, 179.64s/it]
+--- Question 53/200 ---
+Result: CORRECT (Answered: '220' | Expected: ['220'])
+Accuracy so far: 50/53 (94.34%)
+
+Processing Questions:  26%|██▋       | 53/200 [3:29:16<6:13:04, 152.28s/it]
+--- Question 54/200 ---
+Result: CORRECT (Answered: '6' | Expected: ['6'])
+Accuracy so far: 51/54 (94.44%)
+
+Processing Questions:  27%|██▋       | 54/200 [3:33:24<7:20:56, 181.21s/it]
+--- Question 55/200 ---
+Result: CORRECT (Answered: '351' | Expected: ['351'])
+Accuracy so far: 52/55 (94.55%)
+
+Processing Questions:  28%|██▊       | 55/200 [3:36:34<7:23:43, 183.61s/it]
+--- Question 56/200 ---
+Result: CORRECT (Answered: '21' | Expected: ['21'])
+Accuracy so far: 53/56 (94.64%)
+
+Processing Questions:  28%|██▊       | 56/200 [3:39:20<7:08:14, 178.43s/it]Error calling local LLM (OpenAI APIError path): Request timed out.
+
+--- Question 57/200 ---
+Result: CORRECT (Answered: '-\dfrac{17}{19}' | Expected: ['-\\frac{17}{19}'])
+Accuracy so far: 54/57 (94.74%)
+
+Processing Questions:  28%|██▊       | 57/200 [4:26:23<38:36:05, 971.79s/it]
+--- Question 58/200 ---
+Result: CORRECT (Answered: '2079' | Expected: ['2079'])
+Accuracy so far: 55/58 (94.83%)
+
+Processing Questions:  29%|██▉       | 58/200 [4:30:16<29:35:28, 750.20s/it]
+--- Question 59/200 ---
+Result: CORRECT (Answered: '28' | Expected: ['28'])
+Accuracy so far: 56/59 (94.92%)
+
+Processing Questions:  30%|██▉       | 59/200 [4:35:23<24:10:49, 617.37s/it]
+--- Question 60/200 ---
+Result: CORRECT (Answered: '\dfrac{3}{8}' | Expected: ['\\frac{3}{8}'])
+Accuracy so far: 57/60 (95.00%)
+
+Processing Questions:  30%|███       | 60/200 [4:40:18<20:14:14, 520.39s/it]
+--- Question 61/200 ---
+Result: CORRECT (Answered: '9' | Expected: ['9'])
+Accuracy so far: 58/61 (95.08%)
+
+Processing Questions:  30%|███       | 61/200 [4:41:58<15:13:26, 394.29s/it]
+--- Question 62/200 ---
+Result: CORRECT (Answered: '331' | Expected: ['331'])
+Accuracy so far: 59/62 (95.16%)
+
+Processing Questions:  31%|███       | 62/200 [4:47:14<14:12:58, 370.86s/it]
+--- Question 63/200 ---
+Result: CORRECT (Answered: '\dfrac{1}{5}' | Expected: ['\\frac{1}{5}'])
+Accuracy so far: 60/63 (95.24%)
+
+Processing Questions:  32%|███▏      | 63/200 [4:49:49<11:38:45, 306.03s/it]
+--- Question 64/200 ---
+Result: CORRECT (Answered: '\dfrac{27}{512}' | Expected: ['\\frac{27}{512}'])
+Accuracy so far: 61/64 (95.31%)
+
+Processing Questions:  32%|███▏      | 64/200 [4:52:43<10:04:12, 266.56s/it]
+--- Question 65/200 ---
+Result: CORRECT (Answered: '61' | Expected: ['61'])
+Accuracy so far: 62/65 (95.38%)
+
+Processing Questions:  32%|███▎      | 65/200 [4:55:08<8:37:35, 230.04s/it] 
+--- Question 66/200 ---
+Result: CORRECT (Answered: '0' | Expected: ['0'])
+Accuracy so far: 63/66 (95.45%)
+
+Processing Questions:  33%|███▎      | 66/200 [4:57:36<7:38:58, 205.51s/it]
+--- Question 67/200 ---
+Result: CORRECT (Answered: '17' | Expected: ['17'])
+Accuracy so far: 64/67 (95.52%)
+
+Processing Questions:  34%|███▎      | 67/200 [5:04:11<9:41:40, 262.41s/it]
+--- Question 68/200 ---
+Result: CORRECT (Answered: '\dfrac{9}{32}' | Expected: ['\\frac{9}{32}'])
+Accuracy so far: 65/68 (95.59%)
+
+Processing Questions:  34%|███▍      | 68/200 [5:05:43<7:44:49, 211.29s/it]
+--- Question 69/200 ---
+Result: CORRECT (Answered: '4' | Expected: ['4'])
+Accuracy so far: 66/69 (95.65%)
+
+Processing Questions:  34%|███▍      | 69/200 [5:09:13<7:40:19, 210.84s/it]
+--- Question 70/200 ---
+Result: CORRECT (Answered: '20' | Expected: ['20'])
+Accuracy so far: 67/70 (95.71%)
+
+Processing Questions:  35%|███▌      | 70/200 [5:18:55<11:38:01, 322.16s/it]
+--- Question 71/200 ---
+Result: CORRECT (Answered: '-\dfrac{31}{8}' | Expected: ['-\\frac{31}{8}'])
+Accuracy so far: 68/71 (95.77%)
+
+Processing Questions:  36%|███▌      | 71/200 [5:45:04<24:56:55, 696.24s/it]
+--- Question 72/200 ---
+Result: CORRECT (Answered: '\sqrt{5} - 1' | Expected: ['\\sqrt{5} - 1'])
+Accuracy so far: 69/72 (95.83%)
+
+Processing Questions:  36%|███▌      | 72/200 [5:47:19<18:45:57, 527.79s/it]
+--- Question 73/200 ---
+Result: CORRECT (Answered: '16' | Expected: ['16'])
+Accuracy so far: 70/73 (95.89%)
+
+Processing Questions:  36%|███▋      | 73/200 [5:54:21<17:29:58, 496.05s/it]
+--- Question 74/200 ---
+Result: CORRECT (Answered: '10\sqrt{6}' | Expected: ['10\\sqrt{6}'])
+Accuracy so far: 71/74 (95.95%)
+
+Processing Questions:  37%|███▋      | 74/200 [5:56:13<13:19:52, 380.89s/it]
+--- Question 75/200 ---
+Result: CORRECT (Answered: '8' | Expected: ['8'])
+Accuracy so far: 72/75 (96.00%)
+
+Processing Questions:  38%|███▊      | 75/200 [5:59:28<11:17:35, 325.24s/it]
+--- Question 76/200 ---
+Result: CORRECT (Answered: '12' | Expected: ['12'])
+Accuracy so far: 73/76 (96.05%)
+
+Processing Questions:  38%|███▊      | 76/200 [6:00:31<8:29:34, 246.57s/it] 
+--- Question 77/200 ---
+Result: CORRECT (Answered: '4.5' | Expected: ['4.5'])
+Accuracy so far: 74/77 (96.10%)
+
+Processing Questions:  38%|███▊      | 77/200 [6:05:26<8:55:07, 261.04s/it]
+--- Question 78/200 ---
+Result: CORRECT (Answered: '12' | Expected: ['12'])
+Accuracy so far: 75/78 (96.15%)
+
+Processing Questions:  39%|███▉      | 78/200 [6:06:47<7:00:52, 206.99s/it]
+--- Question 79/200 ---
+Result: CORRECT (Answered: '157' | Expected: ['157'])
+Accuracy so far: 76/79 (96.20%)
+
+Processing Questions:  40%|███▉      | 79/200 [6:09:04<6:14:53, 185.90s/it]
+--- Question 80/200 ---
+Result: CORRECT (Answered: '\left( -\dfrac{5}{3}, \dfrac{2}{3}, \dfrac{19}{3} \right)' | Expected: ['\\left( -\\frac{5}{3}, \\frac{2}{3}, \\frac{19}{3} \\right)'])
+Accuracy so far: 77/80 (96.25%)
+
+Processing Questions:  40%|████      | 80/200 [6:12:04<6:08:15, 184.13s/it]
+--- Question 81/200 ---
+Result: CORRECT (Answered: '1093' | Expected: ['1093'])
+Accuracy so far: 78/81 (96.30%)
+
+Processing Questions:  40%|████      | 81/200 [6:14:02<5:26:13, 164.48s/it]
+--- Question 82/200 ---
+Result: CORRECT (Answered: '5' | Expected: ['5'])
+Accuracy so far: 79/82 (96.34%)
+
+Processing Questions:  41%|████      | 82/200 [6:17:48<5:59:15, 182.68s/it]
+--- Question 83/200 ---
+Result: CORRECT (Answered: '(4, 24)' | Expected: ['(4,24)'])
+Accuracy so far: 80/83 (96.39%)
+
+Processing Questions:  42%|████▏     | 83/200 [6:21:00<6:01:55, 185.60s/it]
+--- Question 84/200 ---
+Result: CORRECT (Answered: '-71' | Expected: ['-71'])
+Accuracy so far: 81/84 (96.43%)
+
+Processing Questions:  42%|████▏     | 84/200 [6:30:48<9:52:13, 306.33s/it]
+--- Question 85/200 ---
+Result: CORRECT (Answered: '(-1, 8)' | Expected: ['(-1,8)'])
+Accuracy so far: 82/85 (96.47%)
+
+Processing Questions:  42%|████▎     | 85/200 [6:31:27<7:13:10, 226.00s/it]Error calling local LLM (OpenAI APIError path): Request timed out.
+
+--- Question 86/200 ---
+Result: INCORRECT (Answered: '-\dfrac{865}{2}' | Expected: ['432'])
+Accuracy so far: 82/86 (95.35%)
+
+Processing Questions:  43%|████▎     | 86/200 [7:20:03<32:42:59, 1033.15s/it]
+--- Question 87/200 ---
+Result: INCORRECT (Answered: '7.2' | Expected: ['7.2\\%'])
+Accuracy so far: 82/87 (94.25%)
+
+Processing Questions:  44%|████▎     | 87/200 [7:28:02<27:12:32, 866.84s/it] 
+--- Question 88/200 ---
+Result: INCORRECT (Answered: '3 + 2\sqrt{2}' | Expected: ['3 \\pm 2 \\sqrt{2}'])
+Accuracy so far: 82/88 (93.18%)
+
+Processing Questions:  44%|████▍     | 88/200 [7:33:56<22:11:01, 713.04s/it]
+--- Question 89/200 ---
+Result: CORRECT (Answered: '1155' | Expected: ['1155'])
+Accuracy so far: 83/89 (93.26%)
+
+Processing Questions:  44%|████▍     | 89/200 [7:43:46<20:50:38, 676.03s/it]
+--- Question 90/200 ---
+Result: CORRECT (Answered: '129' | Expected: ['129'])
+Accuracy so far: 84/90 (93.33%)
+
+Processing Questions:  45%|████▌     | 90/200 [7:47:25<16:28:15, 539.05s/it]Error calling local LLM (OpenAI APIError path): Request timed out.
+
+--- Question 91/200 ---
+Result: INCORRECT (Answered: '55' | Expected: ['15^\\circ'])
+Accuracy so far: 84/91 (92.31%)
+
+Processing Questions:  46%|████▌     | 91/200 [8:25:57<32:25:43, 1071.04s/it]
+--- Question 92/200 ---
+Result: CORRECT (Answered: '27648' | Expected: ['27648'])
+Accuracy so far: 85/92 (92.39%)
+
+Processing Questions:  46%|████▌     | 92/200 [8:28:24<23:48:49, 793.79s/it] 
+--- Question 93/200 ---
+Result: CORRECT (Answered: '10' | Expected: ['10'])
+Accuracy so far: 86/93 (92.47%)
+
+Processing Questions:  46%|████▋     | 93/200 [8:30:51<17:49:19, 599.62s/it]
+--- Question 94/200 ---
+Result: CORRECT (Answered: '66' | Expected: ['66'])
+Accuracy so far: 87/94 (92.55%)
+
+Processing Questions:  47%|████▋     | 94/200 [8:33:54<13:58:37, 474.69s/it]
+--- Question 95/200 ---
+Result: CORRECT (Answered: '12' | Expected: ['12'])
+Accuracy so far: 88/95 (92.63%)
+
+Processing Questions:  48%|████▊     | 95/200 [8:35:39<10:36:23, 363.66s/it]
+--- Question 96/200 ---
+Result: CORRECT (Answered: '2' | Expected: ['2'])
+Accuracy so far: 89/96 (92.71%)
+
+Processing Questions:  48%|████▊     | 96/200 [8:37:29<8:18:40, 287.70s/it] 
+--- Question 97/200 ---
+Result: CORRECT (Answered: '\dfrac{7}{20}' | Expected: ['\\dfrac{7}{20}'])
+Accuracy so far: 90/97 (92.78%)
+
+Processing Questions:  48%|████▊     | 97/200 [9:03:08<18:58:17, 663.08s/it]
+--- Question 98/200 ---
+Result: INCORRECT (Answered: '27' | Expected: ['27,93'])
+Accuracy so far: 90/98 (91.84%)
+
+Processing Questions:  49%|████▉     | 98/200 [9:06:05<14:39:06, 517.13s/it]
+--- Question 99/200 ---
+Result: CORRECT (Answered: '(2, \infty)' | Expected: ['(2,\\infty)'])
+Accuracy so far: 91/99 (91.92%)
+
+Processing Questions:  50%|████▉     | 99/200 [9:12:17<13:17:23, 473.70s/it]
+--- Question 100/200 ---
+Result: CORRECT (Answered: '\left( \dfrac{7}{45}, \dfrac{4}{45} \right)' | Expected: ['\\left( \\frac{7}{45}, \\frac{4}{45} \\right)'])
+Accuracy so far: 92/100 (92.00%)
+
+Processing Questions:  50%|█████     | 100/200 [9:15:53<11:00:40, 396.40s/it]
+--- Question 101/200 ---
+Result: CORRECT (Answered: '\dfrac{3}{4}' | Expected: ['\\frac{3}{4}'])
+Accuracy so far: 93/101 (92.08%)
+
+Processing Questions:  50%|█████     | 101/200 [9:20:27<9:53:16, 359.56s/it] 
+--- Question 102/200 ---
+Result: CORRECT (Answered: '2015' | Expected: ['2015'])
+Accuracy so far: 94/102 (92.16%)
+
+Processing Questions:  51%|█████     | 102/200 [9:25:07<9:08:39, 335.91s/it]
+--- Question 103/200 ---
+Result: CORRECT (Answered: '23' | Expected: ['23'])
+Accuracy so far: 95/103 (92.23%)
+
+Processing Questions:  52%|█████▏    | 103/200 [9:28:18<7:52:33, 292.31s/it]
+--- Question 104/200 ---
+Result: INCORRECT (Answered: '10879' | Expected: ['-10879'])
+Accuracy so far: 95/104 (91.35%)
+
+Processing Questions:  52%|█████▏    | 104/200 [9:30:59<6:44:31, 252.83s/it]
+--- Question 105/200 ---
+Result: INCORRECT (Answered: '\dfrac{23}{2}' | Expected: ['11.5'])
+Accuracy so far: 95/105 (90.48%)
+
+Processing Questions:  52%|█████▎    | 105/200 [9:37:42<7:52:00, 298.11s/it]
+--- Question 106/200 ---
+Result: CORRECT (Answered: '2\sqrt{3} - 2' | Expected: ['2\\sqrt{3}-2'])
+Accuracy so far: 96/106 (90.57%)
+
+Processing Questions:  53%|█████▎    | 106/200 [9:41:01<7:00:17, 268.27s/it]
+--- Question 107/200 ---
+Result: CORRECT (Answered: '\dfrac{3}{2}' | Expected: ['\\frac{3}{2}'])
+Accuracy so far: 97/107 (90.65%)
+
+Processing Questions:  54%|█████▎    | 107/200 [9:45:28<6:55:19, 267.95s/it]Error calling local LLM (OpenAI APIError path): Request timed out.
+Error calling local LLM (OpenAI APIError path): Request timed out.
+Error calling local LLM (OpenAI APIError path): Request timed out.
+Error calling local LLM (OpenAI APIError path): Request timed out.
+Error calling local LLM (OpenAI APIError path): Request timed out.
+Error calling local LLM (OpenAI APIError path): Request timed out.
+Error calling local LLM (OpenAI APIError path): Request timed out.
+Error calling local LLM (OpenAI APIError path): Request timed out.
+Error calling local LLM (OpenAI APIError path): Request timed out.
+Error calling local LLM (OpenAI APIError path): Request timed out.
+
+--- Question 108/200 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['1'])
+Accuracy so far: 97/108 (89.81%)
+
+Processing Questions:  54%|█████▍    | 108/200 [15:11:41<154:51:09, 6059.45s/it]
+--- Question 109/200 ---
+Result: INCORRECT (Answered: '14400' | Expected: ['14,\\!400'])
+Accuracy so far: 97/109 (88.99%)
+
+Processing Questions:  55%|█████▍    | 109/200 [15:14:41<108:34:43, 4295.43s/it]
+--- Question 110/200 ---
+Result: CORRECT (Answered: '400' | Expected: ['400'])
+Accuracy so far: 98/110 (89.09%)
+
+Processing Questions:  55%|█████▌    | 110/200 [15:15:30<75:32:15, 3021.51s/it] 
+--- Question 111/200 ---
+Result: CORRECT (Answered: '234' | Expected: ['234'])
+Accuracy so far: 99/111 (89.19%)
+
+Processing Questions:  56%|█████▌    | 111/200 [15:18:35<53:39:36, 2170.52s/it]
+--- Question 112/200 ---
+Result: CORRECT (Answered: '512' | Expected: ['512'])
+Accuracy so far: 100/112 (89.29%)
+
+Processing Questions:  56%|█████▌    | 112/200 [15:20:41<38:03:53, 1557.20s/it]
+--- Question 113/200 ---
+Result: CORRECT (Answered: '\pi - 2' | Expected: ['\\pi-2'])
+Accuracy so far: 101/113 (89.38%)
+
+Processing Questions:  56%|█████▋    | 113/200 [15:25:22<28:23:06, 1174.56s/it]
+--- Question 114/200 ---
+Result: CORRECT (Answered: '26' | Expected: ['26'])
+Accuracy so far: 102/114 (89.47%)
+
+Processing Questions:  57%|█████▋    | 114/200 [15:26:16<20:01:34, 838.31s/it] 
+--- Question 115/200 ---
+Result: CORRECT (Answered: '\dfrac{1}{13}' | Expected: ['\\frac{1}{13}'])
+Accuracy so far: 103/115 (89.57%)
+
+Processing Questions:  57%|█████▊    | 115/200 [15:27:06<14:12:26, 601.72s/it]
+--- Question 116/200 ---
+Result: INCORRECT (Answered: '[-1] \cup [0, 7)' | Expected: ['\\{-1\\} \\cup [0,7)'])
+Accuracy so far: 103/116 (88.79%)
+
+Processing Questions:  58%|█████▊    | 116/200 [15:33:15<12:24:46, 531.98s/it]
+--- Question 117/200 ---
+Result: CORRECT (Answered: '\dfrac{5}{8}' | Expected: ['\\frac{5}{8}'])
+Accuracy so far: 104/117 (88.89%)
+
+Processing Questions:  58%|█████▊    | 117/200 [15:35:58<9:42:51, 421.34s/it] 
+--- Question 118/200 ---
+Result: INCORRECT (Answered: '-\dfrac{1}{3}' | Expected: ['\\frac{1}{5}, -\\frac{1}{3}'])
+Accuracy so far: 104/118 (88.14%)
+
+Processing Questions:  59%|█████▉    | 118/200 [15:38:36<7:47:35, 342.14s/it]
+--- Question 119/200 ---
+Result: CORRECT (Answered: '\sqrt{6}' | Expected: ['\\sqrt{6}'])
+Accuracy so far: 105/119 (88.24%)
+
+Processing Questions:  60%|█████▉    | 119/200 [15:41:45<6:40:00, 296.30s/it]Error calling local LLM (OpenAI APIError path): Request timed out.
+Error calling local LLM (OpenAI APIError path): Request timed out.
+Error calling local LLM (OpenAI APIError path): Request timed out.
+Error calling local LLM (OpenAI APIError path): Request timed out.
+
+--- Question 120/200 ---
+Result: CORRECT (Answered: '-338016' | Expected: ['-338016'])
+Accuracy so far: 106/120 (88.33%)
+
+Processing Questions:  60%|██████    | 120/200 [17:51:38<56:33:53, 2545.42s/it]
+--- Question 121/200 ---
+Result: CORRECT (Answered: '8.5' | Expected: ['8.5'])
+Accuracy so far: 107/121 (88.43%)
+
+Processing Questions:  60%|██████    | 121/200 [17:53:19<39:45:57, 1812.12s/it]
+--- Question 122/200 ---
+Result: CORRECT (Answered: '9' | Expected: ['9'])
+Accuracy so far: 108/122 (88.52%)
+
+Processing Questions:  61%|██████    | 122/200 [17:55:43<28:24:54, 1311.47s/it]
+--- Question 123/200 ---
+Result: INCORRECT (Answered: '50' | Expected: ['50^\\circ'])
+Accuracy so far: 108/123 (87.80%)
+
+Processing Questions:  62%|██████▏   | 123/200 [18:00:53<21:37:31, 1011.06s/it]
+--- Question 124/200 ---
+Result: CORRECT (Answered: '\dfrac{11}{2}' | Expected: ['\\frac{11}{2}'])
+Accuracy so far: 109/124 (87.90%)
+
+Processing Questions:  62%|██████▏   | 124/200 [18:02:11<15:26:13, 731.23s/it] 
+--- Question 125/200 ---
+Result: CORRECT (Answered: '5' | Expected: ['5'])
+Accuracy so far: 110/125 (88.00%)
+
+Processing Questions:  62%|██████▎   | 125/200 [18:04:27<11:30:54, 552.72s/it]
+--- Question 126/200 ---
+Result: CORRECT (Answered: '4\sqrt{2}' | Expected: ['4\\sqrt{2}'])
+Accuracy so far: 111/126 (88.10%)
+
+Processing Questions:  63%|██████▎   | 126/200 [18:13:30<11:17:53, 549.64s/it]
+--- Question 127/200 ---
+Result: CORRECT (Answered: '15' | Expected: ['15'])
+Accuracy so far: 112/127 (88.19%)
+
+Processing Questions:  64%|██████▎   | 127/200 [18:14:46<8:16:03, 407.72s/it] 
+--- Question 128/200 ---
+Result: CORRECT (Answered: '177' | Expected: ['177'])
+Accuracy so far: 113/128 (88.28%)
+
+Processing Questions:  64%|██████▍   | 128/200 [18:34:01<12:38:05, 631.75s/it]
+--- Question 129/200 ---
+Result: CORRECT (Answered: '6' | Expected: ['6'])
+Accuracy so far: 114/129 (88.37%)
+
+Processing Questions:  64%|██████▍   | 129/200 [18:42:50<11:51:16, 601.07s/it]
+--- Question 130/200 ---
+Result: INCORRECT (Answered: '1' | Expected: ['1\\frac{4}{5}'])
+Accuracy so far: 114/130 (87.69%)
+
+Processing Questions:  65%|██████▌   | 130/200 [18:50:23<10:49:15, 556.50s/it]
+--- Question 131/200 ---
+Result: CORRECT (Answered: '-5' | Expected: ['-5'])
+Accuracy so far: 115/131 (87.79%)
+
+Processing Questions:  66%|██████▌   | 131/200 [18:51:40<7:54:29, 412.60s/it] 
+--- Question 132/200 ---
+Result: CORRECT (Answered: '3.24' | Expected: ['3.24'])
+Accuracy so far: 116/132 (87.88%)
+
+Processing Questions:  66%|██████▌   | 132/200 [18:52:31<5:44:40, 304.13s/it]
+--- Question 133/200 ---
+Result: CORRECT (Answered: '12' | Expected: ['12'])
+Accuracy so far: 117/133 (87.97%)
+
+Processing Questions:  66%|██████▋   | 133/200 [18:54:50<4:44:23, 254.68s/it]
+--- Question 134/200 ---
+Result: CORRECT (Answered: '72' | Expected: ['72'])
+Accuracy so far: 118/134 (88.06%)
+
+Processing Questions:  67%|██████▋   | 134/200 [18:56:12<3:43:11, 202.90s/it]Error calling local LLM (OpenAI APIError path): Request timed out.
+Error calling local LLM (OpenAI APIError path): Request timed out.
+Error calling local LLM (OpenAI APIError path): Request timed out.
+
+--- Question 135/200 ---
+Result: INCORRECT (Answered: '96' | Expected: ['72'])
+Accuracy so far: 118/135 (87.41%)
+
+Processing Questions:  68%|██████▊   | 135/200 [20:33:51<34:18:02, 1899.73s/it]
+--- Question 136/200 ---
+Result: CORRECT (Answered: '2' | Expected: ['2'])
+Accuracy so far: 119/136 (87.50%)
+
+Processing Questions:  68%|██████▊   | 136/200 [20:37:46<24:53:35, 1400.25s/it]
+--- Question 137/200 ---
+Result: CORRECT (Answered: '\dfrac{67}{89}' | Expected: ['\\frac{67}{89}'])
+Accuracy so far: 120/137 (87.59%)
+
+Processing Questions:  68%|██████▊   | 137/200 [20:39:53<17:49:14, 1018.33s/it]
+--- Question 138/200 ---
+Result: CORRECT (Answered: '0' | Expected: ['0'])
+Accuracy so far: 121/138 (87.68%)
+
+Processing Questions:  69%|██████▉   | 138/200 [20:41:36<12:48:35, 743.80s/it] 
+--- Question 139/200 ---
+Result: CORRECT (Answered: '180' | Expected: ['180'])
+Accuracy so far: 122/139 (87.77%)
+
+Processing Questions:  70%|██████▉   | 139/200 [20:45:35<10:02:08, 592.27s/it]
+--- Question 140/200 ---
+Result: CORRECT (Answered: '\dfrac{\sqrt{6}}{6}' | Expected: ['\\frac{\\sqrt{6}}{6}'])
+Accuracy so far: 123/140 (87.86%)
+
+Processing Questions:  70%|███████   | 140/200 [20:52:31<8:59:22, 539.37s/it] 
+--- Question 141/200 ---
+Result: CORRECT (Answered: '\dfrac{35}{128}' | Expected: ['\\frac{35}{128}'])
+Accuracy so far: 124/141 (87.94%)
+
+Processing Questions:  70%|███████   | 141/200 [20:54:53<6:53:19, 420.33s/it]
+--- Question 142/200 ---
+Result: CORRECT (Answered: '14' | Expected: ['14'])
+Accuracy so far: 125/142 (88.03%)
+
+Processing Questions:  71%|███████   | 142/200 [20:57:11<5:24:21, 335.54s/it]
+--- Question 143/200 ---
+Result: INCORRECT (Answered: '3' | Expected: ['3, 11, 33'])
+Accuracy so far: 125/143 (87.41%)
+
+Processing Questions:  72%|███████▏  | 143/200 [21:02:28<5:13:35, 330.09s/it]
+--- Question 144/200 ---
+Result: CORRECT (Answered: '9' | Expected: ['9'])
+Accuracy so far: 126/144 (87.50%)
+
+Processing Questions:  72%|███████▏  | 144/200 [21:03:33<3:53:40, 250.37s/it]
+--- Question 145/200 ---
+Result: CORRECT (Answered: '1940' | Expected: ['1940'])
+Accuracy so far: 127/145 (87.59%)
+
+Processing Questions:  72%|███████▎  | 145/200 [21:05:41<3:16:02, 213.86s/it]
+--- Question 146/200 ---
+Result: CORRECT (Answered: '20' | Expected: ['20'])
+Accuracy so far: 128/146 (87.67%)
+
+Processing Questions:  73%|███████▎  | 146/200 [21:30:57<9:03:49, 604.24s/it]
+--- Question 147/200 ---
+Result: CORRECT (Answered: '\dfrac{17}{50}' | Expected: ['\\dfrac{17}{50}'])
+Accuracy so far: 129/147 (87.76%)
+
+Processing Questions:  74%|███████▎  | 147/200 [21:33:17<6:50:43, 464.97s/it]
+--- Question 148/200 ---
+Result: CORRECT (Answered: '2b' | Expected: ['2b'])
+Accuracy so far: 130/148 (87.84%)
+
+Processing Questions:  74%|███████▍  | 148/200 [21:34:03<4:54:09, 339.40s/it]
+--- Question 149/200 ---
+Result: INCORRECT (Answered: '28' | Expected: ['28\\%'])
+Accuracy so far: 130/149 (87.25%)
+
+Processing Questions:  74%|███████▍  | 149/200 [21:35:18<3:41:11, 260.22s/it]
+--- Question 150/200 ---
+Result: CORRECT (Answered: '8' | Expected: ['8'])
+Accuracy so far: 131/150 (87.33%)
+
+Processing Questions:  75%|███████▌  | 150/200 [21:39:29<3:34:25, 257.32s/it]
+--- Question 151/200 ---
+Result: CORRECT (Answered: '200' | Expected: ['200'])
+Accuracy so far: 132/151 (87.42%)
+
+Processing Questions:  76%|███████▌  | 151/200 [21:42:59<3:18:33, 243.14s/it]
+--- Question 152/200 ---
+Result: CORRECT (Answered: '60' | Expected: ['60'])
+Accuracy so far: 133/152 (87.50%)
+
+Processing Questions:  76%|███████▌  | 152/200 [21:46:04<3:00:30, 225.64s/it]
+--- Question 153/200 ---
+Result: CORRECT (Answered: '\dfrac{19}{330}' | Expected: ['\\frac{19}{330}'])
+Accuracy so far: 134/153 (87.58%)
+
+Processing Questions:  76%|███████▋  | 153/200 [21:48:08<2:32:46, 195.04s/it]
+--- Question 154/200 ---
+Result: CORRECT (Answered: '\dfrac{37}{819}' | Expected: ['\\frac{37}{819}'])
+Accuracy so far: 135/154 (87.66%)
+
+Processing Questions:  77%|███████▋  | 154/200 [21:51:40<2:33:31, 200.24s/it]
+--- Question 155/200 ---
+Result: CORRECT (Answered: '(-\sqrt{3}, \sqrt{3})' | Expected: ['(-\\sqrt{3}, \\sqrt{3})'])
+Accuracy so far: 136/155 (87.74%)
+
+Processing Questions:  78%|███████▊  | 155/200 [21:53:10<2:05:24, 167.21s/it]
+--- Question 156/200 ---
+Result: CORRECT (Answered: '4' | Expected: ['4'])
+Accuracy so far: 137/156 (87.82%)
+
+Processing Questions:  78%|███████▊  | 156/200 [21:55:29<1:56:19, 158.62s/it]
+--- Question 157/200 ---
+Result: CORRECT (Answered: '24' | Expected: ['24'])
+Accuracy so far: 138/157 (87.90%)
+
+Processing Questions:  78%|███████▊  | 157/200 [21:56:28<1:32:17, 128.79s/it]
+--- Question 158/200 ---
+Result: CORRECT (Answered: '4' | Expected: ['4'])
+Accuracy so far: 139/158 (87.97%)
+
+Processing Questions:  79%|███████▉  | 158/200 [21:58:04<1:23:16, 118.97s/it]
+--- Question 159/200 ---
+Result: CORRECT (Answered: '9' | Expected: ['9'])
+Accuracy so far: 140/159 (88.05%)
+
+Processing Questions:  80%|███████▉  | 159/200 [22:05:43<2:31:01, 221.00s/it]
+--- Question 160/200 ---
+Result: CORRECT (Answered: '14\sqrt{15}' | Expected: ['14\\sqrt{15}'])
+Accuracy so far: 141/160 (88.12%)
+
+Processing Questions:  80%|████████  | 160/200 [22:06:48<1:56:05, 174.15s/it]
+--- Question 161/200 ---
+Result: CORRECT (Answered: '16 + 12\sqrt{2}' | Expected: ['16+12\\sqrt{2}'])
+Accuracy so far: 142/161 (88.20%)
+
+Processing Questions:  80%|████████  | 161/200 [22:10:32<2:02:56, 189.13s/it]
+--- Question 162/200 ---
+Result: CORRECT (Answered: '350' | Expected: ['350'])
+Accuracy so far: 143/162 (88.27%)
+
+Processing Questions:  81%|████████  | 162/200 [22:12:36<1:47:24, 169.59s/it]
+--- Question 163/200 ---
+Result: CORRECT (Answered: '6152' | Expected: ['6152'])
+Accuracy so far: 144/163 (88.34%)
+
+Processing Questions:  82%|████████▏ | 163/200 [22:14:10<1:30:40, 147.04s/it]
+--- Question 164/200 ---
+Result: CORRECT (Answered: '\dfrac{13}{4}' | Expected: ['\\frac{13}{4}'])
+Accuracy so far: 145/164 (88.41%)
+
+Processing Questions:  82%|████████▏ | 164/200 [22:19:00<1:53:59, 189.99s/it]
+--- Question 165/200 ---
+Result: CORRECT (Answered: '105' | Expected: ['105'])
+Accuracy so far: 146/165 (88.48%)
+
+Processing Questions:  82%|████████▎ | 165/200 [22:21:11<1:40:23, 172.09s/it]
+--- Question 166/200 ---
+Result: INCORRECT (Answered: '-1' | Expected: ['-1,2'])
+Accuracy so far: 146/166 (87.95%)
+
+Processing Questions:  83%|████████▎ | 166/200 [22:25:25<1:51:29, 196.76s/it]
+--- Question 167/200 ---
+Result: CORRECT (Answered: '\dfrac{9}{2}' | Expected: ['\\frac{9}{2}'])
+Accuracy so far: 147/167 (88.02%)
+
+Processing Questions:  84%|████████▎ | 167/200 [22:29:39<1:57:41, 214.00s/it]
+--- Question 168/200 ---
+Result: CORRECT (Answered: '9' | Expected: ['9'])
+Accuracy so far: 148/168 (88.10%)
+
+Processing Questions:  84%|████████▍ | 168/200 [22:32:47<1:49:54, 206.09s/it]
+--- Question 169/200 ---
+Result: CORRECT (Answered: '(3, -3, 1)' | Expected: ['(3,-3,1)'])
+Accuracy so far: 149/169 (88.17%)
+
+Processing Questions:  84%|████████▍ | 169/200 [22:35:38<1:40:59, 195.47s/it]
+--- Question 170/200 ---
+Result: CORRECT (Answered: '503' | Expected: ['503'])
+Accuracy so far: 150/170 (88.24%)
+
+Processing Questions:  85%|████████▌ | 170/200 [22:39:43<1:45:15, 210.51s/it]
+--- Question 171/200 ---
+Result: CORRECT (Answered: '\dfrac{1}{2}' | Expected: ['\\frac{1}{2}'])
+Accuracy so far: 151/171 (88.30%)
+
+Processing Questions:  86%|████████▌ | 171/200 [22:47:49<2:21:37, 293.00s/it]
+--- Question 172/200 ---
+Result: CORRECT (Answered: '\dfrac{20}{27}' | Expected: ['\\frac{20}{27}'])
+Accuracy so far: 152/172 (88.37%)
+
+Processing Questions:  86%|████████▌ | 172/200 [22:49:35<1:50:32, 236.88s/it]
+--- Question 173/200 ---
+Result: CORRECT (Answered: '\sqrt{3} - 1' | Expected: ['\\sqrt{3}-1'])
+Accuracy so far: 153/173 (88.44%)
+
+Processing Questions:  86%|████████▋ | 173/200 [22:55:55<2:06:00, 280.03s/it]
+--- Question 174/200 ---
+Result: CORRECT (Answered: '\sqrt{2}' | Expected: ['\\sqrt{2}'])
+Accuracy so far: 154/174 (88.51%)
+
+Processing Questions:  87%|████████▋ | 174/200 [23:01:06<2:05:20, 289.24s/it]
+--- Question 175/200 ---
+Result: CORRECT (Answered: '6\pi + 2' | Expected: ['6\\pi+2'])
+Accuracy so far: 155/175 (88.57%)
+
+Processing Questions:  88%|████████▊ | 175/200 [23:11:06<2:39:18, 382.34s/it]
+--- Question 176/200 ---
+Result: INCORRECT (Answered: '-112' | Expected: ['8,-112'])
+Accuracy so far: 155/176 (88.07%)
+
+Processing Questions:  88%|████████▊ | 176/200 [23:12:37<1:58:00, 295.03s/it]
+--- Question 177/200 ---
+Result: CORRECT (Answered: '23' | Expected: ['23'])
+Accuracy so far: 156/177 (88.14%)
+
+Processing Questions:  88%|████████▊ | 177/200 [23:14:42<1:33:29, 243.88s/it]
+--- Question 178/200 ---
+Result: CORRECT (Answered: '36' | Expected: ['36'])
+Accuracy so far: 157/178 (88.20%)
+
+Processing Questions:  89%|████████▉ | 178/200 [23:16:05<1:11:49, 195.88s/it]
+--- Question 179/200 ---
+Result: CORRECT (Answered: '54' | Expected: ['54'])
+Accuracy so far: 158/179 (88.27%)
+
+Processing Questions:  90%|████████▉ | 179/200 [23:17:50<58:58, 168.52s/it]  
+--- Question 180/200 ---
+Result: CORRECT (Answered: '-4' | Expected: ['-4'])
+Accuracy so far: 159/180 (88.33%)
+
+Processing Questions:  90%|█████████ | 180/200 [23:20:34<55:41, 167.07s/it]
+--- Question 181/200 ---
+Result: INCORRECT (Answered: '145' | Expected: ['145^\\circ'])
+Accuracy so far: 159/181 (87.85%)
+
+Processing Questions:  90%|█████████ | 181/200 [23:23:32<53:56, 170.32s/it]
+--- Question 182/200 ---
+Result: INCORRECT (Answered: '(7, -10)' | Expected: ['(-7,10)'])
+Accuracy so far: 159/182 (87.36%)
+
+Processing Questions:  91%|█████████ | 182/200 [23:29:02<1:05:30, 218.34s/it]
+--- Question 183/200 ---
+Result: INCORRECT (Answered: '123' | Expected: ['163'])
+Accuracy so far: 159/183 (86.89%)
+
+Processing Questions:  92%|█████████▏| 183/200 [23:35:48<1:17:49, 274.70s/it]
+--- Question 184/200 ---
+Result: CORRECT (Answered: '60' | Expected: ['60'])
+Accuracy so far: 160/184 (86.96%)
+
+Processing Questions:  92%|█████████▏| 184/200 [23:36:54<56:31, 211.99s/it]  
+--- Question 185/200 ---
+Result: CORRECT (Answered: '60' | Expected: ['60'])
+Accuracy so far: 161/185 (87.03%)
+
+Processing Questions:  92%|█████████▎| 185/200 [23:38:08<42:38, 170.57s/it]
+--- Question 186/200 ---
+Result: CORRECT (Answered: '159' | Expected: ['159'])
+Accuracy so far: 162/186 (87.10%)
+
+Processing Questions:  93%|█████████▎| 186/200 [23:41:56<43:49, 187.81s/it]
+--- Question 187/200 ---
+Result: CORRECT (Answered: '\dfrac{19}{40}' | Expected: ['\\dfrac{19}{40}'])
+Accuracy so far: 163/187 (87.17%)
+
+Processing Questions:  94%|█████████▎| 187/200 [23:43:05<32:59, 152.25s/it]
+--- Question 188/200 ---
+Result: CORRECT (Answered: '21' | Expected: ['21'])
+Accuracy so far: 164/188 (87.23%)
+
+Processing Questions:  94%|█████████▍| 188/200 [23:44:17<25:38, 128.20s/it]
+--- Question 189/200 ---
+Result: CORRECT (Answered: '52' | Expected: ['52'])
+Accuracy so far: 165/189 (87.30%)
+
+Processing Questions:  94%|█████████▍| 189/200 [23:45:06<19:06, 104.25s/it]
+--- Question 190/200 ---
+Result: CORRECT (Answered: '8' | Expected: ['8'])
+Accuracy so far: 166/190 (87.37%)
+
+Processing Questions:  95%|█████████▌| 190/200 [23:49:16<24:40, 148.03s/it]
+--- Question 191/200 ---
+Result: INCORRECT (Answered: '86' | Expected: ['133'])
+Accuracy so far: 166/191 (86.91%)
+
+Processing Questions:  96%|█████████▌| 191/200 [23:58:22<40:07, 267.48s/it]
+--- Question 192/200 ---
+Result: CORRECT (Answered: '14' | Expected: ['14'])
+Accuracy so far: 167/192 (86.98%)
+
+Processing Questions:  96%|█████████▌| 192/200 [24:01:42<32:57, 247.21s/it]
+--- Question 193/200 ---
+Result: CORRECT (Answered: '11' | Expected: ['11'])
+Accuracy so far: 168/193 (87.05%)
+
+Processing Questions:  96%|█████████▋| 193/200 [24:03:04<23:03, 197.64s/it]
+--- Question 194/200 ---
+Result: CORRECT (Answered: '5' | Expected: ['5'])
+Accuracy so far: 169/194 (87.11%)
+
+Processing Questions:  97%|█████████▋| 194/200 [24:04:15<15:57, 159.60s/it]
+--- Question 195/200 ---
+Result: CORRECT (Answered: '107' | Expected: ['107'])
+Accuracy so far: 170/195 (87.18%)
+
+Processing Questions:  98%|█████████▊| 195/200 [24:06:26<12:36, 151.24s/it]
+--- Question 196/200 ---
+Result: CORRECT (Answered: '5.5' | Expected: ['5.5'])
+Accuracy so far: 171/196 (87.24%)
+
+Processing Questions:  98%|█████████▊| 196/200 [24:07:44<08:36, 129.05s/it]
+--- Question 197/200 ---
+Result: CORRECT (Answered: '18' | Expected: ['18'])
+Accuracy so far: 172/197 (87.31%)
+
+Processing Questions:  98%|█████████▊| 197/200 [24:12:47<09:03, 181.32s/it]
+--- Question 198/200 ---
+Result: CORRECT (Answered: '\dfrac{5}{54}' | Expected: ['\\frac{5}{54}'])
+Accuracy so far: 173/198 (87.37%)
+
+Processing Questions:  99%|█████████▉| 198/200 [24:14:50<05:27, 163.82s/it]
+--- Question 199/200 ---
+Result: INCORRECT (Answered: '-1' | Expected: ['2, -1'])
+Accuracy so far: 173/199 (86.93%)
+
+Processing Questions: 100%|█████████▉| 199/200 [24:18:21<02:57, 177.94s/it]
+--- Question 200/200 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['12'])
+Accuracy so far: 173/200 (86.50%)
+
+Processing Questions: 100%|██████████| 200/200 [24:27:31<00:00, 289.63s/it]Processing Questions: 100%|██████████| 200/200 [24:27:31<00:00, 440.26s/it]
+
+===== Single Agent Evaluation Summary =====
+Total Questions: 200
+Correctly Answered: 173
+Overall Accuracy: 86.50%
+All single agent results summarized in: experiment_math_lv5_results/single/single_temp1.0_mislead/run1/single_single_single_temp1.0_mislead_run1_20250718_211325.json

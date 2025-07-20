@@ -11,3 +11,4 @@
     "judge_prompt_last2": "Therefore, ##debate_topic##\n\n**IMPORTANT:** Your output MUST be a single JSON object. The value for the 'debate_answer' key must be a string containing the final answer enclosed in a `\\boxed{}` environment. For example: `\"debate_answer\": \"\\boxed{42}\"` or `\"debate_answer\": \"\\boxed{\\frac{1}{2}}\"`.\n\nPlease summarize your reasons and give the final answer that you think is correct. Now please output your answer in the following JSON format: {\"Reason\": \"\", \"debate_answer\": \"\"}. Please strictly output ONLY the JSON.",
     "debate_prompt": "##oppo_ans##\n\nDo you agree with my perspective? Please provide your reasons and answer."
 }
+

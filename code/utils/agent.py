@@ -14,7 +14,7 @@ from .openai_utils import num_tokens_from_string, model2max_context
 # VLLM 서버와 통신할 때 사용하는 모델 이름 목록.
 # VLLM에 로드된 모델 이름 (예: Qwen/Qwen3-14B)을 포함해야 합니다.
 # OpenAI 모델도 필요하다면 여기에 추가됩니다.
-support_models = ['gpt-3.5-turbo', 'gpt-3.5-turbo-0301', 'gpt-4', 'gpt-4-0314', 'Qwen/Qwen3-14B']
+support_models = ['gpt-3.5-turbo', 'gpt-3.5-turbo-0301', 'gpt-4', 'gpt-4-0314', 'Qwen/Qwen3-14B', 'Qwen/Qwen2.5-14B-Instruct']
 
 class Agent:
     def __init__(self, model_name: str, name: str, temperature: float, sleep_time: float=0, local_llm_url: str = None, openai_api_key: str = None) -> None:
