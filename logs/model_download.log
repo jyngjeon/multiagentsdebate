@@ -1,8 +1,0 @@
-모델 다운로드 시작: 'Qwen/Qwen3-14B' (Hugging Face 기본 캐시 경로에 저장)
-모델 (AutoModelForCausalLM) 다운로드 중...
-Fetching 8 files:   0%|          | 0/8 [00:00<?, ?it/s]Fetching 8 files:  12%|█▎        | 1/8 [36:09<4:13:03, 2169.13s/it]Fetching 8 files:  38%|███▊      | 3/8 [36:09<46:52, 562.44s/it]   Fetching 8 files:  75%|███████▌  | 6/8 [36:12<07:16, 218.03s/it]Fetching 8 files: 100%|██████████| 8/8 [36:12<00:00, 271.56s/it]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.69it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.64it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.65it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.64it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:02<00:01,  1.69it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:03<00:01,  1.72it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.76it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:04<00:00,  2.12it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:04<00:00,  1.84it/s]
-모델 'Qwen/Qwen3-14B'이(가) Hugging Face 기본 캐시 경로에 성공적으로 다운로드되었습니다.
-토크나이저 (AutoTokenizer) 다운로드 중...
-토크나이저 'Qwen/Qwen3-14B'이(가) Hugging Face 기본 캐시 경로에 성공적으로 다운로드되었습니다.
-모든 다운로드 작업이 완료되었습니다.

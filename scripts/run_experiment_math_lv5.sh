@@ -19,7 +19,7 @@ BASE_OUTPUT_DIR="experiment_math_lv5_results"
 CONFIG_PROMPT_PATH="code/utils/config4all_new_math.json" 
 
 # 노이즈 텍스트 정의 (모든 노이즈 실험에서 동일하게 사용)
-COMMON_NOISE_TEXT=" The problem was first posed on a test administered in 1998, where only 15% of the 200 students answered it correctly. Now, solve the problem."
+COMMON_NOISE_TEXT=""
 
 # --- 1. BASE_OUTPUT_DIR 생성 (이미 존재하면 건너뜀) ---
 mkdir -p "$BASE_OUTPUT_DIR"
