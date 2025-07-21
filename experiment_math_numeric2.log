@@ -1,0 +1,39 @@
+nohup: ignoring input
+Experiment results will be saved in: experiment_math_numeric_results
+DEBUG: Creating directory: 'experiment_math_numeric_results/single/single_temp0_mislead/run1'
+
+--- Starting Experiment 1 (Single Agent Parallel): Temp 0, Noise: Yes (Run 1) ---
+Experiment 1 launched in background. Log: experiment_math_numeric_results/single/single_temp0_mislead/run1/single_agent.log
+
+--- Preparing Single Agent, Temp 0.5, with mislead (3 runs) ---
+DEBUG: Creating directory: 'experiment_math_numeric_results/single/single_temp0.5_mislead/run1'
+
+--- Starting Experiment 2 (Single Agent Parallel): Temp 0.5, Noise: Yes (Run 1) ---
+Experiment 2 launched in background. Log: experiment_math_numeric_results/single/single_temp0.5_mislead/run1/single_agent.log
+DEBUG: Creating directory: 'experiment_math_numeric_results/single/single_temp0.5_mislead/run2'
+
+--- Starting Experiment 3 (Single Agent Parallel): Temp 0.5, Noise: Yes (Run 2) ---
+Experiment 3 launched in background. Log: experiment_math_numeric_results/single/single_temp0.5_mislead/run2/single_agent.log
+DEBUG: Creating directory: 'experiment_math_numeric_results/single/single_temp0.5_mislead/run3'
+
+--- Starting Experiment 4 (Single Agent Parallel): Temp 0.5, Noise: Yes (Run 3) ---
+Experiment 4 launched in background. Log: experiment_math_numeric_results/single/single_temp0.5_mislead/run3/single_agent.log
+
+--- Preparing Single Agent, Temp 1.0, with mislead (3 runs) ---
+DEBUG: Creating directory: 'experiment_math_numeric_results/single/single_temp1.0_mislead/run1'
+
+--- Starting Experiment 5 (Single Agent Parallel): Temp 1.0, Noise: Yes (Run 1) ---
+Experiment 5 launched in background. Log: experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_agent.log
+DEBUG: Creating directory: 'experiment_math_numeric_results/single/single_temp1.0_mislead/run2'
+
+--- Starting Experiment 6 (Single Agent Parallel): Temp 1.0, Noise: Yes (Run 2) ---
+Experiment 6 launched in background. Log: experiment_math_numeric_results/single/single_temp1.0_mislead/run2/single_agent.log
+DEBUG: Creating directory: 'experiment_math_numeric_results/single/single_temp1.0_mislead/run3'
+
+--- Starting Experiment 7 (Single Agent Parallel): Temp 1.0, Noise: Yes (Run 3) ---
+Experiment 7 launched in background. Log: experiment_math_numeric_results/single/single_temp1.0_mislead/run3/single_agent.log
+
+--- All parallel experiments launched. Total experiments: 7 ---
+You can check their individual logs for progress.
+Use 'jobs' or 'ps aux | grep python' to monitor them.
+Use 'wait' command in your terminal to wait for all background jobs to complete, or 'kill <PID>' to stop them.

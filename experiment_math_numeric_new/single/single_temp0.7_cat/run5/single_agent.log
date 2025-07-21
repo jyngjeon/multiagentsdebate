@@ -1,0 +1,730 @@
+
+Starting single agent evaluation for 100 questions...
+Results will be saved incrementally to: experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+Processing Questions:   0%|          | 0/100 [00:00<?, ?it/s]Result for question 1 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 1/100 ---
+Result: CORRECT (Answered: '75' | Expected: ['75'])
+Accuracy so far: 1/1 (100.00%)
+
+Processing Questions:   1%|          | 1/100 [00:09<15:34,  9.44s/it]Result for question 2 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 2/100 ---
+Result: CORRECT (Answered: '8' | Expected: ['8'])
+Accuracy so far: 2/2 (100.00%)
+
+Processing Questions:   2%|▏         | 2/100 [00:12<09:33,  5.85s/it]Result for question 3 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 3/100 ---
+Result: CORRECT (Answered: '7' | Expected: ['7'])
+Accuracy so far: 3/3 (100.00%)
+
+Processing Questions:   3%|▎         | 3/100 [00:49<32:34, 20.15s/it]Result for question 4 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 4/100 ---
+Result: CORRECT (Answered: '0' | Expected: ['0'])
+Accuracy so far: 4/4 (100.00%)
+
+Processing Questions:   4%|▍         | 4/100 [00:59<25:39, 16.03s/it]Result for question 5 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 5/100 ---
+Result: CORRECT (Answered: '2' | Expected: ['2'])
+Accuracy so far: 5/5 (100.00%)
+
+Processing Questions:   5%|▌         | 5/100 [01:03<18:28, 11.67s/it]Result for question 6 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 6/100 ---
+Result: CORRECT (Answered: '45' | Expected: ['45'])
+Accuracy so far: 6/6 (100.00%)
+
+Processing Questions:   6%|▌         | 6/100 [01:17<19:25, 12.40s/it]Result for question 7 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 7/100 ---
+Result: CORRECT (Answered: '27' | Expected: ['27'])
+Accuracy so far: 7/7 (100.00%)
+
+Processing Questions:   7%|▋         | 7/100 [01:23<16:01, 10.33s/it]Result for question 8 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 8/100 ---
+Result: CORRECT (Answered: '-6.5' | Expected: ['-6.5'])
+Accuracy so far: 8/8 (100.00%)
+
+Processing Questions:   8%|▊         | 8/100 [01:31<14:40,  9.57s/it]Result for question 9 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 9/100 ---
+Result: CORRECT (Answered: '35' | Expected: ['35'])
+Accuracy so far: 9/9 (100.00%)
+
+Processing Questions:   9%|▉         | 9/100 [01:36<12:20,  8.14s/it]Result for question 10 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 10/100 ---
+Result: CORRECT (Answered: '37' | Expected: ['37'])
+Accuracy so far: 10/10 (100.00%)
+
+Processing Questions:  10%|█         | 10/100 [01:40<10:26,  6.96s/it]Result for question 11 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 11/100 ---
+Result: CORRECT (Answered: '120' | Expected: ['120'])
+Accuracy so far: 11/11 (100.00%)
+
+Processing Questions:  11%|█         | 11/100 [01:59<15:34, 10.50s/it]Result for question 12 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 12/100 ---
+Result: CORRECT (Answered: '10' | Expected: ['10'])
+Accuracy so far: 12/12 (100.00%)
+
+Processing Questions:  12%|█▏        | 12/100 [02:08<14:51, 10.13s/it]Result for question 13 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 13/100 ---
+Result: INCORRECT (Answered: '9' | Expected: ['23'])
+Accuracy so far: 12/13 (92.31%)
+
+Processing Questions:  13%|█▎        | 13/100 [02:16<13:40,  9.43s/it]Result for question 14 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 14/100 ---
+Result: CORRECT (Answered: '56' | Expected: ['56'])
+Accuracy so far: 13/14 (92.86%)
+
+Processing Questions:  14%|█▍        | 14/100 [02:24<13:02,  9.09s/it]Result for question 15 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 15/100 ---
+Result: CORRECT (Answered: '4' | Expected: ['4'])
+Accuracy so far: 14/15 (93.33%)
+
+Processing Questions:  15%|█▌        | 15/100 [02:31<11:50,  8.36s/it]Result for question 16 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 16/100 ---
+Result: CORRECT (Answered: '25' | Expected: ['25'])
+Accuracy so far: 15/16 (93.75%)
+
+Processing Questions:  16%|█▌        | 16/100 [02:41<12:20,  8.82s/it]Result for question 17 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 17/100 ---
+Result: CORRECT (Answered: '12' | Expected: ['12'])
+Accuracy so far: 16/17 (94.12%)
+
+Processing Questions:  17%|█▋        | 17/100 [02:47<11:19,  8.18s/it]Result for question 18 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 18/100 ---
+Result: CORRECT (Answered: '5' | Expected: ['5'])
+Accuracy so far: 17/18 (94.44%)
+
+Processing Questions:  18%|█▊        | 18/100 [02:53<10:05,  7.38s/it]Result for question 19 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 19/100 ---
+Result: INCORRECT (Answered: '12' | Expected: ['30'])
+Accuracy so far: 17/19 (89.47%)
+
+Processing Questions:  19%|█▉        | 19/100 [03:05<11:46,  8.73s/it]Result for question 20 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 20/100 ---
+Result: CORRECT (Answered: '772' | Expected: ['772'])
+Accuracy so far: 18/20 (90.00%)
+
+Processing Questions:  20%|██        | 20/100 [03:13<11:21,  8.51s/it]Result for question 21 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 21/100 ---
+Result: CORRECT (Answered: '18' | Expected: ['18'])
+Accuracy so far: 19/21 (90.48%)
+
+Processing Questions:  21%|██        | 21/100 [03:20<10:51,  8.25s/it]Result for question 22 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 22/100 ---
+Result: CORRECT (Answered: '2' | Expected: ['2'])
+Accuracy so far: 20/22 (90.91%)
+
+Processing Questions:  22%|██▏       | 22/100 [03:24<08:41,  6.69s/it]Result for question 23 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 23/100 ---
+Result: CORRECT (Answered: '2' | Expected: ['2'])
+Accuracy so far: 21/23 (91.30%)
+
+Processing Questions:  23%|██▎       | 23/100 [03:36<11:00,  8.58s/it]Result for question 24 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 24/100 ---
+Result: INCORRECT (Answered: '6' | Expected: ['8'])
+Accuracy so far: 21/24 (87.50%)
+
+Processing Questions:  24%|██▍       | 24/100 [03:37<07:42,  6.09s/it]Result for question 25 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 25/100 ---
+Result: CORRECT (Answered: '1004' | Expected: ['1004'])
+Accuracy so far: 22/25 (88.00%)
+
+Processing Questions:  25%|██▌       | 25/100 [03:41<06:54,  5.52s/it]Result for question 26 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 26/100 ---
+Result: CORRECT (Answered: '20' | Expected: ['20'])
+Accuracy so far: 23/26 (88.46%)
+
+Processing Questions:  26%|██▌       | 26/100 [03:50<08:07,  6.59s/it]Result for question 27 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 27/100 ---
+Result: CORRECT (Answered: '70' | Expected: ['70'])
+Accuracy so far: 24/27 (88.89%)
+
+Processing Questions:  27%|██▋       | 27/100 [03:58<08:22,  6.89s/it]Result for question 28 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 28/100 ---
+Result: INCORRECT (Answered: '-1' | Expected: ['65536'])
+Accuracy so far: 24/28 (85.71%)
+
+Processing Questions:  28%|██▊       | 28/100 [04:24<15:07, 12.61s/it]Result for question 29 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 29/100 ---
+Result: INCORRECT (Answered: '0' | Expected: ['6'])
+Accuracy so far: 24/29 (82.76%)
+
+Processing Questions:  29%|██▉       | 29/100 [04:42<16:57, 14.33s/it]Result for question 30 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 30/100 ---
+Result: CORRECT (Answered: '52' | Expected: ['52'])
+Accuracy so far: 25/30 (83.33%)
+
+Processing Questions:  30%|███       | 30/100 [04:52<15:05, 12.93s/it]Result for question 31 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 31/100 ---
+Result: INCORRECT (Answered: '-1' | Expected: ['-221_3'])
+Accuracy so far: 25/31 (80.65%)
+
+Processing Questions:  31%|███       | 31/100 [05:16<18:56, 16.47s/it]Result for question 32 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 32/100 ---
+Result: INCORRECT (Answered: '828' | Expected: ['89'])
+Accuracy so far: 25/32 (78.12%)
+
+Processing Questions:  32%|███▏      | 32/100 [05:52<25:12, 22.25s/it]Result for question 33 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 33/100 ---
+Result: CORRECT (Answered: '11' | Expected: ['11'])
+Accuracy so far: 26/33 (78.79%)
+
+Processing Questions:  33%|███▎      | 33/100 [05:57<19:10, 17.17s/it]Result for question 34 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 34/100 ---
+Result: CORRECT (Answered: '5' | Expected: ['5'])
+Accuracy so far: 27/34 (79.41%)
+
+Processing Questions:  34%|███▍      | 34/100 [06:07<16:24, 14.91s/it]Result for question 35 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 35/100 ---
+Result: INCORRECT (Answered: '0' | Expected: ['-4'])
+Accuracy so far: 27/35 (77.14%)
+
+Processing Questions:  35%|███▌      | 35/100 [06:14<13:34, 12.53s/it]Result for question 36 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 36/100 ---
+Result: CORRECT (Answered: '28' | Expected: ['28'])
+Accuracy so far: 28/36 (77.78%)
+
+Processing Questions:  36%|███▌      | 36/100 [06:20<11:20, 10.63s/it]
+Warning: Failed to decode the extracted JSON for question 37. Extracted: {"answer": 0}
+
+Note: The expression $\mathbf{a} \cdot (\mathbf{a} \times \mathbf{b})$ always equals zero for any vectors $\mathbf{a}$ and $\mathbf{b}$, because it represents the scalar triple product which is zero when $\mathbf{a}$ and $\mathbf{b}$ are not collinear (which they aren't in this case). This is due to the geometric interpretation that the dot product of a vector with a vector perpendicular to it is zero. Since $\mathbf{a} \times \mathbf{b}$ is orthogonal to both $\mathbf{a}$ and $\mathbf{b}$, the result follows. Thus, no explicit computation of the cross product or its dot product with $\mathbf{a}
+Result for question 37 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 37/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['0'])
+Accuracy so far: 28/37 (75.68%)
+
+Processing Questions:  37%|███▋      | 37/100 [06:28<10:10,  9.70s/it]Result for question 38 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 38/100 ---
+Result: CORRECT (Answered: '2' | Expected: ['2'])
+Accuracy so far: 29/38 (76.32%)
+
+Processing Questions:  38%|███▊      | 38/100 [06:34<08:58,  8.69s/it]Result for question 39 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 39/100 ---
+Result: CORRECT (Answered: '9' | Expected: ['9'])
+Accuracy so far: 30/39 (76.92%)
+
+Processing Questions:  39%|███▉      | 39/100 [06:40<08:00,  7.88s/it]
+Warning: Failed to decode the extracted JSON for question 40. Extracted: {
+  "reasoning": "To find the distance from the center point \( P \) of one square base to the corner \( Q \) of the opposite base, we need to consider the spatial coordinates of these points.\n\nThe center point \( P \) of the square base can be represented as \\((8, 8, 2)\\) (assuming the thickness of the box is 4 cm, so the center of the top face is at height 2 cm).\n\nThe corner \( Q \) of the opposite base can be represented as \\((0, 16, 0)\\) (assuming one corner of the bottom face is at the origin).\n\nWe use the distance formula in 3D space, which is given by:\n\n\\[
+d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2 + (z_2 - z_1)^2}
+\\]\nSubstituting the coordinates of points \( P \) and \( Q \):\n\n\\[
+d = \sqrt{(8 - 0)^2 + (8 - 16)^2 + (2 - 0)^2}
+\\]\nSimplifying inside the square root:\n\n\\[
+d = \sqrt{8^2 + (-8)^2 + 2^2} = \sqrt{64 + 64 + 4} = \sqrt{132} = 2\sqrt{33}
+\\]",
+  "answer": 2 * Math.sqrt(33)
+}
+Result for question 40 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 40/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['12'])
+Accuracy so far: 30/40 (75.00%)
+
+Processing Questions:  40%|████      | 40/100 [06:54<09:41,  9.68s/it]Result for question 41 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 41/100 ---
+Result: CORRECT (Answered: '8' | Expected: ['8'])
+Accuracy so far: 31/41 (75.61%)
+
+Processing Questions:  41%|████      | 41/100 [07:05<09:54, 10.07s/it]Result for question 42 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 42/100 ---
+Result: CORRECT (Answered: '140' | Expected: ['140'])
+Accuracy so far: 32/42 (76.19%)
+
+Processing Questions:  42%|████▏     | 42/100 [07:09<08:06,  8.39s/it]Result for question 43 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 43/100 ---
+Result: CORRECT (Answered: '5' | Expected: ['5'])
+Accuracy so far: 33/43 (76.74%)
+
+Processing Questions:  43%|████▎     | 43/100 [07:24<09:51, 10.37s/it]Result for question 44 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 44/100 ---
+Result: INCORRECT (Answered: '150' | Expected: ['129'])
+Accuracy so far: 33/44 (75.00%)
+
+Processing Questions:  44%|████▍     | 44/100 [07:31<08:32,  9.15s/it]Result for question 45 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 45/100 ---
+Result: CORRECT (Answered: '0' | Expected: ['0'])
+Accuracy so far: 34/45 (75.56%)
+
+Processing Questions:  45%|████▌     | 45/100 [07:55<12:33, 13.71s/it]Result for question 46 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 46/100 ---
+Result: CORRECT (Answered: '3' | Expected: ['3'])
+Accuracy so far: 35/46 (76.09%)
+
+Processing Questions:  46%|████▌     | 46/100 [07:57<09:15, 10.29s/it]Result for question 47 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 47/100 ---
+Result: INCORRECT (Answered: '6' | Expected: ['22'])
+Accuracy so far: 35/47 (74.47%)
+
+Processing Questions:  47%|████▋     | 47/100 [08:17<11:35, 13.12s/it]Result for question 48 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 48/100 ---
+Result: CORRECT (Answered: '32' | Expected: ['32'])
+Accuracy so far: 36/48 (75.00%)
+
+Processing Questions:  48%|████▊     | 48/100 [08:24<09:42, 11.19s/it]Result for question 49 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 49/100 ---
+Result: INCORRECT (Answered: '58' | Expected: ['52'])
+Accuracy so far: 36/49 (73.47%)
+
+Processing Questions:  49%|████▉     | 49/100 [08:34<09:21, 11.00s/it]Result for question 50 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 50/100 ---
+Result: INCORRECT (Answered: '228' | Expected: ['190'])
+Accuracy so far: 36/50 (72.00%)
+
+Processing Questions:  50%|█████     | 50/100 [08:46<09:21, 11.22s/it]Result for question 51 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 51/100 ---
+Result: CORRECT (Answered: '2' | Expected: ['2'])
+Accuracy so far: 37/51 (72.55%)
+
+Processing Questions:  51%|█████     | 51/100 [08:57<09:08, 11.19s/it]Result for question 52 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 52/100 ---
+Result: CORRECT (Answered: '5' | Expected: ['5'])
+Accuracy so far: 38/52 (73.08%)
+
+Processing Questions:  52%|█████▏    | 52/100 [09:01<07:14,  9.06s/it]Result for question 53 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 53/100 ---
+Result: CORRECT (Answered: '338' | Expected: ['338'])
+Accuracy so far: 39/53 (73.58%)
+
+Processing Questions:  53%|█████▎    | 53/100 [09:10<07:02,  8.98s/it]Result for question 54 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 54/100 ---
+Result: INCORRECT (Answered: '36' | Expected: ['1736'])
+Accuracy so far: 39/54 (72.22%)
+
+Processing Questions:  54%|█████▍    | 54/100 [09:31<09:38, 12.58s/it]Result for question 55 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 55/100 ---
+Result: INCORRECT (Answered: 'inf' | Expected: ['4'])
+Accuracy so far: 39/55 (70.91%)
+
+Processing Questions:  55%|█████▌    | 55/100 [09:52<11:13, 14.97s/it]Result for question 56 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 56/100 ---
+Result: CORRECT (Answered: '3' | Expected: ['3'])
+Accuracy so far: 40/56 (71.43%)
+
+Processing Questions:  56%|█████▌    | 56/100 [10:16<13:04, 17.84s/it]Result for question 57 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 57/100 ---
+Result: CORRECT (Answered: '27.2' | Expected: ['27.2'])
+Accuracy so far: 41/57 (71.93%)
+
+Processing Questions:  57%|█████▋    | 57/100 [10:29<11:37, 16.22s/it]Result for question 58 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 58/100 ---
+Result: CORRECT (Answered: '549' | Expected: ['549'])
+Accuracy so far: 42/58 (72.41%)
+
+Processing Questions:  58%|█████▊    | 58/100 [10:46<11:31, 16.46s/it]Result for question 59 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 59/100 ---
+Result: CORRECT (Answered: '-7' | Expected: ['-7'])
+Accuracy so far: 43/59 (72.88%)
+
+Processing Questions:  59%|█████▉    | 59/100 [10:52<09:07, 13.36s/it]Result for question 60 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 60/100 ---
+Result: CORRECT (Answered: '202' | Expected: ['202'])
+Accuracy so far: 44/60 (73.33%)
+
+Processing Questions:  60%|██████    | 60/100 [10:57<07:13, 10.83s/it]Result for question 61 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 61/100 ---
+Result: CORRECT (Answered: '-2' | Expected: ['-2'])
+Accuracy so far: 45/61 (73.77%)
+
+Processing Questions:  61%|██████    | 61/100 [11:05<06:32, 10.07s/it]Result for question 62 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 62/100 ---
+Result: CORRECT (Answered: '336' | Expected: ['336'])
+Accuracy so far: 46/62 (74.19%)
+
+Processing Questions:  62%|██████▏   | 62/100 [11:09<05:11,  8.19s/it]Result for question 63 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 63/100 ---
+Result: CORRECT (Answered: '1' | Expected: ['1'])
+Accuracy so far: 47/63 (74.60%)
+
+Processing Questions:  63%|██████▎   | 63/100 [11:13<04:24,  7.15s/it]Result for question 64 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 64/100 ---
+Result: CORRECT (Answered: '62.8' | Expected: ['62.8'])
+Accuracy so far: 48/64 (75.00%)
+
+Processing Questions:  64%|██████▍   | 64/100 [11:30<05:58,  9.97s/it]Result for question 65 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 65/100 ---
+Result: INCORRECT (Answered: '1152' | Expected: ['960'])
+Accuracy so far: 48/65 (73.85%)
+
+Processing Questions:  65%|██████▌   | 65/100 [11:49<07:22, 12.63s/it]Result for question 66 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 66/100 ---
+Result: INCORRECT (Answered: '72' | Expected: ['100'])
+Accuracy so far: 48/66 (72.73%)
+
+Processing Questions:  66%|██████▌   | 66/100 [12:04<07:36, 13.42s/it]Result for question 67 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 67/100 ---
+Result: CORRECT (Answered: '12' | Expected: ['12'])
+Accuracy so far: 49/67 (73.13%)
+
+Processing Questions:  67%|██████▋   | 67/100 [12:19<07:32, 13.72s/it]Result for question 68 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 68/100 ---
+Result: CORRECT (Answered: '71' | Expected: ['71'])
+Accuracy so far: 50/68 (73.53%)
+
+Processing Questions:  68%|██████▊   | 68/100 [12:30<06:58, 13.09s/it]Result for question 69 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 69/100 ---
+Result: CORRECT (Answered: '17' | Expected: ['17'])
+Accuracy so far: 51/69 (73.91%)
+
+Processing Questions:  69%|██████▉   | 69/100 [12:45<07:03, 13.66s/it]Result for question 70 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 70/100 ---
+Result: CORRECT (Answered: '1' | Expected: ['1'])
+Accuracy so far: 52/70 (74.29%)
+
+Processing Questions:  70%|███████   | 70/100 [12:57<06:30, 13.02s/it]Result for question 71 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 71/100 ---
+Result: CORRECT (Answered: '7' | Expected: ['7'])
+Accuracy so far: 53/71 (74.65%)
+
+Processing Questions:  71%|███████   | 71/100 [13:15<07:05, 14.66s/it]Result for question 72 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 72/100 ---
+Result: CORRECT (Answered: '9' | Expected: ['9'])
+Accuracy so far: 54/72 (75.00%)
+
+Processing Questions:  72%|███████▏  | 72/100 [13:19<05:16, 11.32s/it]Result for question 73 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 73/100 ---
+Result: CORRECT (Answered: '6' | Expected: ['6'])
+Accuracy so far: 55/73 (75.34%)
+
+Processing Questions:  73%|███████▎  | 73/100 [13:26<04:31, 10.07s/it]Result for question 74 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 74/100 ---
+Result: INCORRECT (Answered: '111' | Expected: ['159'])
+Accuracy so far: 55/74 (74.32%)
+
+Processing Questions:  74%|███████▍  | 74/100 [14:05<08:06, 18.71s/it]
+Warning: Failed to decode the extracted JSON for question 75. Extracted: {"reasoning": "First, we express \\(\\tan x\\) and \\(\\sec x\\) in terms of \\(\\sin x\\) and \\(\\cos x\\): \\(\\tan x = \\frac{\\sin x}{\\cos x}\\) and \\(\\sec x = \\frac{1}{\\cos x}\\). Therefore, the expression becomes\n\\[
+\\frac{\\frac{\\sin x}{\\cos x}}{\\frac{1}{\\cos x} + 1} - \\frac{\\frac{1}{\\cos x} - 1}{\\frac{\\sin x}{\\cos x}}.
+\\]\nThis simplifies to\n\\[
+\\frac{\\sin x}{1 + \\cos x} - \\frac{1 - \\cos x}{\\sin x}.
+\\]\nTo combine these fractions, we need a common denominator. We multiply the first fraction by \\(\\frac{\\sin x}{\\sin x}\\) and the second fraction by \\(\\frac{1 + \\cos x}{1 + \\cos x}\\), giving us\n\\[
+\\frac{\\sin^2 x}{(1 + \\cos x)\\sin x} - \\frac{(1 - \\cos x)(1 + \\cos x)}{(1 + \\cos x)\\sin x}.
+\\]\nThe second fraction simplifies to \\(\\frac{1 - \\cos^2 x}{(1 + \\cos x)\\sin x}\\). Since \\(1 - \\cos^2 x = \\sin^2 x\\), the expression further simplifies to\n\\[
+\\frac{\\sin^2 x}{(1 + \\cos x)\\sin x} - \\frac{\\sin^2 x}{(1 + \\cos x)\\sin x} = 0.
+\\]","answer": 0}
+Result for question 75 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 75/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['0'])
+Accuracy so far: 55/75 (73.33%)
+
+Processing Questions:  75%|███████▌  | 75/100 [14:21<07:32, 18.09s/it]Result for question 76 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 76/100 ---
+Result: CORRECT (Answered: '5' | Expected: ['5'])
+Accuracy so far: 56/76 (73.68%)
+
+Processing Questions:  76%|███████▌  | 76/100 [14:29<06:01, 15.05s/it]
+Warning: Failed to decode the extracted JSON for question 77. Extracted: {"answer": 192}
+
+To explain the solution in detail:
+
+First, let's denote \(a = -\sqrt{3} + \sqrt{5} + \sqrt{6} + \sqrt{7}\), \(b = \sqrt{3} - \sqrt{5} + \sqrt{6} + \sqrt{7}\), \(c = \sqrt{3} + \sqrt{5} - \sqrt{6} + \sqrt{7}\), and \(d = \sqrt{3} + \sqrt{5} + \sqrt{6} - \sqrt{7}\).
+
+We need to compute \(a^2 + b^2 + c^2 + d^2\).
+
+By expanding each square term:
+- \(a^2 = (-\sqrt{3} + \sqrt{5} + \sqrt{6} + \sqrt{7})^2\)
+- \(b^2 = (\sqrt{3} - \sqrt{5} + \sqrt{6} + \sqrt{7})^2\)
+- \(c^2 = (\sqrt{3} + \sqrt{5} - \sqrt{6} + \sqrt{7})^2\)
+- \(d^2 = (\sqrt{3} + \sqrt{5} + \sqrt{6} - \sqrt{7})^2\)
+
+Using the identity \((x + y)^2 = x^2 + y^2 + 2xy\) for each expansion, we get:
+
+\[
+a^2 = (-\sqrt{3})^2 + (\sqrt{5})^2 + (\sqrt{6})^2 + (\sqrt{7})^2 + 2(-\sqrt{3})(\sqrt{5}) + 2(-\sqrt{3})(\sqrt{6}) + 2(-\sqrt{3})(\sqrt{7}) + 2(\sqrt{5})(\sqrt{6}) + 2(\sqrt{5})(\sqrt{7}) + 2(\sqrt{6})(\sqrt{7})
+\]
+
+Similarly,
+
+\[
+b^2 = (\sqrt{3})^2 + (-\sqrt{5})^2 + (\sqrt{6})^2 + (\sqrt{7})^2 + 2(\sqrt{3})(-\sqrt{5}) + 2(\sqrt{3})(\sqrt{6}) + 2(\sqrt{3})(\sqrt{7}) + 2(-\sqrt{5})(\sqrt{6}) + 2(-\sqrt{5})(\sqrt{7}) + 2(\sqrt{6})(\sqrt{7})
+\]
+
+\[
+c^2 = (\sqrt{3})^2 + (\sqrt{5})^2 + (-\sqrt{6})^2 + (\sqrt{7})^2 + 2(\sqrt{3})(\sqrt{5}) + 2(\sqrt{3})(-\sqrt{6}) + 2(\sqrt{3})(\sqrt{7}) + 2(\sqrt{5})(-\sqrt{6}) + 2(\sqrt{5})(\sqrt{7}) + 2(-\sqrt{6})(\sqrt{7})
+\]
+
+\[
+d^2 = (\sqrt{3})^2 + (\sqrt{5})^2 + (\sqrt{6})^2 + (-\sqrt{7})^2 + 2(\sqrt{3})(\sqrt{5}) + 2(\sqrt{3})(\sqrt{6}) + 2(\sqrt{3})(-\sqrt{7}) + 2(\sqrt{5})(\sqrt{6}) + 2(\sqrt{5})(-\sqrt{7}) + 2(\sqrt{6})(-\sqrt{7})
+\]
+
+Now, summing all these terms together, we notice that the cross terms (those involving products like \(2xy\)) will cancel out due to symmetry. We are left with:
+
+\[
+a^2 + b^2 + c^2 + d^2 = 4[(\sqrt{3})^2 + (\sqrt{5})^2 + (\sqrt{6})^2 + (\sqrt{7})^2]
+\]
+
+Calculating each square:
+
+\[
+(\sqrt{3})^2 = 3, \quad (\sqrt{5})^2 = 5, \quad (\sqrt{6})^2 = 6, \quad (\sqrt{7})^2 = 7
+\]
+
+Thus,
+
+\[
+a^2 + b^2 + c^2 + d^2 = 4[3 + 5 + 6 + 7] = 4 \times 21 = 84
+\]
+
+However, there is an error in the initial reasoning. Correctly summing up the terms gives us:
+
+\[
+a^2 + b^2 + c^2 + d^2 = 4(3 + 5 + 6 + 7) = 4 \times 21 = 84
+\]
+
+But the correct final result should be:
+
+\[
+a^2 + b^2 + c^2 + d^2 = 4 \times 48 = 192
+\]
+
+Therefore, the answer is \(\boxed{192}
+Result for question 77 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 77/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['84'])
+Accuracy so far: 56/77 (72.73%)
+
+Processing Questions:  77%|███████▋  | 77/100 [15:12<08:59, 23.45s/it]Result for question 78 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 78/100 ---
+Result: CORRECT (Answered: '5' | Expected: ['5'])
+Accuracy so far: 57/78 (73.08%)
+
+Processing Questions:  78%|███████▊  | 78/100 [15:19<06:45, 18.42s/it]
+Warning: Failed to decode the extracted JSON for question 79. Extracted: {"answer": 1785}
+
+Reasoning:
+To maximize the remaining volume of the cheese, we should minimize the volume taken away by the slices. Since each slice has a volume of $1 \times L \times W$, where $L$ and $W$ are the dimensions of the face it's parallel to, and we can choose any face for slicing, the smallest possible volume per slice would be when the slice is taken from the smallest face area. 
+
+The cheese block's faces have areas of $10 \times 13 = 130$ square cm, $10 \times 14 = 140$ square cm, and $13 \times 14 = 182$ square cm. Therefore, the smallest area is $10 \times 13 = 130$ square cm. 
+
+If we cut slices from this smallest face, each slice will have a volume of $1 \times 13 \times 1 = 13$ cubic cm. Cutting ten such slices will remove a total volume of $10 \times 13 = 130$ cubic cm.
+
+The original volume of the cheese block is $10 \times 13 \times 14 = 1820$ cubic cm. Therefore, the remaining volume after cutting ten slices is $1820 - 130 = 1690$ cubic cm. However, since the question asks for the maximum possible volume, and we need to ensure no overlap or redundancy in the way slices are cut, the optimal strategy confirms that indeed the maximum remaining volume is achieved by minimizing each slice's impact as described.
+
+Upon re-evaluating the problem statement for clarity, it's clear that the correct interpretation involves ensuring the slices do not overlap in a manner that would reduce the overall volume more than intended. Thus, the calculation stands as:
+
+\[
+1820 - 10 \times 13 = 1690 \text{ cubic cm}
+\]
+
+But given the problem constraints and ensuring no misinterpretation, the precise maximum volume remains:
+
+\[
+1820 - 130 = 1690 \text{ cubic cm}
+\]
+
+Thus, the final answer is:
+
+\[
+\boxed{1785}
+Result for question 79 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 79/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['729'])
+Accuracy so far: 57/79 (72.15%)
+
+Processing Questions:  79%|███████▉  | 79/100 [15:37<06:23, 18.24s/it]Result for question 80 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 80/100 ---
+Result: INCORRECT (Answered: '6' | Expected: ['9'])
+Accuracy so far: 57/80 (71.25%)
+
+Processing Questions:  80%|████████  | 80/100 [15:48<05:22, 16.12s/it]Result for question 81 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 81/100 ---
+Result: CORRECT (Answered: '2' | Expected: ['2'])
+Accuracy so far: 58/81 (71.60%)
+
+Processing Questions:  81%|████████  | 81/100 [15:50<03:45, 11.85s/it]Result for question 82 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 82/100 ---
+Result: CORRECT (Answered: '3' | Expected: ['3'])
+Accuracy so far: 59/82 (71.95%)
+
+Processing Questions:  82%|████████▏ | 82/100 [15:56<03:03, 10.19s/it]Result for question 83 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 83/100 ---
+Result: INCORRECT (Answered: '17' | Expected: ['14'])
+Accuracy so far: 59/83 (71.08%)
+
+Processing Questions:  83%|████████▎ | 83/100 [16:15<03:35, 12.70s/it]Result for question 84 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 84/100 ---
+Result: CORRECT (Answered: '12' | Expected: ['12'])
+Accuracy so far: 60/84 (71.43%)
+
+Processing Questions:  84%|████████▍ | 84/100 [16:21<02:51, 10.72s/it]Result for question 85 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 85/100 ---
+Result: INCORRECT (Answered: '9' | Expected: ['11'])
+Accuracy so far: 60/85 (70.59%)
+
+Processing Questions:  85%|████████▌ | 85/100 [16:27<02:18,  9.26s/it]Result for question 86 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 86/100 ---
+Result: CORRECT (Answered: '8000' | Expected: ['8000'])
+Accuracy so far: 61/86 (70.93%)
+
+Processing Questions:  86%|████████▌ | 86/100 [16:33<01:58,  8.48s/it]Result for question 87 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 87/100 ---
+Result: INCORRECT (Answered: '20' | Expected: ['38'])
+Accuracy so far: 61/87 (70.11%)
+
+Processing Questions:  87%|████████▋ | 87/100 [16:50<02:21, 10.85s/it]Result for question 88 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 88/100 ---
+Result: CORRECT (Answered: '9' | Expected: ['9'])
+Accuracy so far: 62/88 (70.45%)
+
+Processing Questions:  88%|████████▊ | 88/100 [17:00<02:09, 10.77s/it]Result for question 89 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 89/100 ---
+Result: CORRECT (Answered: '17' | Expected: ['17'])
+Accuracy so far: 63/89 (70.79%)
+
+Processing Questions:  89%|████████▉ | 89/100 [17:13<02:04, 11.29s/it]Result for question 90 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 90/100 ---
+Result: INCORRECT (Answered: '24315' | Expected: ['31254'])
+Accuracy so far: 63/90 (70.00%)
+
+Processing Questions:  90%|█████████ | 90/100 [17:32<02:15, 13.52s/it]Result for question 91 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 91/100 ---
+Result: CORRECT (Answered: '12' | Expected: ['12'])
+Accuracy so far: 64/91 (70.33%)
+
+Processing Questions:  91%|█████████ | 91/100 [17:35<01:33, 10.41s/it]Result for question 92 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 92/100 ---
+Result: CORRECT (Answered: '5' | Expected: ['5'])
+Accuracy so far: 65/92 (70.65%)
+
+Processing Questions:  92%|█████████▏| 92/100 [17:41<01:12,  9.08s/it]Result for question 93 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 93/100 ---
+Result: CORRECT (Answered: '153' | Expected: ['153'])
+Accuracy so far: 66/93 (70.97%)
+
+Processing Questions:  93%|█████████▎| 93/100 [17:46<00:56,  8.01s/it]Result for question 94 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 94/100 ---
+Result: CORRECT (Answered: '12' | Expected: ['12'])
+Accuracy so far: 67/94 (71.28%)
+
+Processing Questions:  94%|█████████▍| 94/100 [17:54<00:47,  7.93s/it]Result for question 95 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 95/100 ---
+Result: CORRECT (Answered: '300' | Expected: ['300'])
+Accuracy so far: 68/95 (71.58%)
+
+Processing Questions:  95%|█████████▌| 95/100 [18:01<00:38,  7.72s/it]Result for question 96 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 96/100 ---
+Result: INCORRECT (Answered: '75' | Expected: ['30'])
+Accuracy so far: 68/96 (70.83%)
+
+Processing Questions:  96%|█████████▌| 96/100 [18:10<00:32,  8.06s/it]Result for question 97 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 97/100 ---
+Result: CORRECT (Answered: '106' | Expected: ['106'])
+Accuracy so far: 69/97 (71.13%)
+
+Processing Questions:  97%|█████████▋| 97/100 [18:16<00:22,  7.46s/it]Result for question 98 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 98/100 ---
+Result: CORRECT (Answered: '9' | Expected: ['9'])
+Accuracy so far: 70/98 (71.43%)
+
+Processing Questions:  98%|█████████▊| 98/100 [18:18<00:11,  5.90s/it]Result for question 99 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 99/100 ---
+Result: CORRECT (Answered: '-7' | Expected: ['-7'])
+Accuracy so far: 71/99 (71.72%)
+
+Processing Questions:  99%|█████████▉| 99/100 [18:20<00:04,  4.64s/it]Result for question 100 saved to experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl
+
+--- Question 100/100 ---
+Result: CORRECT (Answered: '0' | Expected: ['0'])
+Accuracy so far: 72/100 (72.00%)
+
+Processing Questions: 100%|██████████| 100/100 [18:24<00:00,  4.42s/it]Processing Questions: 100%|██████████| 100/100 [18:24<00:00, 11.04s/it]
+
+===== Single Agent Evaluation Summary =====
+Total Questions Processed: 100
+Correctly Answered: 72
+Overall Accuracy: 72.00%
+All single agent results have been incrementally saved to: experiment_math_numeric_new/single/single_temp0.7_cat/run5/single_results_single_single_temp0.7_cat_run5_20250721_074926.jsonl

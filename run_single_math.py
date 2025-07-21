@@ -10,6 +10,29 @@ import re
 # Agent 클래스는 code/utils/agent.py에 있습니다.
 from code.utils.agent import Agent
 
+def extract_json_from_response(raw_text: str) -> str | None:
+    """
+    LLM의 응답 텍스트에서 JSON 객체 문자열을 추출합니다.
+    1. 마크다운 코드 블록(```json ... ```)을 우선적으로 찾습니다.
+    2. 마크다운이 없으면, 첫 '{'부터 마지막 '}'까지의 내용을 찾습니다.
+    """
+    if not isinstance(raw_text, str):
+        return None
+
+    # 1. 마크다운 ```json ... ``` 블록이 있는지 확인
+    # re.DOTALL은 줄바꿈 문자(\n)도 . 에 포함시켜 검색하게 함
+    match = re.search(r'```json\s*(\{.*\})\s*```', raw_text, re.DOTALL)
+    if match:
+        return match.group(1)
+
+    # 2. 마크다운 블록이 없다면, 가장 바깥쪽의 JSON 객체를 찾기
+    # '{'로 시작하고 '}'로 끝나는 가장 큰 덩어리를 찾음
+    match = re.search(r'\{.*\}', raw_text, re.DOTALL)
+    if match:
+        return match.group(0)
+        
+    return None
+
 def extract_boxed_answer(solution_text: str) -> str | None:
     """
     주어진 텍스트에서 \\boxed{...} 안의 원본 내용을 그대로 추출합니다.
@@ -94,14 +117,22 @@ if __name__ == "__main__":
         # --- 결과 추출 및 정확도 계산 (수정된 로직) ---
         model_answer_val = None
         model_reasoning = ""
-        try:
-            # 모델이 반환한 JSON 문자열을 파싱
-            response_json = json.loads(raw_model_response)
-            model_answer_val = response_json.get("answer")
-            model_reasoning = response_json.get("reasoning", "")
-        except (json.JSONDecodeError, TypeError):
-            # 모델이 유효한 JSON을 반환하지 않은 경우
-            print(f"\nWarning: Could not decode JSON response for question {i+1}. Response: {raw_model_response}")
+        json_str_from_response = extract_json_from_response(raw_model_response)
+
+        if json_str_from_response:
+            try:
+                # 추출된 JSON 문자열을 파싱
+                # --- 추가된 라인: 백슬래시를 이중 백슬래시로 변경하여 이스케이프 처리 ---
+                corrected_json_str = json_str_from_response.replace('\\', '\\\\')
+        
+                # 수정된 문자열로 파싱 시도
+                response_json = json.loads(corrected_json_str)
+                model_answer_val = response_json.get("answer")
+                model_reasoning = response_json.get("reasoning", "")
+            except json.JSONDecodeError:
+                print(f"\nWarning: Failed to decode the extracted JSON for question {i+1}. Extracted: {json_str_from_response}")
+        else:
+            print(f"\nWarning: Could not find any JSON in the response for question {i+1}. Response: {raw_model_response}")
             
         # # --- 기존 로직 주석 처리 ---
         # model_extracted_answer = extract_boxed_answer(raw_model_response)

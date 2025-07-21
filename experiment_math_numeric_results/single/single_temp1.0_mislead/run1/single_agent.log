@@ -1,0 +1,1486 @@
+
+Starting single agent evaluation for 100 questions...
+Results will be saved incrementally to: experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+Processing Questions:   0%|          | 0/100 [00:00<?, ?it/s]Result for question 1 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 1/100 ---
+Result: CORRECT (Answered: '75' | Expected: ['75'])
+Accuracy so far: 1/1 (100.00%)
+
+Processing Questions:   1%|          | 1/100 [00:06<10:53,  6.60s/it]Result for question 2 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 2/100 ---
+Result: CORRECT (Answered: '8' | Expected: ['8'])
+Accuracy so far: 2/2 (100.00%)
+
+Processing Questions:   2%|▏         | 2/100 [00:11<09:28,  5.81s/it]
+Warning: Failed to decode the extracted JSON for question 3. Extracted: {or} \quad -b^2 + 6b + 7 = 0 \]
+
+Since \( b \neq 0 \), we solve the quadratic equation:
+\[ -b^2 + 6b + 7 = 0 \]
+\[ b^2 - 6b - 7 = 0 \]
+
+We factorize the quadratic equation:
+\[ (b - 7)(b + 1) = 0 \]
+
+So, \( b = 7 \) or \( b = -1 \). Since \( b \) must be a positive integer greater than the digits used (i.e., \( b > 6 \)), we have:
+\[ b = 7 \]
+
+Thus, the value of the base \( b \) is:
+
+\[
+\boxed{7}
+Result for question 3 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 3/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['7'])
+Accuracy so far: 2/3 (66.67%)
+
+Processing Questions:   3%|▎         | 3/100 [00:24<14:27,  8.95s/it]Result for question 4 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 4/100 ---
+Result: CORRECT (Answered: '0' | Expected: ['0'])
+Accuracy so far: 3/4 (75.00%)
+
+Processing Questions:   4%|▍         | 4/100 [00:29<11:54,  7.44s/it]Result for question 5 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 5/100 ---
+Result: CORRECT (Answered: '2' | Expected: ['2'])
+Accuracy so far: 4/5 (80.00%)
+
+Processing Questions:   5%|▌         | 5/100 [00:31<08:45,  5.53s/it]
+Warning: Failed to decode the extracted JSON for question 6. Extracted: {
+  "reasoning": "First, we use the Angle Bisector Theorem which states that if $AD$ is the angle bisector of $\\angle BAC$, then it divides the opposite side into segments proportional to the adjacent sides. So, $BD/DC = AB/AC$. In our case, $BD/DC = 6/10 = 3/5$. Let $BD = 3x$ and $DC = 5x$. Since $BD + DC = BC = 8$, we have $3x + 5x = 8$, so $x = 1$. Therefore, $BD = 3$ and $DC = 5$.\n\nNext, we apply Stewart's Theorem which states that for any triangle with sides $a$, $b$, $c$, and a cevian $d$ dividing side $a$ into two segments of length $m$ and $n$, the following relationship holds: $b^2m + c^2n = amn + d^2a$. In our case, $a = 8$, $b = 6$, $c = 10$, $m = 3$, $n = 5$, and $d = AD$. Plugging in these values, we get $6^2 \cdot 5 + 10^2 \cdot 3 = 8 \cdot 3 \cdot 5 + AD^2 \cdot 8$. Simplifying, we get $180 + 300 = 120 + 8AD^2$, or $480 = 120 + 8AD^2$. Solving for $AD^2$, we get $AD^2 = (480 - 120) / 8 = 360 / 8 = 45$.",
+  "answer": 45
+}
+Result for question 6 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 6/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['45'])
+Accuracy so far: 4/6 (66.67%)
+
+Processing Questions:   6%|▌         | 6/100 [00:40<10:31,  6.71s/it]
+Warning: Failed to decode the extracted JSON for question 7. Extracted: {
+  "reasoning": "To find the number of interior diagonals in a nine-sided polygon, we start with the formula for calculating the number of diagonals in any n-sided polygon: \n\n\[ \text{Number of diagonals} = \\frac{n(n-3)}{2} \]\nwhere \( n \) is the number of sides. In this case, \( n = 9 \).\n\nSubstituting \( n = 9 \) into the formula:\n\n\[ \text{Number of diagonals} = \\frac{9(9-3)}{2} = \\frac{9 \times 6}{2} = \\frac{54}{2} = 27 \\]",
+  "answer": 27
+}
+Result for question 7 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 7/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['27'])
+Accuracy so far: 4/7 (57.14%)
+
+Processing Questions:   7%|▋         | 7/100 [00:44<08:54,  5.75s/it]
+Warning: Failed to decode the extracted JSON for question 8. Extracted: {"answer": 3.9}
+
+To solve the problem:
+
+The energy of a photon ($E$) is related to its wavelength ($\lambda$) by the formula:
+\[ E = \frac{hc}{\lambda} \]
+where \( h \) is Planck's constant and \( c \) is the speed of light.
+
+Given that a photon with 2000 times the energy of a red photon has a wavelength we need to find, let's denote:
+- The energy of the red photon as \( E_{red} \)
+- The wavelength of the red photon as \( \lambda_{red} = 7 \times 10^{-7} \) meters
+
+For the red photon:
+\[ E_{red} = \frac{hc}{\lambda_{red}} \]
+
+A photon with 2000 times the energy of the red photon:
+\[ E_{new} = 2000 \cdot E_{red} \]
+\[ E_{new} = 2000 \cdot \frac{hc}{\lambda_{red}} \]
+
+Let \(\lambda_{new}\) be the wavelength of the photon with 2000 times the energy:
+\[ E_{new} = \frac{hc}{\lambda_{new}} \]
+\[ 2000 \cdot \frac{hc}{\lambda_{red}} = \frac{hc}{\lambda_{new}} \]
+Cancel out \( hc \):
+\[ 2000 \cdot \frac{1}{\lambda_{red}} = \frac{1}{\lambda_{new}} \]
+\[ \lambda_{new} = \frac{\lambda_{red}}{2000} \]
+\[ \lambda_{new} = \frac{7 \times 10^{-7}}{2000} \]
+\[ \lambda_{new} = 3.5 \times 10^{-10} \text{ meters} \]
+
+Expressing in scientific notation, \(\lambda_{new} = 3.5 \times 10^{-10}\) meters, so:
+\[ a = 3.5 \]
+\[ b = -10 \]
+\[ a + b = 3.5 - 10 = -6.5 \]
+
+But since we need \(a\) in the range \(1 \leq a < 10\), we rewrite it as:
+\[ 3.5 \times 10^{-10} \text{ meters} = 3.5 \times 10^{b} \text{ meters}
+Result for question 8 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 8/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['-6.5'])
+Accuracy so far: 4/8 (50.00%)
+
+Processing Questions:   8%|▊         | 8/100 [00:58<12:59,  8.47s/it]Result for question 9 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 9/100 ---
+Result: CORRECT (Answered: '35' | Expected: ['35'])
+Accuracy so far: 5/9 (55.56%)
+
+Processing Questions:   9%|▉         | 9/100 [01:03<10:47,  7.12s/it]
+Warning: Failed to decode the extracted JSON for question 10. Extracted: {"reasoning": "First, we need to calculate the total amount of money they have in dollars and then determine how much change they would have if we convert all whole dollar amounts into bills. Then we find out what's left in cents.\n\nThe total amount is:\n\$25.67 + \$17.21 + \$39.17 + \$26.32 = \$108.37\n\nThis means they have \$108 in bills and 37 cents left over.\n\nThus, the answer is 37 cents.", "answer": 37}
+Result for question 10 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 10/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['37'])
+Accuracy so far: 5/10 (50.00%)
+
+Processing Questions:  10%|█         | 10/100 [01:06<08:45,  5.84s/it]
+Warning: Failed to decode the extracted JSON for question 11. Extracted: {5}{12}$ of the area of the larger circle:
+\[
+\text{Area of the shaded region} = \frac{5}{12} \times 4\pi = \frac{20\pi}{12} = \frac{5\pi}{3}
+\]
+
+This shaded region includes a sector of the larger circle minus the corresponding sector of the smaller circle. Let the central angle of both sectors be $\theta$ radians.
+
+The area of a sector of a circle with radius $r$ and central angle $\theta$ radians is given by:
+\[
+\text{Area of sector} = \frac{1}{2} r^2 \theta
+\]
+
+For the larger circle (radius $2$):
+\[
+\text{Area of sector of the larger circle} = \frac{1}{2} \times 2^2 \times \theta = 2\theta
+\]
+
+For the smaller circle (radius $1$):
+\[
+\text{Area of sector of the smaller circle} = \frac{1}{2} \times 1^2 \times \theta = \frac{\theta}{2}
+\]
+
+Thus, the shaded area can also be expressed as:
+\[
+\text{Shaded area} = 2\theta - \frac{\theta}{2} = \frac{4\theta - \theta}{2} = \frac{3\theta}{2}
+\]
+
+Setting this equal to the previously calculated shaded area:
+\[
+\frac{3\theta}{2} = \frac{5\pi}{3}
+\]
+
+Solving for $\theta$:
+\[
+3\theta = \frac{10\pi}{3}
+\]
+\[
+\theta = \frac{10\pi}{9}
+\]
+
+Since we need the angle in degrees, we convert radians to degrees using $\pi$ radians $= 180^\circ$:
+\[
+\theta = \frac{10\pi}{9} \times \frac{180^\circ}{\pi} = \frac{1800^\circ}{9} = 200^\circ
+\]
+
+Therefore, the measure of $\angle ADC$ is:
+\[
+\boxed{200}
+Result for question 11 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 11/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['120'])
+Accuracy so far: 5/11 (45.45%)
+
+Processing Questions:  11%|█         | 11/100 [01:19<11:56,  8.05s/it]Result for question 12 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 12/100 ---
+Result: CORRECT (Answered: '10' | Expected: ['10'])
+Accuracy so far: 6/12 (50.00%)
+
+Processing Questions:  12%|█▏        | 12/100 [01:22<09:41,  6.61s/it]Result for question 13 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 13/100 ---
+Result: INCORRECT (Answered: '38' | Expected: ['23'])
+Accuracy so far: 6/13 (46.15%)
+
+Processing Questions:  13%|█▎        | 13/100 [01:27<09:05,  6.27s/it]Result for question 14 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 14/100 ---
+Result: CORRECT (Answered: '56' | Expected: ['56'])
+Accuracy so far: 7/14 (50.00%)
+
+Processing Questions:  14%|█▍        | 14/100 [01:32<08:13,  5.74s/it]Result for question 15 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 15/100 ---
+Result: CORRECT (Answered: '4' | Expected: ['4'])
+Accuracy so far: 8/15 (53.33%)
+
+Processing Questions:  15%|█▌        | 15/100 [01:37<07:39,  5.40s/it]
+Warning: Failed to decode the extracted JSON for question 16. Extracted: { cm}
+     \]
+
+3. **Identify the position of point \( D \):**
+   - \( AD = 30 \) cm
+   - Since \( A \) is at 0, \( D \) must be at 30 cm.
+
+4. **Identify the position of point \( B \):**
+   - \( AB = 20 \) cm
+   - Since \( A \) is at 0, \( B \) must be at 20 cm.
+
+5. **Identify the position of point \( E \):**
+   - \( AE = 40 \) cm
+   - Since \( A \) is at 0, \( E \) must be at 40 cm.
+
+6. **Calculate the position of point \( C \):**
+   - Point \( C \) is the midpoint of \( BD \).
+   - \( B \) is at 20 cm, \( D \) is at 30 cm.
+   - Midpoint formula gives:
+     \[
+     C = \frac{B + D}{2} = \frac{20 + 30}{2} = 25 \text{ cm}
+     \]
+
+7. **Calculate the distance \( AC \):**
+   - \( A \) is at 0 cm, \( C \) is at 25 cm.
+   - Therefore, \( AC \) is:
+     \[
+     AC = |25 - 0| = 25 \text{ cm}
+     \]
+
+Thus, the length of \( AC \) is 25 cm.
+
+\[
+\boxed{"answer": 25}
+Result for question 16 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 16/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['25'])
+Accuracy so far: 8/16 (50.00%)
+
+Processing Questions:  16%|█▌        | 16/100 [01:48<09:55,  7.09s/it]Result for question 17 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 17/100 ---
+Result: CORRECT (Answered: '12' | Expected: ['12'])
+Accuracy so far: 9/17 (52.94%)
+
+Processing Questions:  17%|█▋        | 17/100 [01:52<08:33,  6.19s/it]Result for question 18 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 18/100 ---
+Result: CORRECT (Answered: '5' | Expected: ['5'])
+Accuracy so far: 10/18 (55.56%)
+
+Processing Questions:  18%|█▊        | 18/100 [01:54<06:59,  5.11s/it]
+Warning: Failed to decode the extracted JSON for question 19. Extracted: {1}{2} \times \text{base} \times \text{height} = \frac{1}{2} \times 6 \times 8 = 24 \text{ cm}^2 \]
+
+### Step 2: Calculate the Area of the Smaller Triangles
+Next, consider the smaller triangles within the diagram:
+
+- There is a smaller right triangle at the bottom with base \(3\) cm and height \(8\) cm (since the height is the same as the larger triangle).
+  
+The area \(A_1\) of this smaller triangle is:
+\[ A_1 = \frac{1}{2} \times 3 \times 8 = 12 \text{ cm}^2 \]
+
+### Step 3: Calculate the Area of the Shaded Region
+The shaded region can be found by subtracting the area of the smaller triangle from the area of the larger triangle.
+
+\[ \text{Shaded Area} = \text{Area of Larger Triangle} - \text{Area of Smaller Triangle} \]
+\[ \text{Shaded Area} = 24 \text{ cm}^2 - 12 \text{ cm}^2 = 12 \text{ cm}^2 \]
+
+Therefore, the shaded area is:
+\[ \boxed{12}
+Result for question 19 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 19/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['30'])
+Accuracy so far: 10/19 (52.63%)
+
+Processing Questions:  19%|█▉        | 19/100 [02:04<08:57,  6.63s/it]Result for question 20 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 20/100 ---
+Result: CORRECT (Answered: '772' | Expected: ['772'])
+Accuracy so far: 11/20 (55.00%)
+
+Processing Questions:  20%|██        | 20/100 [02:15<10:21,  7.77s/it]
+Warning: Failed to decode the extracted JSON for question 21. Extracted: {"reasoning": "Let's denote the two-digit number as \(10a + b\), where \(a\) and \(b\) are the tens and units digits, respectively. According to the problem, the number is exactly twice the sum of its digits, which gives us the equation \(10a + b = 2(a + b)\). Simplifying, we get \(10a + b = 2a + 2b\), or \(8a = b\). Since \(a\) and \(b\) are digits (integers from 0 to 9) and \(a \neq 0\) (because it's a two-digit number), the only possible solution satisfying \(8a = b\) is when \(a = 1\) and \(b = 8\). Thus, the number is \(10a + b = 10*1 + 8 = 18.\)", "answer": 18}
+Result for question 21 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 21/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['18'])
+Accuracy so far: 11/21 (52.38%)
+
+Processing Questions:  21%|██        | 21/100 [02:19<08:56,  6.79s/it]Result for question 22 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 22/100 ---
+Result: CORRECT (Answered: '2' | Expected: ['2'])
+Accuracy so far: 12/22 (54.55%)
+
+Processing Questions:  22%|██▏       | 22/100 [02:22<07:12,  5.55s/it]
+Warning: Failed to decode the extracted JSON for question 23. Extracted: {
+  "reasoning": "To find how many different combinations of \$5 bills and \$2 bills can be used to make a total of \$17, we set up an equation based on the values of each bill type. Let x represent the number of \$5 bills and y represent the number of \$2 bills. Then the equation is:\n\n5x + 2y = 17\n\nWe need integer solutions for (x, y). We solve for y in terms of x from the equation above:\ny = (17 - 5x) / 2\n\nSince y must be a non-negative integer, (17 - 5x) must be divisible by 2 and non-negative. Therefore, we check possible values of x starting from 0.\n\nFor x = 0, y = 17/2 which is not an integer.\nFor x = 1, y = (17-5)/2 = 6 which is an integer.\nFor x = 2, y = (17-10)/2 = 3.5 which is not an integer.\nFor x = 3, y = (17-15)/2 = 1 which is an integer.\nFor x = 4 or more, y will be negative or not an integer.\n\nSo there are two valid pairs (x, y): (1, 6) and (3, 1).\n\nThus, there are 2 different combinations of \$5 and \$2 bills that add up to \$17.",
+  "answer": 2
+}
+Result for question 23 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 23/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['2'])
+Accuracy so far: 12/23 (52.17%)
+
+Processing Questions:  23%|██▎       | 23/100 [02:30<07:57,  6.19s/it]Result for question 24 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 24/100 ---
+Result: CORRECT (Answered: '8' | Expected: ['8'])
+Accuracy so far: 13/24 (54.17%)
+
+Processing Questions:  24%|██▍       | 24/100 [02:34<07:01,  5.55s/it]
+Warning: Failed to decode the extracted JSON for question 25. Extracted: {
+  "reasoning": "To find the sum of the series \(1 - 2 + 3 - 4 + \\cdots + 2005 - 2006 + 2007\\), we can group the terms in pairs, noting that the last term, 2007, will not be part of any pair. Each pair can be expressed as follows:\\( (1-2) + (3-4) + \\cdots + (2005-2006) + 2007 = (-1) + (-1) + \\cdots + (-1) + 2007. \\) Since there are 2006 numbers before the final term, there are 1003 pairs each summing to -1:\\( -1 \\times 1003 + 2007 = -1003 + 2007 = 1004. \\)",
+  "answer": 1004
+}
+Result for question 25 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 25/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['1004'])
+Accuracy so far: 13/25 (52.00%)
+
+Processing Questions:  25%|██▌       | 25/100 [02:39<06:46,  5.41s/it]
+Warning: Failed to decode the extracted JSON for question 26. Extracted: {
+  "reasoning": "To solve the equation \( |2 - |x| | = 1 \), we first consider the definition of absolute value and split into two cases:\n\n1. When \( 2 - |x| \geq 0 \) (i.e., \( |x| \leq 2 \)), we have \( |2 - |x|| = 2 - |x| \). Therefore, \( 2 - |x| = 1 \) which simplifies to \( |x| = 1 \).\n\n2. When \( 2 - |x| < 0 \) (i.e., \( |x| > 2 \)), we have \( |2 - |x|| = ||x| - 2| \). Therefore, \( ||x| - 2| = 1 \) implies \( |x| - 2 = 1 \) or \( |x| - 2 = -1 \). From these, we get \( |x| = 3 \) (since \( |x| = 1 \) does not satisfy \( |x| > 2 \)).\n\nThus, the solutions for \( x \) are \( x = 1, x = -1, x = 3, \) and \( x = -3 \).\n\nThe squares of these values are \( 1^2 = 1, (-1)^2 = 1, 3^2 = 9, \) and \( (-3)^2 = 9 \).\n\nSumming these squares gives \( 1 + 1 + 9 + 9 = 20 \).",
+  "answer": 20
+}
+Result for question 26 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 26/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['20'])
+Accuracy so far: 13/26 (50.00%)
+
+Processing Questions:  26%|██▌       | 26/100 [02:47<07:42,  6.25s/it]Result for question 27 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 27/100 ---
+Result: CORRECT (Answered: '70' | Expected: ['70'])
+Accuracy so far: 14/27 (51.85%)
+
+Processing Questions:  27%|██▋       | 27/100 [02:50<06:32,  5.38s/it]
+Warning: Failed to decode the extracted JSON for question 28. Extracted: {n+2} = z_{n+1}^2 z_n \) for all \( n \geq 1 \).
+   - \( \frac{z_{n+3}}{z_n^2} \) is real for all \( n \geq 1 \).
+   - \( \left| \frac{z_3}{z_4} \right| = \left| \frac{z_4}{z_5} \right| = 2 \).
+
+2. **Analyzing the Sequence:**
+   Using the recurrence relation:
+   \[
+   z_{n+2} = z_{n+1}^2 z_n,
+   \]
+   we can write out a few terms:
+   \[
+   z_3 = z_2^2 z_1,
+   \]
+   \[
+   z_4 = z_3^2 z_2 = (z_2^2 z_1)^2 z_2 = z_2^5 z_1^2.
+   \]
+
+3. **Magnitude Conditions:**
+   From the magnitude condition \( \left| \frac{z_3}{z_4} \right| = 2 \):
+   \[
+   \left| \frac{z_3}{z_4} \right| = \left| \frac{z_2^2 z_1}{z_2^5 z_1^2} \right| = \left| \frac{z_1}{z_2^3 z_1} \right| = \left| \frac{1}{z_2^3} \right| = 2,
+   \]
+   Therefore,
+   \[
+   |z_2|^3 = \frac{1}{2}.
+   \]
+   Similarly, from \( \left| \frac{z_4}{z_5} \right| = 2 \):
+   \[
+   \left| \frac{z_4}{z_5} \right| = \left| \frac{z_2^5 z_1^2}{(z_2^5 z_1^2)^2 z_2} \right| = \left| \frac{1}{z_2^7 z_1^2} \right| = 2,
+   \]
+   Therefore,
+   \[
+   |z_2|^7 |z_1|^2 = \frac{1}{2}.
+   \]
+
+4. **Real Condition:**
+   Given that \( \frac{z_{n+3}}{z_n^2} \) is real for all \( n \geq 1 \), we need to ensure that \( \frac{z_3}{z_1^2} \) and \( \frac{z_4}{z_2^2} \) are real. Let’s compute these ratios:
+   \[
+   \frac{z_3}{z_1^2} = \frac{z_2^2 z_1}{z_1^2} = z_2^2,
+   \]
+   and
+   \[
+   \frac{z_4}{z_2^2} = \frac{z_2^5 z_1^2}{z_2^2} = z_2^3 z_1^2.
+   \]
+   Since \( z_2^2 \) and \( z_2^3 z_1^2 \) must be real, \( z_2 \) and \( z_1 \) must have specific phase relationships. Let \( z_2 = r e^{i \theta} \) and \( z_1 = s e^{i \phi} \). Then:
+   \[
+   r^2 e^{2i \theta} \text{ and } r^3 s^2 e^{i(3\theta + 2\phi)} \text{ are real}.
+   \]
+   This implies:
+   \[
+   2\theta \equiv 0 \pmod{\pi} \quad \Rightarrow \quad \theta = k \pi / 2,
+   \]
+   and
+   \[
+   3\theta + 2\phi \equiv 0 \pmod{\pi}.
+   \]
+   Given \( r^3 = (1/2)^{1/3} \), we find \( r = (1/2)^{1/9} \).
+
+5. **Possible Values of \( z_1 \):**
+   With \( \theta = k \pi / 2 \), we have:
+   \[
+   z_2 = (1/2)^{1/9} e^{i k \pi / 2},
+   \]
+   where \( k \in \{0, 1, 2, 3\} \).
+
+   For each \( k \), we determine \( \phi \) such that \( 3(k \pi / 2) + 2\phi \equiv 0 \pmod{\pi} \):
+   \[
+   \phi = -\frac{3k \pi}{4} + m \pi \quad \text{for some integer } m.
+   \]
+   Thus,
+   \[
+   z_1 = (1/2)^{1/18} e^{i (-3k \pi / 4 + m \pi)}.
+   \]
+   The distinct values for \( z_1 \) are:
+   \[
+   (1/2)^{1/18} e^{i \pi / 4}, (1/2)^{1/18} e^{i 3 \pi / 4}, (1/2)^{1/18} e^{-i \pi / 4}, (1/2)^{1/18} e^{-i 3 \pi / 4}.
+   \]
+
+6. **Product of All Possible Values:**
+   The product of these values:
+   \[
+   (1/2)^{1/18} e^{i \pi / 4} \cdot (1/2)^{1/18} e^{i 3 \pi / 4} \cdot (1/2)^{1/18} e^{-i \pi / 4} \cdot (1/2)^{1/18} e^{-i 3 \pi / 4} = (1/2)^{4/18} (e^{i \pi / 4} e^{i 3 \pi / 4} e^{-i \pi / 4} e^{-i 3 \pi / 4}) = (1/2)^{2/9} \cdot 1 = (1/2)^{2/9}.
+   \]
+
+Thus, the final answer is:
+\[
+\boxed{(1/2)^{2/9}}
+Result for question 28 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 28/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['65536'])
+Accuracy so far: 14/28 (50.00%)
+
+Processing Questions:  28%|██▊       | 28/100 [03:25<16:58, 14.15s/it]
+Warning: Failed to decode the extracted JSON for question 29. Extracted: {z} = a - bi \).
+
+Given the equations:
+\[ a + \frac{17a + 6b}{a^2 + b^2} = 6, \]
+\[ b + \frac{6a - 17b}{a^2 + b^2} = 0, \]
+
+we can express these in terms of \( z \) and \( \bar{z} \). Note that \( a^2 + b^2 = |z|^2 \). We also know that:
+\[ z = a + bi, \]
+\[ \bar{z} = a - bi. \]
+
+Thus, the equations become:
+\[ \text{Re}(z) + \frac{17 \cdot \text{Re}(z) + 6 \cdot \text{Im}(z)}{|z|^2} = 6, \]
+\[ \text{Im}(z) + \frac{6 \cdot \text{Re}(z) - 17 \cdot \text{Im}(z)}{|z|^2} = 0. \]
+
+Rewriting in terms of \( z \):
+\[ \text{Re}(z) + \frac{17z + 6i\bar{z}}{|z|^2} = 6, \]
+\[ \text{Im}(z) + \frac{6z - 17i\bar{z}}{|z|^2} = 0. \]
+
+Combining these into a single complex equation:
+\[ z + \frac{17z + 6i\bar{z}}{|z|^2} = 6 + i \cdot 0. \]
+
+Simplify:
+\[ z + \frac{17z + 6i\bar{z}}{|z|^2} = 6. \]
+
+Since \( |z|^2 = z\bar{z} \):
+\[ z + \frac{17z + 6i\bar{z}}{z\bar{z}} = 6. \]
+
+Multiplying through by \( z\bar{z} \):
+\[ z^2\bar{z} + 17z + 6i\bar{z} = 6z\bar{z}. \]
+
+Separating real and imaginary parts:
+\[ (z^2 + 17z)\bar{z} + 6i\bar{z} = 6z\bar{z}. \]
+
+This simplifies to:
+\[ (z^2 + 17z + 6i)\bar{z} = 6z\bar{z}. \]
+
+Dividing both sides by \( \bar{z} \):
+\[ z^2 + 17z + 6i = 6z. \]
+
+Rearranging gives:
+\[ z^2 + 11z + 6i = 0. \]
+
+This quadratic equation in \( z \) has roots which we solve using the quadratic formula:
+\[ z = \frac{-11 \pm \sqrt{121 - 24i}}{2}. \]
+
+To find the roots, we simplify \( \sqrt{121 - 24i} \). Let \( w = u + vi \) where \( u \) and \( v \) are real numbers. Then:
+\[ w^2 = u^2 - v^2 + 2uvi = 121 - 24i. \]
+
+Equating real and imaginary parts:
+\[ u^2 - v^2 = 121, \]
+\[ 2uv = -24. \]
+
+Solving for \( u \) and \( v \):
+\[ uv = -12, \]
+\[ v = -\frac{12}{u}, \]
+\[ u^2 - \left(-\frac{12}{u}\right)^2 = 121, \]
+\[ u^2 - \frac{144}{u^2} = 121, \]
+\[ u^4 - 121u^2 - 144 = 0. \]
+
+Letting \( x = u^2 \):
+\[ x^2 - 121x - 144 = 0. \]
+
+Solving this quadratic:
+\[ x = \frac{121 \pm \sqrt{14641 + 576}}{2} = \frac{121 \pm 125}{2}. \]
+
+So:
+\[ x = 123 \quad \text{or} \quad x = -2. \]
+
+Since \( x = u^2 \geq 0 \), we have \( u^2 = 123 \). Thus:
+\[ u = \sqrt{123} \quad \text{and} \quad v = -\frac{12}{\sqrt{123}} = -\frac{12\sqrt{123}}{123} = -\frac{4\sqrt{123}}{41}. \]
+
+Therefore, the roots are:
+\[ z = \frac{-11 + \sqrt{121 - 24i}}{2} = \frac{-11 + \sqrt{123} - i\frac{4\sqrt{123}}{41}}{2}, \]
+\[ \bar{z} = \frac{-11 - \sqrt{123} + i\frac{4\sqrt{123}}{41}}{2}. \]
+
+Summing all \( a_i + b_i \):
+\[ \left(\frac{-11 + \sqrt{123}}{2}\right) + \left(\frac{-11 - \sqrt{123}}{2}\right) = -11. \]
+
+Thus, the final answer is:
+\[ \boxed{-11}
+Result for question 29 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 29/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['6'])
+Accuracy so far: 14/29 (48.28%)
+
+Processing Questions:  29%|██▉       | 29/100 [03:55<22:29, 19.01s/it]Result for question 30 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 30/100 ---
+Result: CORRECT (Answered: '52' | Expected: ['52'])
+Accuracy so far: 15/30 (50.00%)
+
+Processing Questions:  30%|███       | 30/100 [04:00<17:03, 14.62s/it]
+Warning: Failed to decode the extracted JSON for question 31. Extracted: {10}$
+- $2122_3 = 2 \cdot 3^3 + 1 \cdot 3^2 + 2 \cdot 3^1 + 2 \cdot 3^0 = 54 + 9 + 6 + 2 = 71_{10}$
+- $1200_3 = 1 \cdot 3^3 + 2 \cdot 3^2 + 0 \cdot 3^1 + 0 \cdot 3^0 = 27 + 18 + 0 + 0 = 45_{10}$
+- $2111_3 = 2 \cdot 3^3 + 1 \cdot 3^2 + 1 \cdot 3^1 + 1 \cdot 3^0 = 54 + 9 + 3 + 1 = 67_{10}$
+
+Now, substitute these decimal values into the expression:
+\[16 + 71 - 45 - 67\]
+
+Perform the arithmetic operations step-by-step:
+\[16 + 71 = 87\]
+\[87 - 45 = 42\]
+\[42 - 67 = -25\]
+
+We now have $-25_{10}$. We need to convert this negative decimal number back to base 3. Since base 3 only represents positive integers, converting directly from a negative decimal might involve expressing it in terms of a positive base 3 equivalent, typically with a sign prefix or as a direct transformation process in the context where negative bases are handled appropriately (for simplicity, we assume direct conversion without signs).
+
+To find the base 3 equivalent of $-25$, consider the positive value $25_{10}$ first:
+\[25_{10} = 2 \cdot 3^3 + 1 \cdot 3^2 + 2 \cdot 3^1 + 1 \cdot 3^0 = 2 \cdot 27 + 1 \cdot 9 + 2 \cdot 3 + 1 \cdot 1 = 54 + 9 + 6 + 1 = 70\]
+\[25 = 2 \cdot 27 + 1 \cdot 9 + 2 \cdot 3 + 1 = 2121_3\]
+
+Thus, the base 3 representation of $-25$ can be expressed as $-\overline{2121}_3$ but since we are asked to express the answer in base 3 without signs:
+\[ -25_{10} = -\overline{2121}_3 \]
+
+However, traditionally, we handle this as:
+\[ -25_{10} = -2121_3 \]
+
+So, the final answer is:
+{"answer": -2121}
+Result for question 31 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 31/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['-221_3'])
+Accuracy so far: 15/31 (48.39%)
+
+Processing Questions:  31%|███       | 31/100 [04:17<17:53, 15.55s/it]
+Warning: Failed to decode the extracted JSON for question 32. Extracted: {
+  "reasoning": "First, we rearrange the given equation to isolate the square root term:\n\[d + 36\\sqrt{10a + 14b + 22c - d} = a^2 + b^2 + c^2 + 519.\]\nTo simplify this, let's denote \(x = \\sqrt{10a + 14b + 22c - d}\). Squaring both sides of the equation gives us\n\[(d + 36x)^2 = (a^2 + b^2 + c^2 + 519)^2.\]\nHowever, recognizing that the original form suggests a simpler substitution, we can instead directly compare terms by squaring and balancing the equality with the assumption that both sides represent equal values squared.\nGiven the complexity, let's consider a more direct algebraic manipulation by comparing coefficients and constants.\nBy setting the inner expression of the square root equal to a square, we can deduce that the simplest non-trivial solution is when each term under the square root and the squared term on the right side are minimized to fit the equation precisely. Considering this,\nlet's set \(10a + 14b + 22c - d = k^2\) where \(k = 36\), giving us \(d + 36k = a^2 + b^2 + c^2 + 519\).\nSubstituting \(k = 36\) yields \(d + 36^2 = a^2 + b^2 + c^2 + 519\), or \(d + 1296 = a^2 + b^2 + c^2 + 519\).\nThis simplifies to \(d = a^2 + b^2 + c^2 - 777\).\nSince \(10a + 14b + 22c - d = 36^2\), substituting \(d\) back into this equation gives us \(10a + 14b + 22c - (a^2 + b^2 + c^2 - 777) = 1296\), leading to\n\(a^2 + b^2 + c^2 - 10a - 14b - 22c = -57\).\nWe complete the square for \(a\), \(b\), and \(c\):\n\[(a-5)^2 + (b-7)^2 + (c-11)^2 = 0.\]\nThis implies \(a=5\), \(b=7\), and \(c=11\), hence \(d = 5^2 + 7^2 + 11^2 - 777 = 25 + 49 + 121 - 777 = -582\).\nTherefore, \(a+b+c+d = 5+7+11-582 = -559.\)",
+  "answer": -559
+}
+Result for question 32 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 32/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['89'])
+Accuracy so far: 15/32 (46.88%)
+
+Processing Questions:  32%|███▏      | 32/100 [04:33<17:33, 15.50s/it]Result for question 33 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 33/100 ---
+Result: CORRECT (Answered: '11' | Expected: ['11'])
+Accuracy so far: 16/33 (48.48%)
+
+Processing Questions:  33%|███▎      | 33/100 [04:35<12:49, 11.49s/it]Result for question 34 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 34/100 ---
+Result: CORRECT (Answered: '5' | Expected: ['5'])
+Accuracy so far: 17/34 (50.00%)
+
+Processing Questions:  34%|███▍      | 34/100 [04:41<10:57,  9.96s/it]Result for question 35 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 35/100 ---
+Result: INCORRECT (Answered: '-1.3333333333333333' | Expected: ['-4'])
+Accuracy so far: 17/35 (48.57%)
+
+Processing Questions:  35%|███▌      | 35/100 [04:44<08:29,  7.84s/it]Result for question 36 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 36/100 ---
+Result: CORRECT (Answered: '28' | Expected: ['28'])
+Accuracy so far: 18/36 (50.00%)
+
+Processing Questions:  36%|███▌      | 36/100 [04:50<07:36,  7.13s/it]Result for question 37 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 37/100 ---
+Result: CORRECT (Answered: '0' | Expected: ['0'])
+Accuracy so far: 19/37 (51.35%)
+
+Processing Questions:  37%|███▋      | 37/100 [04:52<05:59,  5.70s/it]Result for question 38 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 38/100 ---
+Result: CORRECT (Answered: '2' | Expected: ['2'])
+Accuracy so far: 20/38 (52.63%)
+
+Processing Questions:  38%|███▊      | 38/100 [04:55<05:08,  4.97s/it]Result for question 39 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 39/100 ---
+Result: CORRECT (Answered: '9' | Expected: ['9'])
+Accuracy so far: 21/39 (53.85%)
+
+Processing Questions:  39%|███▉      | 39/100 [04:59<04:42,  4.62s/it]
+Warning: Failed to decode the extracted JSON for question 40. Extracted: {(x_2 - x_1)^2 + (y_2 - y_1)^2 + (z_2 - z_1)^2} \]
+
+Substitute the coordinates of \( P \) and \( Q \):
+\[ d = \sqrt{(0 - 8)^2 + (16 - 8)^2 + (4 - 0)^2} \]
+
+Simplify inside the square root:
+\[ d = \sqrt{(-8)^2 + (8)^2 + (4)^2} \]
+\[ d = \sqrt{64 + 64 + 16} \]
+\[ d = \sqrt{144} \]
+\[ d = 12 \]
+
+Thus, the distance from the center point \( P \) of one square base to the corner \( Q \) of the opposite base is:
+\[
+\boxed{12}
+Result for question 40 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 40/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['12'])
+Accuracy so far: 21/40 (52.50%)
+
+Processing Questions:  40%|████      | 40/100 [05:09<06:06,  6.10s/it]Result for question 41 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 41/100 ---
+Result: INCORRECT (Answered: '6' | Expected: ['8'])
+Accuracy so far: 21/41 (51.22%)
+
+Processing Questions:  41%|████      | 41/100 [05:14<05:45,  5.85s/it]
+Warning: Failed to decode the extracted JSON for question 42. Extracted: {140}
+\]
+
+Therefore, the final answer is:
+{"answer": 140}
+Result for question 42 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 42/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['140'])
+Accuracy so far: 21/42 (50.00%)
+
+Processing Questions:  42%|████▏     | 42/100 [05:19<05:23,  5.57s/it]
+Warning: Failed to decode the extracted JSON for question 43. Extracted: {or} \quad b = 5 \]
+
+Since \( b \) represents a base and must be greater than 1, the only valid solution is:
+\[ b = 5 \]
+
+Therefore, the value of the base \( b \) is:
+\[ \boxed{5}
+Result for question 43 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 43/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['5'])
+Accuracy so far: 21/43 (48.84%)
+
+Processing Questions:  43%|████▎     | 43/100 [05:27<05:52,  6.18s/it]Result for question 44 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 44/100 ---
+Result: CORRECT (Answered: '129' | Expected: ['129'])
+Accuracy so far: 22/44 (50.00%)
+
+Processing Questions:  44%|████▍     | 44/100 [05:32<05:28,  5.87s/it]Result for question 45 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 45/100 ---
+Result: INCORRECT (Answered: '-0.16666666666666666' | Expected: ['0'])
+Accuracy so far: 22/45 (48.89%)
+
+Processing Questions:  45%|████▌     | 45/100 [05:39<05:51,  6.39s/it]Result for question 46 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 46/100 ---
+Result: CORRECT (Answered: '3' | Expected: ['3'])
+Accuracy so far: 23/46 (50.00%)
+
+Processing Questions:  46%|████▌     | 46/100 [05:41<04:29,  4.99s/it]Result for question 47 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 47/100 ---
+Result: CORRECT (Answered: '22' | Expected: ['22'])
+Accuracy so far: 24/47 (51.06%)
+
+Processing Questions:  47%|████▋     | 47/100 [05:48<05:01,  5.69s/it]Result for question 48 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 48/100 ---
+Result: CORRECT (Answered: '32' | Expected: ['32'])
+Accuracy so far: 25/48 (52.08%)
+
+Processing Questions:  48%|████▊     | 48/100 [05:53<04:37,  5.34s/it]Result for question 49 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 49/100 ---
+Result: CORRECT (Answered: '52' | Expected: ['52'])
+Accuracy so far: 26/49 (53.06%)
+
+Processing Questions:  49%|████▉     | 49/100 [05:57<04:09,  4.89s/it]Result for question 50 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 50/100 ---
+Result: INCORRECT (Answered: '112' | Expected: ['190'])
+Accuracy so far: 26/50 (52.00%)
+
+Processing Questions:  50%|█████     | 50/100 [06:08<05:33,  6.68s/it]Result for question 51 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 51/100 ---
+Result: CORRECT (Answered: '2' | Expected: ['2'])
+Accuracy so far: 27/51 (52.94%)
+
+Processing Questions:  51%|█████     | 51/100 [06:15<05:45,  7.05s/it]Result for question 52 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 52/100 ---
+Result: CORRECT (Answered: '5' | Expected: ['5'])
+Accuracy so far: 28/52 (53.85%)
+
+Processing Questions:  52%|█████▏    | 52/100 [06:18<04:29,  5.62s/it]Result for question 53 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 53/100 ---
+Result: CORRECT (Answered: '338' | Expected: ['338'])
+Accuracy so far: 29/53 (54.72%)
+
+Processing Questions:  53%|█████▎    | 53/100 [06:25<04:52,  6.23s/it]
+Warning: Failed to decode the extracted JSON for question 54. Extracted: {
+  "reasoning": "To find the product of the $y$-coordinates of all distinct solutions, we first equate the two expressions for $y$ from the given equations. From the equation $y = x^2 - 8$, we substitute $y$ in the second equation $y^2 = -5x + 44$:\n\n$$(x^2 - 8)^2 = -5x + 44$$\n\nExpanding the left side yields:\n\n$$x^4 - 16x^2 + 64 = -5x + 44$$\n\nRearranging terms gives us a polynomial equation in $x$:\n\n$$x^4 - 16x^2 + 5x + 20 = 0$$\n\nThis equation can be factored into $(x^2 - 5)(x^2 + 1) = 0$. Therefore, the roots of the equation give us two quadratic equations:\n\n$$x^2 - 5 = 0 \\quad \text{and} \\quad x^2 + 1 = 0$$\n\nFrom $x^2 - 5 = 0$, we get $x = \pm\sqrt{5}$. Plugging these values back into $y = x^2 - 8$ gives $y = 5 - 8 = -3$.\n\nFrom $x^2 + 1 = 0$, we get $x^2 = -1$, which has no real solutions, only complex ($x = \pm i$). Plugging these imaginary values into $y = x^2 - 8$ yields $y = -9$ (since $i^2 = -1$).\n\nThe distinct $y$-values are thus $-3$ (from both $+\sqrt{5}$ and $-\sqrt{5}$) and $-9$ (from the imaginary $x$ values). Their product is $(-3) \times (-9) = 27$.",
+  "answer": 27
+}
+Result for question 54 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 54/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['1736'])
+Accuracy so far: 29/54 (53.70%)
+
+Processing Questions:  54%|█████▍    | 54/100 [06:36<05:43,  7.47s/it]
+Warning: Failed to decode the extracted JSON for question 55. Extracted: {pmatrix} a & b \\ c & d \end{pmatrix}^2 = \begin{pmatrix} c & a \\ d & b \end{pmatrix}.
+\]
+
+First, let's compute the left-hand side (LHS) of the equation:
+
+\[
+\begin{pmatrix} a & b \\ c & d \end{pmatrix}^2 = \begin{pmatrix} a & b \\ c & d \end{pmatrix} \cdot \begin{pmatrix} a & b \\ c & d \end{pmatrix} = \begin{pmatrix} a^2 + bc & ab + bd \\ ac + dc & bc + d^2 \end{pmatrix}.
+\]
+
+The right-hand side (RHS) is already given as:
+
+\[
+\begin{pmatrix} c & a \\ d & b \end{pmatrix}.
+\]
+
+We equate the corresponding elements of the LHS and RHS:
+
+1. \(a^2 + bc = c\)
+2. \(ab + bd = a\)
+3. \(ac + dc = d\)
+4. \(bc + d^2 = b\)
+
+Let's analyze each equation separately:
+
+### Equation 1: \(a^2 + bc = c\)
+Rewriting, we get:
+\[ a^2 + bc - c = 0 \]
+\[ a^2 + c(b-1) = 0 \]
+\[ c = -\frac{a^2}{b-1} \quad \text{(assuming } b \neq 1\text{)} \]
+
+### Equation 2: \(ab + bd = a\)
+Factor out \(b\) from the left side:
+\[ ab + bd = a \]
+\[ b(a + d) = a \]
+If \(a \neq 0\), then:
+\[ b = \frac{a}{a+d} \]
+
+### Equation 3: \(ac + dc = d\)
+Factor out \(c\) from the left side:
+\[ ac + dc = d \]
+\[ c(a + d) = d \]
+If \(d \neq 0\), then:
+\[ c = \frac{d}{a+d} \]
+
+### Equation 4: \(bc + d^2 = b\)
+Rewriting, we get:
+\[ bc + d^2 - b = 0 \]
+\[ b(c-1) + d^2 = 0 \]
+\[ d^2 = b(1-c) \]
+
+Now we have four equations:
+1. \(c = -\frac{a^2}{b-1}\)
+2. \(b = \frac{a}{a+d}\)
+3. \(c = \frac{d}{a+d}\)
+4. \(d^2 = b(1-c)\)
+
+By comparing Equations 2 and 3:
+\[ \frac{a}{a+d} = \frac{a+d}{a} \]
+This simplifies to:
+\[ a^2 = (a+d)^2 \]
+\[ a^2 = a^2 + 2ad + d^2 \]
+\[ 0 = 2ad + d^2 \]
+\[ d(d + 2a) = 0 \]
+Thus, either \(d = 0\) or \(d = -2a\).
+
+#### Case 1: \(d = 0\)
+Substituting \(d = 0\) into Equations 2 and 3:
+\[ b = \frac{a}{a+0} = 1 \]
+\[ c = \frac{0}{a+0} = 0 \]
+Substituting \(b = 1\) and \(c = 0\) into Equation 4:
+\[ 0^2 = 1(1-0) \Rightarrow 0 = 1 \]
+This is a contradiction.
+
+#### Case 2: \(d = -2a\)
+Substituting \(d = -2a\) into Equations 2 and 3:
+\[ b = \frac{a}{a + (-2a)} = \frac{a}{-a} = -1 \]
+\[ c = \frac{-2a}{a + (-2a)} = \frac{-2a}{-a} = 2 \]
+Substituting \(b = -1\) and \(c = 2\) into Equation 1:
+\[ a^2 + 2(-1) = 2 \]
+\[ a^2 - 2 = 2 \]
+\[ a^2 = 4 \]
+\[ a = \pm 2 \]
+
+Therefore, there are two valid solutions:
+1. \( (a, b, c, d) = (2, -1, 2, -4) \)
+2. \( (a, b, c, d) = (-2, -1, 2, 4) \)
+
+Hence, the total number of ordered quadruples \((a, b, c, d)\) is:
+\[
+\boxed{2}
+Result for question 55 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 55/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['4'])
+Accuracy so far: 29/55 (52.73%)
+
+Processing Questions:  55%|█████▌    | 55/100 [07:00<09:28, 12.63s/it]
+Warning: Failed to decode the extracted JSON for question 56. Extracted: {
+  "reasoning": "The roots of the quadratic equation \( ax^2 + 5x - 3 = 0 \) can be found using the quadratic formula. The roots are given by\n\[ x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}. \]\nFor our equation, \( b = 5 \), \( c = -3 \), and \( a \) is the coefficient we need to find.\n\nThe absolute value of the difference between the two roots is:\n\\[ \\left| \\frac{-b + \\sqrt{b^2 - 4ac}}{2a} - \\frac{-b - \\sqrt{b^2 - 4ac}}{2a} \\right| = \\left| \\frac{2\\sqrt{b^2 - 4ac}}{2a} \\right| = \\frac{\\sqrt{b^2 - 4ac}}{a}. \]\nAccording to the problem statement, this value equals \( \\frac{\\sqrt{61}}{3} \\). Therefore,\n\\[ \\frac{\\sqrt{5^2 - 4a(-3)}}{a} = \\frac{\\sqrt{61}}{3}. \\]\nSimplifying inside the square root gives\n\\[ \\frac{\\sqrt{25 + 12a}}{a} = \\frac{\\sqrt{61}}{3}. \\]\nBy squaring both sides, we obtain\n\\[ \\frac{25 + 12a}{a^2} = \\frac{61}{9}. \\]\nCross-multiplying yields\n\\[ 9(25 + 12a) = 61a^2. \\]\nExpanding and rearranging terms results in\n\\[ 225 + 108a = 61a^2. \\]\nThis simplifies to\n\\[ 61a^2 - 108a - 225 = 0. \\]\nWe solve this quadratic equation using the quadratic formula with \( A = 61 \), \( B = -108 \), and \( C = -225 \\):\n\\[ a = \\frac{-B \\pm \\sqrt{B^2 - 4AC}}{2A} = \\frac{108 \\pm \\sqrt{108^2 - 4 \\cdot 61 \\cdot (-225)}}{2 \\cdot 61}. \\]\nCalculating under the square root gives\n\\[ a = \\frac{108 \\pm \\sqrt{11664 + 54900}}{122} = \\frac{108 \\pm \\sqrt{66564}}{122} = \\frac{108 \\pm 258}{122}. \\]\nConsidering only the positive value of \( a \\), we have\n\\[ a = \\frac{108 + 258}{122} = \\frac{366}{122} = 3. \\]",
+  "answer": 3
+}
+Result for question 56 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 56/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['3'])
+Accuracy so far: 29/56 (51.79%)
+
+Processing Questions:  56%|█████▌    | 56/100 [07:16<10:00, 13.65s/it]Result for question 57 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 57/100 ---
+Result: CORRECT (Answered: '27.2' | Expected: ['27.2'])
+Accuracy so far: 30/57 (52.63%)
+
+Processing Questions:  57%|█████▋    | 57/100 [07:25<08:47, 12.27s/it]
+Warning: Failed to decode the extracted JSON for question 58. Extracted: {
+  "reasoning": "Let's denote the smaller perfect square as \(a^2\) and the larger one as \(b^2\). According to the problem, the difference between these squares is 99: \\(b^2 - a^2 = 99\\). We can factorize this expression using the difference of squares formula: \\((b+a)(b-a) = 99\\). There should be exactly two other perfect squares between \(a^2\) and \(b^2\\), meaning \\(b^2 - a^2 > 3^2 + 2^2 = 13\\) but \\(b^2 - a^2 < 5^2 + 4^2 = 41\\) (since the next two squares after \\(a^2\\) are \\((a+1)^2\\) and \\((a+2)^2\\), and so on).\n\nSince \\(99 = 9 \times 11\\), we have two factors of 99 which could match \\((b+a)\\) and \\((b-a)\\). Considering \\((b+a) = 11\\) and \\((b-a) = 9\\), solving these simultaneous equations gives us \\(b=10\\) and \\(a=1\\), fitting the requirement for having exactly two other perfect squares in between them (i.e., 4 and 9). Therefore, the two perfect squares on the board are 1 and 100.",
+  "answer": 101
+}
+Result for question 58 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 58/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['549'])
+Accuracy so far: 30/58 (51.72%)
+
+Processing Questions:  58%|█████▊    | 58/100 [07:33<07:40, 10.95s/it]
+Warning: Failed to decode the extracted JSON for question 59. Extracted: {
+  "reasoning": "To find the value of \( p(q(2)) \), we first need to evaluate \( q(2) \). Given \( q(x) = \\frac{6}{x} \), substituting \( x = 2 \) yields \( q(2) = \\frac{6}{2} = 3 \\).\n\nNext, we substitute \( x = 3 \) into \( p(x) = 2 - x^2 \) to find \( p(q(2)) \\). Therefore, \( p(3) = 2 - 3^2 = 2 - 9 = -7 \\).",
+  "answer": -7
+}
+Result for question 59 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 59/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['-7'])
+Accuracy so far: 30/59 (50.85%)
+
+Processing Questions:  59%|█████▉    | 59/100 [07:37<05:55,  8.68s/it]Result for question 60 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 60/100 ---
+Result: CORRECT (Answered: '202' | Expected: ['202'])
+Accuracy so far: 31/60 (51.67%)
+
+Processing Questions:  60%|██████    | 60/100 [07:39<04:34,  6.87s/it]Result for question 61 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 61/100 ---
+Result: CORRECT (Answered: '-2' | Expected: ['-2'])
+Accuracy so far: 32/61 (52.46%)
+
+Processing Questions:  61%|██████    | 61/100 [07:42<03:35,  5.52s/it]Result for question 62 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 62/100 ---
+Result: CORRECT (Answered: '336' | Expected: ['336'])
+Accuracy so far: 33/62 (53.23%)
+
+Processing Questions:  62%|██████▏   | 62/100 [07:45<02:58,  4.70s/it]Result for question 63 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 63/100 ---
+Result: CORRECT (Answered: '1' | Expected: ['1'])
+Accuracy so far: 34/63 (53.97%)
+
+Processing Questions:  63%|██████▎   | 63/100 [07:48<02:36,  4.22s/it]
+Warning: Failed to decode the extracted JSON for question 64. Extracted: {cm}\).
+- The radius of the second-largest semicircle is \(6 \, \text{cm}\).
+- The radius of the third-largest semicircle is \(4 \, \text{cm}\).
+- The radius of the smallest semicircle is \(2 \, \text{cm}\).
+
+The area of a semicircle with radius \(r\) is given by:
+\[ A_{\text{semicircle}} = \frac{1}{2} \pi r^2 \]
+
+Let's compute the areas:
+
+1. **Area of the largest semicircle (radius = 8 cm):**
+   \[
+   A_1 = \frac{1}{2} \pi (8^2) = \frac{1}{2} \pi (64) = 32 \pi \, \text{cm}^2
+   \]
+   
+2. **Area of the second-largest semicircle (radius = 6 cm):**
+   \[
+   A_2 = \frac{1}{2} \pi (6^2) = \frac{1}{2} \pi (36) = 18 \pi \, \text{cm}^2
+   \]
+   
+3. **Area of the third-largest semicircle (radius = 4 cm):**
+   \[
+   A_3 = \frac{1}{2} \pi (4^2) = \frac{1}{2} \pi (16) = 8 \pi \, \text{cm}^2
+   \]
+   
+4. **Area of the smallest semicircle (radius = 2 cm):**
+   \[
+   A_4 = \frac{1}{2} \pi (2^2) = \frac{1}{2} \pi (4) = 2 \pi \, \text{cm}^2
+   \]
+
+Next, we calculate the areas of the shaded regions:
+- Shaded region 1 (largest semicircle minus the second-largest semicircle):
+  \[
+  \text{Shaded Region 1} = A_1 - A_2 = 32 \pi - 18 \pi = 14 \pi \, \text{cm}^2
+  \]
+  
+- Shaded region 2 (third-largest semicircle minus the smallest semicircle):
+  \[
+  \text{Shaded Region 2} = A_3 - A_4 = 8 \pi - 2 \pi = 6 \pi \, \text{cm}^2
+  \]
+
+Finally, summing up the areas of the shaded regions:
+\[
+\text{Total Shaded Area} = 14 \pi + 6 \pi = 20 \pi \, \text{cm}^2
+\]
+
+Using the approximation \(\pi \approx 3.14\):
+\[
+20 \pi \approx 20 \times 3.14 = 62.8 \, \text{cm}^2
+\]
+
+Thus, the total area of the two shaded regions is:
+\[
+\boxed{62.8}
+Result for question 64 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 64/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['62.8'])
+Accuracy so far: 34/64 (53.12%)
+
+Processing Questions:  64%|██████▍   | 64/100 [08:04<04:47,  7.98s/it]Result for question 65 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 65/100 ---
+Result: CORRECT (Answered: '960' | Expected: ['960'])
+Accuracy so far: 35/65 (53.85%)
+
+Processing Questions:  65%|██████▌   | 65/100 [08:13<04:48,  8.25s/it]
+Warning: Failed to decode the extracted JSON for question 66. Extracted: {100}
+Result for question 66 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 66/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['100'])
+Accuracy so far: 35/66 (53.03%)
+
+Processing Questions:  66%|██████▌   | 66/100 [08:18<04:01,  7.12s/it]Result for question 67 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 67/100 ---
+Result: INCORRECT (Answered: '6' | Expected: ['12'])
+Accuracy so far: 35/67 (52.24%)
+
+Processing Questions:  67%|██████▋   | 67/100 [08:32<05:00,  9.11s/it]
+Warning: Failed to decode the extracted JSON for question 68. Extracted: {13} = w \]
+\[ w^{11} = z \]
+
+Substituting the first equation into the second:
+\[ (z^{13})^{11} = z \]
+\[ z^{143} = z \]
+
+Since \( z \neq 0 \), we can divide both sides by \( z \):
+\[ z^{142} = 1 \]
+
+This implies that \( z \) is a 142nd root of unity. Therefore, we can write \( z \) as:
+\[ z = e^{2k\pi i / 142} = e^{k\pi i / 71} \]
+for some integer \( k \).
+
+Now, the imaginary part of \( z \) is given by:
+\[ \operatorname{Im}(z) = \sin\left(\frac{k\pi}{71}\right) \]
+
+We are asked to find the denominator \( n \) such that \( \sin\left(\frac{k\pi}{71}\right) = \sin\left(\frac{m\pi}{n}\right) \) where \( m \) and \( n \) are relatively prime integers with \( m < n \).
+
+From the above, we see that:
+\[ \sin\left(\frac{k\pi}{71}\right) = \sin\left(\frac{m\pi}{71}\right) \]
+
+Thus, \( n \) must be 71 since \( k \) and \( m \) are related through the sine function and 71 is the smallest denominator making \( \sin\left(\frac{k\pi}{71}\right) \) well-defined.
+
+Therefore, the value of \( n \) is:
+\[ \boxed{71}
+Result for question 68 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 68/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['71'])
+Accuracy so far: 35/68 (51.47%)
+
+Processing Questions:  68%|██████▊   | 68/100 [08:41<04:51,  9.10s/it]
+Warning: Failed to decode the extracted JSON for question 69. Extracted: {Midpoint of AC} = \left( \frac{5+7}{2}, \frac{3+4}{2} \right) = \left( \frac{12}{2}, \frac{7}{2} \right) = (6, 3.5)
+   \]
+
+2. Calculate the midpoint of BD:
+   \[
+   \text{Midpoint of BD} = \left( \frac{6+x}{2}, \frac{8+y}{2} \right)
+   \]
+
+Since these midpoints are equal, we set them equal to each other:
+
+\[
+\left( \frac{6+x}{2}, \frac{8+y}{2} \right) = (6, 3.5)
+\]
+
+This gives us two equations:
+\[
+\frac{6+x}{2} = 6 \quad \text{(Equation 1)}
+\]
+\[
+\frac{8+y}{2} = 3.5 \quad \text{(Equation 2)}
+\]
+
+Solve Equation 1 for \( x \):
+\[
+6 + x = 12 \implies x = 6
+\]
+
+However, since \( x > 7 \), there was an oversight. Let's re-evaluate with correct algebraic manipulations:
+
+From Equation 1:
+\[
+6 + x = 12 \implies x = 6 \quad \text{(But \( x > 7 \))}
+\]
+
+Revisiting properly:
+\[
+\frac{6+x}{2} = 6 \implies 6 + x = 12 \implies x = 6 \quad \text{(Error here; correct as \( x = 8 \))}
+\]
+
+Correctly:
+\[
+6 + x = 12 \implies x = 6 \quad (\text{Fixing: } x = 8)
+\]
+
+Solve Equation 2 for \( y \):
+\[
+8 + y = 7 \implies y = -1
+\]
+
+Thus:
+\[
+x = 8, y = -1
+\]
+
+Finally,
+\[
+x + y = 8 - 1 = 7
+\]
+
+Therefore, the final answer is:
+\[
+\boxed{7}
+Result for question 69 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 69/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['17'])
+Accuracy so far: 35/69 (50.72%)
+
+Processing Questions:  69%|██████▉   | 69/100 [08:54<05:21, 10.38s/it]
+Warning: Failed to decode the extracted JSON for question 70. Extracted: {
+  "reasoning": "The term $S_n$ is defined as the sum of the first $n$ powers of 2 starting from $2^0$. We can express $S_n$ as follows:\n\n$$S_n = 2^0 + 2^1 + 2^2 + \\cdots + 2^{n-1}$$\n\nUsing the formula for the sum of a geometric series, we have:\n\n$$S_n = \\frac{2^n - 1}{2 - 1} = 2^n - 1$$\n\nSimilarly, the next term $S_{n+1}$ is given by:\n\n$$S_{n+1} = 2^{n+1} - 1$$\n\nWe need to find the greatest common divisor (GCD) of $S_n$ and $S_{n+1}$. Using the expressions above, we get:\n\n$$\\text{GCD}(S_n, S_{n+1}) = \\text{GCD}(2^n - 1, 2^{n+1} - 1)$$\n\nRecall that $2^{n+1} - 1 = 2(2^n) - 1 = 2 \cdot 2^n - 1 = 2 \cdot 2^n - 2 + 1 = 2(2^n - 1) + 1$.\n\nThus, we can write:\n\n$$\\text{GCD}(2^n - 1, 2^{n+1} - 1) = \\text{GCD}(2^n - 1, 2(2^n - 1) + 1)$$\n\nBy the Euclidean algorithm, we know that:\n\n$$\\text{GCD}(a, b) = \\text{GCD}(b, a \\mod b)$$\n\nApplying this, we get:\n\n$$\\text{GCD}(2^n - 1, 2(2^n - 1) + 1) = \\text{GCD}(2^n - 1, 1) = 1$$\n\nTherefore, the GCD of any two consecutive terms $S_n$ and $S_{n+1}$ is 1.",
+  "answer": 1
+}
+Result for question 70 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 70/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['1'])
+Accuracy so far: 35/70 (50.00%)
+
+Processing Questions:  70%|███████   | 70/100 [09:05<05:21, 10.70s/it]Result for question 71 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 71/100 ---
+Result: CORRECT (Answered: '7' | Expected: ['7'])
+Accuracy so far: 36/71 (50.70%)
+
+Processing Questions:  71%|███████   | 71/100 [09:13<04:43,  9.76s/it]Result for question 72 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 72/100 ---
+Result: CORRECT (Answered: '9' | Expected: ['9'])
+Accuracy so far: 37/72 (51.39%)
+
+Processing Questions:  72%|███████▏  | 72/100 [09:16<03:33,  7.62s/it]
+Warning: Failed to decode the extracted JSON for question 73. Extracted: {
+  "reasoning": "Let's denote the three consecutive integers as \(n-1\), \(n\), and \(n+1\). The product of these integers is given as 120, so we have:\n\[ (n-1) \cdot n \cdot (n+1) = 120.\]\nThe mean of the three integers is the average, which is \(n\). Dividing the product by the mean gives us:\[\frac{(n-1) \cdot n \cdot (n+1)}{n} = 24,\]which simplifies to:\[(n-1)(n+1) = 24.\]This further simplifies to:\[n^2 - 1 = 24,\]leading to:\[n^2 = 25.\]Solving for \(n\) yields \(n = 5\) (we discard \(n = -5\) because we're looking for positive integers).\nThus, the three consecutive integers are 4, 5, and 6, making the largest integer 6.",
+  "answer": 6
+}
+Result for question 73 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 73/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['6'])
+Accuracy so far: 37/73 (50.68%)
+
+Processing Questions:  73%|███████▎  | 73/100 [09:21<03:07,  6.95s/it]
+Warning: Failed to decode the extracted JSON for question 74. Extracted: {
+  "reasoning": "First, simplify the right-hand side of the equation: \\(\\dfrac{\\cos{96^{\circ}}+\\sin{96^{\circ}}}{\\cos{96^{\circ}}-\\sin{96^{\circ}}}\\). Divide both numerator and denominator by \\(\\cos{96^{\circ}}\\) to get \\(\\dfrac{1 + \\tan{96^{\circ}}}{1 - \\tan{96^{\circ}}}\\). Using the tangent addition formula, \\(\\tan(A+B) = \\dfrac{\\tan A + \\tan B}{1 - \\tan A \\tan B}\\), we can recognize that \\(\\dfrac{1 + \\tan{96^{\circ}}}{1 - \\tan{96^{\circ}}} = \\tan(45^{\circ} + 96^{\circ}) = \\tan(141^{\circ})\\). Therefore, the original equation simplifies to \\(\\tan{19x^{\circ}} = \\tan{141^{\circ}}\\). Since \\(\\tan{\\theta} = \\tan{(\\theta + 180n)}\\) for any integer \\(n\\), we have \\(19x = 141 + 180n\\). We want the smallest positive integer solution for \\(x\\), so set \\(n=0\\): \\(19x = 141\\). Solving for \\(x\\) gives \\(x = \\dfrac{141}{19} = 7.42\\), which is not an integer. Next, increment \\(n\\) to find the smallest integer \\(x\\): \\(19x = 141 + 180 \\cdot 1 = 321\\), thus \\(x = \\dfrac{321}{19} = 16.89\\), still not an integer. Continue with \\(n=1\\) until \\(x\\) is an integer: \\(19x = 141 + 180 \\cdot 2 = 501\\), giving \\(x = \\dfrac{501}{19} = 26.37\\), not an integer. Finally, \\(19x = 141 + 180 \\cdot 3 = 681\\), yielding \\(x = \\dfrac{681}{19} = 35.84\\), not an integer. With \\(n=3\\), \\(19x = 141 + 180 \\cdot 4 = 861\\), resulting in \\(x = \\dfrac{861}{19} = 45.32\\), not an integer. At \\(n=4\\), \\(19x = 141 + 180 \\cdot 5 = 1041\\), solving for \\(x\\) results in \\(x = \\dfrac{1041}{19} = 54.79\\), not an integer. With \\(n=5\\), \\(19x = 141 + 180 \\cdot 6 = 1221\\), giving \\(x = \\dfrac{1221}{19} = 64.26\\), not an integer. At \\(n=6\\), \\(19x = 141 + 180 \\cdot 7 = 1401\\), yielding \\(x = \\dfrac{1401}{19} = 73.74\\), not an integer. Finally, at \\(n=7\\), \\(19x = 141 + 180 \\cdot 8 = 1581\\), resulting in \\(x = \\dfrac{1581}{19} = 83\\), an integer.",
+  "answer": 83
+}
+Result for question 74 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 74/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['159'])
+Accuracy so far: 37/74 (50.00%)
+
+Processing Questions:  74%|███████▍  | 74/100 [09:42<04:48, 11.11s/it]
+Warning: Failed to decode the extracted JSON for question 75. Extracted: {
+  "reasoning": "To simplify the expression \(\frac{\\tan x}{\\sec x + 1} - \\frac{\\sec x - 1}{\\tan x}\), we can start by expressing all trigonometric functions in terms of sine and cosine. Recall that \\(\\tan x = \\frac{\\sin x}{\\cos x}\\) and \\(\\sec x = \\frac{1}{\\cos x}\\). Substituting these into the expression, we have:\n\n\\[\\frac{\\frac{\\sin x}{\\cos x}}{\\frac{1}{\\cos x} + 1} - \\frac{\\frac{1}{\\cos x} - 1}{\\frac{\\sin x}{\\cos x}} = \\frac{\\sin x}{1 + \\cos x} - \\frac{1 - \\cos x}{\\sin x}.\]\n\nNow, let's combine the fractions over a common denominator:\\\n\n\\[\\frac{\\sin^2 x - (1 - \\cos x)(1 + \\cos x)}{\\sin x (1 + \\cos x)} = \\frac{\\sin^2 x - (1 - \\cos^2 x)}{\\sin x (1 + \\cos x)} = \\frac{\\sin^2 x - \\sin^2 x}{\\sin x (1 + \\cos x)} = \\frac{0}{\\sin x (1 + \\cos x)} = 0.\]",
+  "answer": 0
+}
+Result for question 75 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 75/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['0'])
+Accuracy so far: 37/75 (49.33%)
+
+Processing Questions:  75%|███████▌  | 75/100 [09:49<04:10, 10.04s/it]Result for question 76 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 76/100 ---
+Result: CORRECT (Answered: '5' | Expected: ['5'])
+Accuracy so far: 38/76 (50.00%)
+
+Processing Questions:  76%|███████▌  | 76/100 [09:56<03:34,  8.92s/it]
+Warning: Failed to decode the extracted JSON for question 77. Extracted: {"reasoning": "To solve the given expression, we will expand each square term and then simplify the expression. Let's denote \(a = \\sqrt{3}\), \(b = \\sqrt{5}\), \(c = \\sqrt{6}\), and \(d = \\sqrt{7}\\). The expression can be rewritten as \\((a - b + c + d)^2 + (-a + b + c + d)^2 + (a + b - c + d)^2 + (a + b + c - d)^2\\).\n\nExpanding each square term, we get:\n- \\((a - b + c + d)^2 = a^2 + b^2 + c^2 + d^2 - 2ab + 2ac + 2ad + 2bc - 2bd + 2cd\\)\n- \\((-a + b + c + d)^2 = a^2 + b^2 + c^2 + d^2 - 2ab - 2ac + 2ad + 2bc + 2bd + 2cd\\)\n- \\((a + b - c + d)^2 = a^2 + b^2 + c^2 + d^2 + 2ab - 2ac + 2ad - 2bc + 2bd - 2cd\\)\n- \\((a + b + c - d)^2 = a^2 + b^2 + c^2 + d^2 + 2ab + 2ac - 2ad - 2bc - 2bd + 2cd\\)\n\nAdding these expressions together, the cross terms cancel out (except for the squares of the variables), leaving us with \\(4(a^2 + b^2 + c^2 + d^2)\\).\n\nSubstituting back the original values, we have \\(4(3 + 5 + 6 + 7) = 4 \\times 21 = 84\\).", "answer": 84}
+Result for question 77 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 77/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['84'])
+Accuracy so far: 38/77 (49.35%)
+
+Processing Questions:  77%|███████▋  | 77/100 [10:06<03:32,  9.22s/it]Result for question 78 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 78/100 ---
+Result: CORRECT (Answered: '5' | Expected: ['5'])
+Accuracy so far: 39/78 (50.00%)
+
+Processing Questions:  78%|███████▊  | 78/100 [10:11<02:55,  7.99s/it]Result for question 79 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 79/100 ---
+Result: INCORRECT (Answered: '520' | Expected: ['729'])
+Accuracy so far: 39/79 (49.37%)
+
+Processing Questions:  79%|███████▉  | 79/100 [10:22<03:07,  8.93s/it]Result for question 80 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 80/100 ---
+Result: INCORRECT (Answered: '6' | Expected: ['9'])
+Accuracy so far: 39/80 (48.75%)
+
+Processing Questions:  80%|████████  | 80/100 [10:25<02:26,  7.35s/it]Result for question 81 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 81/100 ---
+Result: CORRECT (Answered: '2' | Expected: ['2'])
+Accuracy so far: 40/81 (49.38%)
+
+Processing Questions:  81%|████████  | 81/100 [10:28<01:54,  6.01s/it]Result for question 82 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 82/100 ---
+Result: CORRECT (Answered: '3' | Expected: ['3'])
+Accuracy so far: 41/82 (50.00%)
+
+Processing Questions:  82%|████████▏ | 82/100 [10:34<01:46,  5.89s/it]Result for question 83 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 83/100 ---
+Result: INCORRECT (Answered: '4' | Expected: ['14'])
+Accuracy so far: 41/83 (49.40%)
+
+Processing Questions:  83%|████████▎ | 83/100 [10:38<01:31,  5.36s/it]Result for question 84 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 84/100 ---
+Result: CORRECT (Answered: '12' | Expected: ['12'])
+Accuracy so far: 42/84 (50.00%)
+
+Processing Questions:  84%|████████▍ | 84/100 [10:42<01:17,  4.85s/it]Result for question 85 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 85/100 ---
+Result: CORRECT (Answered: '11' | Expected: ['11'])
+Accuracy so far: 43/85 (50.59%)
+
+Processing Questions:  85%|████████▌ | 85/100 [10:47<01:14,  4.94s/it]Result for question 86 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 86/100 ---
+Result: CORRECT (Answered: '8000' | Expected: ['8000'])
+Accuracy so far: 44/86 (51.16%)
+
+Processing Questions:  86%|████████▌ | 86/100 [10:51<01:06,  4.71s/it]
+Warning: Failed to decode the extracted JSON for question 87. Extracted: {10^9}{k} < \binom{10^9 + 1}{k - 1}
+\]
+
+First, recall the definition of the binomial coefficients:
+\[
+\binom{n}{r} = \frac{n!}{r!(n-r)!}
+\]
+
+We can rewrite the inequality as:
+\[
+\binom{10^9}{k} = \frac{10^9!}{k!(10^9 - k)!}
+\]
+\[
+\binom{10^9 + 1}{k - 1} = \frac{(10^9 + 1)!}{(k-1)!(10^9 + 1 - (k-1))!} = \frac{(10^9 + 1)!}{(k-1)!(10^9 + 2 - k)!}
+\]
+
+Substitute these into the inequality:
+\[
+\frac{10^9!}{k!(10^9 - k)!} < \frac{(10^9 + 1)!}{(k-1)!(10^9 + 2 - k)!}
+\]
+
+Simplify the factorials:
+\[
+\frac{10^9!}{k!(10^9 - k)!} < \frac{(10^9 + 1)(10^9)!}{(k-1)!(10^9 + 2 - k)!}
+\]
+
+Cancel \(10^9!\) from both sides:
+\[
+\frac{1}{k(10^9 - k)!} < \frac{10^9 + 1}{(k-1)(10^9 + 2 - k)!}
+\]
+
+Simplify further:
+\[
+\frac{1}{k} < \frac{10^9 + 1}{(k-1)(10^9 + 2 - k)}
+\]
+
+Multiply through by \(k(k-1)(10^9 + 2 - k)\):
+\[
+(k-1)(10^9 + 2 - k) < k(10^9 + 1)
+\]
+
+Expand and simplify:
+\[
+(k-1)(10^9 + 2 - k) = (k-1)(10^9 + 2 - k) = k(10^9 + 2 - k) - (10^9 + 2 - k)
+= k \cdot 10^9 + 2k - k^2 - 10^9 - 2 + k
+= 10^9 k + 3k - k^2 - 10^9 - 2
+\]
+
+So the inequality becomes:
+\[
+10^9 k + 3k - k^2 - 10^9 - 2 < 10^9 k + k
+\]
+
+Simplify:
+\[
+-k^2 + 3k - 10^9 - 2 < k
+\]
+
+Rearrange terms:
+\[
+-k^2 + 2k - 10^9 - 2 < 0
+\]
+
+This is a quadratic inequality:
+\[
+k^2 - 2k + 10^9 + 2 > 0
+\]
+
+To find the smallest \( k \), solve the quadratic equation:
+\[
+k^2 - 2k + 10^9 + 2 = 0
+\]
+
+Use the quadratic formula:
+\[
+k = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+\]
+
+Here, \(a = 1\), \(b = -2\), \(c = 10^9 + 2\):
+\[
+k = \frac{2 \pm \sqrt{4 - 4(10^9 + 2)}}{2}
+\]
+\[
+k = \frac{2 \pm \sqrt{4 - 4 \times 10^9 - 8}}{2}
+\]
+\[
+k = \frac{2 \pm \sqrt{-4 \times 10^9 - 4}}{2}
+\]
+
+Since the discriminant is negative, it suggests an approximation:
+\[
+k \approx 10^9 / 2 = 5 \times 10^8
+\]
+
+The smallest integer greater than \( 5 \times 10^8 \) is \( k = 500000001 \).
+
+Thus, \( k = 500000001 \). First digit \( a = 5 \), second digit \( b = 0 \).
+
+Finally, compute \( 10a + b \):
+\[
+10a + b = 10 \times 5 + 0 = 50
+\]
+
+Therefore, the answer is:
+\[
+\boxed{50}
+Result for question 87 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 87/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['38'])
+Accuracy so far: 44/87 (50.57%)
+
+Processing Questions:  87%|████████▋ | 87/100 [11:16<02:20, 10.78s/it]
+Warning: Failed to decode the extracted JSON for question 88. Extracted: {
+  "reasoning": "To solve the equation \\(\\frac{A\\sqrt{B}}{C} = \\frac{8}{3\\sqrt{2}}\\) under the given conditions, we start by simplifying the right side of the equation. We rationalize the denominator by multiplying the numerator and denominator by \\(\\sqrt{2}\\):\n\n\\[
+\\frac{8}{3\\sqrt{2}} = \\frac{8\\sqrt{2}}{6} = \\frac{4\\sqrt{2}}{3}
+\\]\n\nNow we equate this with the left side of the original equation:\n\n\\[
+\\frac{A\\sqrt{B}}{C} = \\frac{4\\sqrt{2}}{3}
+\\]\n\nSince \\(A\\), \\(B\\), and \\(C\\) are positive integers and the form of both sides should match, we can infer that \\(A = 4\\), \\(B = 2\\), and \\(C = 3\\). This satisfies all conditions given in the problem: \\(A\\) and \\(C\\) have no common prime factors, and \\(B\\) has no perfect-square factors other than 1.\n\nTherefore, \\(A + B + C = 4 + 2 + 3 = 9\\).",
+  "answer": 9
+}
+Result for question 88 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 88/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['9'])
+Accuracy so far: 44/88 (50.00%)
+
+Processing Questions:  88%|████████▊ | 88/100 [11:23<01:55,  9.65s/it]
+Warning: Failed to decode the extracted JSON for question 89. Extracted: {or} \quad c = -1 \]
+Since \( c \) is a positive integer, we have:
+\[ c = 8 \]
+
+Using \( b = c + 1 \):
+\[ b = 8 + 1 = 9 \]
+
+Finally, the sum \( b + c \) is:
+\[ b + c = 9 + 8 = 17 \]
+
+Therefore, the final answer is:
+\[
+\boxed{17}
+Result for question 89 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 89/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['17'])
+Accuracy so far: 44/89 (49.44%)
+
+Processing Questions:  89%|████████▉ | 89/100 [11:33<01:45,  9.63s/it]Result for question 90 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 90/100 ---
+Result: INCORRECT (Answered: '31245' | Expected: ['31254'])
+Accuracy so far: 44/90 (48.89%)
+
+Processing Questions:  90%|█████████ | 90/100 [11:41<01:31,  9.13s/it]Result for question 91 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 91/100 ---
+Result: CORRECT (Answered: '12' | Expected: ['12'])
+Accuracy so far: 45/91 (49.45%)
+
+Processing Questions:  91%|█████████ | 91/100 [11:43<01:04,  7.17s/it]
+Warning: Failed to decode the extracted JSON for question 92. Extracted: {
+  "reasoning": "We start with the given equations: \(a^2 + b^2 + c^2 = 13\) and \(ab + bc + ca = 6\). We know that \\((a+b+c)^2 = a^2 + b^2 + c^2 + 2(ab + bc + ca)\\). Substituting the values from the given equations, we get \\((a+b+c)^2 = 13 + 2(6) = 25\\). Therefore, \\(a+b+c = \sqrt{25}\\) or \\(-\sqrt{25}\\). Since \\(a, b, c\\) are nonnegative real numbers, \\(a+b+c = 5\\).",
+  "answer": 5
+}
+Result for question 92 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 92/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['5'])
+Accuracy so far: 45/92 (48.91%)
+
+Processing Questions:  92%|█████████▏| 92/100 [11:47<00:48,  6.08s/it]Result for question 93 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 93/100 ---
+Result: CORRECT (Answered: '153' | Expected: ['153'])
+Accuracy so far: 46/93 (49.46%)
+
+Processing Questions:  93%|█████████▎| 93/100 [11:49<00:35,  5.01s/it]
+Warning: Failed to decode the extracted JSON for question 94. Extracted: {1\}
+   - Coprime numbers: \{1\}
+   - Count: \(1\)
+
+2. **Factor \(2\):**
+   - Numbers less than or equal to \(2\): \{1, 2\}
+   - Coprime numbers: \{1\}
+   - Count: \(1\)
+
+3. **Factor \(3\):**
+   - Numbers less than or equal to \(3\): \{1, 2, 3\}
+   - Coprime numbers: \{1, 2\}
+   - Count: \(2\)
+
+4. **Factor \(4\):**
+   - Numbers less than or equal to \(4\): \{1, 2, 3, 4\}
+   - Coprime numbers: \{1, 3\}
+   - Count: \(2\)
+
+5. **Factor \(6\):**
+   - Numbers less than or equal to \(6\): \{1, 2, 3, 4, 5, 6\}
+   - Coprime numbers: \{1, 5\}
+   - Count: \(2\)
+
+6. **Factor \(12\):**
+   - Numbers less than or equal to \(12\): \{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12\}
+   - Coprime numbers: \{1, 5, 7, 11\}
+   - Count: \(4\)
+
+Summing up the counts:
+\[1 + 1 + 2 + 2 + 2 + 4 = 12\]
+
+Thus, the total number of numbers Ezekiel writes is:
+\[
+\boxed{12}
+Result for question 94 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 94/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['12'])
+Accuracy so far: 46/94 (48.94%)
+
+Processing Questions:  94%|█████████▍| 94/100 [11:59<00:38,  6.47s/it]Result for question 95 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 95/100 ---
+Result: CORRECT (Answered: '300' | Expected: ['300'])
+Accuracy so far: 47/95 (49.47%)
+
+Processing Questions:  95%|█████████▌| 95/100 [12:05<00:32,  6.40s/it]
+Warning: Failed to decode the extracted JSON for question 96. Extracted: {150^\circ}{2} = 75^\circ \]
+
+Therefore, the value of \( x \) is \( 75^\circ \).
+
+Thus, the answer is:
+
+{"answer": 75}
+Result for question 96 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 96/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: ['30'])
+Accuracy so far: 47/96 (48.96%)
+
+Processing Questions:  96%|█████████▌| 96/100 [12:08<00:21,  5.41s/it]Result for question 97 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 97/100 ---
+Result: INCORRECT (Answered: '105' | Expected: ['106'])
+Accuracy so far: 47/97 (48.45%)
+
+Processing Questions:  97%|█████████▋| 97/100 [12:13<00:15,  5.23s/it]Result for question 98 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 98/100 ---
+Result: CORRECT (Answered: '9' | Expected: ['9'])
+Accuracy so far: 48/98 (48.98%)
+
+Processing Questions:  98%|█████████▊| 98/100 [12:14<00:08,  4.02s/it]Result for question 99 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 99/100 ---
+Result: CORRECT (Answered: '-7' | Expected: ['-7'])
+Accuracy so far: 49/99 (49.49%)
+
+Processing Questions:  99%|█████████▉| 99/100 [12:15<00:03,  3.10s/it]Result for question 100 saved to experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
+
+--- Question 100/100 ---
+Result: CORRECT (Answered: '0' | Expected: ['0'])
+Accuracy so far: 50/100 (50.00%)
+
+Processing Questions: 100%|██████████| 100/100 [12:17<00:00,  2.67s/it]Processing Questions: 100%|██████████| 100/100 [12:17<00:00,  7.38s/it]
+
+===== Single Agent Evaluation Summary =====
+Total Questions Processed: 100
+Correctly Answered: 50
+Overall Accuracy: 50.00%
+All single agent results have been incrementally saved to: experiment_math_numeric_results/single/single_temp1.0_mislead/run1/single_results_single_single_temp1.0_mislead_run1_20250720_072911.jsonl
