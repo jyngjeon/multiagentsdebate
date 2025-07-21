@@ -38,7 +38,7 @@ if __name__ == "__main__":
     parser.add_argument("-t", "--temperature", type=float, default=0, help="Sampling temperature for LLM responses.")
     parser.add_argument("-k", "--api-key", type=str, default=None, help="OpenAI API key.")
     parser.add_argument("-s", "--system-prompt", type=str,
-                        default="You are a brilliant problem solver. Think step-by-step, please solve the following multiple-choice question.\n\n**IMPORTANT:** Your output MUST be a single JSON object. The value for the 'answer' key must be a string containing only the letter of the correct choice (e.g., \"A\", \"B\", \"C\", or \"D\"). For example: {\"reasoning\": \"Step-by-step thinking...\", \"answer\": \"B\"}",
+                        default="You are a brilliant problem solver. Think step-by-step, please solve the following multiple-choice question.\n\n**IMPORTANT:** Your output MUST be a single JSON object. The value for the 'answer' key must be a string containing only the single letter of the correct choice (e.g., \"A\", \"B\", \"C\", or \"D\"). For example: {\"reasoning\": \"Step-by-step thinking...\", \"answer\": \"B\"}",
                         help="The system prompt given to the single agent.")
     parser.add_argument("-n", "--noise-text", type=str, default="", help="Optional: Text to append as noise to each question.")
     parser.add_argument("--exp-name", type=str, default="default_experiment", help="A name for the experiment.")

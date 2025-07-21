@@ -13,7 +13,7 @@ MODEL_NAME="Qwen/Qwen3-14B"
 QUESTION_FILE="data/mmlu/college_mathematics.json"
 
 # 모든 실험 결과가 저장될 최상위 디렉토리
-BASE_OUTPUT_DIR="results/"
+BASE_OUTPUT_DIR="results/mmlu_collegemath_qwen3"
 
 # Multi-Agent용 프롬프트 템플릿 파일 경로
 CONFIG_PROMPT_PATH="code/utils/config4all_mmlu.json" 
@@ -52,7 +52,7 @@ run_multi_agent_experiment() {
     
     echo -e "\n--- Starting Experiment $EXPERIMENT_COUNT (Multi-Agent Parallel): Temp $temp_setting, Noise: ${noise_text:+Yes} (Run ${run_num}) ---"
     
-    nohup python -u run_debate_math.py \
+    nohup python -u run_debate_mmlu.py \
         -i "$QUESTION_FILE" \
         -o "$current_output_dir" \
         -lu "$VLLM_SERVER_URL" \
