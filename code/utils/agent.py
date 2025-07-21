@@ -78,6 +78,7 @@ class Agent:
                     messages=messages,
                     temperature=temperature,
                     max_tokens=max_tokens,
+                    top_p = 0.95,
                 )
                 gen = response.choices[0].message.content # OpenAI v1.0+ 응답 형식
                 return gen
@@ -107,7 +108,7 @@ class Agent:
                     model=self.model_name,
                     messages=messages,
                     temperature=temperature,
-                    max_tokens=max_tokens,
+                    max_tokens=max_tokens
                 )
                 gen = response.choices[0].message.content
                 return gen
