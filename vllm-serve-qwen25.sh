@@ -6,4 +6,4 @@ nohup vllm serve Qwen/Qwen2.5-14B-Instruct \
     --port 8000 \
     --dtype bfloat16 \
     --gpu-memory-utilization 0.90 \
-    --max-model-len 16384 > logs/vllm_server_qwen25_2.log 2>&1 &
+    --max-model-len 16384 > logs/vllm_server_qwen25_0722.log 2>&1 &
