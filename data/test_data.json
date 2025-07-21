@@ -1,0 +1,12 @@
+[
+  {
+    "task_id": "test-math/0",
+    "question": "Question: What is 2 + 2?\nChoices:\nA. 4\nB. 3\nC. 5\nD. 1",
+    "answer": "A"
+  },
+  {
+    "task_id": "test-logic/0",
+    "question": "Question: Which of the following is a primary color?\nChoices:\nA. Orange\nB. Green\nC. Blue\nD. Purple",
+    "answer": "C"
+  }
+]
