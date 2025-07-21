@@ -133,9 +133,9 @@ run_single_agent_experiment() {
 
 # --- Single Agent 실험 ---
 
-# 1. Single Agent, Temp 0, 노이즈 있음 (1회)
+# 1. Single Agent, Temp 0, 노이즈 없음 (1회)
 CATEGORY_BASE_NAME="single_temp0_mislead"
-run_single_agent_experiment "$BASE_OUTPUT_DIR" 0 "$COMMON_NOISE_TEXT" "$CATEGORY_BASE_NAME" 1
+run_single_agent_experiment "$BASE_OUTPUT_DIR" 0 "" "$CATEGORY_BASE_NAME" 1
 
 # 2. Single Agent, Temp 0.5, 노이즈 있음 (3회 반복)
 TEMPERATURE_SETTING=0.5
