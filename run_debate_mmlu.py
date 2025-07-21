@@ -97,10 +97,13 @@ if __name__ == "__main__":
         is_correct = False
         # 모델 답변이 문자열인지 확인
         if isinstance(model_answer_val, str):
-            # 공백, 대소문자 차이를 무시하고 비교
-            normalized_model_answer = model_answer_val.strip().upper()
-            normalized_ground_truth = ground_truth_answer.upper()
+            # 추가: "."가 포함된 답변 형식("C. Blue")을 처리
+            cleaned_answer = model_answer_val.split('.')[0]
 
+            # 정제된 답변으로 비교
+            normalized_model_answer = cleaned_answer.strip().upper()
+            normalized_ground_truth = ground_truth_answer.upper()
+            
             if normalized_model_answer == normalized_ground_truth:
                 is_correct = True
 

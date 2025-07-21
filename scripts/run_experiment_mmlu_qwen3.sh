@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# 실행: nohup bash run_experiment_math_lv5_2.sh > experiment_math_lv5_2.log 2>&1 &
+# 실행: nohup bash run_experiment_mmlu_qwen3.sh > logs/experiment_mmlu_qwen3.log 2>&1 &
 
 # --- 0. 환경 설정 변수 (이 부분들을 당신의 환경에 맞게 수정하세요) ---
 # VLLM 서버의 URL (예: http://0.0.0.0:8000 또는 http://localhost:8000)
@@ -88,7 +88,7 @@ run_single_agent_experiment() {
 
     echo -e "\n--- Starting Experiment $EXPERIMENT_COUNT (Single Agent Parallel): Temp $temp_setting, Noise: ${noise_text:+Yes} (Run ${run_num}) ---"
     
-    nohup python -u run_single_math.py \
+    nohup python -u run_single_mmlu.py \
         -i "$QUESTION_FILE" \
         -o "$current_output_dir" \
         -lu "$VLLM_SERVER_URL" \
@@ -101,57 +101,25 @@ run_single_agent_experiment() {
     echo "Experiment $EXPERIMENT_COUNT launched in background. Log: $current_log_file"
 }
 
-
-# --- 모든 실험 실행 ---
-
-# --------------------------------------------------------------------
-# 특정 실험만 실행하고 싶다면, 원하지 않는 블록을 주석 처리하세요.
-# 예: 아래 Multi-Agent 실험 전체를 주석 처리하려면 블록을 선택하고 Ctrl+/ 를 누르세요.
-# --------------------------------------------------------------------
-
 # --- Multi-Agent Debate 실험 ---
 
-# 1. Multi-Agent, Temp 0, 노이즈 있음 (1회)
-CATEGORY_BASE_NAME="multi_temp0_mislead"
-run_multi_agent_experiment "$BASE_OUTPUT_DIR" 0 "$COMMON_NOISE_TEXT" "$CATEGORY_BASE_NAME" "1"
-
-# 2. Multi-Agent, Temp 0.5, 노이즈 있음 (5회 반복)
-TEMPERATURE_SETTING=0.5
-CATEGORY_BASE_NAME="multi_temp0.5_mislead" 
-echo -e "\n--- Preparing Multi-Agent, Temp $TEMPERATURE_SETTING, with mislead (5 runs) ---"
+# 1. Multi-Agent, Temp 0.6, 노이즈 없음 (5회 반복)
+TEMPERATURE_SETTING=0.6
+CATEGORY_BASE_NAME="multi_temp0.6" 
+echo -e "\n--- Preparing Multi-Agent, Temp $TEMPERATURE_SETTING (5 runs) ---"
 for i in {1..5}; do
-    run_multi_agent_experiment "$BASE_OUTPUT_DIR" "$TEMPERATURE_SETTING" "$COMMON_NOISE_TEXT" "$CATEGORY_BASE_NAME" "$i" 
-done
-
-# 3. Multi-Agent, Temp 1.0, 노이즈 있음 (5회 반복)
-TEMPERATURE_SETTING=1.0
-CATEGORY_BASE_NAME="multi_temp1.0_mislead" 
-echo -e "\n--- Preparing Multi-Agent, Temp $TEMPERATURE_SETTING, with mislead (5 runs) ---"
-for i in {1..5}; do
-    run_multi_agent_experiment "$BASE_OUTPUT_DIR" "$TEMPERATURE_SETTING" "$COMMON_NOISE_TEXT" "$CATEGORY_BASE_NAME" "$i" 
+    run_multi_agent_experiment "$BASE_OUTPUT_DIR" "$TEMPERATURE_SETTING" "" "$CATEGORY_BASE_NAME" "$i" 
 done
 
 
 # --- Single Agent 실험 ---
 
-# 1. Single Agent, Temp 0, 노이즈 있음 (1회)
-CATEGORY_BASE_NAME="single_temp0_mislead"
-run_single_agent_experiment "$BASE_OUTPUT_DIR" 0 "$COMMON_NOISE_TEXT" "$CATEGORY_BASE_NAME" 1
-
-# 2. Single Agent, Temp 0.5, 노이즈 있음 (5회 반복)
-TEMPERATURE_SETTING=0.5
-CATEGORY_BASE_NAME="single_temp0.5_mislead" 
-echo -e "\n--- Preparing Single Agent, Temp $TEMPERATURE_SETTING, with mislead (5 runs) ---"
+# 2. Single Agent, Temp 0.5, 노이즈 없음 (5회 반복)
+TEMPERATURE_SETTING=0.6
+CATEGORY_BASE_NAME="single_temp0.6" 
+echo -e "\n--- Preparing Single Agent, Temp $TEMPERATURE_SETTING (5 runs) ---"
 for i in {1..5}; do
-    run_single_agent_experiment "$BASE_OUTPUT_DIR" "$TEMPERATURE_SETTING" "$COMMON_NOISE_TEXT" "$CATEGORY_BASE_NAME" "$i" 
-done
-
-# 5. Single Agent, Temp 1.0, 노이즈 있음 (5회 반복)
-TEMPERATURE_SETTING=1.0
-CATEGORY_BASE_NAME="single_temp1.0_mislead" 
-echo -e "\n--- Preparing Single Agent, Temp $TEMPERATURE_SETTING, with mislead (5 runs) ---"
-for i in {1..5}; do
-    run_single_agent_experiment "$BASE_OUTPUT_DIR" "$TEMPERATURE_SETTING" "$COMMON_NOISE_TEXT" "$CATEGORY_BASE_NAME" "$i" 
+    run_single_agent_experiment "$BASE_OUTPUT_DIR" "$TEMPERATURE_SETTING" "" "$CATEGORY_BASE_NAME" "$i" 
 done
 
 echo -e "\n--- All parallel experiments launched. Total experiments: $EXPERIMENT_COUNT ---"
