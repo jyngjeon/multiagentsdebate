@@ -12,8 +12,6 @@ from .openai_utils import OutOfQuotaException, AccessTerminatedException
 from .openai_utils import num_tokens_from_string, model2max_context
 
 # VLLM 서버와 통신할 때 사용하는 모델 이름 목록.
-# VLLM에 로드된 모델 이름 (예: Qwen/Qwen3-14B)을 포함해야 합니다.
-# OpenAI 모델도 필요하다면 여기에 추가됩니다.
 support_models = ['gpt-3.5-turbo', 'gpt-3.5-turbo-0301', 'gpt-4', 'gpt-4-0314', 'Qwen/Qwen3-14B', 'Qwen/Qwen2.5-14B-Instruct']
 
 class Agent:
@@ -39,8 +37,8 @@ class Agent:
         self.openai_api_key = openai_api_key # OpenAI API 키를 인스턴스 변수로 저장
 
         # OpenAI 클라이언트 인스턴스 초기화.
-        # 로컬 LLM URL이 제공되면 해당 URL을 base_url로 사용합니다.
-        # OpenAI API Key는 로컬 LLM(VLLM)에서는 보통 필요 없지만, openai.OpenAI 클라이언트의 인자로 요구될 수 있어 더미 키를 사용합니다.
+        # 로컬 LLM URL이 제공되면 해당 URL을 base_url로 사용
+        # OpenAI API Key는 로컬 LLM(VLLM)에서는 보통 필요 없지만, openai.OpenAI 클라이언트의 인자로 요구될 수 있어 더미 키 사용
         if self.local_llm_url:
             base_url_for_client = self.local_llm_url.rstrip('/') 
             self.openai_client = openai.OpenAI(base_url=f"{base_url_for_client}/v1", api_key="sk-no-key-required") 

@@ -1,0 +1,51 @@
+nohup: ignoring input
+Experiment results will be saved in: results/mmlu_collegemath_qwen3
+
+--- Preparing Multi-Agent, Temp 0.6 (5 runs) ---
+DEBUG: Creating directory: 'results/mmlu_collegemath_qwen3/multi/multi_temp0.6/run1'
+
+--- Starting Experiment 1 (Multi-Agent Parallel): Temp 0.6, Noise:  (Run 1) ---
+Experiment 1 launched in background. Log: results/mmlu_collegemath_qwen3/multi/multi_temp0.6/run1/debate.log
+DEBUG: Creating directory: 'results/mmlu_collegemath_qwen3/multi/multi_temp0.6/run2'
+
+--- Starting Experiment 2 (Multi-Agent Parallel): Temp 0.6, Noise:  (Run 2) ---
+Experiment 2 launched in background. Log: results/mmlu_collegemath_qwen3/multi/multi_temp0.6/run2/debate.log
+DEBUG: Creating directory: 'results/mmlu_collegemath_qwen3/multi/multi_temp0.6/run3'
+
+--- Starting Experiment 3 (Multi-Agent Parallel): Temp 0.6, Noise:  (Run 3) ---
+Experiment 3 launched in background. Log: results/mmlu_collegemath_qwen3/multi/multi_temp0.6/run3/debate.log
+DEBUG: Creating directory: 'results/mmlu_collegemath_qwen3/multi/multi_temp0.6/run4'
+
+--- Starting Experiment 4 (Multi-Agent Parallel): Temp 0.6, Noise:  (Run 4) ---
+Experiment 4 launched in background. Log: results/mmlu_collegemath_qwen3/multi/multi_temp0.6/run4/debate.log
+DEBUG: Creating directory: 'results/mmlu_collegemath_qwen3/multi/multi_temp0.6/run5'
+
+--- Starting Experiment 5 (Multi-Agent Parallel): Temp 0.6, Noise:  (Run 5) ---
+Experiment 5 launched in background. Log: results/mmlu_collegemath_qwen3/multi/multi_temp0.6/run5/debate.log
+
+--- Preparing Single Agent, Temp 0.6 (5 runs) ---
+DEBUG: Creating directory: 'results/mmlu_collegemath_qwen3/single/single_temp0.6/run1'
+
+--- Starting Experiment 6 (Single Agent Parallel): Temp 0.6, Noise:  (Run 1) ---
+Experiment 6 launched in background. Log: results/mmlu_collegemath_qwen3/single/single_temp0.6/run1/single_agent.log
+DEBUG: Creating directory: 'results/mmlu_collegemath_qwen3/single/single_temp0.6/run2'
+
+--- Starting Experiment 7 (Single Agent Parallel): Temp 0.6, Noise:  (Run 2) ---
+Experiment 7 launched in background. Log: results/mmlu_collegemath_qwen3/single/single_temp0.6/run2/single_agent.log
+DEBUG: Creating directory: 'results/mmlu_collegemath_qwen3/single/single_temp0.6/run3'
+
+--- Starting Experiment 8 (Single Agent Parallel): Temp 0.6, Noise:  (Run 3) ---
+Experiment 8 launched in background. Log: results/mmlu_collegemath_qwen3/single/single_temp0.6/run3/single_agent.log
+DEBUG: Creating directory: 'results/mmlu_collegemath_qwen3/single/single_temp0.6/run4'
+
+--- Starting Experiment 9 (Single Agent Parallel): Temp 0.6, Noise:  (Run 4) ---
+Experiment 9 launched in background. Log: results/mmlu_collegemath_qwen3/single/single_temp0.6/run4/single_agent.log
+DEBUG: Creating directory: 'results/mmlu_collegemath_qwen3/single/single_temp0.6/run5'
+
+--- Starting Experiment 10 (Single Agent Parallel): Temp 0.6, Noise:  (Run 5) ---
+Experiment 10 launched in background. Log: results/mmlu_collegemath_qwen3/single/single_temp0.6/run5/single_agent.log
+
+--- All parallel experiments launched. Total experiments: 10 ---
+You can check their individual logs for progress.
+Use 'jobs' or 'ps aux | grep python' to monitor them.
+Use 'wait' command in your terminal to wait for all background jobs to complete, or 'kill <PID>' to stop them.

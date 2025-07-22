@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# 실행: nohup bash run_experiment_mmlu_qwen3.sh > logs/experiment_mmlu_qwen3.log 2>&1 &
+# 실행: nohup bash scripts/run_experiment_mmlu_qwen3.sh > logs/experiment_mmlu_qwen3.log 2>&1 &
 
 # --- 0. 환경 설정 변수 (이 부분들을 당신의 환경에 맞게 수정하세요) ---
 # VLLM 서버의 URL (예: http://0.0.0.0:8000 또는 http://localhost:8000)
@@ -114,7 +114,7 @@ done
 
 # --- Single Agent 실험 ---
 
-# 2. Single Agent, Temp 0.5, 노이즈 없음 (5회 반복)
+# 2. Single Agent, Temp 0.6, 노이즈 없음 (5회 반복)
 TEMPERATURE_SETTING=0.6
 CATEGORY_BASE_NAME="single_temp0.6" 
 echo -e "\n--- Preparing Single Agent, Temp $TEMPERATURE_SETTING (5 runs) ---"
