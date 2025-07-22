@@ -1,0 +1,543 @@
+
+Starting single agent evaluation for 100 questions...
+Results will be saved incrementally to: results/mmlu_collegemath_qwen25/single/single_temp0.6/run5/single_results_single_single_temp0.6_run5_20250721_201758.jsonl
+
+Processing Questions:   0%|          | 0/100 [00:00<?, ?it/s]
+--- Question 1/100 ---
+Result: CORRECT (Answered: 'B' | Expected: 'B')
+Accuracy so far: 1/1 (100.00%)
+
+Processing Questions:   1%|          | 1/100 [00:10<17:27, 10.58s/it]
+--- Question 2/100 ---
+Result: INCORRECT (Answered: 'B' | Expected: 'D')
+Accuracy so far: 1/2 (50.00%)
+
+Processing Questions:   2%|▏         | 2/100 [00:18<14:18,  8.76s/it]
+--- Question 3/100 ---
+Result: INCORRECT (Answered: 'B' | Expected: 'D')
+Accuracy so far: 1/3 (33.33%)
+
+Processing Questions:   3%|▎         | 3/100 [00:21<10:26,  6.46s/it]
+--- Question 4/100 ---
+Result: CORRECT (Answered: 'A' | Expected: 'A')
+Accuracy so far: 2/4 (50.00%)
+
+Processing Questions:   4%|▍         | 4/100 [00:29<10:51,  6.79s/it]
+--- Question 5/100 ---
+Result: CORRECT (Answered: 'C' | Expected: 'C')
+Accuracy so far: 3/5 (60.00%)
+
+Processing Questions:   5%|▌         | 5/100 [00:38<12:30,  7.90s/it]
+--- Question 6/100 ---
+Result: CORRECT (Answered: 'D' | Expected: 'D')
+Accuracy so far: 4/6 (66.67%)
+
+Processing Questions:   6%|▌         | 6/100 [00:48<13:09,  8.39s/it]
+--- Question 7/100 ---
+Result: CORRECT (Answered: 'C' | Expected: 'C')
+Accuracy so far: 5/7 (71.43%)
+
+Processing Questions:   7%|▋         | 7/100 [00:56<12:47,  8.26s/it]
+--- Question 8/100 ---
+Result: CORRECT (Answered: 'C' | Expected: 'C')
+Accuracy so far: 6/8 (75.00%)
+
+Processing Questions:   8%|▊         | 8/100 [01:01<11:08,  7.27s/it]
+--- Question 9/100 ---
+Result: CORRECT (Answered: 'C' | Expected: 'C')
+Accuracy so far: 7/9 (77.78%)
+
+Processing Questions:   9%|▉         | 9/100 [01:05<09:24,  6.20s/it]
+--- Question 10/100 ---
+Result: INCORRECT (Answered: 'C' | Expected: 'A')
+Accuracy so far: 7/10 (70.00%)
+
+Processing Questions:  10%|█         | 10/100 [01:11<09:23,  6.26s/it]
+--- Question 11/100 ---
+Result: CORRECT (Answered: 'D' | Expected: 'D')
+Accuracy so far: 8/11 (72.73%)
+
+Processing Questions:  11%|█         | 11/100 [01:14<07:36,  5.13s/it]
+--- Question 12/100 ---
+Result: CORRECT (Answered: 'B' | Expected: 'B')
+Accuracy so far: 9/12 (75.00%)
+
+Processing Questions:  12%|█▏        | 12/100 [01:21<08:28,  5.77s/it]
+--- Question 13/100 ---
+Result: INCORRECT (Answered: 'D' | Expected: 'A')
+Accuracy so far: 9/13 (69.23%)
+
+Processing Questions:  13%|█▎        | 13/100 [01:30<09:39,  6.66s/it]
+--- Question 14/100 ---
+Result: INCORRECT (Answered: 'A' | Expected: 'B')
+Accuracy so far: 9/14 (64.29%)
+
+Processing Questions:  14%|█▍        | 14/100 [01:34<08:43,  6.09s/it]
+--- Question 15/100 ---
+Result: CORRECT (Answered: 'D' | Expected: 'D')
+Accuracy so far: 10/15 (66.67%)
+
+Processing Questions:  15%|█▌        | 15/100 [01:41<08:48,  6.21s/it]
+--- Question 16/100 ---
+Result: CORRECT (Answered: 'D' | Expected: 'D')
+Accuracy so far: 11/16 (68.75%)
+
+Processing Questions:  16%|█▌        | 16/100 [01:48<08:56,  6.39s/it]
+--- Question 17/100 ---
+Result: INCORRECT (Answered: 'D' | Expected: 'B')
+Accuracy so far: 11/17 (64.71%)
+
+Processing Questions:  17%|█▋        | 17/100 [01:57<10:00,  7.24s/it]
+--- Question 18/100 ---
+Result: INCORRECT (Answered: 'B' | Expected: 'C')
+Accuracy so far: 11/18 (61.11%)
+
+Processing Questions:  18%|█▊        | 18/100 [02:15<14:13, 10.41s/it]
+--- Question 19/100 ---
+Result: INCORRECT (Answered: 'A' | Expected: 'D')
+Accuracy so far: 11/19 (57.89%)
+
+Processing Questions:  19%|█▉        | 19/100 [02:23<13:14,  9.81s/it]
+--- Question 20/100 ---
+Result: CORRECT (Answered: 'A' | Expected: 'A')
+Accuracy so far: 12/20 (60.00%)
+
+Processing Questions:  20%|██        | 20/100 [02:27<10:38,  7.99s/it]
+--- Question 21/100 ---
+Result: CORRECT (Answered: 'D' | Expected: 'D')
+Accuracy so far: 13/21 (61.90%)
+
+Processing Questions:  21%|██        | 21/100 [02:31<09:08,  6.94s/it]
+--- Question 22/100 ---
+Result: INCORRECT (Answered: 'B' | Expected: 'D')
+Accuracy so far: 13/22 (59.09%)
+
+Processing Questions:  22%|██▏       | 22/100 [02:42<10:24,  8.00s/it]
+--- Question 23/100 ---
+Result: CORRECT (Answered: 'B' | Expected: 'B')
+Accuracy so far: 14/23 (60.87%)
+
+Processing Questions:  23%|██▎       | 23/100 [02:49<09:56,  7.74s/it]
+--- Question 24/100 ---
+Result: CORRECT (Answered: 'A' | Expected: 'A')
+Accuracy so far: 15/24 (62.50%)
+
+Processing Questions:  24%|██▍       | 24/100 [02:55<09:12,  7.27s/it]
+--- Question 25/100 ---
+Result: INCORRECT (Answered: 'A' | Expected: 'B')
+Accuracy so far: 15/25 (60.00%)
+
+Processing Questions:  25%|██▌       | 25/100 [03:00<08:05,  6.47s/it]
+--- Question 26/100 ---
+Result: CORRECT (Answered: 'D' | Expected: 'D')
+Accuracy so far: 16/26 (61.54%)
+
+Processing Questions:  26%|██▌       | 26/100 [03:12<10:03,  8.16s/it]
+--- Question 27/100 ---
+Result: INCORRECT (Answered: 'C' | Expected: 'D')
+Accuracy so far: 16/27 (59.26%)
+
+Processing Questions:  27%|██▋       | 27/100 [03:28<12:49, 10.55s/it]
+--- Question 28/100 ---
+Result: INCORRECT (Answered: 'B' | Expected: 'A')
+Accuracy so far: 16/28 (57.14%)
+
+Processing Questions:  28%|██▊       | 28/100 [03:32<10:20,  8.62s/it]
+--- Question 29/100 ---
+Result: INCORRECT (Answered: 'D' | Expected: 'A')
+Accuracy so far: 16/29 (55.17%)
+
+Processing Questions:  29%|██▉       | 29/100 [03:46<11:54, 10.06s/it]
+--- Question 30/100 ---
+Result: CORRECT (Answered: 'B' | Expected: 'B')
+Accuracy so far: 17/30 (56.67%)
+
+Processing Questions:  30%|███       | 30/100 [03:50<09:40,  8.29s/it]
+--- Question 31/100 ---
+Result: INCORRECT (Answered: 'D' | Expected: 'C')
+Accuracy so far: 17/31 (54.84%)
+
+Processing Questions:  31%|███       | 31/100 [03:53<07:51,  6.84s/it]
+--- Question 32/100 ---
+Result: CORRECT (Answered: 'B' | Expected: 'B')
+Accuracy so far: 18/32 (56.25%)
+
+Processing Questions:  32%|███▏      | 32/100 [04:00<07:48,  6.89s/it]
+--- Question 33/100 ---
+Result: CORRECT (Answered: 'B' | Expected: 'B')
+Accuracy so far: 19/33 (57.58%)
+
+Processing Questions:  33%|███▎      | 33/100 [04:07<07:31,  6.74s/it]
+--- Question 34/100 ---
+Result: CORRECT (Answered: 'C' | Expected: 'C')
+Accuracy so far: 20/34 (58.82%)
+
+Processing Questions:  34%|███▍      | 34/100 [04:10<06:22,  5.79s/it]
+--- Question 35/100 ---
+Result: CORRECT (Answered: 'D' | Expected: 'D')
+Accuracy so far: 21/35 (60.00%)
+
+Processing Questions:  35%|███▌      | 35/100 [04:20<07:39,  7.06s/it]
+--- Question 36/100 ---
+Result: CORRECT (Answered: 'D' | Expected: 'D')
+Accuracy so far: 22/36 (61.11%)
+
+Processing Questions:  36%|███▌      | 36/100 [04:31<08:37,  8.09s/it]
+--- Question 37/100 ---
+Result: CORRECT (Answered: 'A' | Expected: 'A')
+Accuracy so far: 23/37 (62.16%)
+
+Processing Questions:  37%|███▋      | 37/100 [04:38<08:22,  7.97s/it]
+--- Question 38/100 ---
+Result: CORRECT (Answered: 'A' | Expected: 'A')
+Accuracy so far: 24/38 (63.16%)
+
+Processing Questions:  38%|███▊      | 38/100 [04:47<08:22,  8.11s/it]
+--- Question 39/100 ---
+Result: CORRECT (Answered: 'A' | Expected: 'A')
+Accuracy so far: 25/39 (64.10%)
+
+Processing Questions:  39%|███▉      | 39/100 [04:54<08:01,  7.89s/it]
+--- Question 40/100 ---
+Result: CORRECT (Answered: 'C' | Expected: 'C')
+Accuracy so far: 26/40 (65.00%)
+
+Processing Questions:  40%|████      | 40/100 [04:57<06:26,  6.44s/it]
+--- Question 41/100 ---
+Result: CORRECT (Answered: 'B' | Expected: 'B')
+Accuracy so far: 27/41 (65.85%)
+
+Processing Questions:  41%|████      | 41/100 [05:04<06:19,  6.44s/it]
+--- Question 42/100 ---
+Result: CORRECT (Answered: 'D' | Expected: 'D')
+Accuracy so far: 28/42 (66.67%)
+
+Processing Questions:  42%|████▏     | 42/100 [05:07<05:19,  5.50s/it]
+--- Question 43/100 ---
+Result: CORRECT (Answered: 'D' | Expected: 'D')
+Accuracy so far: 29/43 (67.44%)
+
+Processing Questions:  43%|████▎     | 43/100 [05:15<05:54,  6.21s/it]
+--- Question 44/100 ---
+Result: INCORRECT (Answered: 'C' | Expected: 'A')
+Accuracy so far: 29/44 (65.91%)
+
+Processing Questions:  44%|████▍     | 44/100 [05:27<07:22,  7.91s/it]
+--- Question 45/100 ---
+Result: CORRECT (Answered: 'D' | Expected: 'D')
+Accuracy so far: 30/45 (66.67%)
+
+Processing Questions:  45%|████▌     | 45/100 [05:33<06:54,  7.54s/it]
+--- Question 46/100 ---
+Result: INCORRECT (Answered: 'B' | Expected: 'A')
+Accuracy so far: 30/46 (65.22%)
+
+Processing Questions:  46%|████▌     | 46/100 [05:38<05:54,  6.56s/it]
+--- Question 47/100 ---
+Result: CORRECT (Answered: 'B' | Expected: 'B')
+Accuracy so far: 31/47 (65.96%)
+
+Processing Questions:  47%|████▋     | 47/100 [05:49<06:56,  7.86s/it]
+--- Question 48/100 ---
+Result: CORRECT (Answered: 'B' | Expected: 'B')
+Accuracy so far: 32/48 (66.67%)
+
+Processing Questions:  48%|████▊     | 48/100 [05:52<05:35,  6.45s/it]
+--- Question 49/100 ---
+Result: INCORRECT (Answered: 'B' | Expected: 'C')
+Accuracy so far: 32/49 (65.31%)
+
+Processing Questions:  49%|████▉     | 49/100 [06:00<06:03,  7.13s/it]
+--- Question 50/100 ---
+Result: CORRECT (Answered: 'D' | Expected: 'D')
+Accuracy so far: 33/50 (66.00%)
+
+Processing Questions:  50%|█████     | 50/100 [06:10<06:36,  7.94s/it]
+--- Question 51/100 ---
+Result: CORRECT (Answered: 'A' | Expected: 'A')
+Accuracy so far: 34/51 (66.67%)
+
+Processing Questions:  51%|█████     | 51/100 [06:16<05:50,  7.15s/it]
+--- Question 52/100 ---
+Result: CORRECT (Answered: 'B' | Expected: 'B')
+Accuracy so far: 35/52 (67.31%)
+
+Processing Questions:  52%|█████▏    | 52/100 [06:17<04:24,  5.51s/it]
+--- Question 53/100 ---
+Result: CORRECT (Answered: 'C' | Expected: 'C')
+Accuracy so far: 36/53 (67.92%)
+
+Processing Questions:  53%|█████▎    | 53/100 [06:22<04:11,  5.34s/it]
+--- Question 54/100 ---
+Result: INCORRECT (Answered: 'D' | Expected: 'C')
+Accuracy so far: 36/54 (66.67%)
+
+Processing Questions:  54%|█████▍    | 54/100 [06:30<04:33,  5.94s/it]
+--- Question 55/100 ---
+Result: CORRECT (Answered: 'A' | Expected: 'A')
+Accuracy so far: 37/55 (67.27%)
+
+Processing Questions:  55%|█████▌    | 55/100 [06:42<05:54,  7.88s/it]
+--- Question 56/100 ---
+Result: CORRECT (Answered: 'D' | Expected: 'D')
+Accuracy so far: 38/56 (67.86%)
+
+Processing Questions:  56%|█████▌    | 56/100 [06:48<05:20,  7.29s/it]
+--- Question 57/100 ---
+Result: CORRECT (Answered: 'B' | Expected: 'B')
+Accuracy so far: 39/57 (68.42%)
+
+Processing Questions:  57%|█████▋    | 57/100 [06:53<04:46,  6.66s/it]
+--- Question 58/100 ---
+Result: CORRECT (Answered: 'D' | Expected: 'D')
+Accuracy so far: 40/58 (68.97%)
+
+Processing Questions:  58%|█████▊    | 58/100 [07:03<05:22,  7.68s/it]
+--- Question 59/100 ---
+Result: INCORRECT (Answered: 'A' | Expected: 'C')
+Accuracy so far: 40/59 (67.80%)
+
+Processing Questions:  59%|█████▉    | 59/100 [07:11<05:21,  7.84s/it]
+--- Question 60/100 ---
+Result: CORRECT (Answered: 'A' | Expected: 'A')
+Accuracy so far: 41/60 (68.33%)
+
+Processing Questions:  60%|██████    | 60/100 [07:19<05:09,  7.73s/it]
+--- Question 61/100 ---
+Result: CORRECT (Answered: 'B' | Expected: 'B')
+Accuracy so far: 42/61 (68.85%)
+
+Processing Questions:  61%|██████    | 61/100 [07:28<05:21,  8.25s/it]
+--- Question 62/100 ---
+Result: CORRECT (Answered: 'A' | Expected: 'A')
+Accuracy so far: 43/62 (69.35%)
+
+Processing Questions:  62%|██████▏   | 62/100 [07:35<04:53,  7.73s/it]
+--- Question 63/100 ---
+Result: CORRECT (Answered: 'A' | Expected: 'A')
+Accuracy so far: 44/63 (69.84%)
+
+Processing Questions:  63%|██████▎   | 63/100 [07:39<04:04,  6.60s/it]
+--- Question 64/100 ---
+Result: CORRECT (Answered: 'D' | Expected: 'D')
+Accuracy so far: 45/64 (70.31%)
+
+Processing Questions:  64%|██████▍   | 64/100 [07:42<03:24,  5.67s/it]
+--- Question 65/100 ---
+Result: CORRECT (Answered: 'B' | Expected: 'B')
+Accuracy so far: 46/65 (70.77%)
+
+Processing Questions:  65%|██████▌   | 65/100 [07:48<03:20,  5.72s/it]
+--- Question 66/100 ---
+Result: INCORRECT (Answered: 'C' | Expected: 'D')
+Accuracy so far: 46/66 (69.70%)
+
+Processing Questions:  66%|██████▌   | 66/100 [08:00<04:20,  7.66s/it]
+--- Question 67/100 ---
+Result: CORRECT (Answered: 'C' | Expected: 'C')
+Accuracy so far: 47/67 (70.15%)
+
+Processing Questions:  67%|██████▋   | 67/100 [08:13<05:00,  9.11s/it]
+--- Question 68/100 ---
+Result: CORRECT (Answered: 'D' | Expected: 'D')
+Accuracy so far: 48/68 (70.59%)
+
+Processing Questions:  68%|██████▊   | 68/100 [08:20<04:30,  8.47s/it]
+--- Question 69/100 ---
+Result: CORRECT (Answered: 'A' | Expected: 'A')
+Accuracy so far: 49/69 (71.01%)
+
+Processing Questions:  69%|██████▉   | 69/100 [08:34<05:12, 10.08s/it]
+--- Question 70/100 ---
+Result: INCORRECT (Answered: 'B' | Expected: 'A')
+Accuracy so far: 49/70 (70.00%)
+
+Processing Questions:  70%|███████   | 70/100 [08:44<05:04, 10.15s/it]
+--- Question 71/100 ---
+Result: INCORRECT (Answered: 'A' | Expected: 'D')
+Accuracy so far: 49/71 (69.01%)
+
+Processing Questions:  71%|███████   | 71/100 [08:55<05:02, 10.42s/it]
+Warning: Failed to decode the extracted JSON for question 72. Extracted: {"reasoning": "First, we need to analyze the given system of linear equations to determine its properties. We can start by writing the augmented matrix for the system:\n\n\[\begin{pmatrix}
+1 & 3 & 2 & 2 & | & 0 \\
+1 & 4 & 1 & 0 & | & 0 \\
+3 & 5 & 10 & 14 & | & 0 \\
+2 & 5 & 5 & 6 & | & 0
+\end{pmatrix}\]\n\nPerform row operations to simplify this matrix. Subtract the first row from the second row:\n\[\begin{pmatrix}
+1 & 3 & 2 & 2 & | & 0 \\
+0 & 1 & -1 & -2 & | & 0 \\
+3 & 5 & 10 & 14 & | & 0 \\
+2 & 5 & 5 & 6 & | & 0
+\end{pmatrix}\]\n\nNext, replace the third row with (3 times the first row minus the third row) and the fourth row with (2 times the first row minus the fourth row):\n\[\begin{pmatrix}
+1 & 3 & 2 & 2 & | & 0 \\
+0 & 1 & -1 & -2 & | & 0 \\
+0 & 4 & 4 & 8 & | & 0 \\
+0 & 1 & 1 & 2 & | & 0
+\end{pmatrix}\]\n\nReplace the third row with (third row minus four times the second row) and the fourth row with (fourth row minus the second row):\n\[\begin{pmatrix}
+1 & 3 & 2 & 2 & | & 0 \\
+0 & 1 & -1 & -2 & | & 0 \\
+0 & 0 & 8 & 16 & | & 0 \\
+0 & 0 & 2 & 4 & | & 0
+\end{pmatrix}\]\n\nSimplify the third row by dividing by 8 and the fourth row by 2:\n\[\begin{pmatrix}
+1 & 3 & 2 & 2 & | & 0 \\
+0 & 1 & -1 & -2 & | & 0 \\
+0 & 0 & 1 & 2 & | & 0 \\
+0 & 0 & 1 & 2 & | & 0
+\end{pmatrix}\]\n\nThe last two rows are identical, so we can remove one:\n\[\begin{pmatrix}
+1 & 3 & 2 & 2 & | & 0 \\
+0 & 1 & -1 & -2 & | & 0 \\
+0 & 0 & 1 & 2 & | & 0
+\end{pmatrix}\]\n\nFrom here, we can express the variables in terms of each other. From the third row, we have \(y = -2z\). Substitute into the second row to find \(x = z\). Finally, substitute into the first row to find \(w = -5z\). Therefore, the general solution is \((w, x, y, z) = (-5z, z, -2z, z)\).\n\nThis shows that the system is consistent (A is true), it has infinitely many solutions (B is true), and the sum of any two solutions is also a solution (C is true). However, not every solution is a scalar multiple of \((-5, 1, 1, 0)\), as the general solution is a scalar multiple of \((-5, 1, -2, 1)\). Thus, D is false.",
+"answer": "D"}
+
+--- Question 72/100 ---
+Result: INCORRECT (Answered: 'None' | Expected: 'D')
+Accuracy so far: 49/72 (68.06%)
+
+Processing Questions:  72%|███████▏  | 72/100 [09:20<06:52, 14.72s/it]
+--- Question 73/100 ---
+Result: CORRECT (Answered: 'D' | Expected: 'D')
+Accuracy so far: 50/73 (68.49%)
+
+Processing Questions:  73%|███████▎  | 73/100 [09:25<05:21, 11.90s/it]
+--- Question 74/100 ---
+Result: CORRECT (Answered: 'D' | Expected: 'D')
+Accuracy so far: 51/74 (68.92%)
+
+Processing Questions:  74%|███████▍  | 74/100 [09:33<04:36, 10.65s/it]
+--- Question 75/100 ---
+Result: INCORRECT (Answered: 'A' | Expected: 'C')
+Accuracy so far: 51/75 (68.00%)
+
+Processing Questions:  75%|███████▌  | 75/100 [09:40<04:03,  9.74s/it]
+--- Question 76/100 ---
+Result: CORRECT (Answered: 'D' | Expected: 'D')
+Accuracy so far: 52/76 (68.42%)
+
+Processing Questions:  76%|███████▌  | 76/100 [09:49<03:43,  9.31s/it]
+--- Question 77/100 ---
+Result: CORRECT (Answered: 'D' | Expected: 'D')
+Accuracy so far: 53/77 (68.83%)
+
+Processing Questions:  77%|███████▋  | 77/100 [09:53<03:02,  7.95s/it]
+--- Question 78/100 ---
+Result: CORRECT (Answered: 'C' | Expected: 'C')
+Accuracy so far: 54/78 (69.23%)
+
+Processing Questions:  78%|███████▊  | 78/100 [09:58<02:31,  6.89s/it]
+--- Question 79/100 ---
+Result: CORRECT (Answered: 'B' | Expected: 'B')
+Accuracy so far: 55/79 (69.62%)
+
+Processing Questions:  79%|███████▉  | 79/100 [10:06<02:30,  7.18s/it]
+--- Question 80/100 ---
+Result: CORRECT (Answered: 'B' | Expected: 'B')
+Accuracy so far: 56/80 (70.00%)
+
+Processing Questions:  80%|████████  | 80/100 [10:11<02:11,  6.58s/it]
+--- Question 81/100 ---
+Result: CORRECT (Answered: 'C' | Expected: 'C')
+Accuracy so far: 57/81 (70.37%)
+
+Processing Questions:  81%|████████  | 81/100 [10:18<02:05,  6.61s/it]
+--- Question 82/100 ---
+Result: CORRECT (Answered: 'B' | Expected: 'B')
+Accuracy so far: 58/82 (70.73%)
+
+Processing Questions:  82%|████████▏ | 82/100 [10:24<01:56,  6.46s/it]
+--- Question 83/100 ---
+Result: CORRECT (Answered: 'B' | Expected: 'B')
+Accuracy so far: 59/83 (71.08%)
+
+Processing Questions:  83%|████████▎ | 83/100 [10:30<01:48,  6.38s/it]
+--- Question 84/100 ---
+Result: INCORRECT (Answered: 'B' | Expected: 'C')
+Accuracy so far: 59/84 (70.24%)
+
+Processing Questions:  84%|████████▍ | 84/100 [10:35<01:33,  5.87s/it]
+--- Question 85/100 ---
+Result: INCORRECT (Answered: 'B' | Expected: 'C')
+Accuracy so far: 59/85 (69.41%)
+
+Processing Questions:  85%|████████▌ | 85/100 [10:43<01:40,  6.71s/it]
+--- Question 86/100 ---
+Result: INCORRECT (Answered: 'A' | Expected: 'B')
+Accuracy so far: 59/86 (68.60%)
+
+Processing Questions:  86%|████████▌ | 86/100 [10:50<01:35,  6.80s/it]
+--- Question 87/100 ---
+Result: CORRECT (Answered: 'A' | Expected: 'A')
+Accuracy so far: 60/87 (68.97%)
+
+Processing Questions:  87%|████████▋ | 87/100 [10:59<01:37,  7.53s/it]
+--- Question 88/100 ---
+Result: CORRECT (Answered: 'C' | Expected: 'C')
+Accuracy so far: 61/88 (69.32%)
+
+Processing Questions:  88%|████████▊ | 88/100 [11:07<01:32,  7.68s/it]
+--- Question 89/100 ---
+Result: CORRECT (Answered: 'C' | Expected: 'C')
+Accuracy so far: 62/89 (69.66%)
+
+Processing Questions:  89%|████████▉ | 89/100 [11:14<01:21,  7.41s/it]
+--- Question 90/100 ---
+Result: CORRECT (Answered: 'C' | Expected: 'C')
+Accuracy so far: 63/90 (70.00%)
+
+Processing Questions:  90%|█████████ | 90/100 [11:20<01:09,  6.99s/it]
+--- Question 91/100 ---
+Result: INCORRECT (Answered: 'C' | Expected: 'B')
+Accuracy so far: 63/91 (69.23%)
+
+Processing Questions:  91%|█████████ | 91/100 [11:34<01:20,  8.97s/it]
+--- Question 92/100 ---
+Result: INCORRECT (Answered: 'A' | Expected: 'C')
+Accuracy so far: 63/92 (68.48%)
+
+Processing Questions:  92%|█████████▏| 92/100 [11:42<01:08,  8.58s/it]
+--- Question 93/100 ---
+Result: INCORRECT (Answered: 'B' | Expected: 'C')
+Accuracy so far: 63/93 (67.74%)
+
+Processing Questions:  93%|█████████▎| 93/100 [11:51<01:02,  8.97s/it]
+--- Question 94/100 ---
+Result: CORRECT (Answered: 'B' | Expected: 'B')
+Accuracy so far: 64/94 (68.09%)
+
+Processing Questions:  94%|█████████▍| 94/100 [11:58<00:49,  8.19s/it]
+--- Question 95/100 ---
+Result: CORRECT (Answered: 'D' | Expected: 'D')
+Accuracy so far: 65/95 (68.42%)
+
+Processing Questions:  95%|█████████▌| 95/100 [12:04<00:37,  7.56s/it]
+--- Question 96/100 ---
+Result: CORRECT (Answered: 'D' | Expected: 'D')
+Accuracy so far: 66/96 (68.75%)
+
+Processing Questions:  96%|█████████▌| 96/100 [12:12<00:31,  7.82s/it]
+--- Question 97/100 ---
+Result: INCORRECT (Answered: 'B' | Expected: 'C')
+Accuracy so far: 66/97 (68.04%)
+
+Processing Questions:  97%|█████████▋| 97/100 [12:18<00:21,  7.13s/it]
+--- Question 98/100 ---
+Result: INCORRECT (Answered: 'D' | Expected: 'C')
+Accuracy so far: 66/98 (67.35%)
+
+Processing Questions:  98%|█████████▊| 98/100 [12:28<00:16,  8.09s/it]
+--- Question 99/100 ---
+Result: CORRECT (Answered: 'D' | Expected: 'D')
+Accuracy so far: 67/99 (67.68%)
+
+Processing Questions:  99%|█████████▉| 99/100 [12:39<00:08,  8.78s/it]
+--- Question 100/100 ---
+Result: INCORRECT (Answered: 'B' | Expected: 'A')
+Accuracy so far: 67/100 (67.00%)
+
+Processing Questions: 100%|██████████| 100/100 [12:47<00:00,  8.64s/it]Processing Questions: 100%|██████████| 100/100 [12:47<00:00,  7.67s/it]
+
+===== Single Agent Evaluation Summary =====
+Total Questions Processed: 100
+Correctly Answered: 67
+Overall Accuracy: 67.00%
+All single agent results have been incrementally saved to: results/mmlu_collegemath_qwen25/single/single_temp0.6/run5/single_results_single_single_temp0.6_run5_20250721_201758.jsonl
